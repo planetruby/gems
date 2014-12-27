@@ -2,7 +2,7 @@
 
 Feed list/configuration for [Planet Ruby](http://planetruby.herokuapp.com)
 
-Note: All feeds including the feed lists (that is, [ruby.ini](ruby.ini), and friends)
+Note: All feeds including the feed lists (that is, [ruby.ini](ruby.ini) and friends)
 get auto-updated (fetched) once a day (that is, every 24 hours).
 
 
