@@ -47,12 +47,12 @@ span.highlight { background-color: yellow;
 }
 
 a, a:visited {
-  color: green;
+  color: #8b0000; /* dark red/ruby */
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom: 2px dotted green;
+  border-bottom: 2px dotted #8b0000; /* dark red/ruby */
   background-color: yellow;
 }
 
@@ -61,7 +61,7 @@ a:hover {
 }
 
 #nav a:hover {
-  border-bottom: 2px dotted yellow;
+  border-bottom: 2px dotted #8b0000; /* dark red/ruby */
 }
 
 
