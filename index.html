@@ -16,14 +16,16 @@ title: Ruby Gem of the Week
 {% for post in site.posts %}
 <div class='post'>
   <header class='post-header'>
-    <h2 class='post-title'>{{ post.title }}</h2>
+    <a href="{{ site.url }}{{ post.url }}">
+      <h2 class='post-title'>{{ post.title }}</h2>
+    </a>
     <!--
       <p class='post-meta'>{{ post.date | date: "%b %-d, %Y" }}</p>
      -->
   </header>
 
   <article class='post-content'>
-    {{ post.content }}
+    <!-- todo -- use excerpt ??? -->
   </article>
 </div>
 {% endfor %}
