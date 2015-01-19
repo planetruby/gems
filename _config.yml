@@ -1,0 +1,45 @@
+###########
+# site.url, site.title
+
+url:   'http://feedreader.github.io/planet-ruby'
+title: 'Planet Ruby'
+
+########
+# more settings
+
+## markdown: redcarpet
+markdown: kramdown
+
+###
+# todo/check:
+#   possible to exclude *.ini ???
+
+exclude:
+- README.md
+- NOTES.md
+- _ruby_america.ini
+- _ruby_america_ca.ini
+- _ruby_america_us.ini
+- _ruby_companies.ini
+- _ruby_europe.ini
+- _ruby_europe_de.ini
+- _ruby_pacific.ini
+- ruby-apps.ini
+- ruby-books.ini
+- ruby-events-asia.ini
+- ruby-events-europe-central.ini
+- ruby-events-europe-western.ini
+- ruby-events.ini
+- ruby-gems.ini
+- ruby-links.ini
+- ruby-meta.ini
+- ruby-news.ini
+- ruby-podcasts.ini
+- ruby-security.ini
+- ruby-talk.ini
+- ruby.ini
+
+
+safe: true
+lsi: false
+
