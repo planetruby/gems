@@ -13,25 +13,82 @@ offers free country profiles in the public domain (that is, no copyright(s), no 
 
 ## What's the factbook gem?
 
-The factbook gem ships with scripts for the world factbook that let you get open structured data 
+The factbook gem ships with scripts for the world factbook that let you turn web pages into open structured data 
 e.g JSON and friends. Example:
 
-To get country profile page for Brazil as a hash (that is, structured data e.g. nested key/values)
+To get the country profile page for Austria as a hash (that is, structured data e.g. nested key/values)
 use:
 
 ~~~
-page = Factbook::Page.new( 'br' )   # br is the country code for Brazil
+page = Factbook::Page.new( 'at' )   # at is the country code for Austria
 pp page.data                        # pretty print hash
 ~~~
 
 To save the hash to disk as JSON use:
 
 ~~~
-page = Factbook::Page.new( 'br' )
-File.open( 'br.json', 'w') do |f|
+page = Factbook::Page.new( 'at' )
+File.open( 'at.json', 'w') do |f|
   f.write page.to_json( pretty: true )
 end
 ~~~
+
+Resulting in:
+
+~~~
+{
+  "intro": {
+    "background": {
+      "text": "Once the center of power for the large Austro-Hungarian Empire,
+               Austria was reduced to a small republic after its defeat in World War ..."
+    }
+  },
+  "geo": {
+    "location": {
+      "text": "Central Europe, north of Italy and Slovenia"
+    },
+    "geographic_coordinates": {
+      "text": "47 20 N, 13 20 E"
+    },
+    "map_references": {
+      "text": "Europe"
+    },
+    "area": {
+      "total": "83,871 sq km",
+      "land": "82,445 sq km",
+      "water": "1,426 sq km"
+    },
+    "area_comparative": {
+      "text": "slightly smaller than Maine"
+    },
+    "land_boundaries": {
+      "total": "2,562 km",
+      "border_countries": "Czech Republic 362 km, Germany 784 km, Hungary 366 km, Italy 430 km, Liechtenstein 35 km, Slovakia 91 km, Slovenia 330 km, Switzerland 164 km"
+    },
+    "coastline": {
+      "text": "0 km (landlocked)"
+    },
+    "maritime_claims": {
+      "text": "none (landlocked)"
+    },
+    "climate": {
+      "text": "temperate; continental, cloudy; cold winters with frequent rain and some snow in lowlands and snow in mountains; moderate summers with occasional showers"
+    },
+    "terrain": {
+      "text": "in the west and south mostly mountains (Alps); along the eastern and northern margins mostly flat or gently sloping"
+    },
+    "elevation_extremes": {
+      "lowest_point": "Neusiedler See 115 m",
+      "highest_point": "Grossglockner 3,798 m"
+    },
+    "natural_resources": {
+      "text": "oil, coal, lignite, timber, iron ore, copper, zinc, antimony, magnesite, tungsten, graphite, salt, hydropower"
+    },
+    ...
+~~~
+
+Note: The World Factbook includes 267 entries - 195 sovereign countries, 2 others, 58 dependencies, 6 miscellaneous,
+5 oceans, and 1 world profile.
 
 That's it.
 
