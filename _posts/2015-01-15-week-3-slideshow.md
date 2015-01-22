@@ -60,7 +60,7 @@ Use `#` headings to start a new slide in Markdown. That's it.
 
 Run `slideshow` to build your slide show. The `slideshow` gem
 expects the name of your slide show source document (e.g. `rest`)
-without the `.markdown` or `.textile` ending and will build a web page
+and will build a web page
 (e.g. [`rest.html`](http://slideshow-s9.github.io/demos/rest.html)
 that is an all-in-one-page handout and a live slide show all at once.
 
