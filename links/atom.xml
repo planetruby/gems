@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ruby Links | {{ site.title }}</title>
+  <link href="{{ site.url }}/links/atom.xml" rel="self"/>
+  <link href="{{ site.url }}/links/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/links/</id>
+  <author>
+    <name>Planet Ruby Team</name>
+  </author>
+  <generator>Jekyll v{{ jekyll.version }}</generator>
+
+  {% for link in site.links limit: 10 %}
+  <entry>
+    <title>{{ link.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ link.url }}"/>
+    <updated>{{ link.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ link.url }}</id>
+    <content type="html">{{ link.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>

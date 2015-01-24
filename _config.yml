@@ -10,6 +10,11 @@ title: 'Planet Ruby'
 ## markdown: redcarpet
 markdown: kramdown
 
+collections:
+  links:
+    output: true
+
+
 ###
 # todo/check:
 #   possible to exclude *.ini ???
@@ -26,6 +31,7 @@ exclude:
 - _ruby_pacific.ini
 - ruby-apps.ini
 - ruby-books.ini
+- ruby-week.ini
 - ruby-events-asia.ini
 - ruby-events-europe-central.ini
 - ruby-events-europe-western.ini
