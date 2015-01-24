@@ -12,11 +12,13 @@ What's `world.db.codes`?
 
 It's a small Sinatra web app that shows all the world's country codes
 (so far alpha 2, alpha 3, internet top level domains
-and motor vehicle license plates codes are included.)
+and motor vehicle license plates codes are included) --
 sourced using the `world.db` - open public world country data.
 
-See a [live country code page](http://countrycodes.herokuapp.com) demo online.
-All code and datasets are public domain.
+See a live demo w/
+a [country code page](http://countrycodes.herokuapp.com)
+including 197 countries and 52 territories online.
+All code and data is public domain.
 
 
 ### Find Out More
