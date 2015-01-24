@@ -3,7 +3,7 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Open Source Ruby 'n' Ruby on Rails Apps | {{ site.title }}</title>
+  <title>Open Source Ruby 'n' Rails Apps | {{ site.title }}</title>
   <link href="{{ site.url }}/apps/atom.xml" rel="self"/>
   <link href="{{ site.url }}/apps/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
