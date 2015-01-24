@@ -6,6 +6,8 @@ date:   2015-01-23 10:10
 
 ## {{page.title}}
 
+![](i/book-effective-ruby.jpeg)
+
 Effective Ruby includes chapters on writing better Ruby on:
 
 - Ruby Basic Types
