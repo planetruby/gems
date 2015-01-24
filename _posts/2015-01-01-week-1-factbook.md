@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: gem
 title:  "Week #1 - factbook gem - turn the world factbook into open structured data e.g JSON"
 ---
 

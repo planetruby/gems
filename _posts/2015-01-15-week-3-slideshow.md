@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: gem
 title:  "Week #3 - slideshow gem - a free web alternative to PowerPoint and Keynote in Ruby"
 ---
 
