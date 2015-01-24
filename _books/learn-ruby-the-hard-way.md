@@ -1,6 +1,6 @@
 ---
 layout: book
-title:  "Learn Ruby the Hard Way - A Simple and Idiomatic Introduction to the Imaginative World Of Computational Thinking with Code - by Zed Shaw"
+title:  "Learn Ruby the Hard Way - A Simple and Idiomatic Introduction to the Imaginative World Of Computational Thinking with Code by Zed Shaw"
 date:   2015-01-24 14:14
 ---
 

@@ -30,4 +30,5 @@ in Sep 2014; 240 pages.
 ### Find Out More
 
 - Book Page :: [informit.com/effective-ruby](http://www.informit.com/store/effective-ruby-48-specific-ways-to-write-better-ruby-9780133846973)
+- Source :: [github.com/effrb](https://github.com/pjones/effrb)
 
