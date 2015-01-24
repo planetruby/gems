@@ -6,7 +6,7 @@ date:   2015-01-24 10:10
 
 ## {{page.title}}
 
-![](i/book-ruby-under-a-microscope.png)
+![]({{site.url}}/i/book-ruby-under-a-microscope.png)
 
 Ruby Under a Microscope includes chapters on how the Ruby machinery
 works under the hood with many diagrams and hands-on examples on:
