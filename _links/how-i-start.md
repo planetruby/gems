@@ -1,6 +1,6 @@
 ---
 layout: link
-title:  "How I Start Series - Ruby Edition w/ Steve Klabnik - Let's build a Ruby gem together"
+title:  "How I Start Series - Ruby Edition - Let's build a Ruby gem together"
 date:   2015-01-24 11:11
 ---
 
