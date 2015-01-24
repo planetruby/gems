@@ -13,6 +13,9 @@ markdown: kramdown
 collections:
   links:
     output: true
+  books:
+    output: true
+
 
 
 ###

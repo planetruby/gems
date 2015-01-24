@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ruby Books 'n' Screencasts | {{ site.title }}</title>
+  <link href="{{ site.url }}/books/atom.xml" rel="self"/>
+  <link href="{{ site.url }}/books/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/books/</id>
+  <author>
+    <name>Planet Ruby Team</name>
+  </author>
+  <generator>Jekyll v{{ jekyll.version }}</generator>
+
+  {% for book in site.books limit: 10 %}
+  <entry>
+    <title>{{ book.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ book.url }}"/>
+    <updated>{{ book.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ book.url }}</id>
+    <content type="html">{{ book.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
