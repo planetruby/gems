@@ -10,7 +10,7 @@ RubyBench is a long running Ruby benchmark.
 Currently, Ruby benchmark scripts and Discourse benchmark scripts
 have been implemented and are run for every commit and release.
 
-**Hardware**. All benchmarks are run on production level bare metal server
+**Hardware.** All benchmarks are run on production level bare metal server
 in order to ensure consistent and repeatable results.
 
 ### About

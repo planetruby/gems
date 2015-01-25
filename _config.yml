@@ -49,6 +49,7 @@ exclude:
 - ruby-security.ini
 - ruby-talk.ini
 - ruby.ini
+- hosting.ini
 
 
 safe: true
