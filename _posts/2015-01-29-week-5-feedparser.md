@@ -91,20 +91,20 @@ feed = RSS::Parser.parse( 'http://openbeer.github.io/atom.xml' )
 
 puts "== #{feed.title.content} =="
 
-feed.items.each do |item|
-  puts "- #{item.title.content}"
-  puts "  (#{item.link.href})"
+feed.entries.each do |entry|
+  puts "- #{entry.title.content}"
+  puts "  (#{entry.link.href})"
   puts
 end
 ~~~
 
-And use `item.content.content` to get a post's full-text. That's it.
+And use `entry.content.content` to get a post's full-text. That's it.
 
 Note, that the standard library maps the different web feed flavors 1:1 to Ruby fields
 reflecting the different formats e.g. the feed title stored in `feed.channel.title` in RSS 2.0
 becomes `feed.title.content` in Atom 
 and the feed item's full-text stored in `feed.item.content_encoded` in RSS 2.0
-becomes `feed.item.content.content` in Atom (Yes, it's `content.content`).
+becomes `feed.entry.content.content` in Atom (Yes, it's `content.content`).
 Welcome to the wonderful world of web feed formats. 
 
 
@@ -113,7 +113,7 @@ Welcome to the wonderful world of web feed formats.
 The `feedparser` gem lets you read in web feeds in the RSS 2.0
 or Atom Publishing formats (using the built-in libraries)
 and normalizes the feed and item fields e.g. `item.content` gets mapped to
-`item.content_encoded` in RSS 2.0 and to `item.content.content` in Atom and so on.
+`item.content_encoded` in RSS 2.0 and to `entry.content.content` in Atom and so on.
 
 ### `Feed` Struct
 
@@ -140,7 +140,7 @@ becomes & and so on - always resulting in plain vanilla text.
 
 RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
 
-ISO-801 date format e.g. 2015-01-11T09:30:16Z
+ISO-801 date format e.g. 2015-01-14T19:48:57Z
 
 Note: Mappings use question mark (`?`) for optional elements (otherwise assume required elements).
 
