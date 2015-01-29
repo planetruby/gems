@@ -18,6 +18,9 @@ collections:
   apps:
     output: true
 
+sass:
+  sass_dir: css
+  style: :expanded
 
 
 ###
