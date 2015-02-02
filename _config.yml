@@ -1,8 +1,9 @@
 ###########
 # site.url, site.title
 
-url:   'http://feedreader.github.io/planet-ruby'
+url:   'http://planetruby.github.io/gems'
 title: 'Planet Ruby'
+
 
 ########
 # more settings
@@ -10,49 +11,14 @@ title: 'Planet Ruby'
 ## markdown: redcarpet
 markdown: kramdown
 
-collections:
-  links:
-    output: true
-  books:
-    output: true
-  apps:
-    output: true
 
 sass:
   sass_dir: css
-  style: :expanded
+  style:    expanded
 
-
-###
-# todo/check:
-#   possible to exclude *.ini ???
 
 exclude:
 - README.md
-- NOTES.md
-- _ruby_america.ini
-- _ruby_america_ca.ini
-- _ruby_america_us.ini
-- _ruby_companies.ini
-- _ruby_europe.ini
-- _ruby_europe_de.ini
-- _ruby_pacific.ini
-- ruby-apps.ini
-- ruby-books.ini
-- ruby-week.ini
-- ruby-events-asia.ini
-- ruby-events-europe-central.ini
-- ruby-events-europe-western.ini
-- ruby-events.ini
-- ruby-gems.ini
-- ruby-links.ini
-- ruby-meta.ini
-- ruby-news.ini
-- ruby-podcasts.ini
-- ruby-security.ini
-- ruby-talk.ini
-- ruby.ini
-- hosting.ini
 
 
 safe: true
