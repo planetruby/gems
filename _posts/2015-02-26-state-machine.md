@@ -201,6 +201,84 @@ That's just the beginning. More state_machine highlights include:
 - And much more
 
 
+## Bonus - Order Processing Example by Markus Prinz
+
+Thanks to Markus Prinz - who talked about "Ghost in the State Machine"
+at the last Vienna.rb meetup and lets us share the order state machine example:
+
+~~~
+require 'state_machine'
+
+class Order
+  state_machine :state, :initial => :new do
+    around_transition do |order, transition, block|
+      puts "Starting transition from #{transition.from}"
+      block.call
+      puts "Finished transition to #{transition.to}"
+    end
+
+    event :submit do
+      transition :new => :payment_waiting
+    end
+
+    event :payment_received do
+      transition :payment_waiting => :waiting_for_processing
+    end
+
+    event :payment_failed do
+      transition :payment_waiting => :payment_failed
+    end
+
+    event :retry_payment do
+      transition :payment_failed => :payment_waiting
+    end
+
+    event :process do
+      transition :waiting_for_processing => :waiting_for_shipping
+    end
+
+    event :ship do
+      transition :waiting_for_shipping => :shipped
+    end
+    after_transition :on => :ship, :do => :notify_customer
+
+    # Multiple transitions, first matching is taken
+    event :cancel do
+      transition :waiting_for_processing => :canceled
+      transition :waiting_for_shipping => :canceled
+      transition :shipped => :waiting_for_return
+    end
+
+    event :return_shipment_received do
+      transition :waiting_for_return => :canceled
+    end
+  end
+
+  def notify_customer
+    puts "Your package has been shipped! :shipit:"
+  end
+end
+
+if __FILE__ == $0
+  order_fsm = Order.new
+  order_fsm.submit!
+  order_fsm.payment_received!
+  order_fsm.process!
+  order_fsm.ship!
+
+  puts "\n\n"
+
+  print "Received payment twice (soft): "
+  order_fsm.payment_received
+  puts order_fsm.state
+  puts "Received payment twice:"
+  order_fsm.payment_received!
+end
+~~~
+
+(Source: [Ghost in the State Machine Talk Slides](https://speakerdeck.com/cypher/ghost-in-the-state-machine))
+
+
 ## Find Out More 
 
 state_machines (ActiveRecord 4.1+)
