@@ -276,7 +276,7 @@ if __FILE__ == $0
 end
 ~~~
 
-(Source: [Ghost in the State Machine Talk Slides](https://speakerdeck.com/cypher/ghost-in-the-state-machine))
+(Source: [Ghost in the State Machine](https://speakerdeck.com/cypher/ghost-in-the-state-machine), Talk Slides)
 
 
 ## Find Out More 
