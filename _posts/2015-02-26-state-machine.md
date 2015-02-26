@@ -83,7 +83,7 @@ that lets you create state machines for attributes on any class in Ruby.
 Let's continue the football match example - yes, it's the state_machine gem in action - and let's
 add more states. Football matches in the real-world can get canceled, postponed, awarded points
 if canceled or can get rescheduled or matches can get scheduled for a matchday but not yet timed
-for fixed day and time and so on and on. A picture says more than a thousand words:
+for a fixed day and time and so on and on. A picture says more than a thousand words:
 
 ![](http://planetruby.github.io/gems/i/state_machine_match_ii.png)
 
@@ -146,7 +146,7 @@ create_table :matches do |t|
 end
 ~~~
 
-And define the Match class derived from `ActiveRecord::Base`:
+And derive the Match class from `ActiveRecord::Base`:
 
 ~~~
 class Match < ActiveRecord::Base
