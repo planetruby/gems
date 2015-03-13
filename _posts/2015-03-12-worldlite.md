@@ -3,7 +3,6 @@ layout: gem
 title:  "Week #11 - "worldlite gem  - lightweight public domain country data (all data included as good ol' ruby code)"
 ---
 
-
 Ever wondered how many countries are in the world? 222? 204? 196? 193?
 It all depends - of course - what's your definition of country is.
 The United Nations lists 193 countries (as members), the World Football Association (that is, FIFA)
