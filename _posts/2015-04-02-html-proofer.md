@@ -13,7 +13,7 @@ that all images include an alternative text (`alt="Database Schema"`) attribute 
 ## What’s the html-proofer gem?
 
 Let’s thank Garen Torikian and friends who have bundled up a all these checks
-and more in an ready-to-use gem, that is, html-proofer.
+and more in a ready-to-use gem, that is, html-proofer.
 
 Let's try it on the Open Mundi (world.db) project site:
 
@@ -125,7 +125,7 @@ htmlproof 2.1.0 | Error:  HTML-Proofer found 4 failures!
 
 Bingo! The proof reader found four erros in the two pages (that is, `build.html` and `index.html`). 
 The link to `at-autstria/cities.txt` is broken (404s)
-and all three images miss the required alt attribute.
+and all three images miss the required `alt` attribute.
 
 To wrap up lets try two more options, that is, `--check-favicon`
 that checks that every page includes a favicon 
@@ -153,7 +153,9 @@ Ran on 2 files!
 htmlproof 2.1.0 | Error:  HTML-Proofer found 2 failures!
 ~~~
 
-Oh well that's right. The site has no favicon - but at least all the hypertext tags are lineup properly.
+Oh well that's right. The site has no favicon - but at least
+all the hypertext tags are lined-up properly (that is, well-formed
+without any validation errors).
 
 
 ## Bonus: Configuring Your Travis Builds w/ Jekyll & HTML Proofreader
