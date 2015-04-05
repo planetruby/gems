@@ -85,7 +85,7 @@ pre,
 
 
 .announce {
-  background-color: red;
+  background-color: $color-primary; // red;
   color: white;
   font-size: 18px;
   padding: 8px 8px 4px 8px; /* top right bottom left */
@@ -99,7 +99,7 @@ pre,
       color: white;
     }
     &:hover {
-      color: red;
+      color: $color-primary; // red;
       background-color: white;
     }
   }
