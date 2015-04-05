@@ -83,3 +83,12 @@ pre,
   background-color: $color-programlisting-background;
 }
 
+
+.announce {
+  background-color: red;
+  font-size: 18px;
+  padding: 8px 8px 4px 8px; /* top right bottom left */
+  margin: 6px 0 6px 0; /* top right bottom left */
+  border: 1px solid $color-primary;
+}
+
