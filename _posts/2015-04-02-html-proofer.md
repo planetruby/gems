@@ -4,8 +4,8 @@ title:  "Week #14 - html-proofer gem - auto-proofread (check and validate) your 
 ---
 
 Let's say you have a project site and want to check that all your hypertext (HTML) pages
-open and close all tags according to the specs, that all internal (e.g `href="#datasets"`)
-and external (e.g.`href="http://openbeer.github.io"`) links
+open and close all tags according to the specs, that all internal (e.g. `href="#datasets"`)
+and external (e.g. `href="http://openbeer.github.io"`) links
 are working (no 404's not found errors etc.), 
 that all images include an alternative text (`alt="Database Schema"`) attribute and so on.
 
