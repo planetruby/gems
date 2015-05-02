@@ -23,7 +23,7 @@ Or to quote the Wikipedia:
 
 ## Example: The State of the Football Match
 
-![](http://planetruby.github.io/gems/i/state_machine_match.png)
+![](http://planetruby.github.io/_posts/i/state_machine_match.png)
 
 Let's start defining a state machine for modelling football matches in Ruby.
 
@@ -85,7 +85,7 @@ add more states. Football matches in the real-world can get canceled, postponed,
 if canceled or can get rescheduled or matches can get scheduled for a matchday but not yet timed
 for a fixed day and time and so on and on. A picture says more than a thousand words:
 
-![](http://planetruby.github.io/gems/i/state_machine_match_ii.png)
+![](http://planetruby.github.io/_posts/i/state_machine_match_ii.png)
 
 Let's define the state machine in Ruby using the state_machine mini language:
 
