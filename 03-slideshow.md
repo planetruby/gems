@@ -1,7 +1,4 @@
----
-layout: gem
-title:  "Week #3 - slideshow gem - a free web alternative to PowerPoint and Keynote in Ruby"
----
+# Week 3 - slideshow gem - a free web alternative to PowerPoint and Keynote in Ruby
 
 
 ## What's Slide Show (S9)?
@@ -32,7 +29,7 @@ Agenda
 - What's REST?
 - Universal Identifiers, Formats & Protocols
 - The Holy REST Trinity - Noun, Verbs, Types
-- REST Design Principles 
+- REST Design Principles
 - Architecture Astronaut REST Speak
 
 
@@ -74,7 +71,7 @@ $ slideshow build rest
 ### Step 3: Open up your slide show in your browser
 
 Open up your slide show [`rest.html`](http://slideshow-s9.github.io/demos/rest.html)
-in your browser (Firefox, Chrome, Opera, Safari, and others) and hit F11 to switch 
+in your browser (Firefox, Chrome, Opera, Safari, and others) and hit F11 to switch
 into full screen projection and hit the space bar or the right arrow, down arrow
 or page down key to flip through your slides.
 
@@ -90,9 +87,8 @@ That's it. Voila.
 * [More »](http://slideshow-s9.github.io/gallery.html)
 
 
-## Find Out More 
+## Find Out More
 
 * home  :: [github.com/slideshow-s9/slideshow](https://github.com/slideshow-s9/slideshow)
 * gem   :: [rubygems.org/gems/slideshow](https://rubygems.org/gems/slideshow)
 * rdoc  :: [rubydoc.info/gems/slideshow](http://rubydoc.info/gems/slideshow)
-

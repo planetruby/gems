@@ -1,7 +1,5 @@
----
-layout: gem
-title:  "Week #6 - schemadoc gem - auto-generate your database schema docs for tables, columns, etc."
----
+# Week 6 - schemadoc gem - auto-generate your database schema docs for tables, columns, etc.
+
 
 ## What's schemadoc?
 
@@ -83,7 +81,7 @@ Let's document the football.db SQLite version in three steps:
 
 - Step 1: Let's create the football.db
 - Step 2: Let's write out the schema info in JSON
-- Step 3: Let's generate a static schema documentation site 
+- Step 3: Let's generate a static schema documentation site
 
 
 ### Step 1: Let's create the football.db
@@ -153,7 +151,7 @@ world:
     - names
     - langs
     - usages
-    
+
 ## works tables
 
 works:
@@ -178,7 +176,7 @@ and you will end-up with two JSON files, that is, `database.json` and `symbols.j
 ### Step 3: Let's generate a static schema documentation site
 
 Get a copy of the [`book-templates/schema`](https://github.com/book-templates/schema) static site theme
-and drop (copy) the two JSON files, that is, `database.json` and `symbols.json` 
+and drop (copy) the two JSON files, that is, `database.json` and `symbols.json`
 into the `_data/` folder. Change the site settings in `_config.yml` and run:
 
 ~~~
@@ -189,7 +187,7 @@ That's it. Open up in your browser the `./_site/index.html` page.
 Enjoy your databasse schema documentation.
 
 
-## Find Out More 
+## Find Out More
 
 * home  :: [github.com/rubylibs/schemadoc](https://github.com/rubylibs/schemadoc)
 * gem   :: [rubygems.org/gems/schemadoc](https://rubygems.org/gems/schemadoc)

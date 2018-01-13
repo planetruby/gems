@@ -1,7 +1,5 @@
----
-layout: gem
-title:  "Week #11 - worldlite gem  - lightweight public domain country data (all data included as good ol' ruby code)"
----
+# Week 11 - worldlite gem  - lightweight public domain country data (all data included as good ol' ruby code)
+
 
 Ever wondered how many countries are in the world? 222? 204? 196? 193?
 It all depends - of course - what's your definition of country is.
@@ -43,7 +41,7 @@ module WorldLite
     c.wikipedia = 'Austria'   # e.g. see en.wikipedia.org/wiki/Austria
     c.wikidata  = 40          # e.g. see wikidata.org/wiki/Q40
     c.factbook  = 'au'        # e.g. see www.cia.gov/.../the-world-factbook/geos/au.html
-    
+
   end
 
   WORLD      << AT
@@ -100,7 +98,7 @@ AT.factbook_url   # => 'http://www.cia.gov/.../the-world-factbook/geos/au.html'
 That's it.
 
 
-## Bonus Question 
+## Bonus Question
 
 Now you might wonder - where's the country data coming from and who's going to keep it up-to-date?
 
@@ -117,13 +115,13 @@ module WorldLite
   c.alpha3 = <%= fmt_str( country.iso3 ) %>
   c.fifa   = <%= fmt_str( country.fifa ) %>
   c.net    = <%= fmt_str( country.net  ) %>
-  
+
   c.continent_name =  <%= fmt_str( country.continent.name ) %>
 
   c.un     = <%= fmt_bool( has_tag?( country, 'un' )) %>
   c.eu     = <%= fmt_bool( has_tag?( country, 'eu' )) %>
   c.euro   = <%= fmt_bool( has_tag?( country, 'euro' )) %>
-  
+
   WORLD      << <%= country.key.upcase %>
 
 <% if has_tag?( country, 'un' ) %>
@@ -138,7 +136,7 @@ module WorldLite
 ...
 ~~~
 
-The world.db itself gets build from plain text datasets that get hosted on GitHub and, thus, 
+The world.db itself gets build from plain text datasets that get hosted on GitHub and, thus,
 updating the world.db datasets works like updating anything on GitHub. Update it in your brower like-a-wiki
 or use a pull request and so on.
 

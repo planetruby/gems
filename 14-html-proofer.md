@@ -1,12 +1,10 @@
----
-layout: gem
-title:  "Week #14 - html-proofer gem - auto-proofread (check and validate) your hypertext (HTML) pages"
----
+# Week 14 - html-proofer gem - auto-proofread (check and validate) your hypertext (HTML) pages
+
 
 Let's say you have a project site and want to check that all your hypertext (HTML) pages
 open and close all tags according to the specs, that all internal (e.g. `href="#datasets"`)
 and external (e.g. `href="http://openbeer.github.io"`) links
-are working (no 404's not found errors etc.), 
+are working (no 404's not found errors etc.),
 that all images include an alternative text (`alt="Database Schema"`) attribute and so on.
 
 
@@ -83,7 +81,7 @@ $ htmlproof --verbose ./_site
 Resulting in:
 
 ~~~
-Running ["ImageCheck", "ScriptCheck", "LinkCheck"] checks on ./_site on *.html... 
+Running ["ImageCheck", "ScriptCheck", "LinkCheck"] checks on ./_site on *.html...
 
 Checking imagecheck on ./_site/index.html ...
 Checking scriptcheck on ./_site/index.html ...
@@ -123,18 +121,18 @@ Ran on 2 files!
 htmlproof 2.1.0 | Error:  HTML-Proofer found 4 failures!
 ~~~
 
-Bingo! The proof reader found four erros in the two pages (that is, `build.html` and `index.html`). 
+Bingo! The proof reader found four erros in the two pages (that is, `build.html` and `index.html`).
 The link to `at-autstria/cities.txt` is broken (404s)
 and all three images miss the required `alt` attribute.
 
 To wrap up lets try two more options, that is, `--check-favicon`
-that checks that every page includes a favicon 
+that checks that every page includes a favicon
 and `--check-html` that checks that all hypertext markup tags and attributes
 are in order using the HTML parser from the Nokogiri gem.
 
 ~~~
 $ htmlproof --verbose --check-favicon --check-html  ./_site
-~~~ 
+~~~
 
 Resulting in:
 
@@ -160,7 +158,7 @@ without any validation errors).
 
 ## Bonus: Configuring Your Travis Builds w/ Jekyll & HTML Proofreader
 
-Note: If you use a continuous build service (such as Tarvis) you can set it up 
+Note: If you use a continuous build service (such as Tarvis) you can set it up
 to run the HTML proof reading tests on every check-in, for example.
 
 `.travis.yml`:
@@ -182,7 +180,7 @@ env:
 ~~~
 
 
-## Find Out More 
+## Find Out More
 
 * home     :: [github.com/gjtorikian/html-proofer](https://github.com/gjtorikian/html-proofer)
 * gem      :: [rubygems.org/gems/html-proofer](https://rubygems.org/gems/html-proofer)

@@ -1,13 +1,11 @@
----
-layout: gem
-title:  "Week #5 - feedparser gem - web feed parser and normalizers (for RSS 2.0, Atom, n friends)"
----
+# Week 5 - feedparser gem - web feed parser and normalizers (for RSS 2.0, Atom, n friends)
+
 
 ## What's a Web Feed?
 
 A web feed (or news feed) is a simple document/data format
 that 1) lets you publish a list of
-status updates, blog postings, articles, pictures, cartoons, recordings, etc. and 
+status updates, blog postings, articles, pictures, cartoons, recordings, etc. and
 that 2) lets others subscribe to your updates.
 
 Example:
@@ -102,10 +100,10 @@ And use `entry.content.content` to get a post's full-text. That's it.
 
 Note, that the standard library maps the different web feed flavors 1:1 to Ruby fields
 reflecting the different formats e.g. the feed title stored in `feed.channel.title` in RSS 2.0
-becomes `feed.title.content` in Atom 
+becomes `feed.title.content` in Atom
 and the feed item's full-text stored in `feed.item.content_encoded` in RSS 2.0
 becomes `feed.entry.content.content` in Atom (Yes, it's `content.content`).
-Welcome to the wonderful world of web feed formats. 
+Welcome to the wonderful world of web feed formats.
 
 
 ## What's the `feedparser` gem?
@@ -126,7 +124,7 @@ and normalizes the feed and item fields e.g. `item.content` gets mapped to
 | `feed.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
 | `feed.summary`     | `description`     | plain vanilla text  | `subtitle`?   | plain vanilla text  |
 
-Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom), 
+Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom),
 description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;`
 becomes & and so on - always resulting in plain vanilla text.
 
@@ -174,7 +172,7 @@ end
 | `item.summary`     | `description`     | plain vanilla text  | `summary`?    | plain vanilla text  |
 | `item.content`     | `content`?        | html                | `content`?    | html                |
 
-Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom), 
+Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom),
 description (RSS 2.0) and summary (Atom) content
 and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
 resulting in plain vanilla text.
@@ -243,7 +241,7 @@ Prints:
 
 - New beer.db Build System - Welcome ./Datafile e.g. $beerdb new be
   (http://openbeer.github.io/2014/12/01/new-build-system-w-datafile.html)
- 
+
 - New Repo /maps - Free Full-Screen Interactive Beer Maps w/ Brewery Listings
   (http://openbeer.github.io/2014/11/11/new-repo-maps.html)
 ~~~
@@ -264,7 +262,7 @@ and everything will work without changes for both formats (that is, RSS and Atom
 require 'open-uri'
 require 'feedparser'
 require 'erb'
-  
+
 # step 1) read a list of web feeds
 
 FEED_URLS = [
@@ -312,7 +310,7 @@ Prints:
  ...
 ~~~
 
-## Find Out More 
+## Find Out More
 
 * home  :: [github.com/feedreader/feed.parser](https://github.com/feedreader/feed.parser)
 * gem   :: [rubygems.org/gems/feedparser](https://rubygems.org/gems/feedparser)

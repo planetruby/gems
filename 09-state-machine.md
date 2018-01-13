@@ -1,7 +1,5 @@
----
-layout: gem
-title:  "Week #9 - state_machine(s) gem - model processes and work flows with finite state machines (FSM) and automata theory"
----
+# Week 9 - state_machine(s) gem - model processes and work flows with finite state machines (FSM) and automata theory
+
 
 ## What's a state machine? What's a finite state machine (FSM)?
 
@@ -71,7 +69,7 @@ Events are methods (e.g. `Match#start`, `Match#finish`) that change the state of
 
 
 Why use a state machine?  Because it lets you do more with less code thanks to
-automata theory packed-up into ready-to-use gems for use in your models in practice. 
+automata theory packed-up into ready-to-use gems for use in your models in practice.
 
 
 ## What's the state_machine(s) gem?
@@ -279,7 +277,7 @@ end
 (Source: [Ghost in the State Machine](https://speakerdeck.com/cypher/ghost-in-the-state-machine), Talk Slides)
 
 
-## Find Out More 
+## Find Out More
 
 state_machines (ActiveRecord 4.1+)
 

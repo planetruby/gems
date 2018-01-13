@@ -1,7 +1,6 @@
 # Ruby Gem of the Week Series
 
-Welcome. The Ruby Gem of the Week series @
-[`planetruby.github.io/gems`](http://planetruby.github.io/gems)
+Welcome. The Ruby Gem of the Week series
 presents a new Ruby library every week on Thursday.
 Have your say!
 

@@ -1,7 +1,4 @@
----
-layout: gem
-title:  "Week #15 - beerdb gem - serving a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON w/ Ruby"
----
+# Week 15 - beerdb gem - serving a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON w/ Ruby
 
 
 ## What's the beerdb gem?
@@ -12,7 +9,7 @@ The beerdb gem offers a ready-to-use database schema (in SQL) and models such as
 ![](https://raw.githubusercontent.com/beerkit/beer.db.models/master/beerdb-models.png)
 
 
-Let's try the brewery model: 
+Let's try the brewery model:
 
 ~~~
 by = Brewery.find_by( key: 'guinness' )
@@ -100,7 +97,7 @@ class BeerService < Sinatra::Base
   get '/beer/:key' do |key|
     beer = Beer.find_by!( key: key )
 
-    content_type :json       # set response to JavaScript Object Notation (JSON) content type 
+    content_type :json       # set response to JavaScript Object Notation (JSON) content type
 
     { key:      beer.key,
       title:    beer.title,
@@ -175,7 +172,7 @@ get '/beer/:key' do |key|
   }
 
   content_type :json
-    
+
   { key:      beer.key,
     title:    beer.title,
     synonyms: beer.synonyms,
@@ -230,7 +227,7 @@ If you think the code looks to enterprisey (that is, too complex):
 get '/beer/:key' do |key|
   beer = Beer.find_by!( key: key )
 
-  content_type :json       # set response to JavaScript Object Notation (JSON) content type 
+  content_type :json       # set response to JavaScript Object Notation (JSON) content type
 
   { key:      beer.key,
     title:    beer.title,
@@ -267,7 +264,7 @@ The json helper will automatically set the json content type and call the `#to_j
 More magic. Less configuration (code).
 
 
-##  Find Out More 
+##  Find Out More
 
 beerdb
 

@@ -1,7 +1,6 @@
----
-layout: gem
-title:  "Week #10 - annotate gem - annotate your ActiveRecord models with comments about your table structure"
----
+# Week 10 - annotate gem - annotate your ActiveRecord models with comments about your table structure
+
+
 
 **Magic.**  ActiveRecord models can be as simple as:
 
@@ -91,7 +90,7 @@ end
 ~~~
 
 That looks like a lot of work if you type it in by hand.
-If all the schema information is already stored in the database - why not automate the annotation procedure with a script in Ruby? 
+If all the schema information is already stored in the database - why not automate the annotation procedure with a script in Ruby?
 
 
 ## What's the annotate gem?
@@ -196,12 +195,12 @@ And to wrap-up add the required setup code for an in-memory SQLite datebase to t
 
 def setup_in_memory_db
   require 'beerdb'
-  
+
   ActiveRecord::Base.establish_connection(
       adapter:  'sqlite3',
       database: ':memory:'
   )
-  
+
   BeerDb.create_all
 end
 
@@ -224,7 +223,7 @@ Annotated (3): Beer, Brand, Brewery
 Open up the `beer.rb`, `brand.rb` or `brewery.rb` scripts and Voila!
 All the table schema information is now included. To update the table schema information simply rerun annotate.
 
-## Find Out More 
+## Find Out More
 
 * home     :: [github.com/ctran/annotate_models](https://github.com/ctran/annotate_models)
 * gem      :: [rubygems.org/gems/annotate](https://rubygems.org/gems/annotate)

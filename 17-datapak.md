@@ -1,7 +1,5 @@
----
-layout: gem
-title:  "Week #17 - datapak gem - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)"
----
+# Week 17 - datapak gem - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
+
 
 Let's say you want to share your data with the world
 or use the data that others share with the world. How to get started?
@@ -21,7 +19,7 @@ A pragmatic way is to use tabular data packages.
 
 Here's a minimal example of a tabular data package
 holding two files, that is, `data.csv` and `datapackage.json`:
- 
+
 `data.csv`:
 
 ~~~~
@@ -258,7 +256,7 @@ Will result in:
 ### How to add and import a data package ("by hand")?
 
 Use the `Datapak::Pak` class to read-in a data package
-and add and import into an SQL database. 
+and add and import into an SQL database.
 
 ~~~
 pak = Datapak::Pak.new( './pak/un-locode/datapackage.json' )
@@ -287,7 +285,7 @@ ActiveRecord::Base.establish_connection( adapter:  'sqlite3
                                          database: './datapak.db' )
 ~~~
 
-### PostgreSQL 
+### PostgreSQL
 
 For example, to connect to a PostgreSQL database use in your script
 (before the `Datapak.import` statement):
@@ -302,7 +300,7 @@ ActiveRecord::Base.establish_connection( adapter:  'postgresql'
 ~~~
 
 
-##  Find Out More 
+##  Find Out More
 
 datapak
 

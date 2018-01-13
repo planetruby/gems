@@ -1,7 +1,4 @@
----
-layout: gem
-title:  "Week #8 - rails-erd gem - generate entity-relationship diagrams (ERD) for your activerecord models"
----
+# Week 8 - erd gem - generate entity-relationship diagrams (ERD) for your activerecord models
 
 
 Let's say you have defined your database schema (tables) with ActiveRecord in Ruby.
@@ -69,7 +66,7 @@ Will print for our simple example schema:
      Brewery
 ~~~
 
-**Step 2: Get all "meta" info - all column definitions and associations** 
+**Step 2: Get all "meta" info - all column definitions and associations**
 
 Now lets print out all columns with its name and SQL type
 plus all associations (defined with the "classic" `belongs_to`, `has_many`, etc. macros):
@@ -169,8 +166,8 @@ class YumlDiagram < RailsERD::Diagram
 
   each_relationship do |relationship|
     line = if relationship.indirect? then "-.-" else "-" end
-    
-    arrow = case 
+
+    arrow = case
     when relationship.one_to_one?   then "1#{line}1>"
     when relationship.one_to_many?  then "1#{line}*>"
     when relationship.many_to_many? then "*#{line}*>"
@@ -251,7 +248,7 @@ and you will get a GraphViz-generated diagram as a PDF document, PNG pixel graph
 SVG vector graphic or whatever filetype you desire. That's it.
 
 
-## Find Out More 
+## Find Out More
 
 * home     :: [github.com/voormedia/rails-erd](https://github.com/voormedia/rails-erd)
 * gem      :: [rubygems.org/gems/rails-erd](https://rubygems.org/gems/rails-erd)

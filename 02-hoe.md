@@ -1,11 +1,8 @@
----
-layout: gem
-title:  "Week #2 - hoe gem - build, package and publish gems with hoe rake tasks"
----
+# Week 2 - hoe gem - build, package and publish gems with hoe rake tasks
 
 
 
-## What's Hoe? 
+## What's Hoe?
 
 [Hoe](https://github.com/seattlerb/hoe) is a gem that bundles ready-to-use rake tasks
 to help you build, package and publish your own gems. Thanks to [Ryan Davis](https://github.com/zenspider) and friends (from [Seattle.rb](http://www.seattlerb.org/)) for polishing the gem all those years  - more than 100+  releases - leading to today's version 3.13.0.
@@ -18,7 +15,7 @@ To use Hoe together with your own code use the following structure:
 
 ```
 /hellohoe
-  + README.txt        - Description in plain text 
+  + README.txt        - Description in plain text
   + History.txt       - Version change log in plain text
   + Manifest.txt      - List of all files to include in plain text
   + Rakefile          - Build script (requires your name and email)  
@@ -33,7 +30,7 @@ Let's look at `hellohoe.rb`:
 ```
 class HelloHoe
   VERSION = '0.1.0'
-   
+
   # your code here
 end
 ```
@@ -51,14 +48,14 @@ Hoe.spec 'hellohoe' do
 
   self.author  = '[Your Name Here]'
   self.email   = '[Your Email Here]'
-  
+
   # or use shortcut
   # self.developer( '[Your Name Here]', '[Your Email Here]' )
 end
 ```
 
 As a minimum Hoe requires you to set the `author` and `email` fields in the gemspec.
-As a shortcut you can use the `developer` method to set it all at once. 
+As a shortcut you can use the `developer` method to set it all at once.
 
 Next Hoe requires a readme in plain text stored in `README.txt`:
 
@@ -73,7 +70,7 @@ Sample on how to use Hoe Rake tasks to build, package and publish gems.
 
 == LICENSE:
 
-The hellohoe sources are dedicated to the public domain. 
+The hellohoe sources are dedicated to the public domain.
 ```
 
 Hoe will use the link from the first section, that is, `github.com/geraldb/hellohoe`
@@ -168,7 +165,7 @@ $ irb
 
 ## Checking and updating your manifest with `check_manifest`
 
-Hoe includes a `check_manifest` task 
+Hoe includes a `check_manifest` task
 that lets you check the manifest against your files and see
 if any files are missing or need to get added.
 

@@ -1,9 +1,7 @@
----
-layout: gem
-title:  "Week #13 - props gem - yet another config (INI) reader in Ruby"
----
+# Week 13 - props gem - yet another config (INI) reader in Ruby
 
-Let's say you're looking for an easy configuration file format for your tool or service. 
+
+Let's say you're looking for an easy configuration file format for your tool or service.
 Why not use the Windows-inspired INI format as an (easier and simpler) alternative to the popular JSON, YAML
 and TOML formats? Example:
 
@@ -181,4 +179,3 @@ end
 * home     :: [github.com/rubylibs/props](https://github.com/rubylibs/props)
 * gem      :: [rubygems.org/gems/props](https://rubygems.org/gems/props)
 * rdoc     :: [rubydoc.info/gems/props](http://rubydoc.info/gems/props)
-

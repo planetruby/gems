@@ -1,7 +1,5 @@
----
-layout: gem
-title:  "Week #16 - tilt gem - let's build (yet another) micro web framework in less than 33 lines of code"
----
+# Week 16 - tilt gem - let's build (yet another) micro web framework in less than 33 lines of code
+
 
 Do you think the Ruby on Rails web framework is a massive monster - more than 10,000+ lines of code
 just for `ActionPack` - not counting `ActiveModel`, `ActiveRecord`, `ActiveJob`, `ActiveResource`
@@ -10,7 +8,7 @@ Or do you think that even the "classic" Sinatra web machinery clocking
 in at more than 1,000+ lines of code
 is more macro than micro?
 
-Why not write a "real" micro web framework inspired by 
+Why not write a "real" micro web framework inspired by
 Konstantin Haase's Almost Sinatra hack that ships as a 6(!) lines of code pastie:
 
 `almost_sinatra.rb`:
@@ -32,7 +30,7 @@ gets outsourced to `rack` and to the lesser known `tilt` library.
 
 Let's thank Ryan Tomayko, Magnus Holm and friends
 for creating the tilt gem offering a standard "generic" interface
-for template engines that you can use - surprise, surprise - for building your own 
+for template engines that you can use - surprise, surprise - for building your own
 web frameworks or static site generators, for example.
 
 
@@ -82,7 +80,7 @@ asciidoc     : [Tilt::AsciidoctorTemplate]
 html         : [Tilt::PlainTemplate]
 ~~~
 
-Wow. That's quite an offering. Let's see tilt in action and 
+Wow. That's quite an offering. Let's see tilt in action and
 let's unroll the six somewhat obfuscated lines of Almost Sinatra to see its full inner beauty.
 
 `almost_sinatra_ii.rb`:
@@ -269,8 +267,8 @@ Voila.
 Almost Sinatra
 
 * home     :: [github.com/rkh/almost-sinatra](https://github.com/rkh/almost-sinatra)
-* article  :: [Decoding "Almost Sinatra"](https://robm.me.uk/2013/12/13/decoding-almost-sinatra.html), by Rob Miller 
-* article  :: [Code Safari: Almost Sinatra, Almost Readable](http://www.sitepoint.com/code-safari-almost-sinatra-almost-readable/), by Xavier Shay 
+* article  :: [Decoding "Almost Sinatra"](https://robm.me.uk/2013/12/13/decoding-almost-sinatra.html), by Rob Miller
+* article  :: [Code Safari: Almost Sinatra, Almost Readable](http://www.sitepoint.com/code-safari-almost-sinatra-almost-readable/), by Xavier Shay
 
 Tilt
 

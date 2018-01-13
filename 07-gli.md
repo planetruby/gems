@@ -1,7 +1,5 @@
----
-layout: gem
-title:  "Week #7 - gli gem - git-like interfaces for awesome command-line tools"
----
+# Week 7 - gli gem - git-like interfaces for awesome command-line tools
+
 
 What's `OptionParser`?
 
@@ -201,9 +199,9 @@ case command do
 when 'new':
   # do something
 when 'build'
-  # do something 
+  # do something
 when 'serve'
-  # do something 
+  # do something
 else
   # print help
 end
@@ -262,7 +260,7 @@ command [:build,:b] do |c|
 
     # do something here
 
-  end 
+  end
 end # command build
 
 ...
@@ -313,7 +311,7 @@ COMMANDS
 and
 
 ~~~
-$ beerdb help serve 
+$ beerdb help serve
 ~~~
 
 results in:
@@ -330,7 +328,7 @@ COMMAND OPTIONS
     -h, --host=HOST - Host to bind to (default: 127.0.0.1)
 ~~~
 
-Got interested?  David Bryant Copeland again has you covered and 
+Got interested?  David Bryant Copeland again has you covered and
 documented the gli gem, has written a tutorial titled "Introduction to GLI" and even an book
 titled - surprise, surprise - "Build Awesome Command-Line Applications in Ruby".
 
@@ -386,11 +384,10 @@ Created ./beerdb/lib/beerdb.rb
 ~~~
 
 
-## Find Out More 
+## Find Out More
 
 * home     :: [github.com/davetron5000/gli](https://github.com/davetron5000/gli)
 * gem      :: [rubygems.org/gems/gli](https://rubygems.org/gems/gli)
 * rdoc     :: [rubydoc.info/gems/gli](http://rubydoc.info/gems/gli)
 * tutorial :: [naildrivin5.com/introduction-to-gli.html](http://naildrivin5.com/blog/2013/12/02/introduction-to-gli.html)
 * book     :: [pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2](https://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2)
-

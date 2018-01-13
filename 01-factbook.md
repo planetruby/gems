@@ -1,11 +1,9 @@
----
-layout: gem
-title:  "Week #1 - factbook gem - turn the world factbook into open structured data e.g JSON"
----
+# Week 1 - factbook gem - turn the world factbook into open structured data e.g JSON
+
 
 ## What's the World Factbook?
 
-The World Factbook [1][2] published by the Central Intelligence Agency (CIA) 
+The World Factbook [1][2] published by the Central Intelligence Agency (CIA)
 offers free country profiles in the public domain (that is, no copyright(s), no rights reserved).
 
 - [1] [The World Factbook](https://www.cia.gov/library/publications/the-world-factbook/)
@@ -13,7 +11,7 @@ offers free country profiles in the public domain (that is, no copyright(s), no 
 
 ## What's the factbook gem?
 
-The factbook gem ships with scripts for the world factbook that let you turn web pages into open structured data 
+The factbook gem ships with scripts for the world factbook that let you turn web pages into open structured data
 e.g JSON and friends. Example:
 
 To get the country profile page for Austria as a hash (that is, structured data e.g. nested key/values)
@@ -96,11 +94,11 @@ That's it.
 
 [openmundi/factbook.json](https://github.com/openmundi/factbook.json) - open (public domain)
 factbook country profiles in JSON for all the world's countries (using internet domain names
-for country codes e.g. Austria is `at.json` not `au.json`, 
+for country codes e.g. Austria is `at.json` not `au.json`,
 Germany is `de.json` not `gm.json` and so on)
 
 
-## Find Out More 
+## Find Out More
 
 * home  :: [github.com/worlddb/factbook.ruby](https://github.com/worlddb/factbook.ruby)
 * gem   :: [rubygems.org/gems/factbook](https://rubygems.org/gems/factbook)

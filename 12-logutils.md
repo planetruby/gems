@@ -1,7 +1,5 @@
----
-layout: gem
-title:  "Week #12 - logutils gem - yet another (lightweight, simple) logging library in Ruby"
----
+# Week 12 - logutils gem - yet another (lightweight, simple) logging library in Ruby
+
 
 
 Sooner or later you will debug your code and add some print statements to help you along. Example:
@@ -11,7 +9,7 @@ puts "[debug] value: #{value}"
 puts "[debug] value.class.name: #{value.class.name}
 ~~~
 
-A "better" way is to use a logger that lets you turn off and on your 
+A "better" way is to use a logger that lets you turn off and on your
 debug messages as needed and why not a add some more message classes for
 errors or warnings, for example?
 
@@ -57,7 +55,7 @@ Will print only message of class info and above and, thus, turn off debug messag
 
 ### Logging Mixin
 
-What else?  For your convenience you can include the logging machinery in a Ruby class 
+What else?  For your convenience you can include the logging machinery in a Ruby class
 with a single line using the Logging mixin e.g.
 
 ~~~
@@ -78,7 +76,7 @@ And you're all setup to start logging. Example:
 class SampleClass
 
  include Logging
-    
+
   def initialize
     logger.info 'Hello, SampleClass!'
   end
@@ -94,7 +92,7 @@ Example:
 ~~~
 require 'logutils'
 require 'logutils/activerecord'   # Note: will also require 'active_record'
-    
+
 include LogUtils    # lets you use Logger instead of LogUtils::Logger
 
 logger = Logger[ 'Test' ]
