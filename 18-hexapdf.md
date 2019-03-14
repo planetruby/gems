@@ -1,7 +1,7 @@
 _A Versatile Portable Document Format (PDF) Creation and Manipulation Library and Command Line Tool_
 
 
-# hexapdf library and command line tool - Read and Write PDF Documents; Start from Zero or Merge, Extract, Optimize and Much More  
+# Week 18 - hexapdf gem / library and command line tool - Read and Write PDF Documents; Start from Zero or Merge, Extract, Optimize and Much More  
 
 
 github: [gettalong/hexapdf](https://github.com/gettalong/hexapdf),
