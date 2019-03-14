@@ -27,3 +27,6 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 15 - beerdb**](15-beerdb.md)  - serving a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON w/ Ruby
 - [**Week 16 - tilt**](16-tild.md) - let's build (yet another) micro web framework in less than 33 lines of code
 - [**Week 17 - datapak**](17-datapak.md) - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
+- [**Week 18 - hexapdf**](18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by [Thomas Leitner](https://rubygems.org/profiles/gettalong)  {% avatar gettalong size=20 %}  
+
+
