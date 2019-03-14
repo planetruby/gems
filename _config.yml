@@ -1,0 +1,10 @@
+
+## note: use title same as heading 1 in readme 
+##   needed for primer (default) theme to avoid duplicate title (if missing gets auto-added)
+
+title: "Ruby Gem of the Week Series"
+
+
+plugins:
+- jekyll-avatar
+- jemoji
