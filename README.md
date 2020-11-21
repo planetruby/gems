@@ -79,7 +79,7 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 13 - props**](week/13-props.md) - yet another config (INI) reader in Ruby
 - [**Week 14 - html-proofer**](week/14-html-proofer.md) - auto-proofread (check and validate) your hypertext (HTML) pages
 - [**Week 15 - beerdb**](week/15-beerdb.md)  - serving a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON w/ Ruby
-- [**Week 16 - tilt**](week/16-tild.md) - let's build (yet another) micro web framework in less than 33 lines of code
+- [**Week 16 - tilt**](week/16-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
 - [**Week 17 - datapak**](week/17-datapak.md) - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
 - [**Week 18 - hexapdf**](week/18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by [Thomas Leitner](https://rubygems.org/profiles/gettalong)  {% avatar gettalong size=20 %}
 
