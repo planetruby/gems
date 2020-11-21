@@ -16,31 +16,31 @@ on Planet Ruby.
 
 
 
-- [**Day 1 - Your gem here - unclaimed - yes you can!**](2020/01-???.md) - Your tag line here
-- [**Day 2 - Your gem here - unclaimed - yes you can!**](2020/02-???.md) - Your tag line here
-- [**Day 3 - Your gem here - unclaimed - yes you can!**](2020/03-???.md) - Your tag line here
-- [**Day 4 - Your gem here - unclaimed - yes you can!**](2020/04-???.md) - Your tag line here
-- [**Day 5 - Your gem here - unclaimed - yes you can!**](2020/05-???.md) - Your tag line here
-- [**Day 6 - Your gem here - unclaimed - yes you can!**](2020/06-???.md) - Your tag line here
-- [**Day 7 - Your gem here - unclaimed - yes you can!**](2020/07-???.md) - Your tag line here
-- [**Day 8 - Your gem here - unclaimed - yes you can!**](2020/08-???.md) - Your tag line here
-- [**Day 9 - Your gem here - unclaimed - yes you can!**](2020/09-???.md) - Your tag line here
-- [**Day 10 - Your gem here - unclaimed - yes you can!**](2020/10-???.md) - Your tag line here
-- [**Day 11 - Your gem here - unclaimed - yes you can!**](2020/11-???.md) - Your tag line here
-- [**Day 12 - Your gem here - unclaimed - yes you can!**](2020/12-???.md) - Your tag line here
-- [**Day 13 - Your gem here - unclaimed - yes you can!**](2020/13-???.md) - Your tag line here
-- [**Day 14 - Your gem here - unclaimed - yes you can!**](2020/14-???.md) - Your tag line here
-- [**Day 15 - Your gem here - unclaimed - yes you can!**](2020/15-???.md) - Your tag line here
-- [**Day 16 - Your gem here - unclaimed - yes you can!**](2020/16-???.md) - Your tag line here
-- [**Day 17 - Your gem here - unclaimed - yes you can!**](2020/17-???.md) - Your tag line here
-- [**Day 18 - Your gem here - unclaimed - yes you can!**](2020/18-???.md) - Your tag line here
-- [**Day 19 - Your gem here - unclaimed - yes you can!**](2020/19-???.md) - Your tag line here
-- [**Day 20 - Your gem here - unclaimed - yes you can!**](2020/20-???.md) - Your tag line here
-- [**Day 21 - Your gem here - unclaimed - yes you can!**](2020/21-???.md) - Your tag line here
-- [**Day 22 - Your gem here - unclaimed - yes you can!**](2020/22-???.md) - Your tag line here
-- [**Day 23 - Your gem here - unclaimed - yes you can!**](2020/23-???.md) - Your tag line here
-- [**Day 24 - Your gem here - unclaimed - yes you can!**](2020/24-???.md) - Your tag line here
-- [**Day 25 - Your gem here - unclaimed - yes you can!**](2020/25-???.md) - Your tag line here
+- **Day 1 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 2 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 3 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 4 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 5 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 6 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 7 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 8 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 9 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 10 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 11 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 12 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 13 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 14 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 15 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 16 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 17 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 18 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 19 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 20 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 21 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 22 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 23 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 24 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 25 - Your gem here - unclaimed - yes you can!** - Your tag line here
 
 
 
