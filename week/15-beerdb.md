@@ -6,7 +6,7 @@
 The beerdb gem offers a ready-to-use database schema (in SQL) and models such as - surprise, surprise -
 `Beer`, `Brewery`, `Brand` and friends (using the `ActiveRecord` object-relational mapper machinery). Example:
 
-![](https://raw.githubusercontent.com/beerkit/beer.db.models/master/beerdb-models.png)
+![](i/beerdb-models.png)
 
 
 Let's try the brewery model:
