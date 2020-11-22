@@ -28,7 +28,7 @@ on Planet Ruby.
 - **Day 7 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 8 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 9 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 10 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 10 - :gift: :gift: :gift:**
 - **Day 11 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 12 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 13 - Your gem here - unclaimed - yes you can!** - Your tag line here
