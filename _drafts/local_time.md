@@ -1,6 +1,6 @@
 # Day XX - local_time gem - cache-friendly and timezone aware timestamp formatting
 
-Written by [Matt Swanson](https://twitter.com/_swanson)  {% avatar swanson %}
+Written by [Matt Swanson](https://twitter.com/_swanson) from [Boring Rails](https://boringrails.com/)  {% avatar swanson %}
 
 ## What's wrong with Rails' `time_ago_in_words`?
 
