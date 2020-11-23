@@ -83,7 +83,7 @@ Since the server-rendered response outputs only the UTC timestamp, the Rails cac
 
 This UI pattern has become a mainstay in nearly every web application and `local_time` is always one of the first gems I add to a Rails project.
 
-**Note:** While this gem is old (released in 2013) and infrequently updated. Don't be scared off thinking that this project is abandoned -- it's simply "done" and works great.
+**Note:** While this gem is old (released in 2013) and infrequently updated, don't be scared off thinking that this project is abandoned -- it's simply "done" and works great.
 
 ## Find Out More
 
