@@ -54,7 +54,7 @@ The `local_time` gem is a small tool to solve this exact problem for Rails apps.
 
 Instead of using `time_ago_in_words(date)`, install this gem and then use `local_time_ago(date)`. 
 
-The gem also includes a small bit JavaScript that can be used with either the asset pipeline or `webpacker` configurations.
+The gem also includes a small bit of JavaScript that can be used with either the asset pipeline or `webpacker` configurations.
 
 ```ruby
 # app/views/posts/index.html.erb
