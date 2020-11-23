@@ -79,7 +79,7 @@ and then uses JavaScript to convert the time into the desired "time ago" format 
 <time datetime="2020-11-20T21:42:17Z" data-local="time-ago" title="November 20, 2020 at 4:42pm EST" aria-label="Friday">Friday</time>
 ```
 
-Since the server-rendered response outputs only the UTC timestamp, the Rails caching will work as expected when as time passes or users in multiple timezones request the same content. And you get the additional benefit of your markup being more semantic (usage of the `<time>` tag), machine-readable (UTC format in the `datetime` attribute), and screen-reader friendly (automatic ARIA labels)!
+Since the server-rendered response outputs only the UTC timestamp, the Rails caching will work as expected even as time passes or people in multiple timezones request the same content. And you get the additional benefit of your markup being more semantic (usage of the `<time>` tag), machine-readable (UTC format in the `datetime` attribute), and screen-reader friendly (automatic ARIA labels)!
 
 This UI pattern has become a mainstay in nearly every web application and `local_time` is always one of the first gems I add to a Rails project.
 
