@@ -1,4 +1,4 @@
-# Day XX - local_time gem - cache-friendly and timezone aware timestamp formatting
+# Day 01 - local_time gem - cache-friendly and timezone aware timestamp formatting
 
 Written by [Matt Swanson](https://twitter.com/_swanson) from [Boring Rails](https://boringrails.com/)  {% avatar swanson %}
 
