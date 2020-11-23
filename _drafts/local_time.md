@@ -4,7 +4,7 @@ Written by [Matt Swanson](https://twitter.com/_swanson)  {% avatar swanson %}
 
 ## What's wrong with Rails' `time_ago_in_words`?
 
-Rails has several handy utilities baked into the framework for displaying relative times.
+Rails has several handy utilities baked into the framework for displaying relative dates and times.
 
 You can use `time_ago_in_words` to convert timestamps into user-friendly strings like "4 hours ago", "2 days ago".
 
