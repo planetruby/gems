@@ -19,7 +19,7 @@ on Planet Ruby.
 
 
 
-- **Day 1 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 1 - :gift::gift::gift:** 
 - **Day 2 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 3 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 4 - Your gem here - unclaimed - yes you can!** - Your tag line here
