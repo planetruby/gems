@@ -100,6 +100,6 @@ Germany is `de.json` not `gm.json` and so on)
 
 ## Find Out More
 
-* home  :: [github.com/factbook/factbook](https://github.com/factbook/factbook.ruby)
+* home  :: [github.com/factbook/factbook](https://github.com/factbook/factbook)
 * gem   :: [rubygems.org/gems/factbook](https://rubygems.org/gems/factbook)
 * rdoc  :: [rubydoc.info/gems/factbook](http://rubydoc.info/gems/factbook)
