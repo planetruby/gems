@@ -19,7 +19,7 @@ on Planet Ruby.
 
 
 
-- **Day 1 - :gift::gift::gift:**    by [Matt Swanson](https://github.com/swanson)  {% avatar swanson size=20 %}
+- **Day 1 - :gift::gift::gift:**    by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
 - **Day 2 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 3 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 4 - Your gem here - unclaimed - yes you can!** - Your tag line here
@@ -28,7 +28,7 @@ on Planet Ruby.
 - **Day 7 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 8 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 9 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 10 - :gift::gift::gift:**    by [Rachel Green](https://github.com/rlgreen91)  {% avatar rlgreen91 size=20 %}
+- **Day 10 - :gift::gift::gift:**    by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
 - **Day 11 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 12 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 13 - Your gem here - unclaimed - yes you can!** - Your tag line here
@@ -81,6 +81,6 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 15 - beerdb**](week/15-beerdb.md)  - serving a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON w/ Ruby
 - [**Week 16 - tilt**](week/16-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
 - [**Week 17 - datapak**](week/17-datapak.md) - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
-- [**Week 18 - hexapdf**](week/18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by [Thomas Leitner](https://rubygems.org/profiles/gettalong)  {% avatar gettalong size=20 %}
+- [**Week 18 - hexapdf**](week/18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by {% avatar gettalong size=20 %} [Thomas Leitner](https://rubygems.org/profiles/gettalong)
 
 
