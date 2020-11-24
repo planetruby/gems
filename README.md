@@ -19,7 +19,7 @@ on Planet Ruby.
 
 
 
-- **Day 1 - :gift::gift::gift:**    Written by [Matt Swanson](https://github.com/swanson)  {% avatar swanson size=20 %}
+- **Day 1 - :gift::gift::gift:**    by [Matt Swanson](https://github.com/swanson)  {% avatar swanson size=20 %}
 - **Day 2 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 3 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 4 - Your gem here - unclaimed - yes you can!** - Your tag line here
@@ -28,7 +28,7 @@ on Planet Ruby.
 - **Day 7 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 8 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 9 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 10 - :gift::gift::gift:**   Written by [Rachel Green](https://github.com/rlgreen91)  {% avatar rlgreen91 size=20 %}
+- **Day 10 - :gift::gift::gift:**    by [Rachel Green](https://github.com/rlgreen91)  {% avatar rlgreen91 size=20 %}
 - **Day 11 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 12 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 13 - Your gem here - unclaimed - yes you can!** - Your tag line here
