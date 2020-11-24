@@ -83,6 +83,7 @@ Resulting in:
       "text": "oil, coal, lignite, timber, iron ore, copper, zinc, antimony, magnesite, tungsten, graphite, salt, hydropower"
     },
     ...
+}
 ```
 
 Note: The World Factbook includes 267 entries - 195 sovereign countries, 2 others, 58 dependencies, 6 miscellaneous,
