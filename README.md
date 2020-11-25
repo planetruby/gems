@@ -1,7 +1,7 @@
 # Best of Ruby Gems Series
 
 
-## Ruby Advent Calendar 2020  - 25 Days of Ruby Gems / Libraries, December 1 - December 25
+## 25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th
 
 
 {% include thanks.html %}
