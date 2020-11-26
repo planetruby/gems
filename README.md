@@ -33,7 +33,7 @@ on Planet Ruby.
 - **Day 11 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 12 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 13 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 14 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)  
 - **Day 15 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 16 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 17 - Your gem here - unclaimed - yes you can!** - Your tag line here
