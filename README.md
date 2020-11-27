@@ -46,8 +46,9 @@ on Planet Ruby.
 - **Day 24 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 25 - Your gem here - unclaimed - yes you can!** - Your tag line here
 
+<!--
 All the rest filled-in by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb). Claim your day, yes you can!
-
+-->
 
 
 ## Archive
