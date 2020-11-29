@@ -10,7 +10,7 @@ There are three steps I go through to set up Factory Bot in a Rails application.
 
 1.  Install the `factory_bot_rails` gem
 2.  Set up one or more factory definitions
-4.  Add the Factory Bot syntax methods to my `rails_helper.rb` file
+3.  Add the Factory Bot syntax methods to my `rails_helper.rb` file
 
 ## Install the factory\_bot\_rails gem
 
