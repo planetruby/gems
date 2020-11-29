@@ -1,6 +1,8 @@
 # How I set up Factory Bot on a fresh Rails project
 
-A reader of mine recently asked me how I set up Factory Bot for a new Rails project. There are four steps I go through to set up Factory Bot.
+A reader of mine recently asked me how I set up Factory Bot for a new Rails project.
+
+There are four steps I go through to set up Factory Bot.
 
 1.  Install the `factory_bot_rails` gem
 2.  Set up one or more factory definitions
@@ -11,7 +13,11 @@ Following are the details for each step.
 
 ## Install the factory\_bot\_rails gem
 
-The first thing I do is to include the [factory\_bot\_rails](https://github.com/thoughtbot/factory_bot_rails) gem (not the `factory_bot` gem) in my `Gemfile`. I include it under the `:development, :test` group. Here's a sample Gemfile from a project with only the default gems plus a few that I added for testing. Remember that after you add a gem to your `Gemfile` you'll need to run `bundle install` in order to actually install the gem.
+The first thing I do is to include the [factory\_bot\_rails](https://github.com/thoughtbot/factory_bot_rails) gem (not the `factory_bot` gem) in my `Gemfile`. I include it under the `:development, :test` group.
+
+Here's a sample Gemfile from a project with only the default gems plus a few that I added for testing.
+
+Remember that after you add a gem to your `Gemfile` you'll need to run `bundle install` in order to actually install the gem.
 
 ```ruby
 source 'https://rubygems.org'
@@ -61,7 +67,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ## Set up one or more factory definitions
 
-Factory definitions are kind of the "templates" that are used for generating new objects. For example, I have a user object that needs an email and a password, then I would create a factory definition saying "hey, make me a user with an email and password". The actual code might look like this:
+Factory definitions are kind of the "templates" that are used for generating new objects.
+
+For example, I have a user object that needs an email and a password, then I would create a factory definition saying "hey, make me a user with an email and password". The actual code might look like this:
 
 ```ruby
 FactoryBot.define do
@@ -72,11 +80,17 @@ FactoryBot.define do
 end
 ```
 
-Factory Bot is smart enough to know that when I say `factory :user do`, I'm talking about an Active Record class called `User`. There's a problem with this way of defining my `User` factory though. If I have a unique constraint on the `users.email` column in the database (for example), then I won't ever be able to generate more than one `User` object. The first user's email address will be `test@example.com` (no problem so far) but then when I go to create a second user, its email address will also be `test@example.com`, and if I have a unique constraint on `users.email`, the creation of this second record will not be allowed. We need a way of making it so the factories' values can be unique. One way, which I've done before, is to append a random number to the end of the email address, e.g. `"test#{SecureRandom.hex}@example.com"`. There's a different way to do it, though, that I find nicer. That way is to use another gem called Faker.
+Factory Bot is smart enough to know that when I say `factory :user do`, I'm talking about an Active Record class called `User`.
+
+There's a problem with this way of defining my `User` factory though. If I have a unique constraint on the `users.email` column in the database (for example), then I won't ever be able to generate more than one `User` object. The first user's email address will be `test@example.com` (no problem so far) but then when I go to create a second user, its email address will also be `test@example.com`, and if I have a unique constraint on `users.email`, the creation of this second record will not be allowed.
+
+We need a way of making it so the factories' values can be unique. One way, which I've done before, is to append a random number to the end of the email address, e.g. `"test#{SecureRandom.hex}@example.com"`. There's a different way to do it, though, that I find nicer. That way is to use another gem called Faker.
 
 ## Install Faker
 
-Just like I showed with `factory_bot_rails` above, the [Faker](https://github.com/faker-ruby/faker) gem can be added by putting it into the `:development, :test` group of the `Gemfile`. Then we can change our `User` factory definition as follows.
+Just like I showed with `factory_bot_rails` above, the [Faker](https://github.com/faker-ruby/faker) gem can be added by putting it into the `:development, :test` group of the `Gemfile`.
+
+Then we can change our `User` factory definition as follows.
 
 ```ruby
 FactoryBot.define do
@@ -97,7 +111,9 @@ The syntax for actually using a Factory Bot factory in a test is as follows:
 FactoryBot.create(:user)
 ```
 
-There's nothing wrong with this, but I find that these `FactoryBot` are so numerous in my test files that their presence feels a little noisy. There's a way to make it so that instead we can just write this:
+There's nothing wrong with this, but I find that these `FactoryBot` are so numerous in my test files that their presence feels a little noisy.
+
+There's a way to make it so that instead we can just write this:
 
 ```ruby
 create(:user)
