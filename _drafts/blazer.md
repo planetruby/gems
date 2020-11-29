@@ -31,6 +31,8 @@ HAVING COUNT(todos.id) = 0
 
 ## Configuring the gem
 
+Blazer is meant to be added to an existing Ruby on Rails app.
+
 After installing the gem, run the following commands:
 
 ```shell
