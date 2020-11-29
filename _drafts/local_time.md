@@ -87,7 +87,7 @@ This UI pattern has become a mainstay in nearly every web application and `local
 
 ## Find Out More
 
-### Hoe References
+### References
 
 * home  :: [github.com/basecamp/local_time](https://github.com/basecamp/local_time)
 * gem   :: [rubygems.org/gems/local_time](https://rubygems.org/gems/local_time)
