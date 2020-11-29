@@ -1,15 +1,16 @@
-# How I set up Factory Bot on a fresh Rails project
+# Day 05 - factory_bot gem - a library for setting up Ruby objects as test data
 
-A reader of mine recently asked me how I set up Factory Bot for a new Rails project.
+Written by [Jason Swett](https://twitter.com/JasonSwett) from [Rails with Jason](https://www.codewithjason.com/rails-with-jason-podcast/) {% avatar JasonSwett %}
 
-There are four steps I go through to set up Factory Bot.
+## Creating test data without headaches
+
+`factory_bot` is a fixtures replacement with a straightforward definition syntax, support for multiple build strategies (saved instances, unsaved instances, attribute hashes, and stubbed objects), and support for multiple factories for the same class (user, admin_user, and so on), including factory inheritance.
+
+There are three steps I go through to set up Factory Bot in a Rails application.
 
 1.  Install the `factory_bot_rails` gem
 2.  Set up one or more factory definitions
-3.  Install Faker
 4.  Add the Factory Bot syntax methods to my `rails_helper.rb` file
-
-Following are the details for each step.
 
 ## Install the factory\_bot\_rails gem
 
@@ -86,22 +87,6 @@ There's a problem with this way of defining my `User` factory though. If I have 
 
 We need a way of making it so the factories' values can be unique. One way, which I've done before, is to append a random number to the end of the email address, e.g. `"test#{SecureRandom.hex}@example.com"`. There's a different way to do it, though, that I find nicer. That way is to use another gem called Faker.
 
-## Install Faker
-
-Just like I showed with `factory_bot_rails` above, the [Faker](https://github.com/faker-ruby/faker) gem can be added by putting it into the `:development, :test` group of the `Gemfile`.
-
-Then we can change our `User` factory definition as follows.
-
-```ruby
-FactoryBot.define do
-  factory :user do
-    email { Faker::Internet.email }
-    password { Faker::Internet.password }
-  end
-end
-```
-
-This will give us random values like `eldora@jones.net` and `lazaromertz@ko.name`.
 
 ## Add the Factory Bot syntax methods to my rails\_helper.rb file
 
@@ -129,6 +114,10 @@ end
 
 (You don't actually add the `RSpec.configure do |config|` to the `spec/rails_helper.rb` file. It's already there. I'm just including it here to show that that's the block inside of which the `config.include FactoryBot::Syntax::Methods` line goes.)
 
-## What to do next
+## Find Out More
 
-If you're curious how to put Factory Bot together with the other testing tools to write some complete Rails tests, I might suggest my [Rails testing "hello world"](https://www.codewithjason.com/rails-testing-hello-world-using-rspec-capybara/) tutorial using RSpec and Capybara.
+### References
+
+- home :: [thoughtbot/factory_bot](https://github.com/thoughtbot/factory_bot)
+- gem :: [https://rubygems.org/gems/factory_bot](https://rubygems.org/gems/factory_bot)
+- article :: [Rails testing "hello world"](https://www.codewithjason.com/rails-testing-hello-world-using-rspec-capybara/)
