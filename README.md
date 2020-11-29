@@ -1,15 +1,16 @@
 # Best of Ruby Gems Series
 
 
-## Ruby Advent Calendar 2020
+## 25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th
 
-_25 Days of Ruby Gems / Libraries, December 1 - December 25_
+
+{% include thanks.html %}
 
 
 Welcome. The Ruby Advent Calendar 2020
 presents a new Ruby library every day
 from December 1st to December 25th.
-Have your say!
+Have your say! Claim a free day!
 
 Do you have a Ruby gem that you'd like to write about?
 We love guest posts. Send in a pull request or
@@ -19,20 +20,20 @@ on Planet Ruby.
 
 
 
-- **Day 1 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 2 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 1 - :gift::gift::gift:**    by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
+- **Day 2 - :gift::gift::gift:**    by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
 - **Day 3 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 4 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 5 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 6 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 7 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 8 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 9 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 10 - :gift::gift::gift:**
+- **Day 9 - :gift::gift::gift:**     by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
+- **Day 10 - :gift::gift::gift:**    by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
 - **Day 11 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 12 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 13 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 14 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)  
 - **Day 15 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 16 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 17 - Your gem here - unclaimed - yes you can!** - Your tag line here
@@ -45,8 +46,9 @@ on Planet Ruby.
 - **Day 24 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 25 - Your gem here - unclaimed - yes you can!** - Your tag line here
 
-
-
+<!--
+All the rest filled-in by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb). Claim your day, yes you can!
+-->
 
 
 ## Archive
@@ -81,6 +83,6 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 15 - beerdb**](week/15-beerdb.md)  - serving a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON w/ Ruby
 - [**Week 16 - tilt**](week/16-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
 - [**Week 17 - datapak**](week/17-datapak.md) - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
-- [**Week 18 - hexapdf**](week/18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by [Thomas Leitner](https://rubygems.org/profiles/gettalong)  {% avatar gettalong size=20 %}
+- [**Week 18 - hexapdf**](week/18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by {% avatar gettalong size=20 %} [Thomas Leitner](https://rubygems.org/profiles/gettalong)
 
 

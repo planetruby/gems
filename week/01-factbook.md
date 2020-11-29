@@ -17,23 +17,23 @@ e.g JSON and friends. Example:
 To get the country profile page for Austria as a hash (that is, structured data e.g. nested key/values)
 use:
 
-~~~
+```ruby
 page = Factbook::Page.new( 'at' )   # at is the country code for Austria
 pp page.data                        # pretty print hash
-~~~
+```
 
 To save the hash to disk as JSON use:
 
-~~~
+```ruby
 page = Factbook::Page.new( 'at' )
-File.open( 'at.json', 'w') do |f|
-  f.write page.to_json( pretty: true )
+File.open( 'at.json', 'w:utf-8') do |f|
+  f.write JSON.pretty_generate( page.data )
 end
-~~~
+```
 
 Resulting in:
 
-~~~
+```json
 {
   "intro": {
     "background": {
@@ -83,7 +83,8 @@ Resulting in:
       "text": "oil, coal, lignite, timber, iron ore, copper, zinc, antimony, magnesite, tungsten, graphite, salt, hydropower"
     },
     ...
-~~~
+}
+```
 
 Note: The World Factbook includes 267 entries - 195 sovereign countries, 2 others, 58 dependencies, 6 miscellaneous,
 5 oceans, and 1 world profile.
@@ -92,7 +93,7 @@ That's it.
 
 ## Bonus: Ready-To-Use Public Domain Factbook Datasets
 
-[openmundi/factbook.json](https://github.com/openmundi/factbook.json) - open (public domain)
+[factbook/factbook.json](https://github.com/factbook/factbook.json) - open (public domain)
 factbook country profiles in JSON for all the world's countries (using internet domain names
 for country codes e.g. Austria is `at.json` not `au.json`,
 Germany is `de.json` not `gm.json` and so on)
@@ -100,6 +101,6 @@ Germany is `de.json` not `gm.json` and so on)
 
 ## Find Out More
 
-* home  :: [github.com/worlddb/factbook.ruby](https://github.com/worlddb/factbook.ruby)
+* home  :: [github.com/factbook/factbook](https://github.com/factbook/factbook)
 * gem   :: [rubygems.org/gems/factbook](https://rubygems.org/gems/factbook)
 * rdoc  :: [rubydoc.info/gems/factbook](http://rubydoc.info/gems/factbook)
