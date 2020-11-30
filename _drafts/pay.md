@@ -4,7 +4,7 @@ Written by [Chris Oliver](https://twitter.com/excid3) from [GoRails](https://gor
 
 ## Accepting Payments in Rails
 
-Adding subscriptions and one-time purchases to your Rails app can be a bit tricky, especially with Strong Customer Authentication. 
+Adding subscriptions and one-time purchases to your Rails app can be a bit tricky, especially with Strong Customer Authentication. If you aren't familiar, SCA is a European regularly requirement to reduce fraud and make online payments more secure. For more details, I highly recommend reading the [Stripe guide on Strong Customer Authentication](https://stripe.com/guides/strong-customer-authentication).
 
 For example, Braintree doesn't allow you to swap subscriptions between monthly and yearly plans. You actually have to cancel the subscription, calculate your proration amount and create a new subscription with the proration discount.
 

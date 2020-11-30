@@ -4,7 +4,12 @@ Written by [Chris Oliver](https://twitter.com/excid3) from [GoRails](https://gor
 
 ## Multitenancy made easy with ActsAsTenant
 
-ActsAsTenant implements row-level multitenancy for Rails. It's a popular, well loved gem that takes advantage of several features in Rails to make row-level multitenancy really easy to add.
+`multitenancy` is a term used to describe a single software application that handles user (tenant) data separately.
+
+>The term "software multitenancy" refers to a software architecture in which a single instance of software runs on a server and serves multiple tenants. Systems designed in such manner are often called shared. A tenant is a group of users who share a common access with specific privileges to the software instance.
+>[Wikipedia](https://en.wikipedia.org/wiki/Multitenancy)
+
+ActsAsTenant implements row-level multitenancy for Rails. It's a popular, well loved gem that takes advantage of several features in Rails to make multitenancy easy to use.
 
 ## What are the different multitenant strategies?
 
