@@ -31,7 +31,7 @@ on Planet Ruby.
 - **Day 9 - :gift::gift::gift:**     by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
 - **Day 10 - :gift::gift::gift:**    by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
 - **Day 11 - :gift::gift::gift:**    by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)
-- **Day 12 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 12 - :gift::gift::gift:**    by {% avatar jonasjabari size=20 %} [Jonas Jabari](https://github.com/jonasjabari)
 - **Day 13 - :gift::gift::gift:**    by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
 - **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)  
 - **Day 15 - :gift::gift::gift:**    by {% avatar adrianthedev size=20 %} [Adrian Marin](https://github.com/adrianthedev)
