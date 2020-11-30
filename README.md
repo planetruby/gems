@@ -32,7 +32,7 @@ on Planet Ruby.
 - **Day 10 - :gift::gift::gift:**    by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
 - **Day 11 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 12 - Your gem here - unclaimed - yes you can!** - Your tag line here
-- **Day 13 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 13 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
 - **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)  
 - **Day 15 - Your gem here - unclaimed - yes you can!** - Your tag line here
 - **Day 16 - Your gem here - unclaimed - yes you can!** - Your tag line here
