@@ -168,7 +168,7 @@ end
 doc.write('images.pdf')
 ```
 
-## Conclusio
+## Conclusion
 
 If you need to work with PDFs in Ruby, HexaPDF is probably the way to go!
 
