@@ -10,14 +10,6 @@
 Welcome. The Ruby Advent Calendar 2020
 presents a new Ruby library every day
 from December 1st to December 25th.
-Have your say! Claim a free day!
-
-Do you have a Ruby gem that you'd like to write about?
-We love guest posts. Send in a pull request or
-[open an issue ticket](https://github.com/planetruby/gems/issues)
-to get the conversation started and your article posted
-on Planet Ruby.
-
 
 
 - [**Day 1 - local_time Gem - Cache-Friendly and Timezone Aware Timestamp Formatting**](2020/01-local-time.md). Written by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
@@ -44,11 +36,15 @@ on Planet Ruby.
 - **Day 22 - :gift::gift::gift:**    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)
 - **Day 23 - :gift::gift::gift:**    by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)
 - **Day 24 - :gift::gift::gift:**    by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)
-- **Day 25 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
 
-<!--
-All the rest filled-in by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb). Claim your day, yes you can!
--->
+
+## Backups 
+
+Or upcoming in the Gem of the Week Series in the New Year 2021
+
+- **???** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
+
 
 
 ## Archive
