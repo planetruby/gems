@@ -1,6 +1,12 @@
-# Day 01 - local_time gem - cache-friendly and timezone aware timestamp formatting
+# Day 01 - local_time Gem - Cache-Friendly and Timezone Aware Timestamp Formatting
 
-Written by [Matt Swanson](https://twitter.com/_swanson) from [Boring Rails](https://boringrails.com/)  {% avatar swanson %}
+
+Written by {% avatar swanson %} [Matt Swanson](https://github.com/swanson)
+
+_Contrarian-in-training. Building products. Karl Pilkington is my spirit animal. Hacking on [Boring Rails](https://boringrails.com/) and [Slotback Labs](https://slotbacklabs.com/)._
+
+
+
 
 ## What's wrong with Rails' `time_ago_in_words`?
 
@@ -52,7 +58,7 @@ You may be tempted to throw up your hands and turn off caching or switch the vie
 
 The `local_time` gem is a small tool to solve this exact problem for Rails apps.
 
-Instead of using `time_ago_in_words(date)`, install this gem and then use `local_time_ago(date)`. 
+Instead of using `time_ago_in_words(date)`, install this gem and then use `local_time_ago(date)`.
 
 The gem also includes a small bit of JavaScript that can be used with either the asset pipeline or `webpacker` configurations.
 
@@ -84,6 +90,7 @@ Since the server-rendered response outputs only the UTC timestamp, the Rails cac
 This UI pattern has become a mainstay in nearly every web application and `local_time` is always one of the first gems I add to a Rails project.
 
 **Note:** While this gem is old (released in 2013) and infrequently updated, don't be scared off thinking that this project is abandoned -- it's simply "done" and works great.
+
 
 ## Find Out More
 
