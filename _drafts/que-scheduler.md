@@ -22,7 +22,7 @@ Install and apply the setup migration to get started:
 gem 'que-scheduler'
 
 # In a migration...
-Que::Scheduler::Migrations.migrate!(version: 5)
+Que::Scheduler::Migrations.migrate!(version: 6)
 ```
 
 ## Built on the que bedrock
