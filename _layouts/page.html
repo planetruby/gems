@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% if page.path == "README.md" %}
+  <!-- no custom page header -->
+{% elsif page.path contains "2020" %}
+     <p style="font-size: 80%;">
+          <a href="{{ '/' | relative_url }}">« 25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th</a>
+     </p>
+{% else %}
+  <!-- no custom page header -->
+{% endif %}
+
+
+{{ content }}
