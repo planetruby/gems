@@ -43,7 +43,7 @@ on Planet Ruby.
 - **Day 21 - :gift::gift::gift:**    by {% avatar mcmire size=20 %} [Elliot Winkler](https://github.com/mcmire)
 - **Day 22 - :gift::gift::gift:**    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)  
 - **Day 23 - :gift::gift::gift:**    by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)  
-- **Day 24 - Your gem here - unclaimed - yes you can!** - Your tag line here
+- **Day 24 - :gift::gift::gift:**    by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)
 - **Day 25 - Your gem here - unclaimed - yes you can!** - Your tag line here
 
 <!--
