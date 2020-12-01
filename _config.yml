@@ -5,6 +5,15 @@
 title: "Best of Ruby Gems Series"
 
 
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: false
+## see   https://github.com/benbalter/jekyll-titles-from-headings
+
+
 plugins:
+- jekyll-titles-from-headings
 - jekyll-avatar
 - jemoji
