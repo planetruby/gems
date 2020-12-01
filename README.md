@@ -39,12 +39,12 @@ from December 1st to December 25th.
 - **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
 
 
-## Backups 
+## Backups (or Sunday Double Posts)
 
-Or upcoming in the Gem of the Week Series in the New Year 2021
+More upcoming write-ups in the Advent Calendar 2020:
 
-- **???** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
-
+- **:gift::gift::gift:** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
+- **:gift::gift::gift:** by {% avatar MikeRogers0 size=20 %} [MikeRogers0](https://github.com/MikeRogers0)
 
 
 ## Archive
