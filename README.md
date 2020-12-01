@@ -20,7 +20,7 @@ on Planet Ruby.
 
 
 
-- **Day 1 - :gift::gift::gift:**    by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
+- [**Day 1 - local_time**](2020/01-local-time.md) - Cache-Friendly and Timezone Aware Timestamp Formatting. Written by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
 - **Day 2 - :gift::gift::gift:**    by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
 - **Day 3 - :gift::gift::gift:**    by {% avatar marckohlbrugge size=20 %} [Marc Köhlbrugge](https://github.com/marckohlbrugge)
 - **Day 4 - :gift::gift::gift:**    by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3)
@@ -33,16 +33,16 @@ on Planet Ruby.
 - **Day 11 - :gift::gift::gift:**    by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)
 - **Day 12 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
 - **Day 13 - :gift::gift::gift:**    by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
-- **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)  
+- **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)
 - **Day 15 - :gift::gift::gift:**    by {% avatar adrianthedev size=20 %} [Adrian Marin](https://github.com/adrianthedev)
 - **Day 16 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
 - **Day 17 - :gift::gift::gift:**    by {% avatar igorkasyanchuk size=20 %} [Igor Kasyanchuk](https://github.com/igorkasyanchuk)
 - **Day 18 - :gift::gift::gift:**    by {% avatar jankeesvw size=20 %} [Jankees van Woezik](https://github.com/jankeesvw)
 - **Day 19 - :gift::gift::gift:**    by {% avatar soulcutter size=20 %} [Bradley Schaefer](https://github.com/soulcutter)
-- **Day 20 - :gift::gift::gift:**    by {% avatar marcoroth size=20 %} [Marco Roth](https://github.com/marcoroth)  
+- **Day 20 - :gift::gift::gift:**    by {% avatar marcoroth size=20 %} [Marco Roth](https://github.com/marcoroth)
 - **Day 21 - :gift::gift::gift:**    by {% avatar mcmire size=20 %} [Elliot Winkler](https://github.com/mcmire)
-- **Day 22 - :gift::gift::gift:**    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)  
-- **Day 23 - :gift::gift::gift:**    by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)  
+- **Day 22 - :gift::gift::gift:**    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)
+- **Day 23 - :gift::gift::gift:**    by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)
 - **Day 24 - :gift::gift::gift:**    by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)
 - **Day 25 - Your gem here - unclaimed - yes you can!** - Your tag line here
 

@@ -8,7 +8,7 @@ title: "Best of Ruby Gems Series"
 
 titles_from_headings:
   enabled:     true
-  strip_title: true
+  strip_title: false
   collections: false
 ## see   https://github.com/benbalter/jekyll-titles-from-headings
 
