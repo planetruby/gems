@@ -1,5 +1,6 @@
-# Day 01 - local_time Gem - Cache-Friendly and Timezone Aware Timestamp Formatting
-
+---
+title: "Day 01 - local_time Gem - Cache-Friendly and Timezone Aware Timestamp Formatting"
+---
 
 Written by {% avatar swanson %} [Matt Swanson](https://github.com/swanson)
 
@@ -30,7 +31,7 @@ Rails has a powerful caching system, but that system is based on computing hash 
 
 Consider this simple example:
 
-```ruby
+```erb
 # app/views/posts/index.html.erb
 
 <% cache @posts do %>
@@ -54,7 +55,8 @@ But, wait! If you visit the page tomorrow, it's still going to show that the pos
 
 ## `local_time` to the rescue
 
-You may be tempted to throw up your hands and turn off caching or switch the view back to printing out unfriendly UTC formatted time. But don't fret! There is a better solution from our friends at Basecamp.
+You may be tempted to throw up your hands and turn off caching or switch the view back to printing out unfriendly Coordinated Universal Time (or UTC) formatted time.
+But don't fret! There is a better solution from our friends at Basecamp.
 
 The `local_time` gem is a small tool to solve this exact problem for Rails apps.
 
@@ -62,7 +64,7 @@ Instead of using `time_ago_in_words(date)`, install this gem and then use `local
 
 The gem also includes a small bit of JavaScript that can be used with either the asset pipeline or `webpacker` configurations.
 
-```ruby
+```erb
 # app/views/posts/index.html.erb
 
 <% cache @posts do %>
@@ -82,7 +84,8 @@ Now your app will render a `<time>` HTML tag that looks like this:
 and then uses JavaScript to convert the time into the desired "time ago" format and the current timezone of the browser.
 
 ```html
-<time datetime="2020-11-20T21:42:17Z" data-local="time-ago" title="November 20, 2020 at 4:42pm EST" aria-label="Friday">Friday</time>
+<time datetime="2020-11-20T21:42:17Z" data-local="time-ago"
+      title="November 20, 2020 at 4:42pm EST" aria-label="Friday">Friday</time>
 ```
 
 Since the server-rendered response outputs only the UTC timestamp, the Rails caching will work as expected even as time passes or people in multiple timezones request the same content. And you get the additional benefit of your markup being more semantic (usage of the `<time>` tag), machine-readable (UTC format in the `datetime` attribute), and screen-reader friendly (automatic ARIA labels)!

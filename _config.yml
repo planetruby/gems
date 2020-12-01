@@ -5,11 +5,6 @@
 title: "Best of Ruby Gems Series"
 
 
-collections:
-  day:
-    output: true
-
-
 plugins:
 - jekyll-avatar
 - jemoji
