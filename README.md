@@ -20,7 +20,7 @@ on Planet Ruby.
 
 
 
-- [**Day 1 - local_time**](2020/01-local-time.md) - Cache-Friendly and Timezone Aware Timestamp Formatting. Written by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
+- [**Day 1 - local_time Gem - Cache-Friendly and Timezone Aware Timestamp Formatting**](2020/01-local-time.md). Written by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
 - **Day 2 - :gift::gift::gift:**    by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
 - **Day 3 - :gift::gift::gift:**    by {% avatar marckohlbrugge size=20 %} [Marc Köhlbrugge](https://github.com/marckohlbrugge)
 - **Day 4 - :gift::gift::gift:**    by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3)
