@@ -13,7 +13,7 @@ from December 1st to December 25th.
 
 
 - [**Day 1 - local_time Gem - Cache-Friendly and Timezone Aware Timestamp Formatting**](2020/01-local-time.md). Written by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
-- **Day 2 - :gift::gift::gift:**    by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
+- [**Day 2 - elastic-enterprise-search Gem - Workpalce Search, App Search, and Site Search All Together**](2020/02-elastic-enterprise-search.md). Written by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
 - **Day 3 - :gift::gift::gift:**    by {% avatar marckohlbrugge size=20 %} [Marc Köhlbrugge](https://github.com/marckohlbrugge)
 - **Day 4 - :gift::gift::gift:**    by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3)
 - **Day 5 - :gift::gift::gift:**    by {% avatar jasonswett size=20 %} [Jason Swett](https://github.com/jasonswett)

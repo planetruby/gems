@@ -1,4 +1,4 @@
-# Day 01 - local_time Gem - Cache-Friendly and Timezone Aware Timestamp Formatting
+# Day 1 - local_time Gem - Cache-Friendly and Timezone Aware Timestamp Formatting
 
 Written by {% avatar swanson %} [Matt Swanson](https://github.com/swanson)
 

@@ -1,6 +1,15 @@
-# elastic-enterprise-search
+# Day 2 - elastic-enterprise-search Gem - Workpalce Search, App Search, and Site Search All Together
 
-This gem is the official Elastic Enterprise Search client and it's [currently out as a beta release](https://rubygems.org/gems/elastic-enterprise-search/versions/7.10.0.beta.1). Enterprise Search is an Elastic solution for search in the enterprise. It's powered by the Elastic Stack and Elasticsearch, so you get all the great things you already know in one package for your team. It's the umbrella solution which contains Workplace Search, App Search and Site Search. The client focuses on App Search and Workplace Search.
+
+Written by {% avatar picandocodigo %} [Fernando Briano](https://github.com/picandocodigo)
+
+_Software engineer at [Elastic](https://www.elastic.co) maintaing among other gems [elasticsearch-api](https://rubygems.org/gems/elasticsearch-api),[elasticsearch-transport](https://rubygems.org/gems/elasticsearch-transport),[elasticsearch](https://rubygems.org/gems/elasticsearch), [elasticsearch-model](https://rubygems.org/gems/elasticsearch-model), [elasticsearch-rails](https://rubygems.org/gems/elasticsearch-rails), [elasticsearch-dsl](https://rubygems.org/gems/elasticsearch-dsl), [elasticsearch-persistence](https://rubygems.org/gems/elasticsearch-persistence), [elasticsearch-extensions](https://rubygems.org/gems/elasticsearch-extensions), [elasticsearch-xpack](https://rubygems.org/gems/elasticsearch-xpack), [elastic-app-search](https://rubygems.org/gems/elastic-app-search), [elastic-enterprise-search](https://rubygems.org/gems/elastic-enterprise-search), [elastic-workplace-search](https://rubygems.org/gems/elastic-workplace-search). Blogs at [Picando Código](https://picandocodigo.net). Plays Nintendo. Listens to Punk Rock. Reads books. Drinks beer._
+
+
+
+
+This gem is the official Elastic Enterprise Search client
+and it's [currently out as a beta release](https://rubygems.org/gems/elastic-enterprise-search/versions/7.10.0.beta.1). Enterprise Search is an Elastic solution for search in the enterprise. It's powered by the Elastic Stack and Elasticsearch, so you get all the great things you already know in one package for your team. It's the umbrella solution which contains Workplace Search, App Search and Site Search. The client focuses on App Search and Workplace Search.
 
 ## What is Elastic Workplace Search?
 
@@ -56,11 +65,11 @@ For Workplace Search and App Search, you can instantiate a new client or share t
 
 To start using the client, we need to open our Enterprise Search web UI on our browser and select Workplace Search from the initial screen. Once there, we'll see a screen that says "Shared content sources" and a button to add sources. We can also add sources from the "Sources" item on the menu on the left. On the "Add a shared content source" screen, we need to select "Custom API Source", give it a name and press "Create Custom API Source":
 
-![Custom API Source](enterprise-search-01.png)
+![Custom API Source](i/enterprise-search-01.png)
 
 Once the source is created we get an Access Token and a Key.
 
-![Ruby Client Created](enterprise-search-02.png)
+![Ruby Client Created](i/enterprise-search-02.png)
 
 Given the client instantiated on the previous example, we can now start interacting with Workplace Search:
 
@@ -139,6 +148,19 @@ You can also take advantage of the App Search UI to interact with the documents 
 
 ## Conclusion
 
-The gem is still in beta but it's under active development. Take it for a spin and [check out the repo](https://github.com/elastic/enterprise-search-ruby) to report any issues or contribute. And if you want to learn more about Enterprise Search, checkout [these free Quick Start guides](ela.st/getting-started-enterprise).
+The gem is still in beta but it's under active development. Take it for a spin and [check out the repo](https://github.com/elastic/enterprise-search-ruby) to report any issues or contribute. And if you want to learn more about Enterprise Search, checkout [these free Quick Start guides](https://ela.st/getting-started-enterprise).
 
-There are currently API clients for App Search and Workplace Search packaged separately as Ruby gems. These clients still work but will be deprecated in favor of the new API client once the new client reaches general availability in Elastic Enterprise Search in a future release. Migrating to the new API client likely won’t require much effort due to similarities between the APIs. 
+There are currently API clients for App Search and Workplace Search packaged separately as Ruby gems. These clients still work but will be deprecated in favor of the new API client once the new client reaches general availability in Elastic Enterprise Search in a future release. Migrating to the new API client likely won’t require much effort due to similarities between the APIs.
+
+
+
+## Find Out More
+
+### References
+
+* home  :: [github.com/elastic/enterprise-search-ruby](https://github.com/elastic/enterprise-search-ruby)
+* gem   :: [rubygems.org/gems/elastic-enterprise-search](https://rubygems.org/gems/elastic-enterprise-search)
+* articles :: [Elastic Enterprise Search Quick Start Guides](https://ela.st/getting-started-enterprise)
+
+
+
