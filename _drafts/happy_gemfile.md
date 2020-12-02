@@ -31,7 +31,7 @@ However, I've recently started ordering my gems alphabetically and I've really e
 
 ## What does the end result look like?
 
-Your average boilerplate Rails Gemfile ends up being a lot more cut down.
+Your average boilerplate Rails Gemfile ends up being a lot more cut down, initially it might throw you off that `rails` is in the middle of the pack, but I think it does feel more easier to cognitively digest.
 
 ```ruby
 source 'https://rubygems.org'
