@@ -19,7 +19,7 @@ $ gem install happy_gemfile
 $ happy_gemfile all
 ```
 
-This will rewrite your Gemfile.
+This will rewrite your Gemfile to be super organised!
 
 ## Why would you want to sort the Gemfile?
 
@@ -29,10 +29,39 @@ They're great, but also wildly different between projects. Some projects may add
 
 However, I've recently started ordering my gems alphabetically and I've really enjoyed how much _I don't have to think about my Gemfile_, I can just run a command and move on.
 
+## What does the end result look like?
+
+Your average boilerplate Rails Gemfile ends up being a lot more cut down.
+
+```ruby
+source 'https://rubygems.org'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+ruby '2.7.2'
+
+gem 'bootsnap', '>= 1.4.2', require: false
+gem 'jbuilder', '~> 2.7'
+gem 'puma', '~> 4.1'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+gem 'sass-rails', '>= 6'
+gem 'sqlite3', '~> 1.4'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :development, :test do
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+end
+
+group :development do
+  gem 'listen', '~> 3.2'
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'web-console', '>= 3.3.0'
+end
+```
+
 ## Are their any drawbacks?
 
 Bundler loads the gems in the order they're appear in the Gemfile, so if a gem requires another to be present without explicitly requiring it, it could cause problems. However, I think this is a problem of the past, as gems are much more well written today compare to 10 years ago.
 
 ## How does this change adding new gems?
 
-As a result of not having to worry about the ordering of my Gemfile, I've started using [`$ bundle add`](https://bundler.io/man/bundle-add.1.html) when adding my gems.
+As a result of not having to worry about the ordering of my Gemfile, I've started using [`$ bundle add`](https://bundler.io/man/bundle-add.1.html) when adding my gems. This just adds the new gem to the bottom of the file, so I do need to rerun `happy_gemfile all` before committing it.
