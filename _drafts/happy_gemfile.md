@@ -12,14 +12,12 @@ It's kind of a radical, but I've really started to like this approach.
 
 ## How do you use it?
 
-Install the gem, then run the `happy_gemfile all` command, e.g:
-
 ```bash
 $ gem install happy_gemfile
 $ happy_gemfile all
 ```
 
-This will rewrite your Gemfile to be super organised!
+Install the gem onto your machine, then run `happy_gemfile all` in your terminal and you're good, that will rewrite your Gemfile to be super organised!
 
 ## Why would you want to sort the Gemfile?
 
