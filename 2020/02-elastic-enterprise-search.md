@@ -1,4 +1,4 @@
-# Day 2 - elastic-enterprise-search Gem - Workpalce Search, App Search, and Site Search All Together
+# Day 2 - elastic-enterprise-search Gem - Workplace Search, App Search, and Site Search All Together
 
 
 Written by {% avatar picandocodigo %} [Fernando Briano](https://github.com/picandocodigo)
