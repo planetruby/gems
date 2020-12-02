@@ -3,7 +3,7 @@
 
 Written by {% avatar picandocodigo %} [Fernando Briano](https://github.com/picandocodigo)
 
-_Software engineer at [Elastic](https://www.elastic.co) maintaing among other gems [elasticsearch-api](https://rubygems.org/gems/elasticsearch-api),[elasticsearch-transport](https://rubygems.org/gems/elasticsearch-transport),[elasticsearch](https://rubygems.org/gems/elasticsearch), [elasticsearch-model](https://rubygems.org/gems/elasticsearch-model), [elasticsearch-rails](https://rubygems.org/gems/elasticsearch-rails), [elasticsearch-dsl](https://rubygems.org/gems/elasticsearch-dsl), [elasticsearch-persistence](https://rubygems.org/gems/elasticsearch-persistence), [elasticsearch-extensions](https://rubygems.org/gems/elasticsearch-extensions), [elasticsearch-xpack](https://rubygems.org/gems/elasticsearch-xpack), [elastic-app-search](https://rubygems.org/gems/elastic-app-search), [elastic-enterprise-search](https://rubygems.org/gems/elastic-enterprise-search), [elastic-workplace-search](https://rubygems.org/gems/elastic-workplace-search). Blogs at [Picando Código](https://picandocodigo.net). Plays Nintendo. Listens to Punk Rock. Reads books. Drinks beer._
+_Software engineer at [Elastic](https://www.elastic.co) maintaing among other gems [elasticsearch-api](https://rubygems.org/gems/elasticsearch-api), [elasticsearch-transport](https://rubygems.org/gems/elasticsearch-transport), [elasticsearch](https://rubygems.org/gems/elasticsearch), [elasticsearch-model](https://rubygems.org/gems/elasticsearch-model), [elasticsearch-rails](https://rubygems.org/gems/elasticsearch-rails), [elasticsearch-dsl](https://rubygems.org/gems/elasticsearch-dsl), [elasticsearch-persistence](https://rubygems.org/gems/elasticsearch-persistence), [elasticsearch-extensions](https://rubygems.org/gems/elasticsearch-extensions), [elasticsearch-xpack](https://rubygems.org/gems/elasticsearch-xpack), [elastic-app-search](https://rubygems.org/gems/elastic-app-search), [elastic-enterprise-search](https://rubygems.org/gems/elastic-enterprise-search), [elastic-workplace-search](https://rubygems.org/gems/elastic-workplace-search). Blogs at [Picando Código](https://picandocodigo.net). Plays Nintendo. Listens to Punk Rock. Reads books. Drinks beer._
 
 
 
@@ -32,8 +32,10 @@ client = Elasticsearch::Transport::Client.new(
 
 client.perform_request('get', 'posts/42').body
 
-  => {"userId"=>5, "id"=>42, "title"=>"commodi ullam sint et excepturi error explicabo praesentium voluptas", "body"=>"odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam su
-nt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut"}
+#=> {"userId"=>5, "id"=>42, "title"=>"commodi ullam sint et excepturi error explicabo praesentium voluptas",
+#  "body"=>"odio fugit voluptatum ducimus earum autem est incidunt voluptatem\n
+#           odit reiciendis aliquam sunt sequi nulla dolorem\n
+#           non facere repellendus voluptates quia\nratione harum vitae ut"}
 ```
 
 The Enterprise Search client was built with the HTTP layer from the Elasticsearch client and the APIs from each service in Enterprise Search. The code for each of the APIs is generated from an OpenAPI JSON Spec which we've worked on together with the Enterprise Search, Workplace Search and App Search teams. So when the API for any of these changes in a new version, we just need to update the Open API spec and regenerate the code.
