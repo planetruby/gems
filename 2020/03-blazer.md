@@ -2,7 +2,7 @@
 
 Written by {% avatar marckohlbrugge %} [Marc Köhlbrugge](https://github.com/marckohlbrugge)
 
-_Maker of [Work-In-Progress (WIP)](https://wip.co/products/wip) - a community of makers shipping - and of [Startup Jobs](https://startup.jobs), [Beta List](https://betalist.com), [Faces](https://getfaces.com), [among others](https://wip.co/@marc/products)._
+_Maker of [WIP](https://wip.co) - a community of makers shipping - and of [Startup Jobs](https://startup.jobs), [BetaList](https://betalist.com), [Faces](https://getfaces.com), [among others](https://wip.co/@marc/products)._
 
 
 
