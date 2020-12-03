@@ -1,6 +1,11 @@
-# Day 03 - blazer gem - explore your data with SQL
+# Day 3 - blazer Gem - Explore Your Data with SQL. Easily Create Charts and Dashboard. Business Intelligence (BI) Made Simple
 
-Written by [Marc Köhlbrugge](https://twitter.com/marckohlbrugge) from [WIP](https://wip.co/) {% avatar marckohlbrugge %}
+Written by {% avatar marckohlbrugge %} [Marc Köhlbrugge](https://github.com/marckohlbrugge)
+
+_Maker of [Work-In-Progress (WIP)](https://wip.co/products/wip) - a community of makers shipping - and of [Startup Jobs](https://startup.jobs), [Beta List](https://betalist.com), [Faces](https://getfaces.com), [among others](https://wip.co/@marc/products)._
+
+
+
 
 ## Build better products
 
@@ -12,7 +17,7 @@ Enter `blazer`.
 
 Blazer makes it super easy to build a business intelligence dashboard by writing simple SQL queries. It even generates beautiful charts so you can actually understand your data at a glance.
 
-![Signups per Month](blazer.png)
+![Signups per Month](i/blazer.png)
 
 ## Get notified when something goes wrong
 
