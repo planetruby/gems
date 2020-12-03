@@ -27,7 +27,6 @@ This gem has been around since 2009 and yet has seen only 38 different versions 
 
 
 
-
 ```ruby
 # file.rb
 
@@ -35,8 +34,6 @@ require "uri"
 
 URI("https://www.rfc-editor.org/rfc/rfc3986.txt")
 ```
-
-**Note:** While this gem is old (released in 209) and infrequently updated, don't be scared off thinking that this project is abandoned -- it's simply "done" and works great.
 
 ## Find Out More
 
