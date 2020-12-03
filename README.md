@@ -44,7 +44,7 @@ from December 1st to December 25th.
 More upcoming write-ups in the Advent Calendar 2020:
 
 - **:gift::gift::gift:** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
-- **:gift::gift::gift:** by {% avatar MikeRogers0 size=20 %} [MikeRogers0](https://github.com/MikeRogers0)
+- **:gift::gift::gift:** by {% avatar MikeRogers0 size=20 %} [Mike Rogers](https://github.com/MikeRogers0)
 
 
 
