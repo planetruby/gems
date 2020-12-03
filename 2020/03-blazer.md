@@ -1,4 +1,4 @@
-# Day 3 - blazer Gem - Explore Your Data with SQL. Easily Create Charts and Dashboard. Business Intelligence (BI) Made Simple
+# Day 3 - blazer Gem - Explore Your Data with SQL. Easily Create Charts and Dashboards. Business Intelligence (BI) Made Simple
 
 Written by {% avatar marckohlbrugge %} [Marc Köhlbrugge](https://github.com/marckohlbrugge)
 
