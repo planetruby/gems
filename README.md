@@ -47,6 +47,35 @@ More upcoming write-ups in the Advent Calendar 2020:
 - **:gift::gift::gift:** by {% avatar MikeRogers0 size=20 %} [MikeRogers0](https://github.com/MikeRogers0)
 
 
+
+
+
+## Upcoming in 2021
+
+### Ruby Blockchain Week - 7 Days of Ruby (Crypto) Gems - January 3rd to January 9th
+
+Welcome. The Ruby Blockchain Week 2021 presents
+a new Ruby (crypto) library every day from January 3rd to January 9th.
+Have your say! Claim a free day!
+
+Let's celebrate the 11th birthday of the world's first genesis block  -
+that is, the first block of a blockchain (on January 3rd, 2009) with a week long
+celebration of crypto gems from the Ruby universe.
+
+Do you have a (crypto) Ruby gem that you'd like to write about?
+We love your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get the conversation started and your article posted in the Blockchain Week series on Planet Ruby.
+
+- **Day 1 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+
+
+
+
 ## Archive
 
 ### Ruby Gem of the Week Series
@@ -57,8 +86,9 @@ Have your say!
 
 <!--
 Do you have a Ruby gem that you'd like to write about?
-We love guest posts. Send in a pull request or
-[open an issue ticket](https://github.com/planetruby/gems/issues)
+We love your posts.
+[Open an issue ticket](https://github.com/planetruby/gems/issues)
+or send in a pull request
 to get the conversation started and your article posted on Planet Ruby.
 -->
 
