@@ -75,6 +75,30 @@ We love your posts.  [Open an issue ticket](https://github.com/planetruby/gems/i
 
 
 
+### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
+
+Welcome. The Ruby Open Data Week 2021 presents
+a new Ruby (open data) library every day from March 6th to March 12th.
+Have your say! Claim a free day!
+
+Let's join in and celebrate the (international)
+[Open Data Day 2021](https://opendataday.org/)
+with a week long
+celebration of open data gems from the Ruby universe.
+
+Do you have an open data Ruby gem that you'd like to write about?
+We love your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get the conversation started and your article posted in the Open Data Week series on Planet Ruby.
+
+- **Day 1 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+
+
+
 
 
 ## Archive
