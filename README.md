@@ -39,7 +39,7 @@ from December 1st to December 25th.
 - **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
 
 
-## Backups (or Sunday Double Posts)
+### Backups (or Sunday Double Posts)
 
 More upcoming write-ups in the Advent Calendar 2020:
 
@@ -72,6 +72,7 @@ We love your posts.  [Open an issue ticket](https://github.com/planetruby/gems/i
 - **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+
 
 
 
