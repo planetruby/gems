@@ -1,11 +1,11 @@
 # Day 16 - `bridgetown` gem - Ruby-powered static site generation in 2020
 
-Written by [Jared White](https://twitter.com/jaredcwhite) from [Whitefusion](https://whitefusion.io/)  {% avatar jaredcwhite %}
+Written by [Pascal Wengerter](https://twitter.com/pascalwengerter)  {% avatar pascalwengerter %}
 
 
 ## The motivation: Keeping Ruby competitive in the JAMstack field
 
-When he figured that Jekyll, arguably the most popular and well-known static site generators in the Ruby community, continues to focus on maintaining extensive backwards-compatibility and will therefore not deliver the modern developer experience around static site generation that would be necessary to keep up with the contenders from other languages (Hugo in Golang, Next.js and Gatsby in JavaScript), Jared set out to provide the world with a competitive open source technology.
+When he figured that Jekyll, arguably the most popular and well-known static site generators in the Ruby community, continues to focus on maintaining extensive backwards-compatibility and will therefore not deliver the modern developer experience around static site generation that would be necessary to keep up with the contenders from other languages (Hugo in Golang, Next.js and Gatsby in JavaScript), [Jared White](https://twitter.com/jaredcwhite) from [Whitefusion](https://whitefusion.io/) set out to provide the world with a competitive open source technology.
 
 Putting his company's experience in deploying numerous Jekyll-based websites and modern best-practices around web development to use, he created a Webpack-aware, Ruby-powered static site generator to allow for top-tier Ruby-based static site generation.
 
