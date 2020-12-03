@@ -52,7 +52,7 @@ More upcoming write-ups in the Advent Calendar 2020:
 
 ## Upcoming in 2021
 
-### Ruby Blockchain Week - 7 Days of Ruby (Crypto) Gems - January 3rd to January 9th
+### Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems
 
 Welcome. The Ruby Blockchain Week 2021 presents
 a new Ruby (crypto) library every day from January 3rd to January 9th.
