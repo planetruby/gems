@@ -2,15 +2,12 @@
 
 Written by {% avatar soulcutter %} [Bradley Schaefer](http://soulcutter.com/) 
 
-_Engineering Manager at [Stitch Fix](https://stitchfix.com), a dad, a son, a brother, Team Oxford Comma, and a long-time Ruby programmer._
+_Engineering Manager at [Stitch Fix](https://stitchfix.com), a dad, a son, a brother, a long-time Ruby programmer, and Team Oxford Comma._
 
-https://github.com/sporkmonger/addressable
 
 ## What is Addressable?
 
 Addressable is an implementation of URIs, including a parser, an object representing a URI, and URI Templates ([RFC 6570](https://www.rfc-editor.org/rfc/rfc6570.txt)). This gem has quietly become the [25th most-downloaded ruby gem](https://rubygems.org/stats?page=3) as-of the writing of this article, with over 283 million downloads. Nevertheless many experienced Rubyists aren't familiar with this library - it's a true hidden gem.
-
- because Ruby *itself* comes with a [different URI implementation in the standard library](https://ruby-doc.org/stdlib-2.7.2/libdoc/uri/rdoc/URI.html).
 
 ### How is it so popular without people knowing about it?
   
@@ -26,9 +23,7 @@ Avoiding dependencies has many virtues, however I will enumerate reasons that ma
 
 ### It's Stable & Reliable
 
-This gem has been around since 2009 and yet has seen only 38 different versions released to date. Don't get scared away by the glacial pace of its development; the reason it isn't more-active is because it has a small, clear, and precise scope. There's no strong pressure for the library to change, it is a 'complete' project. Given how many popular gems depend on `addressable`, its high stability should be valued as something that has a low risk of breaking all the code that uses it. 
-
-
+This gem has been around since 2009 and yet has seen only 38 different versions released to date. Don't get scared away by the glacial pace of its development; the reason it isn't more-active is because it has a small, clear, and precise scope. There's no strong pressure for the library to change, it is a 'complete' project. Given how many popular gems depend on `addressable`, its high stability should be valued as something that has a low risk of breaking any code that uses it. 
 
 
 
