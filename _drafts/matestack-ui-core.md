@@ -1,8 +1,11 @@
 # Day 12 - `matestack-ui-core` gem - alternative view layer for RubyOnRails
 
-Written by [Jonas Jabari](https://twitter.com/jonasjabari) from [Matestack GmbH](https://matestack.io/)  {% avatar jonasjabari %}
+Written by [Pascal Wengerter](https://twitter.com/pascalwengerter)  {% avatar pascalwengerter %}
+
 
 ## The idea: Writing web views in pure Ruby
+
+Deeply in love with programming in Ruby and frustrated with the overly complex state of fullstack web development, [Jonas Jabari](https://twitter.com/jonasjabari) started experimenting in late 2017 and ended up creating a prototype that eventually grew into `matestack-ui-core` and subsequent libraries.
 
 Instead of rendering `.erb`-views or introducing a separate SPA-framework to handle the frontend, `matestack-ui-core` introduces
 - a new way of layouting your frontend based on the concepts of `apps`, `pages` and `components`
