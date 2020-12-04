@@ -14,10 +14,12 @@ from December 1st to December 25th.
 
 - [**Day 1 - local_time**](2020/01-local-time.md)  by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson) <br>
   Cache-Friendly and Timezone Aware Timestamp Formatting
-- [**Day 2 - elastic-enterprise-search**](2020/02-elastic-enterprise-search.md) by {% avatar picandocodigo size=20 %} [Fernando Briano] <br> 
-  Workplace Search, App Search, and Site Search All Together (https://github.com/picandocodigo)
-- [**Day 3 - blazer**](2020/03-blazer.md) - Explore Your Data with SQL. Easily Create Charts and Dashboards. Business Intelligence (BI) Made Simple. Written by {% avatar marckohlbrugge size=20 %} [Marc Köhlbrugge](https://github.com/marckohlbrugge)
-- [**Day 4 - noticed**](2020/04-noticed.md) - Send Notifications Immediately or for Later Delivery (in the Background) via Email, Slack, Text Message, Real-Time ActionCable in the Navbar or Many More Channels. Written by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3)
+- [**Day 2 - elastic-enterprise-search**](2020/02-elastic-enterprise-search.md) by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo) <br> 
+  Workplace Search, App Search, and Site Search All Together
+- [**Day 3 - blazer**](2020/03-blazer.md)  by {% avatar marckohlbrugge size=20 %} [Marc Köhlbrugge](https://github.com/marckohlbrugge) <br>
+  Explore Your Data with SQL. Easily Create Charts and Dashboards. Business Intelligence (BI) Made Simple
+- [**Day 4 - noticed**](2020/04-noticed.md) by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3) <br>
+  Send Notifications Immediately or for Later Delivery (in the Background) via Email, Slack, Text Message, Real-Time ActionCable in the Navbar or Many More Channels
 - **Day 5 - :gift::gift::gift:**    by {% avatar jasonswett size=20 %} [Jason Swett](https://github.com/jasonswett)
 - **Day 6 - :gift::gift::gift:**    by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3)
 - **Day 7 - :gift::gift::gift:**    by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
