@@ -1,6 +1,10 @@
-# Day 05 - factory_bot gem - a library for setting up Ruby objects as test data
+# Day 5 - factory_bot Gem - "Hey, Make Me a User with an Email and Password" - Setup Factories That Make You Fake Objects with Fake Data for Testing
 
-Written by [Jason Swett](https://twitter.com/JasonSwett) from [Rails with Jason](https://www.codewithjason.com/rails-with-jason-podcast/) {% avatar JasonSwett %}
+Written by {% avatar JasonSwett %} [Jason Swett](https://github.com/jasonswett)
+
+_Blogs about [Ruby on Rails Testing](https://www.codewithjason.com/), speaks at international conferences and hosts the [Rails with Jason Podcast](https://www.codewithjason.com/rails-with-jason-podcast/)._
+
+
 
 ## Creating test data without headaches
 
@@ -118,6 +122,6 @@ end
 
 ### References
 
-- home :: [thoughtbot/factory_bot](https://github.com/thoughtbot/factory_bot)
-- gem :: [https://rubygems.org/gems/factory_bot](https://rubygems.org/gems/factory_bot)
+- home :: [github.com/thoughtbot/factory_bot](https://github.com/thoughtbot/factory_bot)
+- gem :: [rubygems.org/gems/factory_bot](https://rubygems.org/gems/factory_bot)
 - article :: [Rails testing "hello world"](https://www.codewithjason.com/rails-testing-hello-world-using-rspec-capybara/)
