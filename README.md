@@ -20,7 +20,7 @@ from December 1st to December 25th.
   Explore Your Data with SQL. Easily Create Charts and Dashboards. Business Intelligence (BI) Made Simple
 - [**Day 4 - noticed**](2020/04-noticed.md) by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3) <br>
   Send Notifications Immediately or for Later Delivery (in the Background) via Email, Slack, Text Message, Real-Time ActionCable in the Navbar or Many More Channels
-- [**Day 5 - factory_bot**](2020/05-factory-bot) by {% avatar jasonswett size=20 %} [Jason Swett](https://github.com/jasonswett) <br>
+- [**Day 5 - factory_bot**](2020/05-factory-bot.md) by {% avatar jasonswett size=20 %} [Jason Swett](https://github.com/jasonswett) <br>
   "Hey, Make Me a User with an Email and Password" - Setup Factories That Make You Fake Objects with Fake Data for Testing
 - **Day 6 - :gift::gift::gift:**    by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3)
 - **Day 7 - :gift::gift::gift:**    by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
