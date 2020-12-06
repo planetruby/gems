@@ -1,7 +1,8 @@
 ---
 ---
 
-@import "{{ site.theme }}"
+// @import "{{ site.theme }}"
+@import "jekyll-theme-primer";
 
 ///////////////////////////
 //  custom CSS (or Sass, including imports)  go here; see https://github.com/pages-themes/primer#stylesheet
@@ -10,7 +11,7 @@
 // github avatar added w avatar plugin - try adding round corners - why? why not?
 
 // quick hack - img.avatar {  - try w/o img
-.avatar {
+img.avatar {
   border-radius: 3px;
   border: 0;
 }
