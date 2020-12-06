@@ -15,13 +15,13 @@ Also:
     interface.
 
 Some caveats about rates:
-  * It has support only for the currencies that eu_central_bank gem supports. It
-    was a tradeoff.
-  * It uses EU central bank rates, and those are updated not in real time. It's
-    a tradeoff I made, because I find it's good enough for casual conversations
-    about prices.
-  * It updates rates every 24 hours, but EU central bank may not update them as
-    often, so sometimes rates go unchanged for a couple of days.
+  * It has support only for the currencies that [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem supports. It
+    was a tradeoff favouring development speed and maintenance.
+  * EU central bank rates are updated not in real time. I find it's good enough
+    for casual conversations about prices.
+  * Lumione updates rates every 24 hours (if you run it), but EU central bank
+    may not update them as often, so sometimes rates go unchanged for a couple
+    of days.
 
 ## How to use it
 
@@ -43,19 +43,21 @@ Many people suggest reimplementing things, rather than adding dependencies, but
 I don't believe in that. I'd rather save time and use somebody else's code. Of
 course, dependencies should be chosen carefully.
 
-To use `#distance_of_time_in_words`, I had to:
+To use `#distance_of_time_in_words` outside Rails is easy:
 ```
 require "active_support/core_ext/numeric/time"
-require 'action_view'
-```
+require "action_view"
 
-Include the helper in the class I wanted to use it in:
-```
-class Bank
+class Foo
   include ActionView::Helpers::DateHelper
-```
 
-And that's it!
+  def foo
+    distance_of_time_in_words 3.minutes
+  end
+end
+
+puts Foo.new.foo
+```
 
 ## To speed up development, I used optparse-plus gem
 
@@ -89,3 +91,10 @@ All automatic! And it'll tell user if an arument is missing.
 
 And, [optparse-plus](https://github.com/davetron5000/optparse-plus) generates
 `./bin/lumione` and `./lib`, and a gemspec, so it's really worth using it.
+
+## References
+
+[Lumione](https://github.com/ledestin/lumione)
+[optparse-plus](https://github.com/davetron5000/optparse-plus)
+[Money gem](https://github.com/RubyMoney/money)
+[eu_central_bank](https://github.com/RubyMoney/eu_central_bank)
