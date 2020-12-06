@@ -9,7 +9,8 @@
 
 // github avatar added w avatar plugin - try adding round corners - why? why not?
 
-img.avatar {
+// quick hack - img.avatar {  - try w/o img
+.avatar {
   border-radius: 3px;
   border: 0;
 }
