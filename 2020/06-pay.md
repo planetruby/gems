@@ -1,10 +1,15 @@
-# Day 6 - Pay - Payments for Ruby on Rails
+# Day 6 - pay Gem - Accept (One-Time) Payments or Subscriptions with Strong Customer Authentication (SCA) - Billing Engine on Top of Stripe, Braintre or Paddle
 
-Written by [Chris Oliver](https://twitter.com/excid3) from [GoRails](https://gorails.com/) {% avatar excid3 %}
+
+Written by {% avatar excid3 %} [Chris Oliver](https://github.com/excid3)
+
+_Do things that scare you. Building [GoRails](http://GoRails.com), [Jumpstart](http://JumpstartRails.com), [Hatchbox](http://Hatchbox.io), [RailsBytes](http://RailsBytes.com), [Remote Ruby Podcast](https://remoteruby.transistor.fm/)._
+
+
 
 ## Accepting Payments in Rails
 
-Adding subscriptions and one-time purchases to your Rails app can be a bit tricky, especially with Strong Customer Authentication. If you aren't familiar, SCA is a European regularly requirement to reduce fraud and make online payments more secure. For more details, I highly recommend reading the [Stripe guide on Strong Customer Authentication](https://stripe.com/guides/strong-customer-authentication).
+Adding subscriptions and one-time purchases to your Rails app can be a bit tricky, especially with Strong Customer Authentication (SCA). If you aren't familiar, SCA is a European regularly requirement to reduce fraud and make online payments more secure. For more details, I highly recommend reading the [Stripe guide on Strong Customer Authentication](https://stripe.com/guides/strong-customer-authentication).
 
 For example, Braintree doesn't allow you to swap subscriptions between monthly and yearly plans. You actually have to cancel the subscription, calculate your proration amount and create a new subscription with the proration discount.
 
@@ -60,7 +65,8 @@ Pay comes with all the required webhooks out of the box so you don't have to con
 
 Pay also supports SCA out of the box. If a payment requires authentication, Pay will raise an `Pay::ActionRequired` error that you can capture and send the user to confirm their payment. Banks may require you to authenticate the payment, so we make that workflow nice and easy for you with a pre-built confirmation page.
 
-![SCA](https://camo.githubusercontent.com/6b5af1b8d46b4e3259df7dcc6a2b96e9aa4bfba950bba30ae43225c5fddf58d0/68747470733a2f2f64316a667a6a783638676a3878732e636c6f756466726f6e742e6e65742f6974656d732f3273335a304a335a3362314a3176324b324f31612f53637265656e25323053686f74253230323031392d31302d3130253230617425323031322e35362e3332253230504d2e706e673f582d436c6f75644170702d56697369746f722d49643d3531343730)
+![](i/pay.png)
+
 
 ## Find Out More
 
