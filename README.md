@@ -29,7 +29,7 @@ from December 1st to December 25th.
 - **Day 10 - :gift::gift::gift:**    by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
 - **Day 11 - :gift::gift::gift:**    by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)
 - **Day 12 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
-- **Day 13 - :gift::gift::gift:**    by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
+- [**Day 13 - lumione**](2020/13-lumione.md) by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
 - **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)
 - **Day 15 - :gift::gift::gift:**    by {% avatar adrianthedev size=20 %} [Adrian Marin](https://github.com/adrianthedev)
 - **Day 16 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
@@ -140,5 +140,3 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 16 - tilt**](week/16-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
 - [**Week 17 - datapak**](week/17-datapak.md) - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
 - [**Week 18 - hexapdf**](week/18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by {% avatar gettalong size=20 %} [Thomas Leitner](https://rubygems.org/profiles/gettalong)
-
-
