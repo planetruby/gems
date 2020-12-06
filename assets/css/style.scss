@@ -1,7 +1,7 @@
 ---
 ---
 
-// @import "{{ site.theme }}"
+// @import "{{ site.theme }}"  - note: was NOT working; try "hard-coding" site theme
 @import "jekyll-theme-primer";
 
 ///////////////////////////
@@ -9,8 +9,6 @@
 
 
 // github avatar added w avatar plugin - try adding round corners - why? why not?
-
-// quick hack - img.avatar {  - try w/o img
 img.avatar {
   border-radius: 3px;
   border: 0;
