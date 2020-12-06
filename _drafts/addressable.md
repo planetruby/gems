@@ -25,19 +25,95 @@ Avoiding dependencies has many virtues, however I will enumerate reasons that ma
 
 This gem has been around since 2009 and yet has seen only 38 different versions released to date. Don't get scared away by the glacial pace of its development; the reason it isn't more-active is because it has a small, clear, and precise scope. There's no strong pressure for the library to change, it is a 'complete' project. Given how many popular gems depend on `addressable`, its high stability should be valued as something that has a low risk of breaking any code that uses it. 
 
+### Better Ergonomics for Creating URIs
 
+### URI instantiation wrinkles
 
 ```ruby
-# file.rb
+# uri_tests.rb
 
-require "uri"
+require "uri" # standard library
+require "addressable/uri"
 
-URI("https://www.rfc-editor.org/rfc/rfc3986.txt")
+standard_uri = URI.parse("https://www.rfc-editor.org/rfc/rfc3986.txt")
+# => #<URI::HTTPS https://www.rfc-editor.org/rfc/rfc3986.txt>
+
+addressable_uri = Addressable::URI.parse("https://www.rfc-editor.org/rfc/rfc3986.txt")
+# => #<Addressable::URI:0x1a4 URI:https://www.rfc-editor.org/rfc/rfc3986.txt>
 ```
+
+So far so good. There *are*, however, differences in behavior with these forms of instantiation.
+
+#### Conversion method vs Copy constructor
+
+Take this example:
+
+```ruby
+# uri_tests.rb 
+
+URI.parse(standard_uri)
+# URI::InvalidURIError: bad URI(is not URI?): #<URI::HTTPS https://www.rfc-editor.org/rfc/rfc3986.txt>
+#   from /Users/soulcutter/.asdf/installs/ruby/2.7.2/lib/ruby/2.7.0/uri/rfc3986_parser.rb:18:in `rescue in split'
+# Caused by NoMethodError: undefined method `to_str' for #<URI::HTTPS https://www.rfc-editor.org/rfc/rfc3986.txt>
+
+# You can, however, use the Kernel::URI(uri) conversion method
+standard_uri = URI("https://www.rfc-editor.org/rfc/rfc3986.txt") # => => #<URI::HTTPS https://www.rfc-editor.org/rfc/rfc3986.txt>
+standard_uri2 = URI(standard_uri) # => #<URI::HTTPS https://www.rfc-editor.org/rfc/rfc3986.txt>
+standard_uri2.equal?(standard_uri) # => true
+
+# With Addressable, the parse method acts as a copy constructor
+addressable_uri = Addressable::URI.parse("https://www.rfc-editor.org/rfc/rfc3986.txt")
+addressable_uri2 = Addressable::URI.parse(addressable_uri) # => #<Addressable::URI:0x654 URI:https://www.rfc-editor.org/rfc/rfc3986.txt>
+addressable_uri2.equal?(addressable_uri) # => false
+```
+
+There are tradeoffs with copying objects vs returning the same instance. Both `URI`s are *mutable* objects, meaning they have *state* that can be changed. When two variable names point to the same instance of an object, changing the state of an instance through one variable name also changes the same object pointed to by the other variable name. I have seen this cause many bugs over the years in places where this behavior was accidental. Copying the object into a variable via `Addressable::URI.parse(uri)` means that the original and the copy variables are not tied together, making the behavior of changing one variable more-predictable.
+
+Copying objects, on the other hand, results in more object allocation and more memory usage. I consider this performance difference as a pathological case, and would not expect it to be a concern in practice.
+
+#### Standard Library polymorphism
+
+The standard library URIs are implemented with different classes and `URI(uri)` returns types determined by the URI *scheme* (https, ftp, etc.). Addressable only offers a single `Addressable::URI` class, and `.parse` will always return the same type of object. This presents trade-offs: *scheme*-specific methods decorating a `URI` may be useful, but using them could introduce runtime errors when an unexpected type is parsed by `URI.parse(uri)`. It also can result in some nonsense when you change the *scheme* and the object remains a type representing a different *scheme*. Take this example:
+```ruby
+standard_uri = URI("https://www.rfc-editor.org/rfc/rfc3986.txt") # => => #<URI::HTTPS https://www.rfc-editor.org/rfc/rfc3986.txt>
+standard_uri.scheme = "ftp"
+standard_uri # => #<URI::HTTPS ftp://www.rfc-editor.org/rfc/rfc3986.txt>
+standard_uri.typecode
+# NoMethodError: undefined method `typecode' for #<URI::HTTPS ftp://www.rfc-editor.org/rfc/rfc3986.txt>
+
+URI(standard_uri.to_s) # => #<URI::FTP ftp://www.rfc-editor.org/rfc/rfc3986.txt>
+URI(standard_uri.to_s).typecode # => nil
+
+standard_scheme_typo_uri = URI("htps://www.rfc-editor.org/rfc/rfc3986.txt") # => #<URI::Generic htps://www.rfc-editor.org/rfc/rfc3986.txt>
+standard_scheme_typo_uri.request_uri
+# NoMethodError: undefined method `request_uri' for #<URI::Generic htps://www.rfc-editor.org/rfc/rfc3986.txt>
+```
+
+This sort of runtime error is not possible in `Addressable` since there is a single, predictable type of object to expect from the `parse` method.
+
+```ruby
+# uri_tests.rb
+
+standard_uri2 = URI(standard_uri)
+standard_uri2.scheme = "ftp"
+standard_uri # => #<URI::HTTPS ftp://www.rfc-editor.org/rfc/rfc3986.txt>
+
+addressable_uri2 = Addressable::URI.parse(addressable_uri)
+addressable_uri2.scheme = "ftp"
+addressable_uri # => #<Addressable::URI:0x424 URI:https://www.rfc-editor.org/rfc/rfc3986.txt>
+
+
+# => #<URI::HTTPS https://www.rfc-editor.org/rfc/rfc3986.txt>
+```
+
+### URI Templates
+
+This is the true power feature of the `Addressable` gem. * I bury the lede, this was the order I wrote it in.. may consider editing this upwards in the article 
+
 
 ## Find Out More
 
 ### References
 
-* home  :: [github.com/basecamp/local_time](https://github.com/sporkmonger/addressable)
-* gem   :: [rubygems.org/gems/local_time](https://rubygems.org/gems/addressable)
+* home  :: [github.com/sporkmonger/addressable](https://github.com/sporkmonger/addressable)
+* gem   :: [rubygems.org/gems/addressable](https://rubygems.org/gems/addressable)
