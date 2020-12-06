@@ -1,4 +1,4 @@
-# Day 6 - pay Gem - Accept (One-Time) Payments or Subscriptions with Strong Customer Authentication (SCA) - Billing Engine on Top of Stripe, Braintre or Paddle
+# Day 6 - pay Gem - Accept (One-Time) Payments or Subscriptions with Strong Customer Authentication (SCA) - Billing Engine on Top of Stripe, Braintree or Paddle
 
 
 Written by {% avatar excid3 %} [Chris Oliver](https://github.com/excid3)
