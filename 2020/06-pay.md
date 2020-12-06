@@ -19,7 +19,8 @@ Pay makes this simpler by standardizing (as best as we can) subscriptions and on
 * Braintree / PayPal
 * Paddle
 
-One place this comes in handy is if you want to primarily use Stripe but still want PayPal, you can use both with very little code changes. 👍
+One place this comes in handy is if you want to primarily use Stripe but still want PayPal, you can use both with very little code changes. :thumbsup:
+
 
 ## Adding Pay to your app
 
