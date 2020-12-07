@@ -1,6 +1,11 @@
-# Day 07 - letter_opener gem - preview emails in the browser (instead of sending it)
+# Day 7 - letter_opener Gem - Let Your Browser (Automagically) Open-Up Your Email Letters for Previewing. Stop Sending Emails to Yourself for Testing
 
-Written by [Matt Swanson](https://twitter.com/_swanson) from [Boring Rails](https://boringrails.com/) {% avatar swanson %}
+
+Written by {% avatar swanson %} [Matt Swanson](https://github.com/swanson)
+
+_Contrarian-in-training. Building products. Karl Pilkington is my spirit animal. Hacking on [Boring Rails](https://boringrails.com/) and [Slotback Labs](https://slotbacklabs.com/)._
+
+
 
 ## Have you ever sent yourself a test email?
 
@@ -27,7 +32,7 @@ config.action_mailer.delivery_method = :letter_opener
 config.action_mailer.perform_deliveries = true
 ```
 
-Restart your application server if it was running and voila! Now you can preview emails in the browser and never resort to sending test emails to your personal Gmail account :)
+Restart your application server if it was running and voila! Now you can preview emails in the browser and never resort to sending test emails to your personal account :).
 
 ## Find Out More
 

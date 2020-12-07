@@ -24,7 +24,8 @@ from December 1st to December 25th.
   "Hey, Make Me a User with an Email and Password" - Setup Factories That Make You Fake Objects with Fake Data for Testing
 - [**Day 6 - pay**](2020/06-pay.md)   by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3) <br>
   Accept (One-Time) Payments or Subscriptions with Strong Customer Authentication (SCA) - Billing Engine on Top of Stripe, Braintree or Paddle
-- **Day 7 - :gift::gift::gift:**    by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
+- [**Day 7 - letter_opener**](2020/07-letter-opener.md)  by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson) <br>
+  Let Your Browser (Automagically) Open-Up Your Email Letters for Previewing. Stop Sending Emails to Yourself for Testing
 - **Day 8 - :gift::gift::gift:**    by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3)
 - **Day 9 - :gift::gift::gift:**     by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
 - **Day 10 - :gift::gift::gift:**    by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
