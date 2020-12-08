@@ -27,7 +27,7 @@ from December 1st to December 25th.
 - [**Day 7 - letter_opener**](2020/07-letter-opener.md)  by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson) <br>
   Let Your Browser (Automagically) Open-Up Your Email Letters for Previewing. Stop Sending Emails to Yourself for Testing
 - [**Day 8 - acts_as_tenant**](2020/08-acts-as-tenant.md)   by {% avatar excid3 size=20 %} [Chris Oliver](https://github.com/excid3) <br>
-  Together but Apart. House Many Tenants in One Database. Multitenancy with Table Row-Level Database Security
+  Together but Apart. House Many Tenants in One (Shared) Database. Multitenancy with Table Row-Level Database Security
 - **Day 9 - :gift::gift::gift:**     by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo)
 - **Day 10 - :gift::gift::gift:**    by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
 - **Day 11 - :gift::gift::gift:**    by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)
