@@ -1,4 +1,4 @@
-# Day 8 - acts_as_tenant Gem - Together but Apart. House Many Tenants in One Database. Multitenancy with Table Row-Level Database Security
+# Day 8 - acts_as_tenant Gem - Together but Apart. House Many Tenants in One (Shared) Database. Multitenancy with Table Row-Level Database Security
 
 
 Written by {% avatar excid3 %} [Chris Oliver](https://github.com/excid3)
