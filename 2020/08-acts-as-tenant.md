@@ -1,19 +1,25 @@
-# Day 8 - ActsAsTenant - Row-level multitenancy for Rails
+# Day 8 - acts_as_tenant Gem - Together but Apart. House Many Tenants in One Database. Multitenancy with Table Row-Level Database Security
 
-Written by [Chris Oliver](https://twitter.com/excid3) from [GoRails](https://gorails.com/) {% avatar excid3 %}
+
+Written by {% avatar excid3 %} [Chris Oliver](https://github.com/excid3)
+
+_Do things that scare you. Building [GoRails](http://GoRails.com), [Jumpstart](http://JumpstartRails.com), [Hatchbox](http://Hatchbox.io), [RailsBytes](http://RailsBytes.com), [Remote Ruby Podcast](https://remoteruby.transistor.fm/)._
+
+
 
 ## Multitenancy made easy with ActsAsTenant
 
 `multitenancy` is a term used to describe a single software application that handles user (tenant) data separately.
 
->The term "software multitenancy" refers to a software architecture in which a single instance of software runs on a server and serves multiple tenants. Systems designed in such manner are often called shared. A tenant is a group of users who share a common access with specific privileges to the software instance.
->[Wikipedia](https://en.wikipedia.org/wiki/Multitenancy)
+> The term "software multitenancy" refers to a software architecture in which a single instance of software runs on a server and serves multiple tenants. Systems designed in such manner are often called shared. A tenant is a group of users who share a common access with specific privileges to the software instance.
+>
+> -- [Wikipedia](https://en.wikipedia.org/wiki/Multitenancy)
 
 ActsAsTenant implements row-level multitenancy for Rails. It's a popular, well loved gem that takes advantage of several features in Rails to make multitenancy easy to use.
 
 ## What are the different multitenant strategies?
 
-Row-level multitenancy is when you add a tenant_id column to all the models that should be scoped to a tenant. When you query or insert new records, a tenant_id is always required to separate the data between tenants.
+Row-level multitenancy is when you add a `tenant_id` column to all the models that should be scoped to a tenant. When you query or insert new records, a `tenant_id` is always required to separate the data between tenants.
 
 Another approach is using database schemas for multitenancy. Postgres databases have schemas with tables inside them. Each tenant gets its own schema with their own unique tables. This is great for separating out data but makes it complicated to run migrations and scale up as you have more tenants.
 
@@ -25,12 +31,12 @@ After you install ActsAsTenant, you'll need to do two things:
 
 You might already have a tenant model already like Account, Team, Organization, User, etc. You'll simply need to add an association to each of your models that you want scoped by ActsAsTenant.
 
-```ruby
+```shell
 rails g scaffold Account name subdomain domain
 rails g scaffold Project account_id:integer name description:text
 ```
 
-Once created, you can edit your models to use acts_as_tenant.
+Once created, you can edit your models to use `acts_as_tenant`.
 
 ```ruby
 class Project
