@@ -135,7 +135,7 @@ And, [optparse-plus](https://github.com/davetron5000/optparse-plus) generates
 
 ## References
 
-* [Lumione](https://github.com/ledestin/lumione)
-* [optparse-plus](https://github.com/davetron5000/optparse-plus)
+* [Lumione gem](https://github.com/ledestin/lumione)
+* [optparse-plus gem](https://github.com/davetron5000/optparse-plus)
 * [Money gem](https://github.com/RubyMoney/money)
-* [eu_central_bank](https://github.com/RubyMoney/eu_central_bank)
+* [eu_central_bank gem](https://github.com/RubyMoney/eu_central_bank)
