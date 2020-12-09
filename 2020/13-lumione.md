@@ -63,13 +63,13 @@ puts @converted_money.format(with_currency: true)
 [lumione/initializer](https://github.com/ledestin/lumione/blob/master/lib/lumione/initializer.rb) sets up Money gem and `EuCentralBank` as `default_bank`.
 
 You can use `Money.from_amount 100, "jpy"` and `Money.from_amount 100, "usd"`,
-and it'll take care of it. And `#exchange_to` converts to the target currency.
+and it'll take care of the currency differences. And `#exchange_to` converts to
+the target currency.
 
-`#update_rates` loads exchange rates from internet, probably from EU Central
-bank website.
+`#update_rates` loads exchange rates from EU Central Bank website.
 
 However, caching rates [complicates things quite a
-bit](https://github.com/ledestin/lumione/blob/master/lib/lumione/bank.rb).
+bit](https://github.com/ledestin/lumione/blob/v0.1.0/lib/lumione/bank.rb#L54).
 
 ## To speed up development, I used a Rails ActionView helper
 
