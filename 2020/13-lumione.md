@@ -9,18 +9,20 @@ _Blogs at [RubyClarity](https://rubyclarity.com),
 
 It doesn't use an API. No API - no token setup needed and no limits on usage.
 Also:
-  * API changes won't break it.
+  * API changes won't break it. Rate handling is offloaded to
+    [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem, so I
+    only need to depend on a newer version if something changes.
   * **It actually works** and is likely to keep working without me working on
     it. I've seen my share of broken CLI currency calculators.
-  * It uses [Money gem](https://github.com/RubyMoney/money), and it's a stable
-    interface.
+  * It uses [Money gem](https://github.com/RubyMoney/money) to perform
+    conversions.
 
 Some caveats about rates:
   * It has support only for the currencies that [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem supports. It
     was a tradeoff favouring development speed and maintenance.
-  * EU central bank rates are updated not in real time. I find it's **good
+  * EU Central Bank rates are updated not in real time. I find it's **good
     enough for casual conversations** about prices.
-  * Lumione updates rates every 24 hours (if you run it), but EU central bank
+  * Lumione updates rates every 24 hours (if you run it), but EU Central Bank
     may not update them as often, so sometimes rates go unchanged for a couple
     of days.
 
@@ -43,7 +45,7 @@ consideration, while writing conversion code.
 
 Thankfully, Money gem takes care of that. With Money gem, currency conversion is very easy. The main issue is to have exchange rates available. I get rates via
 [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem.
-When used without caching,
+**When used without caching**,
 [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) is very easy to
 use:
 
