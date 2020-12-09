@@ -51,3 +51,5 @@ Hope you check out [`thegamesdb`](https://github.com/picandocodigo/gamesdb) for 
 
 - home :: [github.com/picandocodigo/gamesdb](https://github.com/picandocodigo/gamesdb)
 - gem :: [rubygems.org/gems/thegamesdb](https://rubygems.org/gems/thegamesdb)
+- docs :: [rubydoc.info/gems/thegamesdb](https://www.rubydoc.info/gems/thegamesdb/)
+
