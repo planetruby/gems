@@ -33,6 +33,44 @@ $13.00 NZD ($9.16 USD) (rates updated 3 days ago)
 
 Install with `gem install lumione`.
 
+## To speed up development, I used Money gem
+
+I could've used an API to get exchange rates, and then write code to convert
+between currencies. There are issues though, like Japanese yen being all
+"cents", with no concept similar to 100 cents == 1 dollar. Japanese yen are
+always "cents", be it 1000 yen or 10000 yen. I'd have to take that into
+consideration, while writing conversion code.
+
+Thankfully, Money gem takes care of that. With Money gem, currency conversion is very easy. The main issue is to have exchange rates available. I get rates via
+[eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem.
+When used without caching,
+[eu_central_bank](https://github.com/RubyMoney/eu_central_bank) is very easy to
+use:
+
+```
+require "lumione/initializer"
+
+def convert(amount, from_currency, to_currency)
+  @original_money = Money.from_amount(amount, from_currency)
+  @converted_money = @original_money.exchange_to(to_currency)
+end
+
+Money.default_bank.update_rates
+convert 1, "nzd", "usd"
+puts @converted_money.format(with_currency: true)
+```
+
+[lumione/initializer](https://github.com/ledestin/lumione/blob/master/lib/lumione/initializer.rb) sets up Money gem and `EuCentralBank` as `default_bank`.
+
+You can use `Money.from_amount 100, "jpy"` and `Money.from_amount 100, "usd"`,
+and it'll take care of it. And `#exchange_to` converts to the target currency.
+
+`#update_rates` loads exchange rates from internet, probably from EU Central
+bank website.
+
+However, caching rates [complicates things quite a
+bit](https://github.com/ledestin/lumione/blob/master/lib/lumione/bank.rb).
+
 ## To speed up development, I used a Rails ActionView helper
 
 I was after using
