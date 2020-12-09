@@ -45,9 +45,9 @@ consideration, while writing conversion code.
 
 Thankfully, Money gem takes care of that. With Money gem, currency conversion is very easy. The main issue is to have exchange rates available. I get rates via
 [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem.
-**When used without caching**,
+**When used without caching,
 [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) is very easy to
-use:
+use**:
 
 ```
 require "lumione/initializer"
