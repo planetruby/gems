@@ -10,15 +10,14 @@ _Blogs at [RubyClarity](https://rubyclarity.com),
 It doesn't use an API. No API - no token setup needed and no limits on usage.
 Also:
   * API changes won't break it. Rate handling is offloaded to
-    [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem, so I
+    eu_central_bank gem, so I
     only need to depend on a newer version if something changes.
   * **It actually works** and is likely to keep working without me working on
     it. I've seen my share of broken CLI currency calculators.
-  * It uses [Money gem](https://github.com/RubyMoney/money) to perform
-    conversions.
+  * It uses Money gem to perform conversions.
 
 Some caveats about rates:
-  * It has support only for the currencies that [eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem supports. It
+  * It has support only for the currencies that eu_central_bank gem supports. It
     was a tradeoff favouring development speed and maintenance.
   * EU Central Bank rates are updated not in real time. I find it's **good
     enough for casual conversations** about prices.
@@ -44,10 +43,8 @@ always "cents", be it 1000 yen or 10000 yen. I'd have to take that into
 consideration, while writing conversion code.
 
 Thankfully, Money gem takes care of that. With Money gem, currency conversion is very easy. The main issue is to have exchange rates available. I get rates via
-[eu_central_bank](https://github.com/RubyMoney/eu_central_bank) gem.
-**When used without caching,
-[eu_central_bank](https://github.com/RubyMoney/eu_central_bank) is very easy to
-use**:
+eu_central_bank gem.
+**When used without caching, eu_central_bank is very easy to use**:
 
 ```
 require "lumione/initializer"
@@ -103,7 +100,7 @@ puts Foo.new.foo
 ## To speed up development, I used optparse-plus gem
 
 Handling CLI arguments and options can be annoying and require effort, but not
-so with [optparse-plus](https://github.com/davetron5000/optparse-plus).
+so with optparse-plus.
 
 For example, CLI arguments are defined like this:
 ```
@@ -130,7 +127,7 @@ Options:
 
 All automatic! And it'll tell user if an arument is missing.
 
-And, [optparse-plus](https://github.com/davetron5000/optparse-plus) generates
+And, optparse-plus generates
 `./bin/lumione` and `./lib`, and a gemspec, so it's really worth using it.
 
 ## References
