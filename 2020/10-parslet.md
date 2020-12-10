@@ -1,4 +1,4 @@
-Day 10 - parslet Gem - Build Your Own Language Parsers (and Lexers) with Parser Expression Grammars (PEGs)
+# Day 10 - parslet Gem - Build Your Own Language Parsers (and Lexers) with Parser Expression Grammars (PEGs)
 
 
 Written by {% avatar rlgreen91 %} [Rachel Green](https://github.com/rlgreen91)
@@ -71,7 +71,7 @@ determine the rules of the text we want to parse and tell it how to handle input
 
 Let's update our `SPQRParser` class with the following code:
 
-```
+``` ruby
 class SPQRParser < Parslet::Parser
   rule(:open_tag)   { str("<!\[CDATA\[") }
   rule(:expression) { open_tag }
@@ -318,7 +318,8 @@ rule(:word) { (letters >> colon? >> space?).as(:word) }
 This will instruct the parser to recognize and assign any matches for `word` as `word`.  Now, the symbol you use in `.as(:symbol)` doesn't have to match the rule name, it just happens to this case.  But in general, we tell it to recognize a successful match of a rule to a name.  Let's run the program again and see what happens:
 
 ```
-[{:word=>"The "@9}, {:word=>"meaning "@13}, {:word=>"of "@21}, {:word=>"in "@45}, {:word=>"a "@48}, {:word=>"Fourier "@50}, {:word=>"series "@58}, {:word=>"is:"@65}]
+[{:word=>"The "@9}, {:word=>"meaning "@13}, {:word=>"of "@21}, {:word=>"in "@45},
+ {:word=>"a "@48}, {:word=>"Fourier "@50}, {:word=>"series "@58}, {:word=>"is:"@65}]
 ```
 
 Now, we get a tree structure that shows us the matching input marked as `word` and the corresponding column number of the beginning of the match.  In particular, each match is a hash, with `:word` as the key and the matching string and starting column number as the value.  The hash itself is referred to as a subtree, with the value or *accepted source* simply referred to as a string.  These hashes are elements in an array.  An array of hashes is used to indicate a collection of subtrees that occurs via reptition.  If we look back at our parser, we'll see that `word` is repeated in multiple places, so Parslet returns an array containing each applicable subtree for `:word`.
@@ -334,7 +335,9 @@ rule(:term) { (quote >> word.repeat(1) >> quote >> space?).as(:term) }
 Now, we re-run the program:
 
 ```
-[{:word=>"The "@9}, {:word=>"meaning "@13}, {:word=>"of "@21}, {:term=>[{:word=>"negative "@25}, {:word=>"frequency"@34}]}, {:word=>"in "@45}, {:word=>"a "@48}, {:word=>"Fourier "@50}, {:word=>"series "@58}, {:word=>"is:"@65}]
+[{:word=>"The "@9}, {:word=>"meaning "@13}, {:word=>"of "@21},
+ {:term=>[{:word=>"negative "@25}, {:word=>"frequency"@34}]}, {:word=>"in "@45},
+ {:word=>"a "@48}, {:word=>"Fourier "@50}, {:word=>"series "@58}, {:word=>"is:"@65}]
 ```
 
 There it is now.  Our tree now includes all of the words and terms.  A `:term` itself is a subtree, with `:term` as the key and the value an array of words.  In general, when you have a named rule, Parslet will create an output where:
@@ -353,7 +356,10 @@ rule(:quote) { (str("\"") || str("\'")).as(:quote) }
 Re-running the program we get:
 
 ```
-[{:word=>"The "@9}, {:word=>"meaning "@13}, {:word=>"of "@21}, {:term=>[{:quote=>"\""@24}, {:word=>"negative "@25}, {:word=>"frequency"@34}, {:quote=>"\""@43}]}, {:word=>"in "@45}, {:word=>"a "@48}, {:word=>"Fourier "@50}, {:word=>"series "@58}, {:word=>"is:"@65}]
+[{:word=>"The "@9}, {:word=>"meaning "@13}, {:word=>"of "@21},
+ {:term=>[{:quote=>"\""@24}, {:word=>"negative "@25}, {:word=>"frequency"@34},
+ {:quote=>"\""@43}]}, {:word=>"in "@45}, {:word=>"a "@48}, {:word=>"Fourier "@50},
+ {:word=>"series "@58}, {:word=>"is:"@65}]
 ```
 
 Now, our tree includes all of the words and terms, which themselves are broken down into quotation marks and words.  Given our input, we have parsed and captured all of the important data.
