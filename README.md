@@ -32,7 +32,7 @@ from December 1st to December 25th.
   Get Donkey Kong, Super Mario Bros., The Legend of Zelda 'n' More. API Client for TheGamesDB, an Open Database for Video Game Data
 - [**Day 10 - happy_gemfile**](2020/10-happy-gemfile.md)   by {% avatar MikeRogers0 size=20 %} [Mike Rogers](https://github.com/MikeRogers0) <br>
  Stop House Keeping Your Gemfile. (Auto-)Format Your Gems Sorted from A to Z and by Groups. (Auto-)Clean up the Clutter. Happy Gemfile Day!
-- [**(Bonus!) Day 10 - parslet**](2020/10-parslet.md)   by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91) <br>
+- **Bonus!** [**Day 10 - parslet**](2020/10-parslet.md)   by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91) <br>
   Build Your Own Language Parsers (and Lexers) with Parser Expression Grammars (PEGs)
 - **Day 11 - :gift::gift::gift:**    by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)
 - **Day 12 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
