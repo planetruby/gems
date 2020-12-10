@@ -59,6 +59,7 @@ group :development do
 end
 ```
 
+
 ## Are their any drawbacks?
 
 Bundler loads the gems in the order they're appear in the Gemfile, so if a gem requires another to be present without explicitly requiring it, it could cause problems. However, I think this is a problem of the past, as gems are much more well written today compare to 10 years ago.
