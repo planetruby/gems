@@ -11,7 +11,8 @@ Welcome to our exploration of building parsers in Ruby!  How do you do that, you
 
 [Parslet](http://kschiess.github.io/parslet/) is a gem that allows developers to create parsers for string inputs using parsing expression grammar, or PEG.  This is just the academic way of saying that we create [a set of rules for recognizing strings in a formal language](https://en.wikipedia.org/wiki/Parsing_expression_grammar).  Those rules use regular expressions to determine whether an input string behaves the way we expect, and provides us with an output object that we can later manipulate.
 
-In the rest of this article, we'll create a simple version of a parser using Parslet.  To keep things light, this tutorial will focus only on creating the parser based on a single question written in English using the SQPR format for mathematics text - a simple version of a parser I created during an internship many years ago.
+In the rest of this article, we'll create a simple version of a parser using Parslet.  To keep things light, this tutorial will focus only on creating the parser based on a single question written in English using the Student Questions for Purposeful Reading
+(SQPR) format for mathematics text - a simple version of a parser I created during an internship many years ago.
 
 Typically, using Parslet does rely heavily on a good foundation in regular expressions, or regex.  Since we're focused on the design aspect of the parser, I'll provide the necessary regexes along with a brief explanation of what each one does.  No prior knowledge of regex is required to follow along.
 
