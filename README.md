@@ -51,7 +51,7 @@ from December 1st to December 25th.
 - **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
 
 
-### More Gifts (or Sunday Double Posts)
+### More Gifts (or Bonus Posts)
 
 More upcoming write-ups in the Advent Calendar 2020:
 
