@@ -1,4 +1,4 @@
-# Day 10 - parslet Gem - Build Your Own Language Parsers (and Lexers) with Parser Expression Grammars (PEGs)
+# Day 10 - parslet Gem - Build Your Own Language Parsers (and Lexers) with Parsing Expression Grammars (PEGs)
 
 
 Written by {% avatar rlgreen91 %} [Rachel Green](https://github.com/rlgreen91)
