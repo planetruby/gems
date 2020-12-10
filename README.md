@@ -30,7 +30,8 @@ from December 1st to December 25th.
   Together but Apart. House Many Tenants in One (Shared) Database. Multitenancy with Table Row-Level Database Security
 - [**Day 9 - thegamesdb**](2020/09-thegamesdb.md)   by {% avatar picandocodigo size=20 %} [Fernando Briano](https://github.com/picandocodigo) <br>
   Get Donkey Kong, Super Mario Bros., The Legend of Zelda 'n' More. API Client for TheGamesDB, an Open Database for Video Game Data
-- **Day 10 - :gift::gift::gift:**    by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
+- [**Day 10 - happy_gemfile**](2020/10-happy-gemfile.md)   by {% avatar MikeRogers0 size=20 %} [Mike Rogers](https://github.com/MikeRogers0) <br>
+ Stop House Keeping Your Gemfile. (Auto-)Format Your Gems Sorted from A to Z and by Groups. (Auto-)Clean up the Clutter. Happy Gemfile Day!
 - **Day 11 - :gift::gift::gift:**    by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)
 - **Day 12 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
 - **Day 13 - :gift::gift::gift:**    by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
@@ -48,12 +49,12 @@ from December 1st to December 25th.
 - **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
 
 
-### Backups (or Sunday Double Posts)
+### More Gifts (or Sunday Double Posts)
 
 More upcoming write-ups in the Advent Calendar 2020:
 
+- **:gift::gift::gift:** by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91)
 - **:gift::gift::gift:** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
-- **:gift::gift::gift:** by {% avatar MikeRogers0 size=20 %} [Mike Rogers](https://github.com/MikeRogers0)
 
 
 

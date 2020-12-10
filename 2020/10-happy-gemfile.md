@@ -1,8 +1,11 @@
-# Day X - happy_gemfile gem - Organise your Gemfile
+# Day 10 - happy_gemfile Gem - Stop House Keeping Your Gemfile. (Auto-)Format Your Gems Sorted from A to Z and by Groups. (Auto-)Clean up the Clutter. Happy Gemfile Day!
 
-Written by [Mike Rogers](https://twitter.com/MikeRogers0) {% avatar MikeRogers0 %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oQ-gYHOAf00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Written by {% avatar MikeRogers0 %} [Mike Rogers](https://github.com/MikeRogers0)
+
+_A Rubyist, a menace, a web hygienist. Working on [Typo CI](https://github.com/marketplace/typo-ci), a spellchecker for Pull Requests. Looking for help with [Ruby Starter Kits](https://github.com/Ruby-Starter-Kits/), a way for people to get Ruby up and running with just docker._
+
+
 
 ## What is happy_gemfile?
 
@@ -63,3 +66,14 @@ Bundler loads the gems in the order they're appear in the Gemfile, so if a gem r
 ## How does this change adding new gems?
 
 As a result of not having to worry about the ordering of my Gemfile, I've started using [`$ bundle add`](https://bundler.io/man/bundle-add.1.html) when adding my gems. This just adds the new gem to the bottom of the file, so I do need to rerun `happy_gemfile all` before committing it.
+
+
+## Find Out More
+
+### References
+
+- Home :: [github.com/MainShayne233/happy_gemfile](https://github.com/MainShayne233/happy_gemfile)
+- Gem :: [rubygems.org/gems/happy_gemfile](https://rubygems.org/gems/happy_gemfile)
+- Screencast :: [happy_gemfile - Organise your Gemfile](https://www.youtube.com/watch?v=oQ-gYHOAf00)
+
+
