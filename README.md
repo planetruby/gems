@@ -34,7 +34,8 @@ from December 1st to December 25th.
  Stop House Keeping Your Gemfile. (Auto-)Format Your Gems Sorted from A to Z and by Groups. (Auto-)Clean up the Clutter. Happy Gemfile Day!
 - **Bonus!** [**Day 10 - parslet**](2020/10-parslet.md)   by {% avatar rlgreen91 size=20 %} [Rachel Green](https://github.com/rlgreen91) <br>
   Build Your Own Language Parsers (and Lexers) with Parsing Expression Grammars (PEGs)
-- **Day 11 - :gift::gift::gift:**    by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)
+- **Day 11 - boring_generators**(2020/11-boring-generators.md)   by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)  <br>
+  10x Development - Speed-Up Your Coding By Automating and Generating Boring Setups
 - **Day 12 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
 - **Day 13 - :gift::gift::gift:**    by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
 - **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)
