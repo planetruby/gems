@@ -11,12 +11,11 @@ Welcome to our exploration of building parsers in Ruby!  How do you do that, you
 
 [Parslet](http://kschiess.github.io/parslet/) is a gem that allows developers to create parsers for string inputs using parsing expression grammar, or PEG.  This is just the academic way of saying that we create [a set of rules for recognizing strings in a formal language](https://en.wikipedia.org/wiki/Parsing_expression_grammar).  Those rules use regular expressions to determine whether an input string behaves the way we expect, and provides us with an output object that we can later manipulate.
 
-In the rest of this article, we'll create a simple version of a parser using Parslet.  To keep things light, this tutorial will focus only on creating the parser based on a single question written in English using the Student Questions for Purposeful Reading
-(SQPR) format for mathematics text - a simple version of a parser I created during an internship many years ago.
+In the rest of this article, we'll create a simple version of a parser using Parslet.  To keep things light, this tutorial will focus only on creating the parser based on a single question written in English using an XML format for mathematics text - a simple version of a parser I created during an internship many years ago.
 
 Typically, using Parslet does rely heavily on a good foundation in regular expressions, or regex.  Since we're focused on the design aspect of the parser, I'll provide the necessary regexes along with a brief explanation of what each one does.  No prior knowledge of regex is required to follow along.
 
-Similarly, the parser doesn't really care or know what the input data you give it means at a deep level, and for this tutorial, we as the programmer can take that same approach.  While there are places where we'll want to rely on details specific to SQPR, I'll provide those like the regexes - you won't need to know that to follow along.
+Similarly, the parser doesn't really care or know what the input data you give it means at a deep level, and for this tutorial, we as the programmer can take that same approach.  While there are places where we'll want to rely on details specific to the XML format, I'll provide those like the regexes - you won't need to know that to follow along.
 
 All of our code will be written within a single Ruby file.  When we run our script via a terminal, we'll print our output there.  Really, all you'll need for this tutorial is a basic understanding of how written English works.  So with that, let's get started!
 
@@ -35,14 +34,14 @@ gemfile do
   gem 'parslet'
 end
 
-class SPQRParser < Parslet::Parser
+class Q < Parslet::Parser
 end
 
-# p SPQRParser.new.parse("<![CDATA[")
-# p SPQRParser.new.parse("<![CDATA[The meaning of ")
-# p SPQRParser.new.parse("<![CDATA[The meaning of \"negative frequency\"")
-# p SPQRParser.new.parse("<![CDATA[The meaning of \"negative frequency\" in a Fourier series is:")
-# p SPQRParser.new.parse("<![CDATA[The meaning of \"negative frequency\" in a Fourier series is:]]>")
+# p Q.new.parse("<![CDATA[")
+# p Q.new.parse("<![CDATA[The meaning of ")
+# p Q.new.parse("<![CDATA[The meaning of \"negative frequency\"")
+# p Q.new.parse("<![CDATA[The meaning of \"negative frequency\" in a Fourier series is:")
+# p Q.new.parse("<![CDATA[The meaning of \"negative frequency\" in a Fourier series is:]]>")
 ```
 
 Here we use Bundler to install the Parslet gem so we can use its methods.  At the end of the file, we have a set of commands where we call our parser on a provided input and print the results to the terminal.  If you look at lines 11-15, you'll see that we gradually work our way up to the full sample question, which is `"<![CDATA[The meaning of "negative frequency" in a Fourier series is:]]>"`.  This, when parsed should be:
@@ -54,7 +53,7 @@ The meaning of "negative frequency" in a Fourier series is:
 Now we can go ahead and create our parser by putting some stuff in that empty class!
 
 ## The First Input - Early Success!
-Let's take a look at our first input on line 11.  Reading out of order, we see that we create a new instance of our SPQRParser class and call the instance method `parse` on the provided string, the result of which is printed to the terminal.  Our first input is `"<![CDATA["`.
+Let's take a look at our first input on line 11.  Reading out of order, we see that we create a new instance of our Q parser class and call the instance method `parse` on the provided string, the result of which is printed to the terminal.  Our first input is `"<![CDATA["`.
 
 As I explained in the intro, Parslet allows you to create parsers using PEG, or a set of rules to describe the expected input.  This is something we do naturally as we learn a language.  Think back to when you first learned English - you learned how to conjugate verbs, or change them to match the subject, in the following way:
 
@@ -70,10 +69,10 @@ I [blank] --> You [blank] --> He/She [blank + "s"]
 This is a good rule that works most of the time when it comes to conjugating verbs, right?  Sure, there's some exceptions, but you learn them as you go.  Creating a PEG parser works in the same manner, where we
 determine the rules of the text we want to parse and tell it how to handle inputs based on those rules.
 
-Let's update our `SPQRParser` class with the following code:
+Let's update our `Q` parser class with the following code:
 
 ``` ruby
-class SPQRParser < Parslet::Parser
+class Q < Parslet::Parser
   rule(:open_tag)   { str("<!\[CDATA\[") }
   rule(:expression) { open_tag }
 
@@ -81,7 +80,7 @@ class SPQRParser < Parslet::Parser
 end
 ```
 
-Here we created two rules and a root.  Our first rule, `open_tag`, says to match the string `"<!\[CDATA\["` exactly.  `"<![CDATA["` is the opening tag used in SPQR to indicate that the following text is written in that format.  Additionally, brackets have a special meaning in regex, so we use a backslash to escape the character, meaning we want to match that character.
+Here we created two rules and a root.  Our first rule, `open_tag`, says to match the string `"<!\[CDATA\["` exactly.  `"<![CDATA["` is the opening tag used in the XML format to indicate that the following text is written in that format.  Additionally, brackets have a special meaning in regex, so we use a backslash to escape the character, meaning we want to match that character.
 
 Our second rule, `expression` just contains `open_tag`.  In Parslet, you can "call" other rules inside of rules.  This adds an element of recursion to our parsing, where Ruby will parse that called rule as part of evaluating another rule.  However, we want to be careful that our recursion doesn't lead to an endless loop.  So, it's best to think of a rule that describes an input and then determine how we can put them together via recursion.
 
@@ -382,7 +381,7 @@ gemfile do
   gem 'parslet'
 end
 
-class SPQRParser < Parslet::Parser
+class Q < Parslet::Parser
   rule(:letters) { match(/\w/).repeat(1) }
 
   rule(:space) { match("\s").repeat(1) }
@@ -404,11 +403,11 @@ class SPQRParser < Parslet::Parser
   root :expression
 end
 
-# p SPQRParser.new.parse("<![CDATA[")
-# p SPQRParser.new.parse("<![CDATA[The meaning of ")
-# p SPQRParser.new.parse("<![CDATA[The meaning of \"negative frequency\"")
-# p SPQRParser.new.parse("<![CDATA[The meaning of \"negative frequency\" in a Fourier series is:")
-p SPQRParser.new.parse("<![CDATA[The meaning of \"negative frequency\" in a Fourier series is:]]>")
+# p Q.new.parse("<![CDATA[")
+# p Q.new.parse("<![CDATA[The meaning of ")
+# p Q.new.parse("<![CDATA[The meaning of \"negative frequency\"")
+# p Q.new.parse("<![CDATA[The meaning of \"negative frequency\" in a Fourier series is:")
+p Q.new.parse("<![CDATA[The meaning of \"negative frequency\" in a Fourier series is:]]>")
 ```
 
 Thanks for reading along, and I hope you enjoyed
