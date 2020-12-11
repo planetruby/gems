@@ -146,5 +146,3 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 16 - tilt**](week/16-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
 - [**Week 17 - datapak**](week/17-datapak.md) - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
 - [**Week 18 - hexapdf**](week/18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by {% avatar gettalong size=20 %} [Thomas Leitner](https://rubygems.org/profiles/gettalong)
-
-
