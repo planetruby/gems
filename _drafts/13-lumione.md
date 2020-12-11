@@ -46,7 +46,7 @@ Thankfully, Money gem takes care of that. With Money gem, currency conversion is
 eu_central_bank gem.
 **When used without caching, eu_central_bank is very easy to use**:
 
-```
+``` ruby
 require "lumione/initializer"
 
 def convert(amount, from_currency, to_currency)
@@ -82,7 +82,7 @@ I don't believe in that. I'd rather save time and use somebody else's code. Of
 course, dependencies should be chosen carefully.
 
 To use `#distance_of_time_in_words_to_now` outside Rails is easy:
-```
+``` ruby
 require "active_support/core_ext/numeric/time"
 require "action_view"
 
@@ -103,7 +103,7 @@ Handling CLI arguments and options can be annoying and require effort, but not
 so with optparse-plus.
 
 For example, CLI arguments are defined like this:
-```
+``` ruby
 arg :amount
 arg :original_currency
 arg :converted_to_currency
