@@ -50,8 +50,8 @@ NOTE: We are aiming to add a command line tool for boring generators so that you
 Boring - what can I help you setup or build today? -
 generators include:
 
-- Install Tailwind CSS
-- Install Bootstrap
+- [Install Tailwind CSS](https://www.boringgenerators.com/blog/2020-10-18-install-tailwind/)
+- [Install Bootstrap](https://www.boringgenerators.com/blog/2020-11-15-install-bootstrap/)
 - Install JQuery
 - Install FontAwesome via Yarn
 - Install FontAwesome via RubyGems
