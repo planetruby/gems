@@ -1,13 +1,20 @@
-# Day 12 - `matestack-ui-core` gem - alternative view layer for RubyOnRails
+# Day 12 - matestack-ui-core Gem - Write Web Components in an (HTML) Domain-Specific (Mini) Language (DSL) Getting (Automagically) Turned Into Modern (Reactive) Web Views on Top of Vue.js
 
-Written by [Pascal Wengerter](https://twitter.com/pascalwengerter)  {% avatar pascalwengerter %}
+
+Written by {% avatar pascalwengerter %} [Pascal Wengerter](https://github.com/pascalwengerter)
+
+_A self-taught software developer, and digital all-rounder. Loves democracy 'n' open source software. Black lives matter supporter. Co-founded the open source startup [Matestack](https://matestack.io/). Working as a freelancer while [looking for a role in (digital) product management](https://pascal.rocks/about)._
+
+
 
 
 ## The idea: Writing web views in pure Ruby
 
-Deeply in love with programming in Ruby and frustrated with the overly complex state of fullstack web development, [Jonas Jabari](https://twitter.com/jonasjabari) started experimenting in late 2017 and ended up creating a prototype that eventually grew into `matestack-ui-core` and subsequent libraries.
+Deeply in love with programming in Ruby and frustrated with the overly complex state of fullstack web development,
+{% avatar jonasjabari size=20 %} [Jonas Jabari](https://github.com/jonasjabari)
+started experimenting in late 2017 and ended up creating a prototype that eventually grew into `matestack-ui-core` and subsequent libraries.
 
-Instead of rendering `.erb`-views or introducing a separate SPA-framework to handle the frontend, `matestack-ui-core` introduces
+Instead of rendering `.erb`-views or introducing a separate single-page application (SPA)-framework to handle the frontend, `matestack-ui-core` introduces
 - a new way of layouting your frontend based on the concepts of `apps`, `pages` and `components`
 - a core library of components (Ruby methods) representing the canonical HTML tags
 - some advanced core components that abstract away common JavaScript functionality to save you from re-implementing the same dynamic behavior
@@ -15,6 +22,7 @@ Instead of rendering `.erb`-views or introducing a separate SPA-framework to han
 - multiple approaches to incrementally introduce it to existing projects
 
 The gem is built using `trailblazer-cells` and `Vue.js`.
+
 
 ### Use case 1: Static views in Ruby
 
@@ -61,7 +69,7 @@ turns into
 ### Use case 2: Dealing with repetitive JavaScript behavior
 
 There's a handful of JavaScript functionality that
-1. has a good value proposition from the business perspective and needs to be implemented properly 
+1. has a good value proposition from the business perspective and needs to be implemented properly
 2. is not '*new*' and won't teach you (the developer) anything, but you end up having to do it anyhow
 
 Leveraging the power of `Vue.js`, the `matestack-ui-core` gem has abstracted away quite a number of use cases and turned them into (arguably) straighforward solutions. Judge for yourself:
@@ -95,7 +103,7 @@ turns into
 ### Use case 2: Dealing with repetitive JavaScript behavior
 
 There's a handful of JavaScript functionality that
-1. has a good value proposition from the business perspective and needs to be implemented properly 
+1. has a good value proposition from the business perspective and needs to be implemented properly
 2. is not '*new*' and won't teach you (the developer) anything, but you end up having to do it anyhow
 
 Leveraging the power of `Vue.js`, the `matestack-ui-core` gem has abstracted away quite a number of use cases and turned them into (arguably) straighforward solutions. Judge for yourself:
@@ -130,13 +138,8 @@ turns into
 
 Please refer to the guides, this should only be a teaser ;)
 
+
 ## Find Out More
-
-### References
-
-* homepage  :: [matestack.io](https://matestack.io)
-* gem   :: [rubygems.org/gems/matestack-ui-core/](https://rubygems.org/gems/matestack-ui-core/)
-* source :: [github.com/matestack/matestack-ui-core](https://github.com/matestack/matestack-ui-core)
 
 ### Installation & Guides
 
@@ -149,3 +152,10 @@ There's a [Discord](https://discord.gg/c6tQxFG) server, Q&A calls twice a week a
 ### Feedback
 
 Feel free to reach out to [Jonas Jabari](mailto:jonas@matestack.io) if you got anything to share or ask :)
+
+
+### References
+
+* Home  :: [matestack.io](https://matestack.io)
+* Gem   :: [rubygems.org/gems/matestack-ui-core/](https://rubygems.org/gems/matestack-ui-core/)
+* Source :: [github.com/matestack/matestack-ui-core](https://github.com/matestack/matestack-ui-core)

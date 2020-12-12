@@ -36,7 +36,8 @@ from December 1st to December 25th.
   Build Your Own Language Parsers (and Lexers) with Parsing Expression Grammars (PEGs)
 - [**Day 11 - boring_generators**](2020/11-boring-generators.md)   by {% avatar abhaynikam size=20 %} [Abhay Nikam](https://github.com/abhaynikam)  <br>
   10x Development - Speed-Up Your Coding By Automating and Generating Boring Setups
-- **Day 12 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
+- [**Day 12 - matestack-ui-core**](2020/12-matestack-ui-core.md)   by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter) <br>
+  Write Web Components in an (HTML) Domain-Specific (Mini) Language (DSL) Getting (Automagically) Turned Into Modern (Reactive) Web Views on Top of Vue.js
 - **Day 13 - :gift::gift::gift:**    by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
 - **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)
 - **Day 15 - :gift::gift::gift:**    by {% avatar adrianthedev size=20 %} [Adrian Marin](https://github.com/adrianthedev)
