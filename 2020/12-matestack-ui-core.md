@@ -151,11 +151,11 @@ There's a [Discord](https://discord.gg/c6tQxFG) server, Q&A calls twice a week a
 
 ### Feedback
 
-Feel free to reach out to [Jonas Jabari](mailto:jonas@matestack.io) if you got anything to share or ask :)
+Feel free to reach out to {% avatar jonasjabari size=20 %} [Jonas Jabari](mailto:jonas@matestack.io) if you got anything to share or ask :)
 
 
 ### References
 
 * Home  :: [matestack.io](https://matestack.io)
-* Gem   :: [rubygems.org/gems/matestack-ui-core/](https://rubygems.org/gems/matestack-ui-core/)
+* Gem   :: [rubygems.org/gems/matestack-ui-core](https://rubygems.org/gems/matestack-ui-core/)
 * Source :: [github.com/matestack/matestack-ui-core](https://github.com/matestack/matestack-ui-core)
