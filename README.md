@@ -38,7 +38,8 @@ from December 1st to December 25th.
   10x Development - Speed-Up Your Coding By Automating and Generating Boring Setups
 - [**Day 12 - matestack-ui-core**](2020/12-matestack-ui-core.md)   by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter) <br>
   Write Web Components in an (HTML) Domain-Specific (Mini) Language (DSL) Getting (Automagically) Turned Into Modern (Reactive) Web Views on Top of Vue.js
-- **Day 13 - :gift::gift::gift:**    by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)
+- [**Day 13 - lumione**](2020/13-lumione.md)   by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)  <br>
+  Money. Money. Money. Convert NZD ($) to USD ($) or EUR (€) to JPY (¥) in Your Terminal using the European Central Bank (ECB) Reference Exchange Rates. No API Key Required. Yes, Works Offline.
 - **Day 14 - :gift::gift::gift:**    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles)
 - **Day 15 - :gift::gift::gift:**    by {% avatar adrianthedev size=20 %} [Adrian Marin](https://github.com/adrianthedev)
 - **Day 16 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
