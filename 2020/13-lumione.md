@@ -7,29 +7,7 @@ _A Ruby / Rails freelancer from Auckland, New Zealand. Can't quit Vim. Into Java
 
 
 
-## There are lots of command line currency converters, what's unique about Lumione?
-
-It doesn't use an API. No API - no token setup needed and no limits on usage.
-Also:
-  * API changes won't break it. Rate handling is offloaded to
-    `eu_central_bank` gem, so I
-    only need to depend on a newer version if something changes.
-  * **It actually works** and is likely to keep working without me working on
-    it. I've seen my share of broken command line currency calculators.
-  * It uses `money` gem to perform conversions.
-
-Some caveats about rates:
-  * It has support only for the currencies that `eu_central_bank` gem supports. It
-    was a tradeoff favouring development speed and maintenance.
-  * European Central Bank rates are updated not in real time. I find it's **good
-    enough for casual conversations** about prices.
-  * Lumione updates rates every 24 hours (if you run it), but the European Central Bank
-    may not update them as often, so sometimes rates go unchanged for a couple
-    of days.
-
-
-
-## How to use it
+## How to use Lumione
 
 
 Lumione, convert 13 New Zealand Dollar (NZD) to US Dollar (USD):
@@ -55,6 +33,28 @@ CHF12.00 CHF (¥88.32 CNY) (rates updated 3 days ago)
 
 
 Install with `gem install lumione`.
+
+
+
+## What's unique about Lumione? There are lots of command line currency converters, but...
+
+Lumione doesn't use an API. No API - no token setup needed and no limits on usage.
+Also:
+  * API changes won't break it. Rate handling is offloaded to
+    `eu_central_bank` gem, so I
+    only need to depend on a newer version if something changes.
+  * **It actually works** and is likely to keep working without me working on
+    it. I've seen my share of broken command line currency calculators.
+  * It uses `money` gem to perform conversions.
+
+Some caveats about rates:
+  * It has support only for the currencies that `eu_central_bank` gem supports. It
+    was a tradeoff favouring development speed and maintenance.
+  * European Central Bank rates are updated not in real time. I find it's **good
+    enough for casual conversations** about prices.
+  * Lumione updates rates every 24 hours (if you run it), but the European Central Bank
+    may not update them as often, so sometimes rates go unchanged for a couple
+    of days.
 
 
 
