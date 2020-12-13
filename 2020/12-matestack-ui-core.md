@@ -66,39 +66,7 @@ turns into
 </div>
 ```
 
-### Use case 2: Dealing with repetitive JavaScript behavior
 
-There's a handful of JavaScript functionality that
-1. has a good value proposition from the business perspective and needs to be implemented properly
-2. is not '*new*' and won't teach you (the developer) anything, but you end up having to do it anyhow
-
-Leveraging the power of `Vue.js`, the `matestack-ui-core` gem has abstracted away quite a number of use cases and turned them into (arguably) straighforward solutions. Judge for yourself:
-
-```ruby
-# app/matestack/components/some_component.rb
-
-class Components::SomeComponent < Matestack::Ui::Component
-
-  def response
-    onclick emit: "some_event" do
-      button text: "click me"
-    end
-    toggle show_on: "some_event", hide_after: 5000 do
-      plain "Oh yes! You clicked me!"
-    end
-  end
-
-end
-```
-
-turns into
-
-```html
-<button tabindex="0">click me</button>
-<!-- only gets shown when the buttons is clicked & gets hidden after 5000ms
-<div class="matestack-toggle-component-root"><br>Oh yes! You clicked me!</div>
--->
-```
 
 ### Use case 2: Dealing with repetitive JavaScript behavior
 
@@ -133,6 +101,7 @@ turns into
 <div class="matestack-toggle-component-root"><br>Oh yes! You clicked me!</div>
 -->
 ```
+
 
 ### Use case X: Creating reactive custom components, re-using legacy views, advanced JavaScript behavior ...
 
