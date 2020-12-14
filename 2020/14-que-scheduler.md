@@ -1,7 +1,5 @@
 # Day 14 - que-scheduler Gem - Light-Weight (Time-Driven) Cron (Background) Job Scheduler for Que - a Job Queue Using the PostgreSQL Database with Advisory Locks for Speed and Reliability
 
-_Run Time-Driven (Asynchronous) Background Jobs - Crontab Schedule Syntax (`"*/5 * * * *"` - Every 5 Minute, "`0 7 * * *`" - Every Day at 7am) - Keep All Job Logic in Bulletproof, Infrastructure-Free (PostgreSQL Application) Database_
-
 
 Written by [Harry Lascelles](https://github.com/hlascelles)
 
