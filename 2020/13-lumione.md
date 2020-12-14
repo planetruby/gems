@@ -1,4 +1,4 @@
-# Day 13 - lumione Gem - Money. Money. Money. Convert NZD ($) to USD ($) or EUR (€) to JPY (¥) in Your Terminal using the European Central Bank (ECB) Reference Exchange Rates. No API Key Required. Yes, Works Offline.
+# Day 13 - lumione Gem - Money. Money. Money. Convert NZD ($) to USD ($) or EUR (€) to JPY (¥) in Your Terminal using the European Central Bank (ECB) Reference Exchange Rates. No API Key Required. Yes, Works Offline
 
 
 Written by {% avatar ledestin %} [Dmitry Maksyoma](https://github.com/ledestin)

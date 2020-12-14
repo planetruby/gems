@@ -1,0 +1,12 @@
+#######
+#  note: (auto-)generated - to source web feed (/feed.xml) generation
+#    - do NOT use .md extension in path!!
+
+- title: "Day 14 - que-scheduler Gem - Light-Weight (Time-Driven) Cron (Background) Job Scheduler for Que - a Job Queue Using the PostgreSQL Database with Advisory Locks for Speed and Reliability"
+  path:  2020/13-lumione
+  date:  2020-12-14
+
+- title: "Day 13 - lumione Gem - Money. Money. Money. Convert NZD ($) to USD ($) or EUR (€) to JPY (¥) in Your Terminal using the European Central Bank (ECB) Reference Exchange Rates. No API Key Required. Yes, Works Offline"
+  path:  2020/14-que-scheduler
+  date:  2020-12-13
+
