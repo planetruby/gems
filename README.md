@@ -39,9 +39,9 @@ from December 1st to December 25th.
 - [**Day 12 - matestack-ui-core**](2020/12-matestack-ui-core.md)   by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter) <br>
   Write Web Components in an (HTML) Domain-Specific (Mini) Language (DSL) Getting (Automagically) Turned Into Modern (Reactive) Web Views on Top of Vue.js
 - [**Day 13 - lumione**](2020/13-lumione.md)   by {% avatar ledestin size=20 %} [Dmitry Maksyoma](https://github.com/ledestin)  <br>
-  Money. Money. Money. Convert NZD ($) to USD ($) or EUR (€) to JPY (¥) in Your Terminal using the European Central Bank (ECB) Reference Exchange Rates. No API Key Required. Yes, Works Offline.
+  Money. Money. Money. Convert NZD ($) to USD ($) or EUR (€) to JPY (¥) in Your Terminal using the European Central Bank (ECB) Reference Exchange Rates. No API Key Required. Yes, Works Offline
 - [**Day 14 - que-scheduler**](2020/14-que-scheduler)    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles) <br>
-  Run Time-Driven (Asynchronous) Background Jobs - Keep All Job Logic in Bulletproof, Infrastructure-Free (Application) Database - Crontab Schedule Syntax (`"*/5 * * * *"` - Every 5 Minute, `0 7 * * *` - Every Day at 7am)
+  Light-Weight (Time-Driven) Cron (Background) Job Scheduler for Que - a Job Queue Using the PostgreSQL Database with Advisory Locks for Speed and Reliability
 - **Day 15 - :gift::gift::gift:**    by {% avatar adrianthedev size=20 %} [Adrian Marin](https://github.com/adrianthedev)
 - **Day 16 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
 - **Day 17 - :gift::gift::gift:**    by {% avatar igorkasyanchuk size=20 %} [Igor Kasyanchuk](https://github.com/igorkasyanchuk)

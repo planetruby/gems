@@ -1,4 +1,6 @@
-# Day 14 - que-scheduler Gem -  Run Time-Driven (Asynchronous) Background Jobs - Keep All Job Logic in Bulletproof, Infrastructure-Free (Application) Database - Crontab Schedule Syntax (`"*/5 * * * *"` - Every 5 Minute, `0 7 * * *` - Every Day at 7am)
+# Day 14 - que-scheduler Gem - Light-Weight (Time-Driven) Cron (Background) Job Scheduler for Que - a Job Queue Using the PostgreSQL Database with Advisory Locks for Speed and Reliability
+
+_Run Time-Driven (Asynchronous) Background Jobs - Keep All Job Logic in Bulletproof, Infrastructure-Free (PostgreSQL Application) Database - Crontab Schedule Syntax (`"*/5 * * * *"` - Every 5 Minute, "`0 7 * * *`" - Every Day at 7am)_
 
 Written by [Harry Lascelles](https://github.com/hlascelles)
 
@@ -30,7 +32,7 @@ Que::Scheduler::Migrations.migrate!(version: 6)
 
 The [que-scheduler](https://github.com/hlascelles/que-scheduler) gem is for use
 with the high performance [que](https://github.com/que-rb/que) job system.
-Unlike systems that use Redis as a backend, que keeps all of the job logic in the PostgreSQL (application) database.
+Unlike systems that use Redis as a backend, que keeps all of the job logic in the (PostgreSQL application) database.
 This has all the advantages you'd expect from an ACID DB. If you schedule job, then
 either the job row will get committed when the transaction completes, or it will be cleaned up
 if the transaction errors. To avoid worker conflict que uses advisory locks on rows to make sure
