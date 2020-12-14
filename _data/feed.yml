@@ -3,10 +3,25 @@
 #    - do NOT use .md extension in path!!
 
 - title: "Day 14 - que-scheduler Gem - Light-Weight (Time-Driven) Cron (Background) Job Scheduler for Que - a Job Queue Using the PostgreSQL Database with Advisory Locks for Speed and Reliability"
-  path:  2020/13-lumione
+  path:  2020/14-que-scheduler
   date:  2020-12-14
 
 - title: "Day 13 - lumione Gem - Money. Money. Money. Convert NZD ($) to USD ($) or EUR (€) to JPY (¥) in Your Terminal using the European Central Bank (ECB) Reference Exchange Rates. No API Key Required. Yes, Works Offline"
-  path:  2020/14-que-scheduler
+  path:  2020/13-lumione
   date:  2020-12-13
 
+- title: "Day 12 - matestack-ui-core Gem - Write Web Components in an (HTML) Domain-Specific (Mini) Language (DSL) Getting (Automagically) Turned Into Modern (Reactive) Web Views on Top of Vue.js"
+  path:  2020/12-matestack-ui-core
+  date:  2020-12-12
+
+- title: "Day 11 - boring_generators Gem - 10x Development - Speed-Up Your Coding By Automating and Generating Boring Setups"
+  path:  2020/11-boring-generators
+  date:  2020-12-11
+
+- title: "Bonus! Day 10 - parslet Gem - Build Your Own Language Parsers (and Lexers) with Parsing Expression Grammars (PEGs)"
+  path:  2020/10-parslet
+  date:  2020-12-10
+
+- title: "Day 10 - happy_gemfile Gem - Stop House Keeping Your Gemfile. (Auto-)Format Your Gems Sorted from A to Z and by Groups. (Auto-)Clean up the Clutter. Happy Gemfile Day!"
+  path:  2020/10-happy-gemfile
+  date:  2020-12-10

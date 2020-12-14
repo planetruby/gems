@@ -22,7 +22,7 @@
   <link href="{{ url }}" />
   <id>{{ url | xml_escape }}</id>
   <updated>{{ item.date | date_to_xmlschema }}</updated>
-  <content type="html">{{ body | xml_escape }}</content>
+  <content type="html">{{ body | markdownify }}</content>
 </entry>
 {% endfor %}
 </feed>
