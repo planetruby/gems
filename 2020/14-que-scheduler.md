@@ -8,7 +8,7 @@ A performant web application should always make sure it does the heavy lifting o
 requests where possible. Many asynchronous job systems have sprung up to solve this problem,
 such as Resque, Sidekiq, DelayedJob and Que.
 
-However sometimes these workloads are not even driven - they are time driven. For that you need a
+However sometimes these workloads are not event driven - they are time driven. For that you need a
 reliable scheduler - you need [que-scheduler](https://github.com/hlascelles/que-scheduler).
 
 ## The que-scheduler gem
