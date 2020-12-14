@@ -1,7 +1,7 @@
 # Day 14 - que-scheduler Gem - Light-Weight (Time-Driven) Cron (Background) Job Scheduler for Que - a Job Queue Using the PostgreSQL Database with Advisory Locks for Speed and Reliability
 
 
-Written by [Harry Lascelles](https://github.com/hlascelles)
+Written by {% avatar hlascelles %} [Harry Lascelles](https://github.com/hlascelles)
 
 
 A performant web application should always make sure it does the heavy lifting outside of user
