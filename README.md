@@ -9,9 +9,7 @@
 
 Welcome. The Ruby Advent Calendar 2020
 presents a new Ruby library every day
-from December 1st to December 25th.
-
-Note: You can subscribe to updates via the web feed in [XML](feed.xml).
+from December 1st to December 25th. Subscribe to updates via the web feed in [XML](feed.xml).
 
 
 - [**Day 1 - local_time**](2020/01-local-time.md)  by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson) <br>
