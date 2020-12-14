@@ -17,14 +17,14 @@
 {%- endcapture -%}
 
 {%- capture body -%}
-{% include_relative {{item.path}}.md | remove_first: '#' | remove_first: item.title %}
+{% include_relative {{item.path}}.md %}
 {%- endcapture -%}
 <entry>
   <title>{{ item.title | xml_escape }}</title>
   <link href="{{ url }}" />
   <id>{{ url | xml_escape }}</id>
   <updated>{{ item.date | date_to_xmlschema }}</updated>
-  <content type="html">{{ body | markdownify }}</content>
+  <content type="html">{{ body | remove_first: "#" | remove_first: item.title | markdownify }}</content>
 </entry>
 {% endfor %}
 </feed>
