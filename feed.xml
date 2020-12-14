@@ -5,10 +5,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th</title>
   <link href="{{ '/feed.xml' | absolute_url }}" rel="self" />
-  <link href="{{ page.link | absolute_url }}" />
+  <link href="{{ '/' | absolute_url }}" />
   <id>{{ '/' | absolute_url | xml_escape }}</id>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-{% for item in site.feed limit: 10 %}
+{% for item in site.data.feed limit: 10 %}
 
 {%- capture url -%}
 {{ item.path | absolute_url }}
