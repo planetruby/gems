@@ -15,11 +15,11 @@ It's even more challenging building them again and again.
 
 Out of the box, it has an excellent create, read, update, and delete (CRUD) interface with ordering, filters, and actions. It knows how to handle your Active Record model relations and gives you powerful role-based authorization control options.
 
-It's super easy to configure. Codewise, there's **one configuration file per model** and **one configuration line per field**.
+It's super easy to configure. Codewise, there's one configuration file per model and one configuration line per field.
 You can add simple fields like text, textarea, dropdowns, and more complex ones like datetime, badges, loaders, currency, and others. There's even a cool one-liner single or multi-file Active Storage integration.
 The whole interface is translatable along with resources and fields.
 
-**Avo's mission is to make developers' jobs more comfortable and help them and companies move faster by giving them a cool easy admin package that they can be proud of.**
+Avo's mission is to make developers' jobs more comfortable and help them and companies move faster by giving them a cool easy admin package that they can be proud of.
 
 
 ## Get started
@@ -217,7 +217,7 @@ You can check out this demo app on [GitHub](https://github.com/avo-hq/avodemo).
 ## Conclusion
 
 This short tutorial scratches the surface of what Avo can do and how it can help you develop your app even faster than before.
-Avo comes with **20+ fields**, **relations management**, **filters**, **actions**, **role-based authorization**, **localization**, **computed fields**, **eager loading**, **search**, and much more all while keeping you app clean without generating hard to maintain view and controller files.
+Avo comes with 20+ fields, relations management, filters, actions, role-based authorization, localization, computed fields, eager loading, search, and much more all while keeping you app clean without generating hard to maintain view and controller files.
 
 We're in open beta and, we've got some cool things on the [roadmap](https://avohq.io/roadmap) for the coming months.
 
@@ -225,7 +225,7 @@ We're in open beta and, we've got some cool things on the [roadmap](https://avoh
 
 ## Find Out More
 
-Come check it out on [AvoHQ.io](https://avohq.io) ([docs](https://docs.avohq.io)) and [GitHub](https://github.com/avo-hq/avo) (GitHub stars are most welcomed).
+Come check it out on [AvoHQ.io](https://avohq.io) ([Docs](https://docs.avohq.io)) and [GitHub](https://github.com/avo-hq/avo) (GitHub stars are most welcomed).
 We're on [Twitter](https://twitter.com/avo_hq) and hang around our [Discord](https://discord.gg/pkTF6y8) server if you want to drop in to say hi.
 
 ### References
