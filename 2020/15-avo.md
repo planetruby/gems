@@ -47,7 +47,7 @@ module Avo
 end
 ```
 
-This will add the `Posts` link into the navigation with a beautiful CRUD interface.
+This will add the `Posts` link into the navigation with a beautiful create, read, update, and delete (CRUD) interface.
 
 From here we'll add a few basic fields for a `Post` (`title`, `body`, `is_published`, `cover_photo`, `images`, `category`, `tags`, `comments`). Some fields represent columns in the `posts` table, some are attached images and, some are relations to other resources.
 
