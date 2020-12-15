@@ -42,7 +42,8 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
   Money. Money. Money. Convert NZD ($) to USD ($) or EUR (€) to JPY (¥) in Your Terminal using the European Central Bank (ECB) Reference Exchange Rates. No API Key Required. Yes, Works Offline
 - [**Day 14 - que-scheduler**](2020/14-que-scheduler.md)    by {% avatar hlascelles size=20 %} [Harry Lascelles](https://github.com/hlascelles) <br>
   Light-Weight (Time-Driven) Cron (Background) Job Scheduler for Que - a Job Queue Using the PostgreSQL Database with Advisory Locks for Speed and Reliability
-- **Day 15 - :gift::gift::gift:**    by {% avatar adrianthedev size=20 %} [Adrian Marin](https://github.com/adrianthedev)
+- [**Day 15 - avo Gem**](2020/15-avo.md)    by {% avatar adrianthedev size=20 %} [Adrian Marin](https://github.com/adrianthedev)  <br>
+  (Auto-)Build Beautiful Admin Dashboards and Panels for Your Active Record (Database) Models (Incl. File Attachments) with Configuration in Code
 - **Day 16 - :gift::gift::gift:**    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)
 - **Day 17 - :gift::gift::gift:**    by {% avatar igorkasyanchuk size=20 %} [Igor Kasyanchuk](https://github.com/igorkasyanchuk)
 - **Day 18 - :gift::gift::gift:**    by {% avatar jankeesvw size=20 %} [Jankees van Woezik](https://github.com/jankeesvw)

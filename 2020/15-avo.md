@@ -1,16 +1,26 @@
+# Day 15 - avo Gem - (Auto-)Build Beautiful Admin Dashboards and Panels for Your Active Record (Database) Models (Incl. File Attachments) with Configuration in Code
+
+
+Written by {% avatar adrianthedev %} [Adrian Marin](https://github.com/adrianthedev)
+
+_Product-Minded Software Engineer in Bucharest, Romania. Creator of [Avo](https://avohq.io/). Lead at [Adore Me](https://bucharest.adoreme.com/). Tinkerer at [https://Help with COVID](https://github.com/helpwithcovid). Works with Ruby & Rails, TypeScript, Vue.js, Electron, PHP & Laravel, Redis._
+
+
+
 ## Building good admins is challenging
 
 It's even more challenging building them again and again.
 
 [Avo](https://avohq.io) is a beautiful next-generation framework that empowers you, the developer, to create fantastic admin panels for your Ruby on Rails apps with the flexibility to fit your needs as you grow.
 
-Out of the box, it has an excellent CRUD interface, ordering, filters, and actions. It knows how to handle your Active Record model relations and gives you powerful role-based authorization control options.
+Out of the box, it has an excellent create, read, update, and delete (CRUD) interface with ordering, filters, and actions. It knows how to handle your Active Record model relations and gives you powerful role-based authorization control options.
 
 It's super easy to configure. Codewise, there's **one configuration file per model** and **one configuration line per field**.
-You can add simple fields like text, textarea, dropdowns, and more complex ones like datetime, badges, loaders, currency, and others. There's even a cool one-liner single or multi-file Active Storage integration 🤯.
+You can add simple fields like text, textarea, dropdowns, and more complex ones like datetime, badges, loaders, currency, and others. There's even a cool one-liner single or multi-file Active Storage integration.
 The whole interface is translatable along with resources and fields.
 
-**Avo's mission is to make developers' jobs more comfortable and help them and companies move faster by giving them a cool easy [Rails admin](https://avohq.io) package that they can be proud of.**
+**Avo's mission is to make developers' jobs more comfortable and help them and companies move faster by giving them a cool easy admin package that they can be proud of.**
+
 
 ## Get started
 
@@ -77,14 +87,14 @@ module Avo
 end
 ```
 
-These are all fields that come built into Avo. `text` is the most basic field that will render an `<input type="text" />`, `trix` will render the full WYSIWYG editor. `file` and `files` will take care of the images required for the post. `is_published` is computed field that checks to see if a timestamp is filled of not. At the end of the `fields` method we're left with the relation fields that render links or the full listings or the respective related resources.
+These are all fields that come built into Avo. `text` is the most basic field that will render an `<input type="text" />`, `trix` will render the full What-You-See-Is-What-You-Get (WYSIWYG) editor. `file` and `files` will take care of the images required for the post. `is_published` is computed field that checks to see if a timestamp is filled of not. At the end of the `fields` method we're left with the relation fields that render links or the full listings or the respective related resources.
 You may notice we added `@default_view_type = :grid` in the initializer and the `grid` method to configure what we want to show in the grid view type.
 
 Now the `Show` view looks like this:
-![avo-show-page](avo-show-page.jpg)
+![](i/avo-show-page.jpg)
 
 And the `Index` view looks like this:
-![avo-index-page](avo-show-page.jpg)
+![](i/avo-show-page.jpg)
 
 
 ## Filters
@@ -211,5 +221,16 @@ Avo comes with **20+ fields**, **relations management**, **filters**, **actions*
 
 We're in open beta and, we've got some cool things on the [roadmap](https://avohq.io/roadmap) for the coming months.
 
-Come check it out on [AvoHQ.io](https://avohq.io) ([docs](https://docs.avohq.io)) and [GitHub](https://github.com/avo-hq/avo) (GH stars are most welcomed 🙏 ).
-We're on [Twitter](https://twitter.com/avo_hq) and hang around our [Discord](https://discord.gg/pkTF6y8) server if you want to drop in to say hi 👋.
+
+
+## Find Out More
+
+Come check it out on [AvoHQ.io](https://avohq.io) ([docs](https://docs.avohq.io)) and [GitHub](https://github.com/avo-hq/avo) (GitHub stars are most welcomed).
+We're on [Twitter](https://twitter.com/avo_hq) and hang around our [Discord](https://discord.gg/pkTF6y8) server if you want to drop in to say hi.
+
+### References
+
+* Home  :: [avohq.io](https://avohq.io)
+* Gem   :: [rubygems.org/gems/avo](https://rubygems.org/gems/avo/)
+* Source :: [github.com/avo-hq/avo](https://github.com/avo-hq/avo)
+
