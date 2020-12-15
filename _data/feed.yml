@@ -1,7 +1,11 @@
 #######
-#  note: (auto-)generated - to source web feed (/feed.xml) generation
+#  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 15 - avo Gem - (Auto-)Build Beautiful Admin Dashboards and Panels for Your Active Record (Database) Models (Incl. File Attachments) with Configuration in Code"
+  path:  2020/15-avo
+  date:  2020-12-15
+  
 - title: "Day 14 - que-scheduler Gem - Light-Weight (Time-Driven) Cron (Background) Job Scheduler for Que - a Job Queue Using the PostgreSQL Database with Advisory Locks for Speed and Reliability"
   path:  2020/14-que-scheduler
   date:  2020-12-14
