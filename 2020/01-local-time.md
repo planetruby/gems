@@ -97,6 +97,7 @@ This UI pattern has become a mainstay in nearly every web application and `local
 
 ### References
 
-* home  :: [github.com/basecamp/local_time](https://github.com/basecamp/local_time)
-* gem   :: [rubygems.org/gems/local_time](https://rubygems.org/gems/local_time)
-* article :: [Basecamp's cache-friendly local time](https://signalvnoise.com/posts/3691-basecamps-cache-friendly-local-time)
+* Home  :: [github.com/basecamp/local_time](https://github.com/basecamp/local_time)
+* Gem   :: [rubygems.org/gems/local_time](https://rubygems.org/gems/local_time)
+* Docs :: [rubydoc.info/gems/local_time](https://www.rubydoc.info/gems/local_time/)
+* Article :: [Basecamp's cache-friendly local time](https://signalvnoise.com/posts/3691-basecamps-cache-friendly-local-time)

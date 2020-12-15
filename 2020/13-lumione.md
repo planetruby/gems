@@ -172,4 +172,5 @@ and a gemspec, so it's really worth using it.
 
 * Home :: [github.com/ledestin/lumione](https://github.com/ledestin/lumione)
 * Gem  :: [rubygems.org/gems/lumione](https://rubygems.org/gems/lumione)
+* Docs :: [rdoc.info/gems/lumione](https://rdoc.info/gems/lumione)
 * Reference :: [Euro foreign exchange reference rates @ European Central Bank (ECB)](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html)

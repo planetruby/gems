@@ -160,9 +160,10 @@ There are currently API clients for App Search and Workplace Search packaged sep
 
 ### References
 
-* home  :: [github.com/elastic/enterprise-search-ruby](https://github.com/elastic/enterprise-search-ruby)
-* gem   :: [rubygems.org/gems/elastic-enterprise-search](https://rubygems.org/gems/elastic-enterprise-search)
-* articles :: [Elastic Enterprise Search Quick Start Guides](https://ela.st/getting-started-enterprise)
+* Home  :: [github.com/elastic/enterprise-search-ruby](https://github.com/elastic/enterprise-search-ruby)
+* Gem   :: [rubygems.org/gems/elastic-enterprise-search](https://rubygems.org/gems/elastic-enterprise-search)
+* Docs :: [rubydoc.info/gems/elastic-enterprise-search](https://www.rubydoc.info/gems/elastic-enterprise-search/)
+* Articles :: [Elastic Enterprise Search Quick Start Guides](https://ela.st/getting-started-enterprise)
 
 
 

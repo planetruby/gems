@@ -69,4 +69,5 @@ These changes make it easy to write code that creates and queries records in the
 
 - Home :: [github.com/ErwinM/acts_as_tenant](https://github.com/ErwinM/acts_as_tenant)
 - Gem :: [rubygems.org/gems/acts_as_tenant](https://rubygems.org/gems/acts_as_tenant)
+- Docs :: [rdoc.info/gems/acts_as_tenant](https://rdoc.info/gems/acts_as_tenant)
 - Screencast :: [How to use ActsAsTenant](https://www.youtube.com/watch?v=BIyxM9f8Jus)

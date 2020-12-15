@@ -59,6 +59,6 @@ I strongly advise you to [configure authentication](https://github.com/ankane/bl
 
 ### References
 
-- home :: [github.com/ankane/blazer](https://github.com/ankane/blazer)
-- gem :: [rubygems.org/gems/blazer](https://rubygems.org/gems/blazer)
-- docs :: [rubydoc.info/gems/blazer](https://www.rubydoc.info/gems/blazer/)
+- Home :: [github.com/ankane/blazer](https://github.com/ankane/blazer)
+- Gem :: [rubygems.org/gems/blazer](https://rubygems.org/gems/blazer)
+- Docs :: [rubydoc.info/gems/blazer](https://www.rubydoc.info/gems/blazer/)

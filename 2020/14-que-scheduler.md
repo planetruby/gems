@@ -73,5 +73,6 @@ If you're already using que, give [que-scheduler](https://github.com/hlascelles/
 
 * Home  :: [github.com/hlascelles/que-scheduler](https://github.com/hlascelles/que-scheduler)
 * Gem   :: [rubygems.org/gems/que-scheduler](https://rubygems.org/gems/que-scheduler)
+* Docs :: [rdoc.info/gems/que-scheduler](https://rdoc.info/gems/que-scheduler)
 * Que - :: [Job Queue using PostgreSQL's advisory locks for speed and reliability](https://github.com/que-rb/que)
 

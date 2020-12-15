@@ -122,6 +122,7 @@ end
 
 ### References
 
-- home :: [github.com/thoughtbot/factory_bot](https://github.com/thoughtbot/factory_bot)
-- gem :: [rubygems.org/gems/factory_bot](https://rubygems.org/gems/factory_bot)
-- article :: [Rails testing "hello world"](https://www.codewithjason.com/rails-testing-hello-world-using-rspec-capybara/)
+- Home :: [github.com/thoughtbot/factory_bot](https://github.com/thoughtbot/factory_bot)
+- Gem :: [rubygems.org/gems/factory_bot](https://rubygems.org/gems/factory_bot)
+- Docs :: [rubydoc.info/gems/factory_bot](https://www.rubydoc.info/gems/factory_bot/)
+- Article :: [Rails testing "hello world"](https://www.codewithjason.com/rails-testing-hello-world-using-rspec-capybara/)

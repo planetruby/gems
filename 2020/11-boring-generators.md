@@ -79,5 +79,6 @@ Happy coding!
 
 - Home :: [github.com/abhaynikam/boring_generators](https://github.com/abhaynikam/boring_generators)
 - Gem :: [rubygems.org/gems/boring_generators](https://rubygems.org/gems/boring_generators)
+* Docs :: [rdoc.info/gems/boring_generators](https://rdoc.info/gems/boring_generators)
 - What's News? :: [Changelog](https://github.com/abhaynikam/boring_generators/blob/master/CHANGELOG.md)
 - Article :: [Introducing Boring Generators](https://www.abhaynikam.me/posts/introducing_boring_generators/)

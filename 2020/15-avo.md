@@ -234,4 +234,5 @@ We're on [Twitter](https://twitter.com/avo_hq) and hang around our [Discord](htt
 * Gem   :: [rubygems.org/gems/avo](https://rubygems.org/gems/avo/)
 * Source :: [github.com/avo-hq/avo](https://github.com/avo-hq/avo)
 * Source (Demo App) :: [github.com/avo-hq/avodemo](https://github.com/avo-hq/avodemo)
+* Docs :: [rdoc.info/gems/avo](https://rdoc.info/gems/avo)
 

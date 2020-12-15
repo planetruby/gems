@@ -69,5 +69,6 @@ Noticed works just like ActionMailer so you can pass params and decide to delive
 
 - Home :: [github.com/excid3/noticed](https://github.com/excid3/noticed)
 - Gem :: [rubygems.org/gems/noticed](https://rubygems.org/gems/noticed)
+- Docs :: [rubydoc.info/gems/noticed](https://www.rubydoc.info/gems/noticed/)
 - Screencast :: [How to Add Notifications with Noticed](https://gorails.com/episodes/rails-notifications-with-noticed?autoplay=1)
 

@@ -75,5 +75,6 @@ Pay also supports SCA out of the box. If a payment requires authentication, Pay 
 
 - Home :: [github.com/pay-rails/pay](https://github.com/pay-rails/pay)
 - Gem :: [rubygems.org/gems/pay](https://rubygems.org/gems/pay)
+- Docs :: [rubydoc.info/gems/pay](https://www.rubydoc.info/gems/pay/)
 - Screencast :: [How to add Payments in Rails with the Pay gem](https://gorails.com/episodes/pay-gem-rails?autoplay=1)
 

@@ -76,6 +76,7 @@ As a result of not having to worry about the ordering of my Gemfile, I've starte
 
 - Home :: [github.com/MainShayne233/happy_gemfile](https://github.com/MainShayne233/happy_gemfile)
 - Gem :: [rubygems.org/gems/happy_gemfile](https://rubygems.org/gems/happy_gemfile)
+- Docs :: [rdoc.info/gems/happy_gemfile](https://rdoc.info/gems/happy_gemfile)
 - Screencast :: [happy_gemfile - Organise your Gemfile](https://www.youtube.com/watch?v=oQ-gYHOAf00)
 
 

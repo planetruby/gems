@@ -38,6 +38,6 @@ Restart your application server if it was running and voila! Now you can preview
 
 ### References
 
-- home :: [github.com/ryanb/letter_opener](https://github.com/ryanb/letter_opener)
-- gem :: [rubygems.org/gems/letter_opener](https://rubygems.org/gems/letter_opener)
-- docs :: [rubydoc.info/gems/letter_opener](https://www.rubydoc.info/gems/letter_opener/)
+- Home :: [github.com/ryanb/letter_opener](https://github.com/ryanb/letter_opener)
+- Gem :: [rubygems.org/gems/letter_opener](https://rubygems.org/gems/letter_opener)
+- Docs :: [rubydoc.info/gems/letter_opener](https://www.rubydoc.info/gems/letter_opener/)

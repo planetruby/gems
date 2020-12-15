@@ -128,3 +128,5 @@ Feel free to reach out to {% avatar jonasjabari size=20 %} [Jonas Jabari](mailto
 * Home  :: [matestack.io](https://matestack.io)
 * Gem   :: [rubygems.org/gems/matestack-ui-core](https://rubygems.org/gems/matestack-ui-core/)
 * Source :: [github.com/matestack/matestack-ui-core](https://github.com/matestack/matestack-ui-core)
+* Docs :: [rdoc.info/gems/matestack-ui-core](https://rdoc.info/gems/matestack-ui-core)
+
