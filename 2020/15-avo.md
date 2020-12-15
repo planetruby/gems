@@ -3,7 +3,7 @@
 
 Written by {% avatar adrianthedev %} [Adrian Marin](https://github.com/adrianthedev)
 
-_Product-Minded Software Engineer in Bucharest, Romania. Creator of [Avo](https://avohq.io/). Lead at [Adore Me](https://bucharest.adoreme.com/). Tinkerer at [https://Help with COVID](https://github.com/helpwithcovid). Works with Ruby & Rails, TypeScript, Vue.js, Electron, PHP & Laravel, Redis._
+_Product-Minded Software Engineer in Bucharest, Romania. Creator of [Avo](https://avohq.io/). Lead at [Adore Me](https://bucharest.adoreme.com/). Tinkerer at [Help with COVID](https://github.com/helpwithcovid). Works with Ruby & Rails, TypeScript, Vue.js, Electron, PHP & Laravel, Redis._
 
 
 
@@ -94,7 +94,7 @@ Now the `Show` view looks like this:
 ![](i/avo-show-page.jpg)
 
 And the `Index` view looks like this:
-![](i/avo-show-page.jpg)
+![](i/avo-index-page.jpg)
 
 
 ## Filters
@@ -212,7 +212,7 @@ module Avo
 end
 ```
 
-You can check out this demo app on [GitHub](https://github.com/avo-hq/blog-demo).
+You can check out this demo app on [GitHub](https://github.com/avo-hq/avodemo).
 
 ## Conclusion
 
@@ -233,4 +233,5 @@ We're on [Twitter](https://twitter.com/avo_hq) and hang around our [Discord](htt
 * Home  :: [avohq.io](https://avohq.io)
 * Gem   :: [rubygems.org/gems/avo](https://rubygems.org/gems/avo/)
 * Source :: [github.com/avo-hq/avo](https://github.com/avo-hq/avo)
+* Source (Demo App) :: [github.com/avo-hq/avodemo](https://github.com/avo-hq/avodemo)
 
