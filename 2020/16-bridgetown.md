@@ -18,7 +18,7 @@ Putting his company's experience in building numerous Jekyll-based websites
 and modern best-practices around web development to use, he created Bridgetown - a new Webpack-aware, Ruby-powered static website generator.
 
 
-## The status quo: Great content and a bold roadmap
+## The status quo: Great documentation 'n' getting started guides and a bold Bridgetown roadmap
 
 After following the [setup guide](https://www.bridgetownrb.com/docs/), you can build and preview your website via a live-reload development server. Markdown (to HTML conversion) and Liquid tags in page templates are supported out of the box, 
 while themes and plugins can easily be installed. The generated files are being put in an `output` directory.
@@ -31,7 +31,7 @@ on "How to Set up a `bridgetown` website using Tailwind CSS".
 
 A vivid community on Discord is happy to answer any questions or can jump in advice if you face any problems.
 
-For going live publishing - website hosting services like Vercel 
+For go live publishing - website hosting services like Vercel 
 or Netlify offer free tiers and (re-)deployments based on a `git` branch of choice; 
 you can also put the `output` folder behind a standard web server like Apache or Nginx.
 
