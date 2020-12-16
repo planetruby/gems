@@ -1,4 +1,4 @@
-# Day 16 - bridgetown gem - Build Websites (and Apps) the Classic (Static) Compiler Way - Use the Latest JavaScript (Yes, Webpack Out-of-the-Box) or CSS Packages - Fast and Secure By Default
+# Day 16 - bridgetown Gem - Build Websites (and Apps) the Classic (Static) Compiler Way - Use the Latest JavaScript (Yes, Webpack Out-of-the-Box) or CSS Packages - Fast and Secure By Default
 
 
 Written by {% avatar pascalwengerter %} [Pascal Wengerter](https://github.com/pascalwengerter)
