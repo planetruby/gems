@@ -20,11 +20,12 @@ Putting his company's experience in deploying numerous Jekyll-based websites and
 
 ## The status quo: Great content and a bold roadmap
 
-After following the straightforward [setup guide](https://www.bridgetownrb.com/docs/), you can build and preview your site via a live-reload development server. Markdown and Liquid Tags are supported out of the box, while themes and plugins can easily be installed. The generated files are being put in an `output` directory.
+After following the straightforward [setup guide](https://www.bridgetownrb.com/docs/), you can build and preview your website via a live-reload development server. Markdown and Liquid Tags are supported out of the box, while themes and plugins can easily be installed. The generated files are being put in an `output` directory.
 
 The roadmap features quite some interesting items and can be found [here](https://www.bridgetownrb.com/about/#roadmap). Contributors are welcome, the project is well maintained and follows a code of conduct.
 
-If you're still skeptical about the "look and feel", you can watch [Andrew Mason](https://andrewm.codes/) set up a `bridgetown` website using Tailwind CSS on [Youtube](https://www.youtube.com/watch?v=UEytpOk9h9w).
+If you're still skeptical about the "look and feel", you can watch
+{% avatar andrewmcodes size=20 %} [Andrew Mason](https://github.com/andrewmcodes) set up a `bridgetown` website using Tailwind CSS on [Youtube](https://www.youtube.com/watch?v=UEytpOk9h9w).
 
 A vivid community on [Discord](https://https://discord.gg/V56yUWR) is happy to answer any questions or can jump in advice if you face any problems.
 
