@@ -15,7 +15,7 @@ When {% avatar jaredcwhite size=20 %}
  Jared set out to work on a fork of Jekyll with a brand new set of project goals and a future roadmap.
  
 Putting his company's experience in building numerous Jekyll-based websites 
-and modern best-practices around web development to use, he created Bridgetown - a Webpack-aware, Ruby-powered static website generator.
+and modern best-practices around web development to use, he created Bridgetown - a new Webpack-aware, Ruby-powered static website generator.
 
 
 ## The status quo: Great content and a bold roadmap
