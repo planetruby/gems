@@ -10,7 +10,7 @@ _A self-taught software developer, and digital all-rounder. Loves democracy 'n' 
 ## The motivation: Keeping Ruby up-to-date in the modern web (and apps) world (built with the latest JavScript and CSS packages)
 
 When {% avatar jaredcwhite size=20 %}
-[Jared White](https://github.com/jaredcwhite) from [Whitefusion](https://whitefusion.io/)
+[Jared White](https://github.com/jaredcwhite) (from [Whitefusion](https://whitefusion.io/))
  figured that Jekyll, arguably the most popular and well-known (static) website generator in the Ruby community, continues to focus on maintaining extensive backwards-compatibility and will therefore not deliver the modern developer experience around static website generation that would be necessary to keep up with the contenders from other languages (Hugo in Go, Next.js and Gatsby.js in JavaScript),
  Jared set out to provide the world with a competitive open source technology.
 
