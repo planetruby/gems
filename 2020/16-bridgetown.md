@@ -27,7 +27,7 @@ The roadmap features quite some interesting items and can be found [here](https:
 If you're still skeptical about the "look and feel", you can watch
 {% avatar andrewmcodes size=20 %} [Andrew Mason](https://github.com/andrewmcodes) set up a `bridgetown` website using Tailwind CSS on [Youtube](https://www.youtube.com/watch?v=UEytpOk9h9w).
 
-A vivid community on [Discord](https://https://discord.gg/V56yUWR) is happy to answer any questions or can jump in advice if you face any problems.
+A vivid community on [Discord](https://discord.gg/V56yUWR) is happy to answer any questions or can jump in advice if you face any problems.
 
 The deployment is pretty straightforward: Services like Vercel (formerly Zeit) or Netlify provide free hosting tiers and (re-)deployments based on a `git` branch of choice; you can also put the `output` folder behind a standard web server like Apache or Nginx.
 
@@ -38,5 +38,5 @@ The deployment is pretty straightforward: Services like Vercel (formerly Zeit) o
 * Home  :: [bridgetownrb.com](https://www.bridgetownrb.com/)
 * Gem   :: [rubygems.org/gems/bridgetown](https://rubygems.org/gems/bridgetown)
 * Source   :: [github.com/bridgetownrb/bridgetown](https://github.com/bridgetownrb/bridgetown)
-* Community :: [Discord](https://https://discord.gg/V56yUWR)
+* Community :: [Discord](https://discord.gg/V56yUWR)
 
