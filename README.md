@@ -46,7 +46,8 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
   (Auto-)Build Beautiful Admin Dashboards and Panels for Your Active Record (Database) Models (Incl. File Attachments) with Configuration in Code
 - [**Day 16 - bridgetown**](2020/16-bridgetown.md)    by {% avatar pascalwengerter size=20 %} [Pascal Wengerter](https://github.com/pascalwengerter)  <br>
   Build Websites (and Apps) the Classic (Static) Compiler Way - Use the Latest JavaScript (Yes, Webpack Out-of-the-Box) or CSS Packages - Fast and Secure By Default
-- **Day 17 - :gift::gift::gift:**    by {% avatar igorkasyanchuk size=20 %} [Igor Kasyanchuk](https://github.com/igorkasyanchuk)
+- [**Day 17 - any_login**](2020/17-any_login.md)   by {% avatar igorkasyanchuk size=20 %} [Igor Kasyanchuk](https://github.com/igorkasyanchuk)  <br>
+  Speed Up Testing Allowing One-Click Turbologins® Without Passwords as Any User in the System. Switching User (Accounts) Made Easy (and Faster)
 - **Day 18 - :gift::gift::gift:**    by {% avatar jankeesvw size=20 %} [Jankees van Woezik](https://github.com/jankeesvw)
 - **Day 19 - :gift::gift::gift:**    by {% avatar soulcutter size=20 %} [Bradley Schaefer](https://github.com/soulcutter)
 - **Day 20 - :gift::gift::gift:**    by {% avatar marcoroth size=20 %} [Marco Roth](https://github.com/marcoroth)
