@@ -140,7 +140,7 @@ end
 
 
 Tip:  If you want to completely disable the `any_login` gem
-in production than add the following code in your `config/environments/production.rb` file.
+in production add the following code in your `config/environments/production.rb` file.
 
 ```ruby
 AnyLogin.setup do |config|
