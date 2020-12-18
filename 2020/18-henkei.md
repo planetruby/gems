@@ -1,8 +1,9 @@
-# Day x - henkei Gem - Extract text content from Word, PowerPoint, and PDF files
+# Day 18 - henkei Gem - Read Text and Meta Data from Word, PowerPoint, or PDF Files
 
 Written by {% avatar swanson %} [Matt Swanson](https://github.com/swanson)
 
 _Contrarian-in-training. Building products. Karl Pilkington is my spirit animal. Hacking on [Boring Rails](https://boringrails.com/)._
+
 
 ## Searching within uploaded files
 
@@ -14,7 +15,7 @@ The basic strategy for this problem is to extract as much textual content from t
 
 But how do you get the text out of these files? It's not as simple as reading a `.txt` file.
 
-## Enter henkei 
+## Enter henkei
 
 The `henkei` gem is a small wrapper around the [Apache Tika project](https://tika.apache.org/).
 
@@ -53,7 +54,7 @@ def extract_text_chunks(s3_url)
   raw_text = Henki.new(s3_url).text
   chunks = []
   chunk = ""
-  
+
   raw_text.split(/[^[[:word:]]]+/).each do |word|
     chunk += "#{word} "
     if chunk.size > MAX_CHUNK_SIZE
@@ -63,12 +64,12 @@ def extract_text_chunks(s3_url)
   end
 
   chunks.flatten.compact.reject(&:blank?)
-end  
+end
 ```
 
 ## Installation Note
 
-One note is that since this gem wraps the Apache Tika library, you will need a Java runtime in your environment to use this gem. It's should not be a problem to add a JRE to most hosting providers, but be aware of this dependendancy.
+One note is that since this gem wraps the Apache Tika library, you will need a Java runtime in your environment to use this gem. It's should not be a problem to add a Java runtime to most hosting providers, but be aware of this dependendancy.
 
 ## Find Out More
 
