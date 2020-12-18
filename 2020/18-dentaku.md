@@ -23,7 +23,7 @@ You probably wonder how that evaluates to a price for a charging session?
 
 ## Enter Dentaku
 
-Dentaku means calculator in Japanese :abacus:, and that's exactly what this gem does. The readme has some great examples and I'll share some here so you see what it can do.
+Dentaku means calculator in Japanese, and that's exactly what this gem does. The readme has some great examples and I'll share some here so you see what it can do.
 
 Let's start with a simple example:
 
