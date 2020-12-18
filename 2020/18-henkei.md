@@ -1,4 +1,4 @@
-# Day 18 - henkei Gem - Read Text and Meta Data from Word, PowerPoint, or PDF Files
+# Day 18 - henkei Gem - Read Text and Meta Data from Word, PowerPoint, and PDF Files
 
 Written by {% avatar swanson %} [Matt Swanson](https://github.com/swanson)
 
