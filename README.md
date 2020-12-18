@@ -50,7 +50,7 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
   Speed Up Testing Allowing One-Click Turbologins® Without Passwords as Any User in the System. Switching User (Accounts) Made Easy (and Faster)
 - [**Day 18 - dentaku**](2020/18-dentaku.md)    by {% avatar jankeesvw size=20 %} [Jankees van Woezik](https://github.com/jankeesvw)  <br>
   Parse and Evaluate Math (and Logical Formulas) with a Calculator in a Sandbox, Safely
-- **Bonus!** [**Day 18 - henkei**](2020/18-henkei.md) by <br> by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)
+- **Bonus!** [**Day 18 - henkei**](2020/18-henkei.md)   by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)  <br>
   Read Text and Meta Data from Word, PowerPoint, or PDF Files
 - **Day 19 - :gift::gift::gift:**    by {% avatar soulcutter size=20 %} [Bradley Schaefer](https://github.com/soulcutter)
 - **Day 20 - :gift::gift::gift:**    by {% avatar marcoroth size=20 %} [Marco Roth](https://github.com/marcoroth)
