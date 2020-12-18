@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 18 - dentaku Gem - Parse and Evaluate Math (and Logical Formulas) with a Calculator in a Sandbox, Safely"
+  path:  2020/18-dentaku
+  date:  2020-12-18
+
 - title: "Day 17 - any_login Gem - Speed Up Testing Allowing One-Click Turbologins® Without Passwords as Any User in the System. Switching User (Accounts) Made Easy (and Faster)"
   path:  2020/17-any_login
   date:  2020-12-17
