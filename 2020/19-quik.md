@@ -50,8 +50,8 @@ That is, you can download always up-to-date single-file (.ZIP) archives
 that get (auto-)built and packaged by GitHub using
 the latest source files (from the master/main branch).
 
-
-Let's look inside the gem starter example - `gem-starter-template.zip`:
+Let's look inside the gem starter example -
+ - `gem-starter-template.zip` downloaded from [`quikstart/gem-starter-template/archive/master.zip`](https://github.com/quikstart/gem-starter-template/archive/master.zip):
 
 ```
 lib/
@@ -67,7 +67,7 @@ Manifest.txt
 README.md
 Rakefile
 ```
-(Source: [quikstart/gem-starter-template](https://github.com/quikstart/gem-starter-template))
+(Source: [`quikstart/gem-starter-template`](https://github.com/quikstart/gem-starter-template))
 
 
 
@@ -127,7 +127,7 @@ module $module$
 end  # module $module$
 ```
 
-(Source: [quikstart/gem-starter-template/template/lib/$filename$/version.rb](https://github.com/quikstart/gem-starter-template/blob/master/template/lib/%24filename%24/version.rb))
+(Source: [`quikstart/gem-starter-template/template/lib/$filename$/version.rb`](https://github.com/quikstart/gem-starter-template/blob/master/template/lib/%24filename%24/version.rb))
 
 
 
@@ -195,7 +195,7 @@ config do |c|
 end
 ```
 
-(Source: [quikstart/scripts/gem.rb](https://github.com/quikstart/scripts/blob/master/gem.rb))
+(Source: [`quikstart/scripts/gem.rb`](https://github.com/quikstart/scripts/blob/master/gem.rb))
 
 
 Voila. That's it.
