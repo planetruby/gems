@@ -38,20 +38,20 @@ Q: How do you get started with creating a new jekyll theme?
 Let's welcome the quik gem and command line tool.
 
 The idea:  Many starter templates / boilerplates
-are ready-to-fork GitHub repos.
-Why not turn GitHub repos into quik starter templates?!
+are ready-to-fork github repos.
+Why not turn github repos into quik starter templates?!
 Let's do it in 1-2-3 steps.
 
 
 ## Step 1:  Download Single-File Quik Starter (.ZIP) Archive
 
-Did you know? You can download GitHub repos without git?
+Did you know? You can download github repos without git?
 That is, you can download always up-to-date single-file (.ZIP) archives
-that get (auto-)built and packaged by GitHub using
-the latest source files (from the master/main branch).
+that get (auto-)built and packaged by github using
+the latest source files (from the master branch).
 
-Let's look inside the gem starter example -
- - `gem-starter-template.zip` downloaded from [`quikstart/gem-starter-template/archive/master.zip`](https://github.com/quikstart/gem-starter-template/archive/master.zip):
+Let's look inside the gem quik starter archive, that is, `gem-starter-template.zip` downloaded from [`quikstart/gem-starter-template/archive/master.zip`](https://github.com/quikstart/gem-starter-template/archive/master.zip), for example:
+
 
 ```
 lib/
@@ -73,9 +73,8 @@ Rakefile
 
 ## Step 2: Parameterize Files - Use a Template Language
 
-
-For example, let's parametrize the `lib/hello/version.rb` script
-for use in a gem template / scaffold:
+Let's parametrize the `lib/hello/version.rb` script
+for use in a gem template / scaffold, for example:
 
 ``` ruby
 module Hello
