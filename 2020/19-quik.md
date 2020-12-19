@@ -46,8 +46,8 @@ Let's do it in 1-2-3 steps.
 ## Step 1:  Download Single-File Quik Starter (.ZIP) Archive
 
 Did you know? You can download GitHub repos without git?
-That is, you can download always a single-file archive (.ZIP)
-that gets (auto-)built by GitHub packaging
+That is, you can download always up-to-date single-file (.ZIP) archives
+that get (auto-)built and packaged by GitHub using
 the latest source files (from the master/main branch).
 
 
@@ -74,13 +74,6 @@ Rakefile
 ## Step 2: Parameterize Files - Use a Template Language
 
 
-Q: What template language would you choose?
-
-- (A) Use Embedded Ruby (ERB)
-- (B) Use Liquid
-- (C) Other (Please Tell).
-
-
 For example, let's parametrize the `lib/hello/version.rb` script
 for use in a gem template / scaffold:
 
@@ -103,13 +96,17 @@ module Hello
 end  # module Hello
 ```
 
-
-
 Q: What template language would you choose?
 
-A: Yes, let's use a new (simpler) template language (e.g. `$name$`)!
+- (A) Embedded Ruby (ERB)
+- (B) Liquid
+- (C) Other (Please Tell).
 
-Example - `lib/$filename$/version.rb`:
+
+Yes, let's use a new (simpler) template language (e.g. `$name$`)!
+
+Let's lookt at the parametrized `lib/$filename$/version.rb` script
+from the gem quick starter:
 
 ``` ruby
 module $module$
