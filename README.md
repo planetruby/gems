@@ -52,7 +52,8 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
   Parse and Evaluate Math (and Logical Formulas) with a Calculator in a Sandbox, Safely
 - **Bonus!** [**Day 18 - henkei**](2020/18-henkei.md)   by {% avatar swanson size=20 %} [Matt Swanson](https://github.com/swanson)  <br>
   Read Text and Meta Data from Word, PowerPoint, and PDF Files
-- **Day 19 - :gift::gift::gift:**    by {% avatar soulcutter size=20 %} [Bradley Schaefer](https://github.com/soulcutter)
+- [**Day 19 - quik**](2020/19-quik.md)    by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb)  <br>
+  Quick Starter Template Script Wizard - The Missing Code Generator and Project Scaffolder for Gems, Sinatra, Jekyll 'n' More
 - **Day 20 - :gift::gift::gift:**    by {% avatar marcoroth size=20 %} [Marco Roth](https://github.com/marcoroth)
 - **Day 21 - :gift::gift::gift:**    by {% avatar mcmire size=20 %} [Elliot Winkler](https://github.com/mcmire)
 - **Day 22 - :gift::gift::gift:**    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)
@@ -65,8 +66,8 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
 
 More upcoming write-ups in the Advent Calendar 2020:
 
+- **:gift::gift::gift:** by {% avatar soulcutter size=20 %} [Bradley Schaefer](https://github.com/soulcutter)
 - **:gift::gift::gift:** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
-
 
 
 
