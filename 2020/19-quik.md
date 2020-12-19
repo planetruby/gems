@@ -134,24 +134,26 @@ end  # module $module$
 
 
 
-Why not (re)use Embedded Ruby (ERB) or Liquid?
-
-A new meta template template language is:
+Why not (re)use Embedded Ruby (ERB) or Liquid? A new meta template template language is:
 
 - Simpler  -- works inside filenames too ;-) e.g. `lib/$filename$/version.rb`
 - Shorter  -- less typing (plus: no worries about whitespace)
 
-**Most Important:** A new meta template template language
+Compare:
+
+```
+module $module$     | module <%= module %>  | module {%raw{{ module }}%}  | module Hello
+  ...               |  ...                  |   ...                |   ...
+end                 | end                   | end                  | end
+```
+
+
+And most important - a new meta template template language
 is "orthogonal" to Embedded Ruby (ERB) and Liquid.
 It let's you parameterize Embedded Ruby (ERB) or Liquid templates too -
 no need for escaping or "raw" blocks etc.
 
 
-```
-module $module$     | module <%= module %>  | module {{ module }}  | module Hello
-  ...               |  ...                  |   ...                |   ...
-end                 | end                   | end                  | end
-```
 
 
 
