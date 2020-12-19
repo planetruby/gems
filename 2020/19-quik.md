@@ -5,33 +5,35 @@ Written by {% avatar geraldb %} [Gerald Bauer](https://github.com/geraldb)
 
 
 
+Let's start with a quiz:
+
 Q: How do you get started with creating a new gem?
 
-- [A] From zero / scratch ;-)
-- [B] Using [bundler](https://bundler.io/v2.2/man/bundle-gem.1.html) with `$ bundle gem`
-- [C] Using [quik](https://github.com/quikstart/gem-starter-template) with `$ quik new gem`
-- [D] Using [hoe](https://github.com/seattlerb/hoe) with `$ sow` (incl. with hoe rake tasks gem)
-- [E] Other (Please Tell).
+- (A) From zero / scratch ;-)
+- (B) Using [bundler](https://bundler.io/v2.2/man/bundle-gem.1.html) with `$ bundle gem`
+- (C) Using [quik](https://github.com/quikstart/gem-starter-template) with `$ quik new gem`
+- (D) Using [hoe](https://github.com/seattlerb/hoe) with `$ sow` (incl. with hoe rake tasks gem)
+- (E) Other (Please Tell).
 
 
 Q: How do you get started with creating a new sinatra app or service?
 
-- [A] From zero / scratch ;-)
-- [B] Using [padrino](http://padrinorb.com/guides/generators/projects) with `$ padrino g project`
-- [C] Using [quik](https://github.com/quikstart/sinatra-starter-template) with `$ quik new sinatra`
-- [D] Other (Please Tell).
+- (A) From zero / scratch ;-)
+- (B) Using [padrino](http://padrinorb.com/guides/generators/projects) with `$ padrino g project`
+- (C) Using [quik](https://github.com/quikstart/sinatra-starter-template) with `$ quik new sinatra`
+- (D) Other (Please Tell).
 
 
 Q: How do you get started with creating a new jekyll theme?
 
-- [A] From zero / scratch ;-)
-- [B] Using [jekyll](http://jekyllrb.com/docs/themes/#creating-a-gem-based-theme) with `$ jekyll new-theme`
-- [C] Using [quik](https://github.com/quikstart/jekyll-starter-theme) with `$ quik new jekyll`
-- [D] Other (Please Tell).
+- (A) From zero / scratch ;-)
+- (B) Using [jekyll](http://jekyllrb.com/docs/themes/#creating-a-gem-based-theme) with `$ jekyll new-theme`
+- (C) Using [quik](https://github.com/quikstart/jekyll-starter-theme) with `$ quik new jekyll`
+- (D) Other (Please Tell).
 
 
 
-## One Quik Starter to rule them all?
+## One quick starter to rule them all?
 
 Let's welcome the quik gem and command line tool.
 
@@ -44,9 +46,11 @@ Let's do it in 1-2-3 steps.
 ## Step 1:  Download Single-File Quik Starter (.ZIP) Archive
 
 Did you know? You can download GitHub repos without git?
-That is, download a single-file archive (.ZIP) -- gets (auto-)built by GitHub.
+That is, you can download a single-file archive (.ZIP)
+that gets (auto-)built by GitHub.
 
-Example - `gem-starter-template.zip`:
+
+Let's look inside the gem starter example - `gem-starter-template.zip`:
 
 ```
 lib/
@@ -71,9 +75,9 @@ Rakefile
 
 Q: What template language would you choose?
 
-- [A] Use Embedded Ruby (ERB)
-- [B] Use Liquid
-- [C] Other (Please Tell).
+- (A) Use Embedded Ruby (ERB)
+- (B) Use Liquid
+- (C) Other (Please Tell).
 
 
 For example, let's parametrize the `lib/hello/version.rb` script
@@ -129,7 +133,7 @@ end  # module $module$
 
 
 
-Why not use Embedded Ruby (ERB) or Liquid?
+Why not (re)use Embedded Ruby (ERB) or Liquid?
 
 A new meta template template language is:
 
@@ -152,7 +156,16 @@ end                 | end                   | end                  | end
 
 ## Step 3: What's Missing? All together Now - Automate with a Script
 
-Let's use Ruby ;-) a with wizard mini language,
+
+Q: What script language would you choose?
+
+- (A) Use Ruby
+- (B) Use Python
+- (C) Use JavaScript
+- (D) Other (Please Tell).
+
+
+Let's use Ruby ;-) with a new wizard mini language,
 that is, a domain-specific language (DSL).
 
 Example - `scripts/gem.rb`:
