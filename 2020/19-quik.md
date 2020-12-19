@@ -46,8 +46,9 @@ Let's do it in 1-2-3 steps.
 ## Step 1:  Download Single-File Quik Starter (.ZIP) Archive
 
 Did you know? You can download GitHub repos without git?
-That is, you can download a single-file archive (.ZIP)
-that gets (auto-)built by GitHub.
+That is, you can download always a single-file archive (.ZIP)
+that gets (auto-)built by GitHub packaging
+the latest source files (from the master/main branch).
 
 
 Let's look inside the gem starter example - `gem-starter-template.zip`:
@@ -70,7 +71,7 @@ Rakefile
 
 
 
-## Step 2: Let's Parameterize Files - Use a Template Language
+## Step 2: Parameterize Files - Use a Template Language
 
 
 Q: What template language would you choose?
