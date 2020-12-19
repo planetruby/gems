@@ -142,7 +142,7 @@ Why not (re)use Embedded Ruby (ERB) or Liquid? A new meta template template lang
 Compare:
 
 ```
-module $module$     | module <%= module %>  | module {%raw{{ module }}%}  | module Hello
+module $module$     | module <%= module %>  | module {%raw%}{{ module }}{%endraw%}  | module Hello
   ...               |  ...                  |   ...                |   ...
 end                 | end                   | end                  | end
 ```
@@ -162,9 +162,9 @@ no need for escaping or "raw" blocks etc.
 
 Q: What script language would you choose?
 
-- (A) Use Ruby
-- (B) Use Python
-- (C) Use JavaScript
+- (A) Ruby
+- (B) Python
+- (C) JavaScript
 - (D) Other (Please Tell).
 
 
@@ -296,6 +296,6 @@ folder.
 
 ### References
 
-* Home :: [github.com/quikstart/quik](https://github.com/quikstart/quik),
-* Gem  :: [quik](https://rubygems.org/gems/quik),
+* Home :: [github.com/quikstart/quik](https://github.com/quikstart/quik)
+* Gem  :: [quik](https://rubygems.org/gems/quik)
 * Docs :: [quik](http://rubydoc.info/gems/quik)
