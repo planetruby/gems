@@ -219,7 +219,7 @@ SYNOPSIS
     quik [global options] command [command options] [arguments...]
 
 VERSION
-    0.3.0
+    1.0.0
 
 GLOBAL OPTIONS
     --help            - Show this message
@@ -266,8 +266,8 @@ $ quik n gem      # or
 $ qk n gem
 ```
 
-This will download the `gem.rb` wizard script
-from the [Scripts](https://github.com/quikstart/scripts) repo
+This will download the quik wizard script ([`quik.rb` ](https://github.com/quikstart/gem-starter-template/blob/master/quik.rb)) 
+from the gem starter template repo
 and run through all steps e.g.:
 
 ```
@@ -279,7 +279,7 @@ Q: What's your gem's module? [Hola]: Hello
 Thanks! Ready-to-go. Stand back.
 
   Downloading Gem Starter Template...
-  Setting up Starter Template...
+  Setting up Gem Starter Template...
   ...
 Done.
 ```
