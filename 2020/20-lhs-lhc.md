@@ -1,33 +1,42 @@
-# Day 20 - `lhs` and `lhc` - Smart HTTP Clients
+# Day 20 - lhs and lhc Gems - Easy Active Record-Like Interfaces for Accessing HTTP JSON APIs - Smarter Higher-Level HTTP Service and Lower-Level HTTP Client
+
 
 Written by {% avatar marcoroth %} [Marco Roth](https://github.com/marcoroth)
 
 _Full-Stack Web-Developer based in Basel, Switzerland. Building stuff with Ruby, Rails, Stimulus and JavaScript. [StimulusReflex](https://github.com/hopsoft/stimulus_reflex) core team member_.
 
+
+
 ## Introduction
 
 I love Ruby and I think Ruby solved a lot of things very elegantly with a ton of features directly built into the standard library. HTTP requests in Ruby with `net/http` are the only thing that never really clicked for me. In fact `net/http` has been there forever, but im my experience it never was a blast to work with.
 
-In 2019 I attended a local Ruby Meetup and heard a talk by [@sebpape](https://twitter.com/sebpape) about "Smart HTTP Clients". In that talk Sebastian talked about how they were building HTTP Clients at [localsearch.ch](https://localsearch.ch) and how their HTTP clients evolved over the years and what kind of issues and pains they were facing.
+In 2019 I attended a local Ruby Meetup and heard a talk by
+{% avatar spape size=20 %} [Sebastian Pape](https://github.com/spape)
+about "Smart HTTP Clients". In that talk Sebastian talked about how they were building HTTP Clients at [localsearch.ch](https://localsearch.ch) and how their HTTP clients evolved over the years and what kind of issues and pains they were facing.
 
-He showed off the two libraries `lhs` and `lhc` which they've built over the years in order solve the issues they experienced with the mapping between Ruby objects and JSON responses from REST APIs.
+He showed off the two libraries `lhs` and `lhc` which they've built over the years in order solve the issues they experienced with the mapping between Ruby objects and JSON responses from HTTP APIs.
 
 Entering `lhs` and `lhc`.
 
-## What is `lhs` and `lhc`
+
+## What is `lhs` and `lhc`?
 
 ### LHC
 
-LHC (which I believe stands for "[**L**ocal.ch](https://local.ch) **H**TTP **C**lient") is an advanced HTTP client which builds on top of the fast [typhoeus](https://github.com/typhoeus/typhoeus) gem for low level http communication.
+LHC ("**L**ocal.ch **H**TTP **C**lient") is an advanced HTTP client which builds on top of the fast [typhoeus](https://github.com/typhoeus/typhoeus) gem for low level http communication.
 
 It supports a wide range of enhancements like interceptors, exception handling, format handling, accessing response data, configuring endpoints/placeholders and fully compatible, RFC-compliant URL-template support.
 
+
 ### LHS
 
-LHS (which I believe stands for "[**L**ocal.ch](https://local.ch) **H**TTP **S**ervice") is a gem built on top of LHC.
-It provides an easy and ActiveRecord-like interface for accessing REST web services.
+LHS ("**L**ocal.ch **H**TTP **S**ervice") is a higher-level gem built on top
+of the lower-level LHC.
+It provides an easy and Active Record-like interface for accessing HTTP JSON APIs / web services.
 
 It offers a lot of features that makes you think that you don't even interact with a remote JSON API-endpoint anymore! It feels like you interact with the database directly.
+
 
 ## Setup and examples
 
@@ -54,12 +63,12 @@ There is a similar method for all the HTTP-methods. Here's an example of a simpl
 LHC.json.post('https://datastore.com/v1/feedbacks', body: { name: 'Hello', recommended: true })
 ```
 
-While I just want to cover the basic use here there is a lot more features to discover! The gem is really feature loaded. You should checkout the detailed README [here](https://github.com/local-ch/lhc).
+While I just want to cover the basic use here there is a lot more features to discover! The gem is really feature loaded. You should checkout the detailed [README](https://github.com/local-ch/lhc).
 
 
 ### LHS
 
-Let's talk about LHS. I was very excited the first time I saw LHS in action. In order to demonstrate what LHS offers: Let's build a simple ActiveRecord-like wrapper for the request we did in the LHC example above to show off it's capabilities.
+Let's talk about LHS. I was very excited the first time I saw LHS in action. In order to demonstrate what LHS offers: Let's build a simple Active Record-like wrapper for the request we did in the LHC example above to show off it's capabilities.
 
 After adding the `lhs` gem to your project you can configure the LHC-Client which LHS is going to use. This example uses Rails, but LHS also works fine outside of Rails (for example if you want to create an API-wrapper gem).
 
@@ -84,7 +93,7 @@ class Feedback < LHS::Record
 end
 ```
 
-If you believe it or not: with that we just built a very simple ActiveRecord-like wrapper for our API! It lets us fetch, create, update and delete records plus lots more.
+If you believe it or not: with that we just built a very simple Active Record-like wrapper for our API! It lets us fetch, create, update and delete records plus lots more.
 
 Of course this doesn't use any authentication yet, but this will be very easy to add later on.
 
@@ -97,7 +106,7 @@ feedback.recommended
 # => true
 ```
 
-You can also use all the methods you know and love from ActiveRecord:
+You can also use all the methods you know and love from Active Record:
 
 ```ruby
 Feedback.all
@@ -145,20 +154,23 @@ Here is a list of more awesome features LHS provides:
 * [chaining](https://github.com/local-ch/LHS#chain-complex-queries)
 * and [a whole lot more](https://github.com/local-ch/LHS#table-of-contents).
 
-## Why and where should I use them?
 
-The next time you have to built against a remote REST API or have the need for a nice but simple and powerful HTTP client think about if LHS or LHC fits for your use case.
+
+## Why and where should I use `lhs` and `lhc`?
+
+The next time you have to built against a remote HTTP JSON API or have the need for a nice but simple and powerful HTTP client think about if LHS or LHC fits for your use case.
 
 LHC is currently my preferred HTTP client and is included in almost every new project I start. If you need a simple, easy-to-use and advanced HTTP client, LHC is a proper fit!
 
 The same applies for LHS. Whether you are going to ...
 
-* ... build a Rails app against a JSON REST service or
-* ... create a Ruby client library gem for a JSON API, ...
+* ... build a Rails app against a HTTP JSON API or
+* ... create a Ruby client library gem for a HTTP JSON API, ...
 
 ... I think you aren't going to be disappointed!
 
 Give it a shot, star the projects on GitHub and tell me about your experiences!
+
 
 ## What's next?
 
@@ -184,19 +196,22 @@ To be honest it has been a blast to work with those gems. I've really learned to
 
 I'd like to thank you for reading this showcase! Hit me up on [Twitter](https://twitter.com/marcoroth_) if you got any questions about LHC or LHS.
 
-A special thanks goes out to [@sebpape](https://twitter.com/sebpape) and the team for providing such beautiful and well documented gems! Thank you!
+A special thanks goes out to
+{% avatar spape size=20 %} [Sebastian Pape](https://github.com/spape)
+and the team for providing such beautiful and well documented gems! Thank you!
+
 
 
 ## References
 
-### LHS
+### Find Out More
 
-- Docs/README :: [github.com/local-ch/lhs](https://github.com/local-ch/lhs/blob/master/README.md)
-- Source :: [github.com/local-ch/lhs](https://github.com/local-ch/lhs)
-- Gem :: [rubygems.org/gems/lhs](https://rubygems.org/gems/lhs)
+**LHS**
 
-### LHC
+- Home :: [github.com/local-ch/lhs](https://github.com/local-ch/lhs)
+- Gem :: [lhs](https://rubygems.org/gems/lhs)
 
-- Docs/README :: [github.com/local-ch/lhc](https://github.com/local-ch/lhc/blob/master/README.md)
-- Source :: [github.com/local-ch/lhc](https://github.com/local-ch/lhc)
-- Gem :: [rubygems.org/gems/lhc](https://rubygems.org/gems/lhc)
+**LHC**
+
+- Home :: [github.com/local-ch/lhc](https://github.com/local-ch/lhc)
+- Gem :: [lhc](https://rubygems.org/gems/lhc)

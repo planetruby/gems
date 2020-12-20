@@ -54,12 +54,14 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
   Read Text and Meta Data from Word, PowerPoint, and PDF Files
 - [**Day 19 - quik**](2020/19-quik.md)    by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb)  <br>
   Quick Starter Template Script Wizard - The Missing Code Generator and Project Scaffolder for Gems, Sinatra, Jekyll 'n' More
-- **Day 20 - :gift::gift::gift:**    by {% avatar marcoroth size=20 %} [Marco Roth](https://github.com/marcoroth)
+- [**Day 20 - lhs and lhc**](2020/20-lhs-lhc.md)    by {% avatar marcoroth size=20 %} [Marco Roth](https://github.com/marcoroth) <br>
+   Easy Active Record-Like Interfaces for Accessing HTTP JSON APIs - Smarter Higher-Level HTTP Service and Lower-Level HTTP Client
 - **Day 21 - :gift::gift::gift:**    by {% avatar mcmire size=20 %} [Elliot Winkler](https://github.com/mcmire)
 - **Day 22 - :gift::gift::gift:**    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)
 - **Day 23 - :gift::gift::gift:**    by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)
 - **Day 24 - :gift::gift::gift:**    by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)
 - **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
+
 
 
 ### More Gifts (or Bonus Posts)
