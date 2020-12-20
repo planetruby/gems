@@ -167,7 +167,7 @@ Q: What script language would you choose?
 Let's use Ruby ;-) with a new wizard mini language,
 that is, a domain-specific language (DSL).
 
-Example - `scripts/gem.rb`:
+Example - `gem-starter-template/quik.rb`:
 
 ``` ruby
 say "Hello from the gem quick starter wizard script"
@@ -194,7 +194,7 @@ config do |c|
 end
 ```
 
-(Source: [`quikstart/scripts/gem.rb`](https://github.com/quikstart/scripts/blob/master/gem.rb))
+(Source: [`quikstart/gem-starter-template/quik.rb`](https://github.com/quikstart/gem-starter-template/blob/master/quik.rb))
 
 
 Voila. That's it.
