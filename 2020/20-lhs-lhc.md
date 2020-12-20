@@ -9,7 +9,7 @@ _Full-Stack Web-Developer based in Basel, Switzerland. Building stuff with Ruby,
 
 ## Introduction
 
-I love Ruby and I think Ruby solved a lot of things very elegantly with a ton of features directly built into the standard library. HTTP requests in Ruby with `net/http` are the only thing that never really clicked for me. In fact `net/http` has been there forever, but im my experience it never was a blast to work with.
+I love Ruby and I think Ruby solved a lot of things elegantly with a ton of features directly built into the standard library. HTTP requests in Ruby with `net/http` are the only thing that never really clicked for me. In fact `net/http` has been there forever, but im my experience it never was a blast to work with.
 
 In 2019 I attended a local Ruby Meetup and heard a talk by
 {% avatar spape size=20 %} [Sebastian Pape](https://github.com/spape)
@@ -68,11 +68,11 @@ While I just want to cover the basic use here there is a lot more features to di
 
 ### LHS
 
-Let's talk about LHS. I was very excited the first time I saw LHS in action. In order to demonstrate what LHS offers: Let's build a simple Active Record-like wrapper for the request we did in the LHC example above to show off it's capabilities.
+Let's talk about LHS. I was excited the first time I saw LHS in action. In order to demonstrate what LHS offers: Let's build a simple Active Record-like wrapper for the request we did in the LHC example above to show off it's capabilities.
 
 After adding the `lhs` gem to your project you can configure the LHC-Client which LHS is going to use. This example uses Rails, but LHS also works fine outside of Rails (for example if you want to create an API-wrapper gem).
 
-Let's define the root URL for our service (this is very helpful if you have different environments):
+Let's define the root URL for our service (this is helpful if you have different environments):
 
 ```ruby
 # config/initializers/lhc.rb
@@ -93,9 +93,9 @@ class Feedback < LHS::Record
 end
 ```
 
-If you believe it or not: with that we just built a very simple Active Record-like wrapper for our API! It lets us fetch, create, update and delete records plus lots more.
+If you believe it or not: with that we just built a simple Active Record-like wrapper for our API! It lets us fetch, create, update and delete records plus lots more.
 
-Of course this doesn't use any authentication yet, but this will be very easy to add later on.
+Of course this doesn't use any authentication yet, but this will be easy to add later on.
 
 This allows us now to query the API as such:
 
@@ -174,7 +174,7 @@ Give it a shot, star the projects on GitHub and tell me about your experiences!
 
 ## What's next?
 
-I encourage you to checkout the awesome, detailed and very thought-through [READMEs](https://github.com/local-ch/lhs/blob/master/README.md) the team at [local-ch](https://github.com/local-ch) have put together. They contain both simple and advanced examples of how you can use the gems. They even give you the feeling that they thought about every little detail you didn't even know you needed!
+I encourage you to checkout the awesome, detailed and thought-through [READMEs](https://github.com/local-ch/lhs/blob/master/README.md) the localsearch.ch team have put together. They contain both simple and advanced examples of how you can use the gems. They even give you the feeling that they thought about every little detail you didn't even know you needed!
 
 ## Alternatives
 
