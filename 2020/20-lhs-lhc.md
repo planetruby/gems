@@ -35,7 +35,7 @@ LHS ("**L**ocalsearch.ch **H**TTP **S**ervice") is a higher-level gem built on t
 of the lower-level LHC.
 It provides an easy and Active Record-like interface for accessing HTTP JSON APIs / web services.
 
-It offers a lot of features that makes you think that you don't even interact with a remote JSON API-endpoint anymore! It feels like you interact with the database directly.
+It offers a lot of features that makes you think that you don't even interact with a remote  HTTP JSON API-endpoint anymore! It feels like you interact with the database directly.
 
 
 ## Setup and examples
@@ -118,7 +118,7 @@ Feedback.first(params: { recommended: true })
 Feedback.where(recommended: true)
 ```
 
-It's super easy to build, create, update and delete records:
+It's easy to build, create, update and delete records:
 
 
 ```ruby
@@ -139,9 +139,9 @@ feedback.destroy
 # DELETE https://datastore.com/v1/feedbacks/3424
 ```
 
-I think this is super awesome! You can create API wrappers with that in no time.
+I think this is awesome! You can create API wrappers with that in no time.
 
-With that said, it's a super powerful and easy to use gem. There is a whole lot more to discover, which I can't cover in this showcase here.
+With that said, it's a powerful and easy to use gem. There is a whole lot more to discover, which I can't cover in this showcase here.
 
 Here is a list of more awesome features LHS provides:
 
