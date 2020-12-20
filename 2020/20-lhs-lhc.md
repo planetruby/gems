@@ -13,7 +13,7 @@ I love Ruby and I think Ruby solved a lot of things very elegantly with a ton of
 
 In 2019 I attended a local Ruby Meetup and heard a talk by
 {% avatar spape size=20 %} [Sebastian Pape](https://github.com/spape)
-about "Smart HTTP Clients". In that talk Sebastian talked about how they were building HTTP Clients at [localsearch.ch](https://localsearch.ch) and how their HTTP clients evolved over the years and what kind of issues and pains they were facing.
+about "Smart HTTP Clients". In that talk Sebastian talked about how they were building HTTP Clients at [`localsearch.ch`](https://localsearch.ch) and how their HTTP clients evolved over the years and what kind of issues and pains they were facing.
 
 He showed off the two libraries `lhs` and `lhc` which they've built over the years in order solve the issues they experienced with the mapping between Ruby objects and JSON responses from HTTP APIs.
 
@@ -24,14 +24,14 @@ Entering `lhs` and `lhc`.
 
 ### LHC
 
-LHC ("**L**ocal.ch **H**TTP **C**lient") is an advanced HTTP client which builds on top of the fast [typhoeus](https://github.com/typhoeus/typhoeus) gem for low level http communication.
+LHC ("**L**ocalsearch.ch **H**TTP **C**lient") is an advanced HTTP client which builds on top of the fast [typhoeus](https://github.com/typhoeus/typhoeus) gem for low level http communication.
 
 It supports a wide range of enhancements like interceptors, exception handling, format handling, accessing response data, configuring endpoints/placeholders and fully compatible, RFC-compliant URL-template support.
 
 
 ### LHS
 
-LHS ("**L**ocal.ch **H**TTP **S**ervice") is a higher-level gem built on top
+LHS ("**L**ocalsearch.ch **H**TTP **S**ervice") is a higher-level gem built on top
 of the lower-level LHC.
 It provides an easy and Active Record-like interface for accessing HTTP JSON APIs / web services.
 
