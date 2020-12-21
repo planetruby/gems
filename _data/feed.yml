@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 21 - super_diff Gem - A More Helpful Way to View Differences Between Complex Data Structures in Test Spec(ification)s"
+  path: 2020/21-super_diff
+  date: 2020-12-21
+
 - title: "Day 20 - lhs and lhc Gems - Easy Active Record-Like Interfaces for Accessing HTTP JSON APIs - Smarter Higher-Level HTTP Service and Lower-Level HTTP Client"
   path:  2020/20-lhs-lhc
   date:  2020-12-20

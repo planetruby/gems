@@ -1,10 +1,16 @@
-# Day 21 - SuperDiff - a more helpful way to view differences between complex data structures in RSpec
+# Day 21 - super_diff Gem - A More Helpful Way to View Differences Between Complex Data Structures in Test Spec(ification)s
 
-Written by [Elliot Winkler](https://twitter.com/mcmire) from [Tuft & Needle](https://www.tuftandneedle.com) {% avatar mcmire %}
 
-## What is SuperDiff?
+Written by {% avatar mcmire %} [Elliot Winkler](https://github.com/mcmire)
 
-SuperDiff is a library that plugs into RSpec in order to give you more meaningful output when an expectation fails by providing a diff of the expected and actual data that is more complete than the one provided by RSpec.
+_A foodie, music nerd, aspiring polyglot, computer whisperer and full-stack web developer with years of experience at product companies and consultancies emphasizing in Ruby on Rails. Works with talented folks at [Tuft & Needle](https://www.tuftandneedle.com) selling great products for helping you sleep at night. Loves to learn new things and has a few different side projects going on at any given time._
+
+
+
+## What is Super Diff?
+
+Super Diff is a library that plugs into RSpec - test spec(ification)s in ruby - in order to give you more meaningful output when an expectation fails by providing a diff of the expected and actual data that is more complete than the one provided by RSpec.
+
 
 ## What's the problem?
 
@@ -193,9 +199,9 @@ A brief glance tells us that both of these issues are typos in our test data: in
 
 That's not so easy to figure out. There seem to be line numbers listed here, but we will quickly realize that they are not very helpful, as they do not match the line numbers of our test file. If we are trained at interpreting RSpec's failure messages, we might look at the context surrounding these pairs of `-` and `+` lines and try searching for "133346631915348608" (or some piece of it) in the test file. That would help us fix the first typo, but we would not be so lucky with locating the second typo. We could certainly search for "21:24:47", but we would find that the order of the hash keys in the test output do not reflect the order of the hash keys in our test data. Eventually, of course, we would find it, but only after staring at the problem for some time.
 
-## Enter SuperDiff
+## Enter Super Diff
 
-Now let's try throwing in SuperDiff, a new gem designed to highlight differences between complex data structures. We're using Rails in this scenario, so we'll add this line to our Gemfile under our `:test` group:
+Now let's try throwing in Super Diff, a new gem designed to highlight differences between complex data structures. We're using Rails in this scenario, so we'll add this line to our Gemfile under our `:test` group:
 
 ``` ruby
 gem "super_diff"
@@ -358,9 +364,9 @@ rspec ./spec/my_cool_app/twitter_client_spec.rb:5 # MyCoolApp::TwitterClient#top
 
 While the output is longer, it is more comprehensive. In a matter of seconds, we have a clear picture of what was changed where, and we can use this knowledge to modify our test data accordingly.
 
-## SuperDiff is intelligent
+## Super Diff is intelligent
 
-Admittedly, the example above was relatively simple, as our test data only involved hashes, arrays, strings, and numbers. However, SuperDiff also knows how to compare ActiveRecord objects, HashWithDifferentAccess objects, "placeholder" objects such as `an_object_having_attributes` or `a_hash_including`, and more. This means that we can replace tests like this:
+Admittedly, the example above was relatively simple, as our test data only involved hashes, arrays, strings, and numbers. However, Super Diff also knows how to compare Active Record objects, `HashWithDifferentAccess` objects, "placeholder" objects such as `an_object_having_attributes` or `a_hash_including`, and more. This means that we can replace tests like this:
 
 ``` ruby
 created_posts = Post.all
@@ -385,9 +391,9 @@ expect(Post.all).to match_array([
 ])
 ```
 
-...and — if such a test fails — get useful output that looks and feels similar to our test data.
+...and - if such a test fails - get useful output that looks and feels similar to our test data.
 
-## SuperDiff is not just for Rails
+## Super Diff is not just for Rails
 
 You might think that this gem can only be used for Rails. Not so! This happens to be the most popular use case, but you can also use it in any Ruby project. Instead of having this in your `spec_helper`:
 
@@ -410,4 +416,4 @@ Happy testing!
 ### References
 
 - Home :: [github.com/mcmire/super_diff](https://github.com/mcmire/super_diff)
-- Gem :: [rubygems.org/gems/super_diff](https://rubygems.org/gems/super_diff)
+- Gem :: [super_diff](https://rubygems.org/gems/super_diff)
