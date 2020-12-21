@@ -58,6 +58,8 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
    Easy Active Record-Like Interfaces for Accessing HTTP JSON APIs - Smarter Higher-Level HTTP Service and Lower-Level HTTP Client
 - [**Day 21 - super_diff**](2020/21-super_diff.md)    by {% avatar mcmire size=20 %} [Elliot Winkler](https://github.com/mcmire)  <br>
    A More Helpful Way to View Differences Between Complex Data Structures in Test Spec(ification)s
+- **Bonus!** [**Day 21 - addressable**](2020/21-addressable.md)    by {% avatar soulcutter size=20 %}  [Bradley Schaefer](https://github.com/soulcutter)  <br>
+   The Uniform Resource Identifier (URI) Class that Should be Standard (Incl. Templates 'n' More)
 - **Day 22 - :gift::gift::gift:**    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)
 - **Day 23 - :gift::gift::gift:**    by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)
 - **Day 24 - :gift::gift::gift:**    by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)
@@ -69,7 +71,6 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
 
 More upcoming write-ups in the Advent Calendar 2020:
 
-- **:gift::gift::gift:** by {% avatar soulcutter size=20 %} [Bradley Schaefer](https://github.com/soulcutter)
 - **:gift::gift::gift:** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
 
 
