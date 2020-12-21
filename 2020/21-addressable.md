@@ -14,7 +14,7 @@ Addressable is an implementation of Uniform Resource Identifiers (URIs), includi
 
 What makes `addressable` popular is that it's a low-level library that is a [direct dependency of many highly popular gems](https://rubygems.org/gems/addressable/reverse_dependencies) as well as an indirect dependency of Rails itself. There is a very high chance that you already rely on this gem in code you've written by virtue of popular gems that use it under the hood.
 
-To explains why people may not be familiar with it, Ruby *itself* comes with a [different URI implementation in the standard library](https://ruby-doc.org/stdlib-2.7.2/libdoc/uri/rdoc/URI.html). Because `addressable` isn't part of the _standard_ library, most tutorials and blog posts dealing with URIs default to using the standard library version rather than introducing `addressable` as an unexplained dependency. Fair enough.
+This explains why people may not be familiar with it, Ruby *itself* comes with a [different URI implementation in the standard library](https://ruby-doc.org/stdlib-2.7.2/libdoc/uri/rdoc/URI.html). Because `addressable` isn't part of the _standard_ library, most tutorials and blog posts dealing with URIs default to using the standard library version rather than introducing `addressable` as an unexplained dependency. Fair enough.
 
 
 ## Why use Addressable?
@@ -110,7 +110,7 @@ addressable_uri # => #<Addressable::URI:0x424 URI:https://www.rfc-editor.org/rfc
 ### URI Templates
 
 The true power feature of the `Addressable` gem is URI templates.
-Let's wrap up with examples from the README:
+I leave you with examples from the README to explore further:
 
 
 ```ruby
@@ -146,8 +146,6 @@ template.extract(uri)
 #   "fragment" => "foo"
 # }
 ```
-
-For more on URI templates see the [RFC 6570 - URI Template](https://www.rfc-editor.org/rfc/rfc6570.txt).
 
 
 ## Find Out More
