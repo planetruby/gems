@@ -9,7 +9,7 @@ _A foodie, music nerd, aspiring polyglot, computer whisperer and full-stack web 
 
 ## What is Super Diff?
 
-Super Diff is a library that plugs into RSpec - test spec(ification)s in ruby - in order to give you more meaningful output when an expectation fails by providing a diff of the expected and actual data that is more complete than the one provided by RSpec.
+Super Diff is a library that plugs into RSpec in order to give you more meaningful output when an expectation fails by providing a diff of the expected and actual data that is more complete than the one provided by RSpec.
 
 
 ## What's the problem?
