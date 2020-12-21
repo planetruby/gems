@@ -110,7 +110,7 @@ addressable_uri # => #<Addressable::URI:0x424 URI:https://www.rfc-editor.org/rfc
 ### URI Templates
 
 The true power feature of the `Addressable` gem is URI templates.
-Let's wrap up with some examples:
+Let's wrap up with examples from the README:
 
 
 ```ruby
