@@ -60,7 +60,8 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
    A More Helpful Way to View Differences Between Complex Data Structures in Test Spec(ification)s
 - **Bonus!** [**Day 21 - addressable**](2020/21-addressable.md)    by {% avatar soulcutter size=20 %}  [Bradley Schaefer](https://github.com/soulcutter)  <br>
    The Uniform Resource Identifier (URI) Class that Should be Standard (Incl. Templates 'n' More)
-- **Day 22 - :gift::gift::gift:**    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)
+- [**Day 22 - active_record-events**](2020/22-active-record-events)    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)  <br>
+   Complete? Record Your Own Timestamps in Active Record Models with has_event Macro, Automagically
 - **Day 23 - :gift::gift::gift:**    by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)
 - **Day 24 - :gift::gift::gift:**    by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)
 - **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)

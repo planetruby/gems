@@ -1,11 +1,13 @@
-# Day 22 - active_record-events Gem - Manage Timestamps in ActiveRecord Models
+# Day 22 - active_record-events Gem - Complete? Record Your Own Timestamps in Active Record Models with has_event Macro, Automagically
 
 Written by {% avatar pienkowb %} [Bartosz Pieńkowski](https://github.com/pienkowb)
 
-## Timestamping in ActiveRecord models
 
-Recording a timestamp in order to mark that an event occurred to an object is a common practice when dealing with ActiveRecord models.
-ActiveRecord itself gives us a good example of such an approach.
+
+## Timestamping in Active Record models
+
+Recording a timestamp in order to mark that an event occurred to an object is a common practice when dealing with Active Record models.
+Active Record itself gives us a good example of such an approach.
 It automatically stores the time when a record was created or updated in the `created_at` and `updated_at` fields.
 
 Similarly, we can create custom timestamp fields by adding `datetime` columns in the database.
@@ -87,5 +89,5 @@ Another alternative is [ActiveRecord::Enum](https://api.rubyonrails.org/classes/
 ### References
 
 - Home :: [github.com/pienkowb/active_record-events](https://github.com/pienkowb/active_record-events)
-- Gem :: [rubygems.org/gems/active_record-events](https://rubygems.org/gems/active_record-events)
+- Gem :: [active_record-events](https://rubygems.org/gems/active_record-events)
 - Screencast :: [ActiveRecord::Events - Awesome Ruby Gems](https://www.youtube.com/watch?v=TIR7YDF3O-4)

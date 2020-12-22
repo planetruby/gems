@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 22 - active_record-events Gem - Complete? Record Your Own Timestamps in Active Record Models with has_event Macro, Automagically"
+  path: 2020/22-active-record-events
+  date: 2020-12-22
+
 - title: "Day 21 - addressable Gem - The Uniform Resource Identifier (URI) Class that Should be Standard (Incl. Templates 'n' More)"
   path: 2020/21-addressable
   date: 2020-12-21
