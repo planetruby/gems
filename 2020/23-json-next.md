@@ -450,5 +450,5 @@ See the [Awesome JSON - What's Next?](https://github.com/json-next/awesome-json-
 - Home :: [https://github.com/json-next/json-next](https://github.com/json-next/json-next)
 - Gem :: [json-next](https://rubygems.org/gems/json-next)
 - Docs :: [json-next](http://rubydoc.info/gems/json-next)
-- Talk Notes :: [JSON - What's Next for the No 1. Universal (Non-Binary/Human) Data Exchange Format](https://github.com/geraldb/talks/blob/master/jsonnext.md)
+- Talk Notes :: [JSON - What's Next for the No 2. Universal (Non-Binary/Human) Data Exchange Format](https://github.com/geraldb/talks/blob/master/jsonnext.md)
 
