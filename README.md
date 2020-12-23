@@ -62,9 +62,11 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
    The Uniform Resource Identifier (URI) Class that Should be Standard (Incl. Templates 'n' More)
 - [**Day 22 - active_record-events**](2020/22-active-record-events.md)    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)  <br>
    Complete? Record Your Own Timestamps in Active Record Models with has_event Macro, Automagically
-- **Day 23 - :gift::gift::gift:**    by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)
+- [**Day 23 - json-next**](2020/23-json-next.md)    by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+    Read Next Generation JSON Versions (HanSON, SON, JSONX/JSON11, Etc) with Comments, Unquoted Keys, Multi-Line Strings, Trailing Commas, Optional Commas, and More
 - **Day 24 - :gift::gift::gift:**    by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)
 - **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
+
 
 
 
@@ -73,7 +75,7 @@ from December 1st to December 25th. (Note: Yo can subscribe to updates via the w
 More upcoming write-ups in the Advent Calendar 2020:
 
 - **:gift::gift::gift:** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
-
+- **:gift::gift::gift:** by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)
 
 
 
