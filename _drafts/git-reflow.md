@@ -16,14 +16,31 @@ Working with teams on software should be painless and fun!  Git-Reflow can solve
 
 Git-Reflow was built for teams with a well-defined path to production.  Similar to the checklists of [surgeons](https://www.nytimes.com/2020/01/15/health/surgeons-checklists.html) and [pilots](https://www.aopa.org/training-and-safety/students/presolo/skills/before-takeoff-checklist), software teams can benefit from a checklist that outlines the path a set of changes will go through to make it to a production environment with minimal defects.  This checklist helps to:
 
-- [ ] Standardize code flow
-- [ ] Minimize context switching at each phase of development
-- [ ] Syncing in-progress work with upstream changes
-- [ ] Ensure proper Pull Request documentation
-- [ ] Prevent merging with unsuccessful checks
-- [ ] Cleanup stale feature branches
+- Standardize code flow
+- Minimize context switching at each phase of development
+- Syncing in-progress work with upstream changes
+- Ensure proper Pull Request documentation
+- Prevent merging with unsuccessful checks
+- Cleanup stale feature branches
 
-## Starting a feature branch
+## A Typical Checklist
+
+Before diving into the details, let's take a quick peek at what a typical _pre-production checklist_ looks like:
+
+- [ ] Start a feature branch from the main base branch
+- [ ] Update in-progress work as you make changes
+- [ ] Submit changes for peer-review
+- [ ] Check on the status of the review
+- [ ] Verify CI checks are passing
+- [ ] Merge changes into the main base branch
+- [ ] Cleanup local and remote feature branches
+- [ ] Deploy changes to production
+
+Not all teams are the same, which is why git-reflow has [an easy way to customize this process](https://github.com/reenhanced/gitreflow/wiki/Custom-Workflows).
+
+With our checklist at the ready, let's walk through how git-reflow helps to guide and automate many of these steps.
+
+### Starting a feature branch
 
 ```bash
 git reflow start vs-branch-name
@@ -36,7 +53,7 @@ Running this will switch to your base branch, pull the latest changes from your 
 > **[PROTIP]**  Use your initials at the beginning of each branch so your team knows
   who is responsible for each. My initials are `V.S.`, so all of my branches start with `vs-`
 
-## Update your in-progress work
+### Update in-progress changes
 
 ```bash
 git reflow refresh
@@ -47,7 +64,7 @@ This command updates your **feature-branch** and **base-branch** according to th
 git reflow refresh -r <remote-location> -b <base-branch>
 ```
 
-### Reviewing your work
+### Reviewing changes
 
 ```
 git reflow review
@@ -192,16 +209,42 @@ command :start, arguments: { feature_branch: nil }, flags: { base: 'dev' }, swit
   run_command_with_label "git checkout --track -b #{feature_branch} origin/#{feature_branch}"
 end
 
-# Create a new command
-command :boom do
-  GitReflow.say "Boom."
+# Create a new command to list open PRs for your team on GitHub
+# This allows you to run `git reflow teamwork`
+command :teamwork, arguments: { member: nil } do |**params|
+  gh_team_slug = git_config.get("github.team-slug", local: true)
+  gh_team_slug = ask("Enter a GitHub team slug to look up open PRs for:").strip if gh_team_slug.empty?
+
+  if gh_team_slug.empty?
+    say "A GitHub team slug is required to lookup PullRequests.", :error
+    exit 1
+  else
+    git_config.set("github.team-slug", gh_team_slug, local: true)
+  end
+
+  team_prs = git_server.connection.search.issues(
+    q: "type:pr state:open org:#{remote_user} team-review-requested:#{remote_user}/#{gh_team_slug}",
+    sort: "updated",
+    auto_pagination: true
+  ).body.items
+
+  say "Open Pull Requests for the #{remote_user}/#{gh_team_slug} team:".colorize(:yellow)
+  say "-------------------------------------------------------"
+  team_prs.each do |pr|
+    say "##{pr.number.to_s.colorize(:yellow)} by @#{pr.user.login}: #{pr.title.slice(0, 80).colorize(:yellow)}"
+    say "➥  #{pr.html_url}"
+  end
 end
 ```
 
 For full details on how you can customize workflows, see [the custom workflows wiki](https://github.com/reenhanced/gitreflow/wiki/Custom-Workflows).
 
+## That's a wrap!
+
+I use git-reflow everyday and I can't stress enough how much time and repetitive agony it's saved me.  There are some great things planned on the horizon as well!  The `1.0` launch plans to bring support for Gitlab, Pivotal Tracker, Trello, and an entirely new Workflow to make it easier to work with open source projects.
+
 ### References
 
 - Home :: [github.com/reenhanced/gitreflow](https://github.com/reenhanced/gitreflow)
 - Gem :: [rubygems.org/gems/git_reflow](https://rubygems.org/gems/git_reflow)
-– Sponsorship :: [Like what I do? Sponsor me on GitHub 💖](https://github.com/sponsors/codenamev)
+– Sponsorship :: [Like what I'm working on? Sponsor me on GitHub 💖](https://github.com/sponsors/codenamev)
