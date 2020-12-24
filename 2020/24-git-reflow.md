@@ -259,4 +259,5 @@ I use git-reflow everyday and I can't stress enough how much time and repetitive
 
 - Home :: [github.com/reenhanced/gitreflow](https://github.com/reenhanced/gitreflow)
 - Gem :: [git_reflow](https://rubygems.org/gems/git_reflow)
-– Sponsorship :: [Like what I'm working on? Sponsor me on GitHub](https://github.com/sponsors/codenamev)
+- Sponsorship :: [Like what I'm working on? Sponsor me on GitHub](https://github.com/sponsors/codenamev)
+
