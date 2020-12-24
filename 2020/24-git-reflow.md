@@ -32,14 +32,14 @@ Git-Reflow was built for teams with a well-defined path to production.  Similar 
 
 Before diving into the details, let's take a quick peek at what a typical _pre-production checklist_ looks like:
 
-- [x] Start a feature branch from the main base branch
-- [x] Update in-progress work as you make changes
-- [x] Submit changes for peer-review
-- [x] Check on the status of the review
-- [x] Verify CI checks are passing
-- [x] Merge changes into the main base branch
-- [x] Cleanup local and remote feature branches
-- [x] Deploy changes to production
+- [✓] Start a feature branch from the main base branch
+- [✓] Update in-progress work as you make changes
+- [✓] Submit changes for peer-review
+- [✓] Check on the status of the review
+- [✓] Verify CI checks are passing
+- [✓] Merge changes into the main base branch
+- [✓] Cleanup local and remote feature branches
+- [✓] Deploy changes to production
 
 Not all teams are the same, which is why git-reflow has [an easy way to customize this process](https://github.com/reenhanced/gitreflow/wiki/Custom-Workflows).
 
