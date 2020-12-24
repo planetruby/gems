@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 24 - git_reflow Gem - Automate Your Git Workflow for You and Your Team. Build Your Own Git (Command Line) Commands"
+  path: 2020/24-git-reflow
+  date: 2020-12-24
+
 - title: "Day 23 - json-next Gem - Read Next Generation JSON Versions (HanSON, SON, JSONX/JSON11, Etc) with Comments, Unquoted Keys, Multi-Line Strings, Trailing Commas, Optional Commas, and More"
   path: 2020/23-json-next
   date: 2020-12-23

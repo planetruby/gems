@@ -1,8 +1,12 @@
-# Day 24 - git-reflow - A Git Workflow Automation CLI For Guiding Team Development From The Command Line
+# Day 24 - git_reflow Gem - Automate Your Git Workflow for You and Your Team. Build Your Own Git (Command Line) Commands
 
-Written by [Valentino Stoll](https://twitter.com/thecodenamev) from [Doximity](https://grnh.se/5b1db38f1) {% avatar codenamev %}
+Written by {% avatar codenamev %} [Valentino Stoll](https://github.com/codenamev)
 
-## DRY'ing up Git-Flow
+_Codes up a storm of bits with my frontal lobe. Blogs about Ruby on the Raspberry Pi, LEDs, and more at [Code Name V](https://blog.codenamev.com/). Works at [Doximity](https://workat.doximity.com/positions)._
+
+
+
+## DRY'ing up Git Flow
 
 Working with teams on software should be painless and fun!  Git-Reflow can solve some of the following pain points:
 
@@ -243,8 +247,12 @@ For full details on how you can customize workflows, see [the custom workflows w
 
 I use git-reflow everyday and I can't stress enough how much time and repetitive agony it's saved me.  There are some great things planned on the horizon as well!  The `1.0` launch plans to bring support for Gitlab, Pivotal Tracker, Trello, and an entirely new Workflow to make it easier to work with open source projects.
 
+
+
+## Find out more
+
 ### References
 
 - Home :: [github.com/reenhanced/gitreflow](https://github.com/reenhanced/gitreflow)
-- Gem :: [rubygems.org/gems/git_reflow](https://rubygems.org/gems/git_reflow)
-– Sponsorship :: [Like what I'm working on? Sponsor me on GitHub 💖](https://github.com/sponsors/codenamev)
+- Gem :: [git_reflow](https://rubygems.org/gems/git_reflow)
+– Sponsorship :: [Like what I'm working on? Sponsor me on GitHub](https://github.com/sponsors/codenamev)

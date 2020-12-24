@@ -63,8 +63,9 @@ from December 1st to December 25th. (Note: You can subscribe to updates via the 
 - [**Day 22 - active_record-events**](2020/22-active-record-events.md)    by {% avatar pienkowb size=20 %} [Bartosz Pieńkowski](https://github.com/pienkowb)  <br>
    Complete? Record Your Own Timestamps in Active Record Models with has_event Macro, Automagically
 - [**Day 23 - json-next**](2020/23-json-next.md)    by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
-    Read Next Generation JSON Versions (HanSON, SON, JSONX/JSON11, Etc) with Comments, Unquoted Keys, Multi-Line Strings, Trailing Commas, Optional Commas, and More
-- **Day 24 - :gift::gift::gift:**    by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)
+  Read Next Generation JSON Versions (HanSON, SON, JSONX/JSON11, Etc) with Comments, Unquoted Keys, Multi-Line Strings, Trailing Commas, Optional Commas, and More
+- [**Day 24 - git_reflow**](2020/24-git-reflow.md)     by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)  <br>
+   Automate Your Git Workflow for You and Your Team. Build Your Own Git (Command Line) Commands
 - **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
 
 
