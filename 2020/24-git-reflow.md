@@ -2,7 +2,7 @@
 
 Written by {% avatar codenamev %} [Valentino Stoll](https://github.com/codenamev)
 
-_Codes up a storm of bits with my frontal lobe. Blogs about Ruby on the Raspberry Pi, LEDs, and more at [Code Name V](https://blog.codenamev.com/). Works at [Doximity](https://workat.doximity.com/positions)._
+_Codes up a storm of bits. Blogs about Ruby on the Raspberry Pi, LEDs, and more at [Code Name V](https://blog.codenamev.com/). Works at [Doximity](https://workat.doximity.com/positions)._
 
 
 
@@ -13,8 +13,9 @@ Working with teams on software should be painless and fun!  Git-Reflow can solve
 - "Who's working on the some-crazy-branch-name? What is it?  Do we still need it?"
 - _Checks out new branch_ "Ugh, let me open up Pivotal Tracker and start this story"
 - _Commits last change on feature branch and pushes to remote_ "Ok, now I'll just switch contexts a few times to create a PR with links to project tracking."... _10 minutes later_... "Done!"
-- _Switches to browser, looking for tab with open PR... got it! Tests passing?  Nope, I'll come back in a bit."
-- _Switches to browser, looking for tab with open PR... got it! Tests passing?  Yep, let's merge this!"... _More context switching while merging, deploying, updating tracking, cleaning up feature branches_...
+- _Switches to browser, looking for tab with open PR... got it! Tests passing?_ "Nope, I'll come back in a bit."
+- _Switches to browser, looking for tab with open PR... got it! Tests passing?_ "Yep, let's merge this!"... _More context switching while merging, deploying, updating tracking, cleaning up feature branches_...
+
 
 ## Establishing Pre-Production Checklist
 
@@ -31,14 +32,14 @@ Git-Reflow was built for teams with a well-defined path to production.  Similar 
 
 Before diving into the details, let's take a quick peek at what a typical _pre-production checklist_ looks like:
 
-- [ ] Start a feature branch from the main base branch
-- [ ] Update in-progress work as you make changes
-- [ ] Submit changes for peer-review
-- [ ] Check on the status of the review
-- [ ] Verify CI checks are passing
-- [ ] Merge changes into the main base branch
-- [ ] Cleanup local and remote feature branches
-- [ ] Deploy changes to production
+-  ✓ Start a feature branch from the main base branch
+-  ✓ Update in-progress work as you make changes
+-  ✓ Submit changes for peer-review
+-  ✓ Check on the status of the review
+-  ✓ Verify CI checks are passing
+-  ✓ Merge changes into the main base branch
+-  ✓ Cleanup local and remote feature branches
+-  ✓ Deploy changes to production
 
 Not all teams are the same, which is why git-reflow has [an easy way to customize this process](https://github.com/reenhanced/gitreflow/wiki/Custom-Workflows).
 
@@ -54,8 +55,9 @@ git reflow start vs-branch-name
 
 Running this will switch to your base branch, pull the latest changes from your remote git server, create the new branch you provided and switch to it.
 
-> **[PROTIP]**  Use your initials at the beginning of each branch so your team knows
+**[PROTIP]**  Use your initials at the beginning of each branch so your team knows
   who is responsible for each. My initials are `V.S.`, so all of my branches start with `vs-`
+
 
 ### Update in-progress changes
 
