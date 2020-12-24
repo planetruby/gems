@@ -55,7 +55,7 @@ git reflow start vs-branch-name
 
 Running this will switch to your base branch, pull the latest changes from your remote git server, create the new branch you provided and switch to it.
 
-**[PROTIP]**  Use your initials at the beginning of each branch so your team knows
+**Protip:**  Use your initials at the beginning of each branch so your team knows
   who is responsible for each. My initials are `V.S.`, so all of my branches start with `vs-`
 
 
@@ -83,9 +83,11 @@ The `review` step creates a pull request for the currently checked out feature b
 ```
 git reflow review -t <title> -m <message> <base-branch>
 ```
-> **Note:** `-t` and `-m` are optional, as is the `base-branch` argument. If no
-> base-branch is provided, then git-reflow will look for a `reflow.base-branch` git
-> configuration and fallback to `master` as the default.
+
+**Note:** `-t` and `-m` are optional, as is the `base-branch` argument. If no
+base-branch is provided, then git-reflow will look for a `reflow.base-branch` git
+configuration and fallback to `master` as the default.
+
 
 If you do not pass the title or message options to the review command, you will be given an editor to write your PR request commit message, similar to `git commit`. The first line is the title, the rest is the body.
 
