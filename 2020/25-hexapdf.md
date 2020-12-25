@@ -30,7 +30,7 @@ If you are concerned regarding the performance, have a look at the following gis
 ### Command Line
 
 
-The [manual page](https://hexapdf.gettalong.org/documentation/hexapdf.1.html) of the `hexapdf` command explains all functionality in detail. It basically strives to be a universal PDF manipulation tool.
+The [manual page](https://hexapdf.gettalong.org/documentation/reference/hexapdf.1.html) of the `hexapdf` command explains all functionality in detail. It basically strives to be a universal PDF manipulation tool.
 
 * One common task is to **merge multiple PDFs into one**: `hexapdf merge input1.pdf input2.pdf input3.pdf output.pdf`.
 
@@ -176,7 +176,8 @@ If you need to work with PDFs in Ruby, HexaPDF is the way to go!
 
 ### References
 
-- Source :: [https://github.com/gettalong/hexapdf](https://github.com/gettalong/hexapdf)
+- Home   :: [hexapdf.gettalong.org](https://hexapdf.gettalong.org)
+- Source :: [github.com/gettalong/hexapdf](https://github.com/gettalong/hexapdf)
 - Gem  :: [hexapdf](https://rubygems.org/gems/hexapdf)
 - Docs :: [hexapdf](http://rubydoc.info/gems/hexapdf)
 
