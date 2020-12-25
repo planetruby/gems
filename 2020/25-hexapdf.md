@@ -1,10 +1,8 @@
-_A Versatile Portable Document Format (PDF) Creation and Manipulation Library and Command Line Tool_
+# Day 25 - hexapdf Gem - Read and Write PDF Documents. Start from Zero or Merge, Extract, Optimize and Much More
 
+Written by {% avatar gettalong %} [Thomas Leitner](https://github.com/gettalong/hexapdf)
 
-# Week 18 - hexapdf gem / library and command line tool - Read and Write PDF Documents; Start from Zero or Merge, Extract, Optimize and Much More  
-
-Written by [Thomas Leitner](https://rubygems.org/profiles/gettalong)  {% avatar gettalong %}
-
+_(Open source) software developer from Vienna, Austria. Creator of Kramdown and HexaPDF. Sci-Fi fan._
 
 
 HexaPDF is a pure Ruby library with an accompanying application for working with PDF files.
@@ -29,7 +27,7 @@ If you are concerned regarding the performance, have a look at the following gis
 ## Examples
 
 
-### Command Line  
+### Command Line
 
 
 The [manual page](https://hexapdf.gettalong.org/documentation/hexapdf.1.html) of the `hexapdf` command explains all functionality in detail. It basically strives to be a universal PDF manipulation tool.
@@ -168,14 +166,17 @@ end
 doc.write('images.pdf')
 ```
 
+
 ## Conclusion
 
-If you need to work with PDFs in Ruby, HexaPDF is probably the way to go!
+If you need to work with PDFs in Ruby, HexaPDF is the way to go!
 
 
-## Find Out More
+## Find out more
 
-- github :: [gettalong/hexapdf](https://github.com/gettalong/hexapdf)
-- gem :: [hexapdf](https://rubygems.org/gems/hexapdf)
-- rdoc :: [hexapdf](http://rubydoc.info/gems/hexapdf)
+### References
+
+- Source :: [https://github.com/gettalong/hexapdf](https://github.com/gettalong/hexapdf)
+- Gem  :: [hexapdf](https://rubygems.org/gems/hexapdf)
+- Docs :: [hexapdf](http://rubydoc.info/gems/hexapdf)
 

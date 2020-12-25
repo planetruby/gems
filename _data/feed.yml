@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 25 - hexapdf Gem - Read and Write PDF Documents. Start from Zero or Merge, Extract, Optimize and Much More"
+  path: 2020/25-hexapdf
+  date: 2020-12-25
+
 - title: "Day 24 - git_reflow Gem - Automate Your Git Workflow for You and Your Team. Build Your Own Git (Command Line) Commands"
   path: 2020/24-git-reflow
   date: 2020-12-24

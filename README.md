@@ -66,17 +66,8 @@ from December 1st to December 25th. (Note: You can subscribe to updates via the 
   Read Next Generation JSON Versions (HanSON, SON, JSONX/JSON11, Etc) with Comments, Unquoted Keys, Multi-Line Strings, Trailing Commas, Optional Commas, and More
 - [**Day 24 - git_reflow**](2020/24-git-reflow.md)     by {% avatar codenamev size=20 %} [Valentino Stoll](https://github.com/codenamev)  <br>
    Automate Your Git Workflow for You and Your Team. Build Your Own Git (Command Line) Commands
-- **Day 25 - :gift::gift::gift:**    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)
-
-
-
-
-### More Gifts (or Bonus Posts)
-
-More upcoming write-ups in the Advent Calendar 2020:
-
-- **:gift::gift::gift:** by {% avatar philnash size=20 %} [Phil Nash](https://github.com/philnash)
-- **:gift::gift::gift:** by {% avatar janxious size=20 %} [Joel Meador](https://github.com/janxious)
+- [**Day 25 - hexapdf**](2020/25-hexapdf.md)    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)  <br>
+   Read and Write PDF Documents. Start from Zero or Merge, Extract, Optimize and Much More
 
 
 
@@ -164,4 +155,3 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 15 - beerdb**](week/15-beerdb.md)  - serving a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON w/ Ruby
 - [**Week 16 - tilt**](week/16-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
 - [**Week 17 - datapak**](week/17-datapak.md) - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
-- [**Week 18 - hexapdf**](week/18-hexapdf.md) - read and write PDF documents; start from zero or merge, extract, optimize and much more. Written by {% avatar gettalong size=20 %} [Thomas Leitner](https://rubygems.org/profiles/gettalong)
