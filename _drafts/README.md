@@ -12,4 +12,4 @@ Every file in markdown is a write-up / article /post.
 ## Q: Where can I put the write-up in? Is there a special folder?
 
 **A:**  If you send a pull request it would be great (the best) 
-in the [`_drafts/`](../drafts) folder / directory (that is possible anytime). 
+in the [`_drafts/`](../_drafts) folder / directory (that is possible anytime). 
