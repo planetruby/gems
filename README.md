@@ -84,7 +84,7 @@ that is, the first block of a blockchain (on January 3rd, 2009) with a week long
 celebration of crypto gems from the Ruby universe. New to blockchain? See the [Awesome Blockchains page »](https://github.com/openblockchains/awesome-blockchains)
 
 Yes, you can! Why not highlight a blockchain / cryptos gem with your write-up?
-We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get the conversation started and your article posted in the Blockchain Week series on Planet Ruby.
+We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Blockchain Week series on Planet Ruby.
 All welcome from no coiners to bitcon austrian school of economics "I HODL! You HODL! We HODL! Number Go UP!" maximalists to [universum (with secure ruby contract programming) is the new ethereum](https://github.com/s6ruby/universum) world computer blockchainers.
 
 
@@ -110,7 +110,7 @@ with a week long
 celebration of open data gems from the Ruby universe.
 
 Do you have an open data Ruby gem that you'd like to write about?
-We love your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get the conversation started and your article posted in the Open Data Week series on Planet Ruby.
+We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Open Data Week series on Planet Ruby.
 
 - **Day 1 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
