@@ -85,7 +85,7 @@ celebration of crypto gems from the Ruby universe. New to blockchain? See the [A
 
 Yes, you can! Why not highlight a blockchain / cryptos gem with your write-up?
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get the conversation started and your article posted in the Blockchain Week series on Planet Ruby.
-All welcome from no coiners to bitcon austrian school of economics "I HODL! You HODL! We HODL! Number Go UP!" maximalists to [universum with secure ruby contract programming is the new ethereum](https://github.com/s6ruby/universum) world computer blockchainers.
+All welcome from no coiners to bitcon austrian school of economics "I HODL! You HODL! We HODL! Number Go UP!" maximalists to [universum (with secure ruby contract programming) is the new ethereum](https://github.com/s6ruby/universum) world computer blockchainers.
 
 
 - **Day 1 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
