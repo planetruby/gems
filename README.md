@@ -88,7 +88,7 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 All welcome from no coiners to bitcon austrian school of economics "I HODL! You HODL! We HODL! Number Go UP!" maximalists to [universum (with secure ruby contract programming) is the new ethereum](https://github.com/s6ruby/universum) world computer blockchainers.
 
 
-- **Day 1 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 1 - :chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend:** written by {% avatar logicminds size=20 %} [Corey Osman](https://github.com/logicminds) 
 - **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
