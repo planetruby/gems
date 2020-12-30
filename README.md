@@ -75,6 +75,8 @@ from December 1st to December 25th. (Note: You can subscribe to updates via the 
 
 ### Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems
 
+{% include thanks_blockchain.html %}
+
 Welcome. The Ruby Blockchain Week 2021 presents
 a new Ruby (crypto) library every day from January 3rd to January 9th.
 Have your say! Claim a free day!
