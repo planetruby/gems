@@ -4,7 +4,7 @@
 ## 25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th
 
 
-{% include thanks.html %}
+{% include thanks_2020.html %}
 
 
 Welcome. The Ruby Advent Calendar 2020
