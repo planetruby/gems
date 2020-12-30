@@ -1,6 +1,41 @@
 # Best of Ruby Gems Series
 
 
+**2021**
+- [Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems](#ruby-blockchain-week-2021-january-3rd-to-january-9th---7-days-of-ruby-crypto-gems)
+- [Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems](#ruby-open-data-week-2021-march-6th-to-march-12th---7-days-of-ruby-open-data-gems)
+
+**2020**
+- [25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th](#25-days-of-ruby-gems---ruby-advent-calendar-2020-december-1st---december-25th)
+
+
+### Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems
+
+{% include thanks_blockchain.html %}
+
+Welcome. The Ruby Blockchain Week 2021 presents
+a new Ruby (crypto) library every day from January 3rd to January 9th.
+Have your say! Claim a free day!
+
+Let's celebrate the 11th birthday of the world's first genesis block  -
+that is, the first block of a blockchain (on January 3rd, 2009) with a week long
+celebration of crypto gems from the Ruby universe. New to blockchain? See the [Awesome Blockchains page »](https://github.com/openblockchains/awesome-blockchains)
+
+Yes, you can! Why not highlight a blockchain / cryptos gem with your write-up?
+We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Blockchain Week series on Planet Ruby.
+All welcome from no coiners to bitcon austrian school of economics "I HODL! You HODL! We HODL! Number Go UP!" maximalists to [universum (with secure ruby contract programming) is the new ethereum](https://github.com/s6ruby/universum) world computer blockchainers.
+
+
+- **Day 1 - :chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend:** written by {% avatar logicminds size=20 %} [Corey Osman](https://github.com/logicminds) 
+- **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+
+
+
 ## 25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th
 
 
@@ -72,33 +107,6 @@ from December 1st to December 25th. (Note: You can subscribe to updates via the 
 
 
 ## Upcoming in 2021
-
-### Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems
-
-{% include thanks_blockchain.html %}
-
-Welcome. The Ruby Blockchain Week 2021 presents
-a new Ruby (crypto) library every day from January 3rd to January 9th.
-Have your say! Claim a free day!
-
-Let's celebrate the 11th birthday of the world's first genesis block  -
-that is, the first block of a blockchain (on January 3rd, 2009) with a week long
-celebration of crypto gems from the Ruby universe. New to blockchain? See the [Awesome Blockchains page »](https://github.com/openblockchains/awesome-blockchains)
-
-Yes, you can! Why not highlight a blockchain / cryptos gem with your write-up?
-We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Blockchain Week series on Planet Ruby.
-All welcome from no coiners to bitcon austrian school of economics "I HODL! You HODL! We HODL! Number Go UP!" maximalists to [universum (with secure ruby contract programming) is the new ethereum](https://github.com/s6ruby/universum) world computer blockchainers.
-
-
-- **Day 1 - :chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend:** written by {% avatar logicminds size=20 %} [Corey Osman](https://github.com/logicminds) 
-- **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-
-
 
 ### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
 
