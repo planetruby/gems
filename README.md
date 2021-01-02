@@ -19,7 +19,7 @@ Have your say! Claim a free day!
 
 Let's celebrate the 11th birthday of the world's first genesis block  -
 that is, the first block of a blockchain (on January 3rd, 2009) with a week long
-celebration of crypto gems from the Ruby universe. New to blockchain? See the [Awesome Blockchains page »](https://github.com/openblockchains/awesome-blockchains)
+celebration of crypto gems from the Ruby universe. New to blockchain? See the [Best of Crypto Books page »](https://openblockchains.github.io/crypto-books/)
 
 Yes, you can! Why not highlight a blockchain / cryptos gem with your write-up?
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Blockchain Week series on Planet Ruby.
