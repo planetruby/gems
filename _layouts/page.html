@@ -9,6 +9,10 @@ layout: default_page
      <p style="font-size: 80%;">
           <a href="{{ '/' | relative_url }}">« 25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th</a>
      </p>
+{% elsif page.path contains "blockchain" %}
+     <p style="font-size: 80%;">
+          <a href="{{ '/' | relative_url }}">« Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems</a>
+     </p>
 {% elsif page.path contains "week" %}
     <p style="font-size: 80%;">
           <a href="{{ '/' | relative_url }}">« Ruby Gem of the Week Series</a>
