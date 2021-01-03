@@ -110,7 +110,10 @@ Or on the command line you can just run `ruby -r compute_unit -e 'puts ComputeUn
 ### Calculate Power usage
 A quick check to calculate the total power used on a mining rig. Keep in mind these numbers don't represent power measured from the wall, only what the GPU driver is reporting.
 
-`ComputeUnit.find_all.sum {|cu| cu.power } => 454`
+```ruby
+ComputeUnit.find_all.sum {|cu| cu.power } 
+#=> 454
+```
 
 ### Setting the fan speed
 Set the fan to 60% on the first GPU, then get the rpm of the fan.
