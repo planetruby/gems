@@ -16,7 +16,7 @@ Many people and professional mining operating systems like [hiveOS](https://hive
 In this discussion we focus on crypto mining software as there are gems for other crypto needs.  See references for a list of various tools and libraries related to crypto.
 
 
-## What's the Compute Unit?
+## What's Compute Unit?
 
 The [compute_unit gem](https://gitlab.com/blockops/compute_unit) is a ruby library that searches the linux sysfs file system for compute unit devices such as CPUS, GPUs and other ASIC compute devices. It allows programmatic access to collect real time metrics from the kernel or related driver toolchains. Is meant to be used as a library for future ruby based tools. This library also makes use of OpenCL library and requires the [opencl_ruby_ffi gem](https://github.com/Nanosim-LIG/opencl-ruby).
 
@@ -73,35 +73,35 @@ One of the first things you can do is to discover the devices.  In this example 
 require 'compute_unit'
 
 ComputeUnit.find_all.first.to_h
-=> {:uuid=>"GPU0",
- :gpuId=>"GPU0",
- :syspath=>"/sys/bus/pci/devices/0000:03:00.0",
- :pciLoc=>"0000:03:00.0",
- :name=>"Radeon RX 5600 OEM/5600 XT / 5700/5700 XT",
- :bios=>"113-1E4260U-O4E",
- :subType=>"amdgpu",
- :make=>"AMD",
- :model=>"Radeon RX 5600 OEM/5600 XT / 5700/5700 XT",
- :vendor=>"Sapphire",
- :power=>101,
- :utilization=>0,
- :temperature=>43,
- :status=>1,
- :pstate=>-1,
- :fanSpeed=>1438,
- :type=>:GPU,
- :maxTemp=>nil,
- :mem=>900,
- :cor=>1360,
- :vlt=>750,
- :mem_temp=>82,
- :maxFan=>nil,
- :dpm=>nil,
- :vddci=>nil,
- :maxPower=>nil,
- :ocProfile=>nil,
- :opencl_enabled=>false}
 
+#=> {:uuid=>"GPU0",
+# :gpuId=>"GPU0",
+# :syspath=>"/sys/bus/pci/devices/0000:03:00.0",
+# :pciLoc=>"0000:03:00.0",
+# :name=>"Radeon RX 5600 OEM/5600 XT / 5700/5700 XT",
+# :bios=>"113-1E4260U-O4E",
+# :subType=>"amdgpu",
+# :make=>"AMD",
+# :model=>"Radeon RX 5600 OEM/5600 XT / 5700/5700 XT",
+# :vendor=>"Sapphire",
+# :power=>101,
+# :utilization=>0,
+# :temperature=>43,
+# :status=>1,
+# :pstate=>-1,
+# :fanSpeed=>1438,
+# :type=>:GPU,
+# :maxTemp=>nil,
+# :mem=>900,
+# :cor=>1360,
+# :vlt=>750,
+# :mem_temp=>82,
+# :maxFan=>nil,
+# :dpm=>nil,
+# :vddci=>nil,
+# :maxPower=>nil,
+# :ocProfile=>nil,
+# :opencl_enabled=>false}
 ```
 
 Or on the command line you can just run `ruby -r compute_unit -e 'puts ComputeUnit.find_all.map(&:to_h).to_yaml'`
@@ -117,10 +117,11 @@ Set the fan to 60% on the first GPU, then get the rpm of the fan.
 
 ```ruby
 ComputeUnit.find_all.first.set_fan_limit(60)
-INFO - ComputeUnit: GPU0 current fan set to 60 percent
-=> 60
+# INFO - ComputeUnit: GPU0 current fan set to 60 percent
+#=> 60
 
-ComputeUnit.find_all.first.fan => 2141
+ComputeUnit.find_all.first.fan
+#=> 2141
 ```
 
 **NOTE** You could also set the fan speed on all devices in a similar manner.
@@ -148,14 +149,13 @@ data = ComputeUnit::Gpu.find_all(true).map do |cu|
 end
 tp data
 
-=>
-INDEX | POWER | TEMP | VENDOR   | MODEL                 | BIOS
-------|-------|------|----------|-----------------------|----------------
-GPU0  | 100   | 43   | Sapphire | AMD Radeon RX 5700 XT | 113-1E4260U-O4E
-GPU1  | 99    | 43   | Sapphire | AMD Radeon RX 5700 XT | 113-1E4260U-O4E
-GPU2  | 97    | 40   | Sapphire | AMD Radeon RX 5700 XT | 113-1E4260U-O4E
-GPU3  | 98    | 47   | Sapphire | AMD Radeon RX 5700 XT | 113-1E4260U-O4E
-
+# =>
+# INDEX | POWER | TEMP | VENDOR   | MODEL                 | BIOS
+# ------|-------|------|----------|-----------------------|----------------
+# GPU0  | 100   | 43   | Sapphire | AMD Radeon RX 5700 XT | 113-1E4260U-O4E
+# GPU1  | 99    | 43   | Sapphire | AMD Radeon RX 5700 XT | 113-1E4260U-O4E
+# GPU2  | 97    | 40   | Sapphire | AMD Radeon RX 5700 XT | 113-1E4260U-O4E
+# GPU3  | 98    | 47   | Sapphire | AMD Radeon RX 5700 XT | 113-1E4260U-O4E
 ```
 
 
