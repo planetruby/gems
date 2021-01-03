@@ -1,4 +1,4 @@
-# Day 1 - compute_unit Gem - Collect Real Time Metrics 'n' Manage Compute Units (GPU, CPU, and ASICs) for Crypto Mining Rigs -
+# Day 1 - compute_unit Gem - Collect Real Time Metrics 'n' Manage Compute Units (GPU, CPU, and ASICs) for Crypto Mining Rigs
 
 
 Written by {% avatar Logicminds %} [Corey Osman](https://github.com/logicminds)
