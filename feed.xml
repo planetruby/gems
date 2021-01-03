@@ -1,11 +1,11 @@
 ---
 # generated (atom) feed.xml (from _data/feed.yml)
 #
-# note: hack for now - try to (auto-)remove title for now  - looks better in rubyland.news  
+# note: hack for now - try to (auto-)remove title for now  - looks better in rubyland.news
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th</title>
+  <title>Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems</title>
   <link href="{{ '/feed.xml' | absolute_url }}" rel="self" />
   <link href="{{ '/' | absolute_url }}" />
   <id>{{ '/' | absolute_url | xml_escape }}</id>

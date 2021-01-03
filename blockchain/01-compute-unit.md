@@ -128,7 +128,7 @@ ComputeUnit.find_all.first.fan
 
 
 ### Dump to a table with OpenCL enabled
-Because [compute_unit](https://gitlab.com/blockops/compute_unit) returns the raw data points as a hash you can dump this to a table for enhanced command line output.
+Because Compute Unit returns the raw data points as a hash you can dump this to a table for enhanced command line output.
 Make sure you have the table_print gem installed first. `gem install table_print`
 
 In this example we only want GPUs to be displayed so we use the ComputeUnit::Gpu class.
@@ -160,7 +160,7 @@ tp data
 
 
 ## Tools using Compute Unit
-While [this gem](https://rubygems.org/gems/compute_unit) is new, it is ready to be consumed by any future idea you might have.  Additionally, since I am crypto miner and ruby enthusiast. I built an entire command line tool for managing crypto mining rigs in ruby.  My love for the command line, simplicity of ruby and mining crypto forced me into crafting a specialized tool and library for mining crypto.  The main command line tool is called [Crossbelt](https://crossbelt.blockops.party) (not open-sourced).  The Crossbelt tool packs many features such as configuring the rig, status info, metrics, profit/loss statements, coin/algorithm speculation for profitability analysis and much more. The examples you see below formulate rig information for table output from data gathered by the [compute_unit library](https://gitlab.com/blockops/compute_unit).
+While this gem is new, it is ready to be consumed by any future idea you might have.  Additionally, since I am crypto miner and ruby enthusiast. I built an entire command line tool for managing crypto mining rigs in ruby.  My love for the command line, simplicity of ruby and mining crypto forced me into crafting a specialized tool and library for mining crypto.  The main command line tool is called [Crossbelt](https://crossbelt.blockops.party) (not open-sourced).  The Crossbelt tool packs many features such as configuring the rig, status info, metrics, profit/loss statements, coin/algorithm speculation for profitability analysis and much more. The examples you see below formulate rig information for table output from data gathered by the compute_unit library.
 
 Profits are good and my house is kept warm all winter long.
 
@@ -199,7 +199,8 @@ GPU6  | Radeon RX 5600 OEM/5600 XT ... | 1375       | 900          | 94    | 158
 ```
 
 
-If you develop a tool using [compute_unit](https://gitlab.com/blockops/compute_unit), please reach out and let me know and I'll list it in the readme.
+If you develop a tool using compute_unit,
+please reach out and let me know and I'll list it in the readme.
 
 
 ## Looking forward
