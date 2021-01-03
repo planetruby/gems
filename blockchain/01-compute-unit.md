@@ -210,7 +210,7 @@ please reach out and let me know and I'll list it in the readme.
 
 Python has long been the champion behind machine learning.  While C, C++, and Go are the stardard for existing crypto software.  But where does Ruby play a role in all this?
 
-Ruby is the goto for web frameworks, cofiguration management, and exceptional programmer efficiency.  However, Ruby needs to be a part of machine learning, crypto and other other areas igniting the scene today.  If the majority of the existing tools
+Ruby is the goto for web frameworks, configuration management, and exceptional programmer efficiency.  However, Ruby needs to be a part of machine learning, crypto and other other areas igniting the scene today.  If the majority of the existing tools
 are C based libraries we should only have to wrap these with FFI to gain the functionality those compiled libraries provide.  With this in mind  [Machine Learning](https://ankane.org/more-ml-gems), and [Ruby OpenCL library](https://github.com/Nanosim-LIG/opencl-ruby)
 are just the starting point to make Ruby another choice for crypto software where simplicity matters most.
 
