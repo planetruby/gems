@@ -18,7 +18,7 @@ the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money
 See the [Awesome Blockchains](https://github.com/openblockchains/awesome-blockchains) page for more.
 
 
-## Let's Get Started.
+## Let's Get Started Mining
 
 Build your own blockchain one block at a time. Example:
 
