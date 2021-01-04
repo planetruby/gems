@@ -3,7 +3,7 @@
 
 Written by {% avatar geraldb %} [Gerald Bauer](https://github.com/geraldb)
 
-_A code monkey formerly at [Big Korupto](https://github.com/bigkorupto). Job-less no coiner having fun staying poor and wrong. Writing
+_A code monkey formerly at [Big Korupto](https://github.com/bigkorupto). Jobless no coiner having fun staying poor and wrong. Writing
 the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money](https://bitsblocks.github.io/get-rich-quick-bible)._
 
 
