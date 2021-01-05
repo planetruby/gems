@@ -53,7 +53,7 @@ What's a ponzi scheme?
 > 3. there is no external source of revenue for those payoffs. Instead,
 > 4. the payoffs come entirely from new investment money, while
 > 5. the operators take away a large portion of this money.
-
+>
 > -- [Bitcoin is a Ponzi](https://www.ic.unicamp.br/~stolfi/bitcoin/2020-12-31-bitcoin-ponzi.html)
 
 
