@@ -36,7 +36,8 @@ All welcome from no coiners to bitcon austrian school of economics "I HODL! You 
   Collect Real Time Metrics 'n' Manage Compute Units (GPU, CPU, and ASICs) for Crypto Mining Rigs
 - [**Day 2 - blockchain-lite**](blockchain/02-blockchain-lite.md)  by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Build Your Own Blockchains with Crypto Hashes. Revolutionize the World one Block at a Time!
-- **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- [**Day 3 - universum**](blockchain/03-universum.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb)  <br>
+  Operate the Ponzi Governmental - Real World Case Study - Last Creditor (Before Collapse) Wins the Jackpot!
 - **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
