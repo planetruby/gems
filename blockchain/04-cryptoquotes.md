@@ -183,5 +183,4 @@ The crypto quotes sourced from
 - Home :: [github.com/rubycoco/blockchain/cryptoquotes](https://github.com/rubycoco/blockchain/tree/master/cryptoquotes)
 - Gem :: [cryptoquotes](https://rubygems.org/gems/cryptoquotes)
 - Docs :: [cryptoquotes](http://rubydoc.info/gems/cryptoquotes)
-- Books :: [Best of Crypto Books](https://openblockchains.github.io/crypto-books/)
-
+- Books :: [Best of Bitcon Books - Austrian Economics Bullshit to the Max - The Bitcoin Fraudsters' Lies](https://openblockchains.github.io/bitcon-books/)
