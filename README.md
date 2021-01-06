@@ -38,7 +38,8 @@ All welcome from no coiners to bitcon austrian school of economics "I HODL! You 
   Build Your Own Blockchains with Crypto Hashes. Revolutionize the World one Block at a Time!
 - [**Day 3 - universum**](blockchain/03-universum.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb)  <br>
   Operate the Ponzi Governmental - Real World Case Study - Last Creditor (Before Collapse) Wins the Jackpot!
-- **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- [**Day 4 - cryptoquotes**](blockchain/04-cryptoquotes.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb)  <br>
+  I HODL, You HODL, We HODL! - BREAKING: BITCOIN JUST BROKE $22 000! - Get Free Oracle Sayings About the New New 'In Math We Trust' Ponzi Economics
 - **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
