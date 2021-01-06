@@ -19,22 +19,10 @@ _A code monkey formerly at [Big Korupto](https://github.com/bigkorupto). Jobless
 > - "Could quadruple in 2021 and rally to $100,000!"
 
 
-
-> SEC Investor Education:
-> - Don't understand an investment?
-> - Don't invest in it.
-
-Yes, but what if there's only 21 million of it?
-
-  \- Trolly McTrollface
-
-
-
-
 ## What's Crypto Quotes?
 
 
-The [cryptoquotes gem](github.com/rubycoco/blockchain) includes the oracle command line tool that gets you a free
+The [cryptoquotes gem](https://github.com/rubycoco/blockchain/tree/master/cryptoquotes) includes the oracle command line tool that gets you a free
 random crypto quote of the day on the new new "in math we trust" ponzi economics - on get-rich-quick blockchain secrets - on bitcon maximalists, scammers, morons, clowns, shills & bagHODLers and more
 
 
