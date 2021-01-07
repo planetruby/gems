@@ -7,9 +7,9 @@ Written by {% avatar geraldb %} [Gerald Bauer](https://github.com/geraldb)
 _A code monkey formerly at [Big Korupto](https://github.com/bigkorupto). Jobless no coiner having fun staying poor and wrong. Writing the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money](https://bitsblocks.github.io/get-rich-quick-bible)._
 
 
-> - Fabulous Persian Spock Gerbil Gold Cottoncandy - Extremely rare gen 5 swift virgin | 2.9 ETH
+> - Fabulous Persian Spock Gerbil Gold Cottoncandy - Extremely rare gen 5 swift virgin \| 2.9 ETH
 > - Rarity: 0.00264% Gen 5 JAGUAR FABULOUS GOLD DALI!! VIRGIN!
-> - Rarity: 0.0015% Princess Bubblegum is now for sale! Gen 12 | Brisk | Virgin | Chartreux | Bubblegum | Otaku | Emeraldgreen | Saycheese | Mauveover | Spock - Starts ETH 20/Ends ETH 10
+> - Rarity: 0.0015% Princess Bubblegum is now for sale! Gen 12 \| Brisk \| Virgin \| Chartreux \| Bubblegum \| Otaku \| Emeraldgreen \| Saycheese \| Mauveover \| Spock - Starts ETH 20/Ends ETH 10
 > - Gold ducat, Gen 5, Virgin, Swift. Very cheap
 > - Cheap Gen 1 cute kittie with rare genes! Only 0.125 ETH
 > - UNIQUE Virgin Peach Googly Gold Mauveover gen:2 cooldown:1 0.87992% RARE
