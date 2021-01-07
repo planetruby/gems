@@ -981,7 +981,7 @@ Mouth (MO) - Genes 32-35:
 - Home :: [github.com/cryptocopycats/kittyverse](https://github.com/cryptocopycats/kittyverse)
 - Gem :: [kittyverse](https://rubygems.org/gems/kittyverse)
 - Docs :: [kittyverse](https://rubydoc.info/gems/kittyverse)
-- Book (Beta) :: [Programming Crypto Collectibles Step-by-Step Guide - Let's start with CryptoKitties & Copycats)](https://github.com/cryptocopycats/programming-crypto-collectibles)
+- Book (Beta) :: [Programming Crypto Collectibles Step-by-Step Guide - Let's start with CryptoKitties & Copycats](https://github.com/cryptocopycats/programming-crypto-collectibles)
 - Article :: [Awesome CryptoKitties (Yes, Cute Little Cartoon Cats) on the Blockchain! and CryptoCopycats](https://github.com/cryptocopycats/awesome-cryptokitties)
 - Books :: [Best of Crypto Books](https://openblockchains.github.io/crypto-books/)
 
