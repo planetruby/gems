@@ -1,4 +1,4 @@
-# Day 5 - ecdsa Gem - Be Your Own Bank - Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA)
+# Day 5 - ecdsa Gem - Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank
 
 
 

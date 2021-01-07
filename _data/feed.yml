@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 5 - ecdsa Gem - Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank"
+  path: blockchain/05-ecdsa
+  date: 2021-01-07
+
 - title: "Day 4 - cryptoquotes Gem - I HODL, You HODL, We HODL! - BREAKING: BITCOIN JUST BROKE $22 000! - Get Free Oracle Sayings About the New New 'In Math We Trust' Ponzi Economics"
   path: blockchain/04-cryptoquotes
   date: 2021-01-06

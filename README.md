@@ -40,7 +40,8 @@ All welcome from no coiners to bitcon austrian school of economics "I HODL! You 
   Operate the Ponzi Governmental - Real World Case Study - Last Creditor (Before Collapse) Wins the Jackpot!
 - [**Day 4 - cryptoquotes**](blockchain/04-cryptoquotes.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb)  <br>
   I HODL, You HODL, We HODL! - BREAKING: BITCOIN JUST BROKE $22 000! - Get Free Oracle Sayings About the New New 'In Math We Trust' Ponzi Economics
-- **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- [**Day 5 - ecdsa**](blockchain/05-ecdsa.md)  by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank
 - **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 
