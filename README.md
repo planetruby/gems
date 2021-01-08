@@ -42,7 +42,8 @@ All welcome from no coiners to bitcon austrian school of economics "I HODL! You 
   I HODL, You HODL, We HODL! - BREAKING: BITCOIN JUST BROKE $22 000! - Get Free Oracle Sayings About the New New 'In Math We Trust' Ponzi Economics
 - [**Day 5 - ecdsa**](blockchain/05-ecdsa.md)  by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank
-- **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- [**Day 6 - kittyverse**](blockchain/06-kittyverse.md)  by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Inside the CryptoKitties 256-Bit Genome - Slice 'n' Dice Unique Bits 'n' Bytes - 48 Genes (12 Traits x 4 P, H1, H2, H3) - Build Your Own CryptoKitties Gene Reader - The Future is Meow
 - **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 
 
