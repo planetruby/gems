@@ -156,7 +156,7 @@ the hash of the last block on the blockchain to the new block. That's all the ma
 of printing money.
 
 What about proof-of-work and the hashing power/rate?
-See the [Day 2 - lockchain-lite Gem - Build Your Own Blockchains with Crypto Hashes](02-blockchain-lite.md)
+See the [Day 2 - blockchain-lite Gem - Build Your Own Blockchains with Crypto Hashes](02-blockchain-lite.md)
 article in the series.
 
 Happy mining!
