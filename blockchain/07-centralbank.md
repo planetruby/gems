@@ -62,10 +62,10 @@ Happy mining!
 ## Inside Mining - Printing Cryptos, Cryptos, Cryptos on the Blockchain
 
 
-What happens when you hit the "Mine a block" button? Let follow the code.
+What happens when you hit the "Mine a block" button? Let's follow the ~~money~~ code.
 
-The form gets posted by the browser and hits the /mine route in centralbank
-network service
+The form gets posted by the browser and hits the `/mine` route in centralbank
+network service:
 
 ``` ruby
 class Service < Sinatra::Base
@@ -80,7 +80,7 @@ end
 
 (Source: [lib/centralbank/service.rb](https://github.com/rubycoco/blockchain/blob/master/centralbank/lib/centralbank/service.rb)
 
-So the code mines a block and refreshes the page. That's it!
+So the code mines a block and than redirects to (auto-)refresh the page. That's it!
 Let's dive into the `on_mine!` method in the network node:
 
 ``` ruby
@@ -111,7 +111,7 @@ class Bank
 
     ## add mined (w/ computed/calculated hash) block
     @chain << @pending.transactions
-    @pending = Pool.new   ## clear out/ empty pool (just create a new one for now)
+    @pending = Pool.new   ## clear out/ empty mem tx pool (just create a new one for now)
 
     ## update ledger (balances) with new confirmed transactions
     @ledger = Ledger.new( @chain )
@@ -122,15 +122,15 @@ end
 
 (Source: [lib/centralbank/bank.rb](https://github.com/rubycoco/blockchain/blob/master/centralbank/lib/centralbank/bank.rb))
 
-So the code adds a "COINBASE" transaction (tx) to the pending pool
+So the code adds a "coinbase" transaction (tx) to the pending pool
 (of unconfirmed transactions).
 For mining a new block you will get a
 mining reward (e.g. $5). That's the magic moment of printing new money
-on the blockchain.
+on the blockchain out-of-thin-air.
 Next all pending (unconfirmed but validated) transactions
 get added to the blockchain (chain) as a new block.
-Done! Block mined! Let's clear out the pending pool
-and update all wallet balances, that is, update the ledger book.
+Done! Block mined! Let's clear out the pending memory transaction pool
+and update all account balances in the wallet, that is, update the ledger book.
 Let's dive into the `<<` method for the blockchain (chain) machinery:
 
 
