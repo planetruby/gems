@@ -30,6 +30,8 @@ Pass along all (leaf / data block) hashes as strings or packaged in an array.
 Example:
 
 ``` ruby
+require 'merkletree'
+
 merkle = MerkleTree.new(
   'eb8ecbf6d5870763ae246e37539d82e37052cb32f88bb8c59971f9978e437743',
   'edbd4e11e69bc399a9ccd8faaea44fb27410fe8e3023bb9462450a0a9c4caa1b',
