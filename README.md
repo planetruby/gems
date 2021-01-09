@@ -9,21 +9,49 @@
 - [25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th](#25-days-of-ruby-gems---ruby-advent-calendar-2020-december-1st---december-25th)
 
 
+
+### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
+
+Welcome. The Ruby Open Data Week 2021 presents
+a new Ruby (open data) library every day from March 6th to March 12th.
+Have your say! Claim a free day!
+
+Let's join in and celebrate the (international)
+[Open Data Day 2021](https://opendataday.org/)
+with a week long
+celebration of open data gems from the Ruby universe.
+
+Do you have an open data Ruby gem that you'd like to write about?
+We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Open Data Week series on Planet Ruby.
+
+- **Day 1 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+
+
+
+
 ### Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems
 
 {% include thanks_blockchain.html %}
 
 Welcome. The Ruby Blockchain Week 2021 presents
 a new Ruby (crypto) library every day from January 3rd to January 9th.
-Have your say! Claim a free day!
 
 Let's celebrate the 11th birthday of the world's first genesis block  -
 that is, the first block of a blockchain (on January 3rd, 2009) with a week long
 celebration of crypto gems from the Ruby universe. New to blockchain? See the [Best of Crypto Books page »](https://openblockchains.github.io/crypto-books/)
 
+All welcome from no coiners to bitcon austrian school of economics "I HODL! You HODL! We HODL! Number Go UP!" maximalists to [universum (with secure ruby contract programming) is the new ethereum](https://github.com/s6ruby/universum) world computer blockchainers.
+
+<!--
 Yes, you can! Why not highlight a blockchain / cryptos gem with your write-up?
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Blockchain Week series on Planet Ruby.
-All welcome from no coiners to bitcon austrian school of economics "I HODL! You HODL! We HODL! Number Go UP!" maximalists to [universum (with secure ruby contract programming) is the new ethereum](https://github.com/s6ruby/universum) world computer blockchainers.
+-->
 
 
 (Note: You can subscribe to updates via the web feed in [XML](feed.xml).)
@@ -46,6 +74,9 @@ All welcome from no coiners to bitcon austrian school of economics "I HODL! You 
   Inside the CryptoKitties 256-Bit Genome - Slice 'n' Dice Unique Bits 'n' Bytes - 48 Genes (12 Traits x 4 P, H1, H2, H3) - Build Your Own CryptoKitties Gene Reader - The Future is Meow
 - [**Day 7 - centralbank**](blockchain/07-centralbank.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Print Your Own Money / Cryptocurrency - Run Your Own Federated Central Bank Nodes on the Blockchain Peer-to-Peer over HTTP
+- **Bonus!** [**Day 7 - merkletree**](blockchain/07-merkletree.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Build Your Own Crypto Hash Trees - Grow Your Own Money on Trees
+
 
 
 
@@ -116,34 +147,6 @@ from December 1st to December 25th.
    Automate Your Git Workflow for You and Your Team. Build Your Own Git (Command Line) Commands
 - [**Day 25 - hexapdf**](2020/25-hexapdf.md)    by {% avatar gettalong size=20 %} [Thomas Leitner](https://github.com/gettalong)  <br>
    Read and Write PDF Documents. Start from Zero or Merge, Extract, Optimize and Much More
-
-
-
-## Upcoming in 2021
-
-### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
-
-Welcome. The Ruby Open Data Week 2021 presents
-a new Ruby (open data) library every day from March 6th to March 12th.
-Have your say! Claim a free day!
-
-Let's join in and celebrate the (international)
-[Open Data Day 2021](https://opendataday.org/)
-with a week long
-celebration of open data gems from the Ruby universe.
-
-Do you have an open data Ruby gem that you'd like to write about?
-We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Open Data Week series on Planet Ruby.
-
-- **Day 1 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-- **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-
-
 
 
 

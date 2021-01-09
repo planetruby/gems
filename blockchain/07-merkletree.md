@@ -1,10 +1,11 @@
+# Day 7 - merkletree Gem - Build Your Own Crypto Hash Trees - Grow Your Own Money on Trees
 
-# merkletree library - Build Your Own Crypto Hash Trees; Grow Your Own Money on Trees
+
+Written by {% avatar geraldb %} [Gerald Bauer](https://github.com/geraldb)
+
+_A code monkey formerly at [Big Korupto](https://github.com/bigkorupto). Jobless no coiner having fun staying poor and wrong. Writing the [Get Rich Quick "Business Blockchain" Bible - The Secrets of Free Easy Money](https://bitsblocks.github.io/get-rich-quick-bible)._
 
 
-github: [openblockchains/merkletree.rb](https://github.com/openblockchains/merkletree.rb),
-rubygems: [merkletree](https://rubygems.org/gems/merkletree),
-rdoc: [merkletree](http://rubydoc.info/gems/merkletree)
 
 
 
@@ -138,3 +139,15 @@ merkle_root_value = MerkleTree.compute_root_for(
 puts merkle_root_value
 # => '703f44630117ef9b4ac20cb149ed8a0f06e4c3ed2a791e11e16a2fe7a7d0de3d'
 ```
+
+
+
+## Find Out More
+
+### References
+
+- Home :: [github.com/rubycoco/blockchain/merkletree](https://github.com/rubycoco/blockchain/tree/master/merkletree)
+- Gem :: [merkletree](https://rubygems.org/gems/merkletree)
+- Docs :: [merkletree](https://rubydoc.info/gems/merkletree)
+- Books :: [Best of Crypto Books](https://openblockchains.github.io/crypto-books/)
+
