@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 7 - centralbank Gem - Print Your Own Money / Cryptocurrency - Run Your Own Federated Central Bank Nodes on the Blockchain Peer-to-Peer over HTTP"
+  path: blockchain/07-centralbank
+  date: 2021-01-09
+
 - title: "Day 6 - kittyverse Gem - Inside the CryptoKitties 256-Bit Genome - Slice 'n' Dice Unique Bits 'n' Bytes - 48 Genes (12 Traits x 4 P, H1, H2, H3) - Build Your Own CryptoKitties Gene Reader - The Future is Meow"
   path: blockchain/06-kittyverse
   date: 2021-01-08
