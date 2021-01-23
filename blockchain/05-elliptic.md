@@ -113,6 +113,8 @@ Let's try:
 
 
 ``` ruby
+require 'elliptic'
+
 # This private key is just an example. It should be much more secure!
 private_key = EC::PrivateKey.new( 1234 )   # by default uses Secp256k1 curve (used in Bitcoin and Ethereum)
 
