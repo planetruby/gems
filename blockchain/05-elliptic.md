@@ -1,4 +1,4 @@
-# Day 5 - ecdsa Gem - Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank
+# Day 5 - elliptic Gem - Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank
 
 
 
@@ -113,14 +113,11 @@ Let's try:
 
 
 ``` ruby
-require 'ecdsa'      # Use an elliptic curve (digital signature algorithm) library
-
 # This private key is just an example. It should be much more secure!
-privatekey = 1234
+private_key = EC::PrivateKey.new( 1234 )   # by default uses Secp256k1 curve (used in Bitcoin and Ethereum)
 
-# Elliptic curve multiplication
-group  = ECDSA::Group::Secp256k1      # Select the curve used in Bitcoin and Ethereum
-point = group.generator.multiply_by_scalar( privatekey ) # Multiply by integer (not hex string)
+public_key =  private_key.public_key   ## the "magic" one-way K=k*G curve multiplication (K=public key,k=private key, G=generator point)
+point = public_key.point
 
 point.x
 #=> 102884003323827292915668239759940053105992008087520207150474896054185180420338
@@ -188,23 +185,17 @@ What's an Elliptic Curve?
 Sign a transaction with an (elliptic curve) private key:
 
 ``` ruby
-require 'ecdsa'        # Use an elliptic curve (digital signature algorithm) library
-require 'digest'
-require 'securerandom'
-
 # Step 1 - Calculate the Transaction (tx) Hash
 tx = 'from: Alice  to: Bob     cryptos: 43_000_000_000'
 txhash = Digest::SHA256.digest( tx )
 
 # Step 2 - Get the Signer's Private key
-privatekey = 1234     # This private key is just an example. It should be much more secure!
-
-# Step 3 - Auto-Generate a New (Secure) Private Key
-group     = ECDSA::Group::Secp256k1      # Select the curve used in Bitcoin and Ethereum
-tempkey   = 1 + SecureRandom.random_number( group.order - 1 )
+private_key = EC::PrivateKey.new( 1234 )     # This private key is just an example. It should be much more secure!
 
 # Sign!
-signature = ECDSA.sign(group, privatekey, txhash, tempkey)
+signature = private_key.sign( txhash )
+# -or-
+signature = EC.sign( txhash, private_key )
 
 signature.r
 #=> 80563021554295584320113598933963644829902821722081604563031030942154621916407
@@ -221,54 +212,55 @@ signature.s.to_s(16)
 Verify a signed transaction with an (elliptic curve) public key:
 
 ``` ruby
-require 'ecdsa'           # Use an elliptic curve (digital signature algorithm) library
-require 'digest'
-
 # Step 1 - Calculate the Transaction (tx) Hash
 tx = 'from: Alice  to: Bob     cryptos: 43_000_000_000'
 txhash = Digest::SHA256.digest( tx )
 
 # Step 2 - Get the Signer's Public Key
-group  = ECDSA::Group::Secp256k1      # Select the curve used in Bitcoin and Ethereum
-pubkey = ECDSA::Point.new( group,
+public_key = EC::PublicKey.new(
    102884003323827292915668239759940053105992008087520207150474896054185180420338,
    49384988101491619794462775601349526588349137780292274540231125201115197157452
 )
 
 # Step 3 - Get the Transaction's Signature
-signature = ECDSA::Signature.new(
+signature = EC::Signature.new(
   80563021554295584320113598933963644829902821722081604563031030942154621916407,
   58316177618967642068351252425530175807242657664855230973164972803783751708604
 )
 
 # Don't Trust - Verify
-ECDSA.valid_signature?( pubkey, txhash, signature)
+public_key.verify?( txhash, signature )
+# -or-
+EC.verify?( txhash, signature, public_key )
 #=> true
 
 
 # or using hexadecimal numbers
 
-pubkey = ECDSA::Point.new( group,
+public_key = EC::PublicKey.new(
   0xe37648435c60dcd181b3d41d50857ba5b5abebe279429aa76558f6653f1658f2,
   0x6d2ee9a82d4158f164ae653e9c6fa7f982ed8c94347fc05c2d068ff1d38b304c
 )
 
-signature = ECDSA::Signature.new(
+signature = EC::Signature.new(
   0x3306a2f81ad2b2f62ebe0faec129545bc772babe1ca5e70f6e56556b406464c0,
   0x4fe202bb0835758f514cd4a0787986f8f6bf303df629dc98c5b1a438a426f49a
 )
 
-ECDSA.valid_signature?( pubkey, txhash, signature)
+public_key.verify?( txhash, signature )
+# -or-
+EC.verify?( txhash, signature, public_key )
 #=> true
 ```
+
 
 
 ## Find Out More
 
 ### References
 
-- Home :: [github.com/DavidEGrayson/ruby_ecdsa](https://github.com/DavidEGrayson/ruby_ecdsa)
-- Gem :: [ecdsa](https://rubygems.org/gems/ecdsa)
-- Docs :: [ecdsa](https://rubydoc.info/gems/ecdsa)
+- Home :: [github.com/rubycoco/blockchain/elliptic](https://github.com/rubycoco/blockchain/tree/master/elliptic)
+- Gem :: [elliptic](https://rubygems.org/gems/elliptic)
+- Docs :: [elliptic](https://rubydoc.info/gems/elliptic)
 - Books :: [Best of Crypto Books](https://openblockchains.github.io/crypto-books/)
 

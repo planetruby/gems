@@ -14,8 +14,8 @@
   path: blockchain/06-kittyverse
   date: 2021-01-08
 
-- title: "Day 5 - ecdsa Gem - Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank"
-  path: blockchain/05-ecdsa
+- title: "Day 5 - elliptic Gem - Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank"
+  path: blockchain/05-elliptic
   date: 2021-01-07
 
 - title: "Day 4 - cryptoquotes Gem - I HODL, You HODL, We HODL! - BREAKING: BITCOIN JUST BROKE $22 000! - Get Free Oracle Sayings About the New New 'In Math We Trust' Ponzi Economics"
