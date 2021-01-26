@@ -3,6 +3,7 @@
 
 **2021**
 - [Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems](#ruby-open-data-week-2021-march-6th-to-march-12th---7-days-of-ruby-open-data-gems)
+- [Ruby Glimmer Days 2021, January 26th to January 29th - 4 Days of Ruby (Desktop) Gems](#ruby-glimmer-days-2021-january-26th-to-january-29th---4-days-of-ruby-desktop-gems)
 - [Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems](#ruby-blockchain-week-2021-january-3rd-to-january-9th---7-days-of-ruby-crypto-gems)
 
 **2020**
@@ -38,6 +39,8 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 ### Ruby Glimmer Days 2021, January 26th to January 29th - 4 Days of Ruby (Desktop) Gems
 
+{% include thanks_glimmer.html %}
+
 Welcome. The Ruby Glimmer Days 2021 present
 a new Ruby (desktop) library every day from January 26th to January 29th.
 
@@ -49,7 +52,6 @@ for scripting desktop apps and widgets with two-way data binding.
 
 - [**Day 1 - glimmer**](glimmer/01-glimmer.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
   Make Desktop Apps Shine Using a Script with Two-Way Data Binding - Inside the Domain-Specific Language Engine / Construction Kit - Beware of Imitators! The Original Since 2007
-
 
 
 
