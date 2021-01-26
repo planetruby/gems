@@ -35,6 +35,25 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 
 
+
+### Ruby Glimmer Days 2021, January 26th to January 29th - 4 Days of Ruby (Desktop) Gems
+
+Welcome. The Ruby Glimmer Days 2021 present
+a new Ruby (desktop) library every day from January 26th to January 29th.
+
+Let's highlight domain-specific languages
+for scripting desktop apps and widgets with two-way data binding.
+
+(Note: You can subscribe to updates via the web feed in [XML](feed.xml).)
+
+
+- [**Day 1 - glimmer**](glimmer/01-glimmer.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
+  Make Desktop Apps Shine Using a Script with Two-Way Data Binding - Inside the Domain-Specific Language Engine / Construction Kit - Beware of Imitators! The Original Since 2007
+
+
+
+
+
 ### Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems
 
 {% include thanks_blockchain.html %}
