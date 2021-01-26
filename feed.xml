@@ -5,7 +5,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems</title>
+  <title>Ruby Glimmer Days 2021, January 26th to January 29th - 4 Days of Ruby (Desktop) Gems</title>
   <link href="{{ '/feed.xml' | absolute_url }}" rel="self" />
   <link href="{{ '/' | absolute_url }}" />
   <id>{{ '/' | absolute_url | xml_escape }}</id>
