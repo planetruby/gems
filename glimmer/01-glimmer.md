@@ -11,7 +11,7 @@ _Software Engineering Expert from Montreal, Quebec. Creator of [Glimmer](https:/
 
 ## What is Glimmer?
 
-[**Glimmer**](https://rubygems.org/gems/glimmer) started out as a [domain-specific language (DSL) for the Simple Widget Toolkit (SWT)](https://github.com/AndyObtiva/glimmer-dsl-swt) and grew into a domain-specific languge (DSL) engine
+[**Glimmer**](https://rubygems.org/gems/glimmer) started out as a [domain-specific language (DSL) for the Simple Widget Toolkit (SWT)](https://github.com/AndyObtiva/glimmer-dsl-swt) and grew into a domain-specific language (DSL) engine
 supporting scripting multiple graphical user interfaces.
 Glimmer's namesake is referring to the glimmer of ruby in graphical user interfaces.
 
