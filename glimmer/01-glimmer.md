@@ -252,7 +252,7 @@ These are the main classes concerning data-binding:
 ### References
 
 - Home :: [github.com/AndyObtiva/glimmer](https://github.com/AndyObtiva/glimmer)
-- Gem :: [glimmer]()https://rubygems.org/gems/glimmer
+- Gem :: [glimmer](https://rubygems.org/gems/glimmer)
 - Docs :: [glimmer](https://rubydoc.info/gems/glimmer)
 - Blog :: [Glimmer Tetris in One Day! and Many More Glimmer Articles](http://andymaleh.blogspot.com/search/label/Glimmer)
 - Video :: [Whatever Happened to Desktop Development in Ruby?, MountainWest RubyConf 2011](https://confreaks.tv/videos/mwrc2011-whatever-happened-to-desktop-development-in-ruby)
