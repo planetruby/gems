@@ -2,34 +2,6 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
-- title: "Day 7 - merkletree Gem - Build Your Own Crypto Hash Trees - Grow Your Own Money on Trees"
-  path: blockchain/07-merkletree
-  date: 2021-01-09
-
-- title: "Day 7 - centralbank Gem - Print Your Own Money / Cryptocurrency - Run Your Own Federated Central Bank Nodes on the Blockchain Peer-to-Peer over HTTP"
-  path: blockchain/07-centralbank
-  date: 2021-01-09
-
-- title: "Day 6 - kittyverse Gem - Inside the CryptoKitties 256-Bit Genome - Slice 'n' Dice Unique Bits 'n' Bytes - 48 Genes (12 Traits x 4 P, H1, H2, H3) - Build Your Own CryptoKitties Gene Reader - The Future is Meow"
-  path: blockchain/06-kittyverse
-  date: 2021-01-08
-
-- title: "Day 5 - elliptic Gem - Open Up 10,000,000,000 Accounts - Bank the Unbanked Using Elliptic Curve (EC) Cryptography and the Digital Signature Algorithm (DSA) - Be Your Own Bank"
-  path: blockchain/05-elliptic
-  date: 2021-01-07
-
-- title: "Day 4 - cryptoquotes Gem - I HODL, You HODL, We HODL! - BREAKING: BITCOIN JUST BROKE $22 000! - Get Free Oracle Sayings About the New New 'In Math We Trust' Ponzi Economics"
-  path: blockchain/04-cryptoquotes
-  date: 2021-01-06
-
-- title: "Day 3 - universum Gem - Operate the Ponzi Governmental - Real World Case Study - Last Creditor (Before Collapse) Wins the Jackpot!"
-  path: blockchain/03-universum
-  date: 2021-01-05
-
-- title: "Day 2 - blockchain-lite Gem - Build Your Own Blockchains with Crypto Hashes. Revolutionize the World one Block at a Time!"
-  path: blockchain/02-blockchain-lite
-  date: 2021-01-04
-
-- title: "Day 1 - compute_unit Gem - Collect Real Time Metrics 'n' Manage Compute Units (GPU, CPU, and ASICs) for Crypto Mining Rigs"
-  path: blockchain/01-compute-unit
-  date: 2021-01-03
+- title: "Day 1 - glimmer Gem - Make Desktop Apps Shine Using a Script with Two-Way Data Binding - Inside the Domain-Specific Language Engine / Construction Kit - Beware of Imitators! The Original Since 2007"
+  path: glimmer/01-glimmer
+  date: 2021-01-26
