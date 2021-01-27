@@ -11,7 +11,7 @@ _Software Engineering Expert from Montreal, Quebec. Creator of [Glimmer](https:/
 
 ## What is Glimmer?
 
-[**Glimmer**](https://rubygems.org/gems/glimmer) started out as a [domain-specific language (DSL) for the Simple Widget Toolkit (SWT)](https://github.com/AndyObtiva/glimmer-dsl-swt) and grew into a domain-specific language (DSL) engine
+[**Glimmer**](https://github.com/AndyObtiva/glimmer-dsl-swt) started out as a [domain-specific language (DSL) for the Standard Widget Toolkit (SWT)](https://github.com/AndyObtiva/glimmer-dsl-swt) and grew into a domain-specific language (DSL) engine
 supporting scripting multiple graphical user interfaces.
 Glimmer's namesake is referring to the glimmer of ruby in graphical user interfaces.
 
@@ -35,7 +35,7 @@ Glimmer offers:
 
 
 Glimmer currently supports:
-- SWT (Simple Widget Toolkit) for Desktop Apps in Java
+- SWT (Standard Widget Toolkit) for Desktop Apps in Java
 - Tk (Toolkit) for Desktop Apps
 - Opal for Web Apps and Auto-Webifier of Desktop Apps
 - XML (& HTML)
