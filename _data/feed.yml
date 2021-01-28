@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 3 - glimmer-dsl-tk Gem - Script Widgets the Declarative Way (Say What, Not How) - Tk - The Best-Kept Secret and Evergreen Classic Now in v8.5 with Native Look 'n' Feel on Mac, Windows, and Linux"
+  path: glimmer/03-glimmer-dsl-tk
+  date: 2021-01-28
+
 - title: "Day 2 - glimmer-dsl-swt Gem - Script Standard Widgets from the Eclipse Toolkit with Two-Way Data Binding (incl. Tables with Sorting, Filtering, Multi-Type Editing, and More) - Package Up and Ship Desktop Apps for Mac, Windows 'n' Linux"
   path: glimmer/02-glimmer-dsl-swt
   date: 2021-01-27
