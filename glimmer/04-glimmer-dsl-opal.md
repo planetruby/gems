@@ -470,7 +470,7 @@ rails s
 ```
 
 Visit `http://localhost:3000`
-(or visit: http://glimmer-cs-calculator-server.herokuapp.com)
+(or visit: <http://glimmer-cs-calculator-server.herokuapp.com>)
 
 You should see "Glimmer Calculator"
 
@@ -478,13 +478,13 @@ You should see "Glimmer Calculator"
 
 Here is an Apple Calculator CSS themed version (with [CSS only](https://github.com/AndyObtiva/glimmer-cs-calculator/blob/master/server/glimmer-cs-calculator-server/app/assets/stylesheets/welcomes_apple.scss), no app code changes):
 
-Visit http://glimmer-cs-calculator-server.herokuapp.com/welcomes/apple
+Visit <http://glimmer-cs-calculator-server.herokuapp.com/welcomes/apple>
 
 [![](i/glimmer-cs-calculator-screenshot-opal-apple.png)](http://glimmer-cs-calculator-server.herokuapp.com/welcomes/apple)
 
 Here is an Tiles Calculator CSS themed version (with [CSS only](https://github.com/AndyObtiva/glimmer-cs-calculator/blob/master/server/glimmer-cs-calculator-server/app/assets/stylesheets/welcomes_tiles.scss), no app code changes):
 
-Visit http://glimmer-cs-calculator-server.herokuapp.com/welcomes/tiles
+Visit <http://glimmer-cs-calculator-server.herokuapp.com/welcomes/tiles>
 
 [![](i/glimmer-cs-calculator-screenshot-opal-tiles.png)](http://glimmer-cs-calculator-server.herokuapp.com/welcomes/tiles)
 
