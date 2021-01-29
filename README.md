@@ -56,6 +56,9 @@ for scripting desktop apps and widgets with two-way data binding.
   Script Standard Widgets from the Eclipse Toolkit with Two-Way Data Binding (incl. Tables with Sorting, Filtering, Multi-Type Editing, and More) - Package Up and Ship Desktop Apps for Mac, Windows 'n' Linux
 - [**Day 3 - glimmer-dsl-tk**](glimmer/03-glimmer-dsl-tk.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
   Script Widgets the Declarative Way (Say What, Not How) - Tk - The Best-Kept Secret and Evergreen Classic Now in v8.5 with Native Look 'n' Feel on Mac, Windows, and Linux
+- [**Day 4 - glimmer-dsl-opal**](glimmer/04-glimmer-dsl-opal.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
+  Script Web Widgets with Two-Way Data-Binding - Ruby <3 JavaScript - Thanks to Opal, the Ruby to JavaScript Source-to-Source Compiler
+
 
 
 
