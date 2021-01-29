@@ -47,7 +47,7 @@ shell {
 }.open
 ```
 
-![Glimmer DSL for Opal Hello World](https://github.com/AndyObtiva/glimmer-dsl-opal/blob/master/images/glimmer-dsl-opal-hello-world.png)
+![](i/glimmer-dsl-opal-hello-world.png)
 
 
 
@@ -308,11 +308,11 @@ end
 HelloTable.new.launch
 ```
 
-![Glimmer DSL for Opal Hello Table](https://github.com/AndyObtiva/glimmer-dsl-opal/blob/master/images/glimmer-dsl-opal-hello-table.png)
+![](i/glimmer-dsl-opal-hello-table.png)
 
 Hello, Table! Editing Game Date
 
-![Glimmer DSL for Opal Hello Table](https://github.com/AndyObtiva/glimmer-dsl-opal/blob/master/images/glimmer-dsl-opal-hello-table-editing-game-date.png)
+![](i/glimmer-dsl-opal-hello-table-editing-game-date.png)
 
 
 
@@ -455,9 +455,9 @@ module Glimmer
 end
 ```
 
-Glimmer app on the desktop (using the [`glimmer-dsl-swt`](https://github.com/AndyObtiva/gems/blob/glimmer/_drafts/glimmer-dsl-swt.md) gem):
+Glimmer app on the desktop (using the `glimmer-dsl-swt` gem):
 
-![Glimmer Calculator Linux](https://raw.githubusercontent.com/AndyObtiva/glimmer-cs-calculator/master/glimmer-cs-calculator-screenshot-linux.png)
+![](i/glimmer-cs-calculator-screenshot-linux.png)
 
 
 
@@ -474,19 +474,20 @@ Visit `http://localhost:3000`
 
 You should see "Glimmer Calculator"
 
-[![Glimmer Calculator Opal](https://raw.githubusercontent.com/AndyObtiva/glimmer-cs-calculator/master/glimmer-cs-calculator-screenshot-opal.png)](http://glimmer-cs-calculator-server.herokuapp.com)
+[![](i/glimmer-cs-calculator-screenshot-opal.png)](http://glimmer-cs-calculator-server.herokuapp.com)
 
 Here is an Apple Calculator CSS themed version (with [CSS only](https://github.com/AndyObtiva/glimmer-cs-calculator/blob/master/server/glimmer-cs-calculator-server/app/assets/stylesheets/welcomes_apple.scss), no app code changes):
 
 Visit http://glimmer-cs-calculator-server.herokuapp.com/welcomes/apple
 
-[![Glimmer Calculator Opal Apple Calculator Theme](https://raw.githubusercontent.com/AndyObtiva/glimmer-cs-calculator/master/glimmer-cs-calculator-screenshot-opal-apple.png)](http://glimmer-cs-calculator-server.herokuapp.com/welcomes/apple)
+[![](i/glimmer-cs-calculator-screenshot-opal-apple.png)](http://glimmer-cs-calculator-server.herokuapp.com/welcomes/apple)
 
 Here is an Tiles Calculator CSS themed version (with [CSS only](https://github.com/AndyObtiva/glimmer-cs-calculator/blob/master/server/glimmer-cs-calculator-server/app/assets/stylesheets/welcomes_tiles.scss), no app code changes):
 
 Visit http://glimmer-cs-calculator-server.herokuapp.com/welcomes/tiles
 
-[![Glimmer Calculator Opal Tiles Calculator Theme](https://raw.githubusercontent.com/AndyObtiva/glimmer-cs-calculator/master/glimmer-cs-calculator-screenshot-opal-tiles.png)](http://glimmer-cs-calculator-server.herokuapp.com/welcomes/tiles)
+[![](i/glimmer-cs-calculator-screenshot-opal-tiles.png)](http://glimmer-cs-calculator-server.herokuapp.com/welcomes/tiles)
+
 
 
 
