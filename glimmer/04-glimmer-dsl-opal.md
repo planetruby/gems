@@ -1,6 +1,12 @@
 # Day 4 - glimmer-dsl-opal Gem  - Script Web Widgets with Two-Way Data-Binding - Ruby <3 JavaScript - Thanks to Opal, the Ruby to JavaScript Source-to-Source Compiler
 
 
+Written by {% avatar AndyObtiva %} [Andy Maleh](https://github.com/AndyObtiva)
+
+_Software Engineering Expert from Montreal, Quebec. Creator of [Glimmer](https://github.com/AndyObtiva/glimmer) and [Abstract Feature Branch](https://github.com/AndyObtiva/abstract_feature_branch). Speaker at RailsConf, RubyConf, AgileConf, EclipseCon, EclipseWorld. Master in Software Engineering, DePaul University, Chicago. Blogs at [Code Mastery Takes Commitment To Bold Coding Adventures](http://andymaleh.blogspot.com/). Snowboarder and Drummer._
+
+
+
 ## What's Glimmer for Opal on Rails?
 
 [Glimmer for Opal](https://github.com/AndyObtiva/glimmer-dsl-opal) is a gem that enables building web apps in ruby via [Opal](https://opalrb.com/) running on rails.
