@@ -13,6 +13,10 @@
 
 ### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
 
+
+{% include thanks_opendata.html %}
+
+
 Welcome. The Ruby Open Data Week 2021 presents
 a new Ruby (open data) library every day from March 6th to March 12th.
 Have your say! Claim a free day!
@@ -25,7 +29,12 @@ celebration of open data gems from the Ruby universe.
 Do you have an open data Ruby gem that you'd like to write about?
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Open Data Week series on Planet Ruby.
 
-- **Day 1 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+
+(Note: You can subscribe to updates via the web feed in [XML](feed.xml).)
+
+
+- [**Day 1 - factbook**](opendata/01-factbook.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Turn the World Factbook into Open Structured Data (e.g JSON) - Free Intelligence on the History, People, Government, Economy, Energy, Geography, Communications, Transportation, Military 'n' Terrorism for 260+ Countries
 - **Day 2 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
@@ -46,8 +55,6 @@ a new Ruby (desktop) library every day from January 26th to January 29th.
 
 Let's highlight domain-specific languages
 for scripting desktop apps and widgets with two-way data binding.
-
-(Note: You can subscribe to updates via the web feed in [XML](feed.xml).)
 
 
 - [**Day 1 - glimmer**](glimmer/01-glimmer.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
