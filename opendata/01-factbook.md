@@ -10,8 +10,7 @@ _A code monkey and enthusiastic collector (and publisher) of open football and b
 Let's start with a trivia quiz:
 
 Q: What country has the biggest
-stock of proved reserves¹ of crude oil in barrels (bbl)
-- according to the Central Intelligence Agency (CIA)?
+stock of proved reserves¹ of crude oil in barrels (bbl) - according to the Central Intelligence Agency (CIA)?
 
 - (A) Canada
 - (B) Iraq
