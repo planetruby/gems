@@ -148,6 +148,7 @@ Listening on 0.0.0.0:9292, CTRL+C to stop
 
 Open up your browser and try `http://localhost:9292/beer/guinness`.
 Voila. Enjoy the Guinness responsibly.
+Cheers, Prost, Kampai, Na zdravi, Salute, 乾杯, Skål, Egészségedre!
 
 
 
@@ -266,7 +267,6 @@ end
 
 The json helper will automatically set the json content type and call the `#to_json` method on the passed in data hash.
 More magic. Less configuration (code).
-
 
 
 
