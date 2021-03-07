@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 2 - beerdb Gem - Serve a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON - Free Home Delivery"
+  path: opendata/02-beerdb
+  date: 2021-03-07
+
 - title: "Day 1 - factbook Gem - Turn the World Factbook into Open Structured Data (e.g JSON) - Free Intelligence on the History, People, Government, Economy, Energy, Geography, Communications, Transportation, Military 'n' Terrorism for 260+ Countries"
   path: opendata/01-factbook
   date: 2021-03-06
