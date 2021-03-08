@@ -218,5 +218,5 @@ $ sportdb serve starter.rb
 - Home     :: [sportdb.github.io](http://sportdb.github.io)
 - Gem      :: [sportdb](https://rubygems.org/gems/sportdb)
 - Docs     :: [sportdb](http://rubydoc.info/gems/sportdb-models)
-- Datasets  :: [github.com/openfootball](https://github.com/openfootbal)
+- Datasets  :: [github.com/openfootball](https://github.com/openfootball)
 
