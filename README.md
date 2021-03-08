@@ -37,7 +37,8 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
   Turn the World Factbook into Open Structured Data (e.g JSON) - Free Intelligence on the History, People, Government, Economy, Energy, Geography, Communications, Transportation, Military 'n' Terrorism for 260+ Countries
 - [**Day 2 - beerdb**](opendata/02-beerdb.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Serve a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON - Free Home Delivery
-- **Day 3 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- [**Day 3 - sportdb**](opendata/03-sportdb.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Read in Sport (Football) Datasets in (Structured) Text Into Your SQL Database of Choice (SQLite, PostgreSQL, etc) - World Cup, English Premier League, Spanish La Liga, Austrian Bundesliga and More
 - **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
