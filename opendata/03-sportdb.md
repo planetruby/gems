@@ -19,7 +19,7 @@ The sportdb command line tool and gems ships with an ready-to-use sport.db SQL s
 
 Let's get started with the [Quick Starter Sample](https://github.com/openfootball/league-starter). Welcome to the Mauritius Premier Football League.
 Lets create your own (structured) text datasets from scratch and read it all
-into your SQL database of choice (SQLite, PostgreSQL, etc.)
+into your SQL database of choice (SQLite, PostgreSQL, etc)
 with a single command e.g.:
 
 
