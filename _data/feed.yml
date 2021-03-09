@@ -2,6 +2,14 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 4 - annotate Gem - Annotate Your ActiveRecord Models with Comments about Your Database Table Structure"
+  path: opendata/04-annotate
+  date: 2021-03-09
+
+- title: "Day 4 - schemadoc Gem - Auto-Generate Your SQL Database Schema Documentation for Tables, Columns, Symbols A-Z, Etc - Use Your Own (Static Jekyll) Themes And More"
+  path: opendata/04-schemadoc
+  date: 2021-03-09
+
 - title: "Day 3 - sportdb Gem - Read in Sport (Football) Datasets in (Structured) Text Into Your SQL Database of Choice (SQLite, PostgreSQL, etc) - World Cup, English Premier League, Spanish La Liga, Austrian Bundesliga and More"
   path: opendata/03-sportdb
   date: 2021-03-08
