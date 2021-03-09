@@ -39,10 +39,14 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
   Serve a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON - Free Home Delivery
 - [**Day 3 - sportdb**](opendata/03-sportdb.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Read in Sport (Football) Datasets in (Structured) Text Into Your SQL Database of Choice (SQLite, PostgreSQL, etc) - World Cup, English Premier League, Spanish La Liga, Austrian Bundesliga and More
-- **Day 4 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- [**Day 4 - schemadoc**](opendata/04-schemadoc.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Auto-Generate Your SQL Database Schema Documentation for Tables, Columns, Symbols A-Z, Etc - Use Your Own (Static Jekyll) Themes And More
+- **Bonus!** [**Day 4 - annotate**](opendata/04-annotate.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Annotate Your ActiveRecord Models with Comments about Your Database Table Structure
 - **Day 5 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
 - **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+
 
 
 
