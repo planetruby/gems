@@ -233,7 +233,7 @@ to your disk (by default data packages get stored in `./pack`).
 dl = CsvPack::Downloader.new
 dl.fetch( 'language-codes' )
 dl.fetch( 's-and-p-500-companies' )
-dl.fetch( 'un-locode`)
+dl.fetch( 'un-locode' )
 ```
 
 Will result in:
