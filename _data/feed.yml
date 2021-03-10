@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 5 - csvpack Gem - Work with Tabular Data Packages (.CSV Files w/ datapackage.json) using SQLite In-Memory (w/ ActiveRecord)"
+  path: opendata/05-csvpack
+  date: 2021-03-10
+
 - title: "Day 4 - annotate Gem - Annotate Your ActiveRecord Models with Comments about Your Database Table Structure"
   path: opendata/04-annotate
   date: 2021-03-09
