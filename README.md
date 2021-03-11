@@ -45,9 +45,9 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
   Annotate Your ActiveRecord Models with Comments about Your Database Table Structure
 - [**Day 5 - csvpack**](opendata/05-csvpack.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Work with Tabular Data Packages (.CSV Files w/ datapackage.json) using SQLite In-Memory (w/ ActiveRecord)
-- **Day 6 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- [**Day 6 - worldlite**](opendata/06-worldlite.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  All the World's Countries 'n' Codes Incl. ISO (Alpha 2, Alpha 3, Num 3), FIFA, IOC, Internet Domains, Vehicle Registration Plates, 'n' More
 - **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
-
 
 
 

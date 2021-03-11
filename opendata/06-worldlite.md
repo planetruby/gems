@@ -1,4 +1,4 @@
-# Day 6 - worldlite Gem - All the World's Countries 'n' Codes Incl. ISO (Alpha 2, Alpha 3, Num 3), FIFA, IOC, Internet Domains, Vehicle License Plates, 'n' More
+# Day 6 - worldlite Gem - All the World's Countries 'n' Codes Incl. ISO (Alpha 2, Alpha 3, Num 3), FIFA, IOC, Internet Domains, Vehicle Registration Plates, 'n' More
 
 
 Written by {% avatar geraldb %} [Gerald Bauer](https://github.com/geraldb)
