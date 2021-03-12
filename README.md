@@ -218,7 +218,7 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 11 - journaltxt**](week/11-journaltxt.md) - Blogging reinvented: Read Journal.TXT - single-text file journals - and write out (auto-build) a blog (w/ Jekyll posts etc.)
 - [**Week 12 - almost-sinatra**](week/12-almost-sinatra.md) - Build your own webframework from scratch with Rack and Tilt in less than ten lines; six lines of Almost Sinatra "unobfuscated" and bundled up for easy (re)use
 - [**Week 13 - webservice**](week/13-webservice.md) - Script HTTP JSON APIs (web services) in classy Sinatra 2.0-style get / post methods with Mustermann 1.0 route / url pattern matching; load (micro) web services at-runtime and more
-- [**Week 14 - feedtxt**](week/10-feedtxt.md) - Read Feed.TXT - feeds in text (unicode); publish & share posts, articles, podcasts, 'n' more
+- [**Week 14 - feedtxt**](week/14-feedtxt.md) - Read Feed.TXT - feeds in text (unicode); publish & share posts, articles, podcasts, 'n' more
 - [**Week 15 - jekyll-octopod**](week/15-jekyll-octopod.md) - Publish your own radio talk shows; podcast extension for building (static) websites with Jekyll; incl. podcast web feeds with RSS enclosures and JSON Feed attachments in the OGG, MP3 or M4A audio formats. Written by [Stefan Haslinger](https://rubygems.org/profiles/informatom) {% avatar haslinger size=20 %}
 - [**Week 16 - pluto**](week/16-pluto.md) - Auto-build web pages from published web feeds; planet (static) website generator
 - [**Week 17 - eventdb**](week/17-eventdb.md) - Build your own What's On / What's Up event calendar from READMEs in (structured) text; read in (awesome) ruby conferences from around the world
