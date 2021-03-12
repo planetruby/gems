@@ -1,15 +1,7 @@
-Commands, Commands, Commands - Talk to Your Computer (Bots) in the Shell in Text - Ready?
+# Week 5 - gli gem - git-like interfaces for awesome command-line tools
 
 
-# gli library - Add Git-Like Interfaces (GLI) to Your Awesome Command-Line Tools
-
-github: [davetron5000/gli](https://github.com/davetron5000/gli),
-rubygems: [gli](https://rubygems.org/gems/gli),
-rdoc: [gli](http://rubydoc.info/gems/gli)  
-
-
-
-## What's `OptionParser`?
+What's `OptionParser`?
 
 Ruby ships with a built-in class, that is, `OptionParser`
 that lets you define and parse options for your command line tool.
@@ -17,12 +9,12 @@ Let say you're building a command line tool for the open beer database
 and as options you want to offer a switch to turn on debug
 messages e.g. `-v` or `--verbose` and
 another switch to change the database name
-from the default `beer.db` to lets say `lager.db`
-using `-n lager.db` or `--dbname=lager.db`.
+from the default `beer.db` to lets say `pivo.db`
+using `-n pivo.db` or `--dbname=pivo.db`.
 
 A minimal version with the built-in `OptionParser` looks like:
 
-``` ruby
+~~~
 require 'optparse'
 
 config = { name: 'beer.db' }
@@ -48,53 +40,53 @@ parser.parse!(ARGV)
 
 p config
 p ARGV
-```
+~~~
 
 Try
 
-```
+~~~
 $ ruby beerdb.rb --help
-```
+~~~
 
 Resulting in:
 
-```
+~~~
 Usage: beerdb [OPTS]
     -v, --verbose          Show debug messages
     -n, --dbname=NAME      Database name (default: beer.db)
     -h, --help             Prints this help
-```
+~~~
 
 or try:
 
-```
-$ ruby beerdb.rb --verbose --dbname=lager   # or
-$ ruby beerdb.rb -vnlager
-```
+~~~
+$ ruby beerdb.rb --verbose --dbname=pivo   # or
+$ ruby beerdb.rb -vnpivo
+~~~
 
 Resulting in:
 
-```
-{:name=>"lager", :verbose=>true}
+~~~
+{:name=>"pivo", :verbose=>true}
 []
-```
+~~~
 
 Note: The `OptionParser#parse!` method modifies `ARGV`, that is,
 removes all command-line options (such as `--verbose`
-and `--dbname=lager`) from ARGV, thus, the argument vector ends up empty `[]`).
+and `--dbname=pivo`) from ARGV, thus, the argument vector ends up empty `[]`).
 
 
 The `OptionParser` works great if all you need is a couple of options
 for your little command-line tool. Now imagine building a command-line tool
 like git - the stupid content tracker - that offers thousands of options. Let's try:
 
-```
+~~~
 $ git help
-```
+~~~
 
 Resulting in:
 
-```
+~~~
 usage: git [--version] [--exec-path[=GIT_EXEC_PATH]] [--html-path]
            [-p|--paginate|--no-pager] [--no-replace-objects]
            [--bare] [--git-dir=GIT_DIR] [--work-tree=GIT_WORK_TREE]
@@ -122,19 +114,19 @@ The most commonly used git commands are:
    show       Show various types of objects
    status     Show the working tree status
    tag        Create, list, delete or verify a tag object signed with GPG
-```
+~~~
 
 Git not only offers options but also offers commands and options for commands
 and commands for commands and so on. For example,
 to see the options and commands for the `remote` command try:
 
-```
+~~~
 $ git help remote
-```
+~~~
 
 Resulting in:
 
-```
+~~~
 NAME
        git-remote - manage set of tracked repositories
 
@@ -177,12 +169,12 @@ COMMANDS
            one -t <branch> to track multiple branches without grabbing all
            branches.
            ...
-```
+~~~
 
 If you feel adventurous you might build your own git-like command parser ontop of the
 built-in option parser. Example:
 
-``` ruby
+~~~
 include 'optparse'
 
 config = {}
@@ -213,25 +205,24 @@ when 'serve'
 else
   # print help
 end
-```
+~~~
 
 While a start - it's missing options for commands
 or help messages or nested command and on and on.
 
 
-## What's the gli (Git-Like Interfaces) library?
+## What's the gli (Git-Like Interfaces) gem?
 
-Let's thank [David Bryant Copeland](https://rubygems.org/profiles/davetron5000)
-{% avatar davetron5000 size=20 %}
-who has done all the work and packed up (yet another) command parser
+Let's thank David Bryant Copeland - the author of the gli gem -
+who has done all the work and has packed up (yet another) command parser
 built ontop of OptionParser in an easy-to-(re)use package
 offering it's very own mini-language (domain-specific language)
 to let you define your commands (or even commands of commands of commands)
-in plain old ruby.
+in plain old Ruby.
 
 Example:
 
-``` ruby
+~~~
 program_desc 'beer.db command line tool'
 version      '2.1.1'
 
@@ -273,18 +264,18 @@ command [:build,:b] do |c|
 end # command build
 
 ...
-```
+~~~
 
 If you run the "real-world" beerdb command-line tool
 built using the git-like interfaces (gli) machinery:
 
-```
+~~~
 $ beerdb help
-```
+~~~
 
 results in:
 
-```
+~~~
 NAME
     beerdb - beer.db command line tool
 
@@ -314,17 +305,18 @@ COMMANDS
     serve, server - Start web service (HTTP JSON API)
     setup, s      - Create DB schema 'n' load all world and beer data
     stats         - Show stats
-```
+    update, up, u - Update all beer data
+~~~
 
 and
 
-```
+~~~
 $ beerdb help serve
-```
+~~~
 
 results in:
 
-```
+~~~
 NAME
     serve - Start web service (HTTP JSON API)
 
@@ -334,13 +326,11 @@ SYNOPSIS
 COMMAND OPTIONS
     -p, --port=PORT - Port to listen on (default: 6666)
     -h, --host=HOST - Host to bind to (default: 127.0.0.1)
-```
+~~~
 
 Got interested?  David Bryant Copeland again has you covered and
-documented the gli library, has written a tutorial titled [Introduction to GLI](http://naildrivin5.com/blog/2013/12/02/introduction-to-gli.html)
-and even an book
-titled - surprise, surprise - [Build Awesome Command-Line Applications in Ruby](https://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2).
-
+documented the gli gem, has written a tutorial titled "Introduction to GLI" and even an book
+titled - surprise, surprise - "Build Awesome Command-Line Applications in Ruby".
 
 
 ## Bonus:  Quick Starter Code Templates with `gli init`
@@ -348,13 +338,13 @@ titled - surprise, surprise - [Build Awesome Command-Line Applications in Ruby](
 To get you started quicker the gli gem ships with its own awesome command-line tool
 built with gli. Try:
 
-```
+~~~
 $ gli help
-```
+~~~
 
 resulting in:
 
-```
+~~~
 NAME
     gli - create scaffolding for a GLI-powered application
 
@@ -371,12 +361,12 @@ GLOBAL OPTIONS
 COMMANDS
     help           - Shows a list of commands or help for one command
     init, scaffold - Create a new GLI-based project
-```
+~~~
 
 Now run `gli init beerdb` or using the alias `gli scaffold beerdb` and you
 will get ready-to-use and read-to-run code:
 
-```
+~~~
 Creating dir ./beerdb/lib...
 Creating dir ./beerdb/bin...
 Creating dir ./beerdb/test...
@@ -391,4 +381,13 @@ Created ./beerdb/Gemfile
 Created ./beerdb/features
 Created ./beerdb/lib/beerdb/version.rb
 Created ./beerdb/lib/beerdb.rb
-```
+~~~
+
+
+## Find Out More
+
+* home     :: [github.com/davetron5000/gli](https://github.com/davetron5000/gli)
+* gem      :: [rubygems.org/gems/gli](https://rubygems.org/gems/gli)
+* rdoc     :: [rubydoc.info/gems/gli](http://rubydoc.info/gems/gli)
+* tutorial :: [naildrivin5.com/introduction-to-gli.html](http://naildrivin5.com/blog/2013/12/02/introduction-to-gli.html)
+* book     :: [pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2](https://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2)

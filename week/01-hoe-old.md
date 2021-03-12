@@ -1,24 +1,13 @@
-_Automate, Automate, Automate_
-
-# hoe library - Build, Package and Publish Gems with Hoe; Use Build Scripts with Ready-to-Use Rake Tasks
-
-
-github: [seattlerb/hoe](https://github.com/seattlerb/hoe),
-rubygems: [hoe](https://rubygems.org/gems/hoe),
-rdoc: [rdoc](http://rubydoc.info/gems/hoe)
+# Week 1 - hoe gem - build, package and publish gems with hoe rake tasks
 
 
 
 ## What's Hoe?
 
-Hoe is a library that bundles ready-to-use rake tasks
-to help you build, package and publish your own gems.
-Thanks to [Ryan Davis](https://rubygems.org/profiles/zenspider) {% avatar zenspider size=20 %}
-and friends (from [Seattle.rb](http://www.seattlerb.org/))
-for polishing the gem all those years  - more than 100+  releases - leading to today's version 3.16.
+[Hoe](https://github.com/seattlerb/hoe) is a gem that bundles ready-to-use rake tasks
+to help you build, package and publish your own gems. Thanks to [Ryan Davis](https://github.com/zenspider) and friends (from [Seattle.rb](http://www.seattlerb.org/)) for polishing the gem all those years  - more than 100+  releases - leading to today's version 3.13.0.
 
 Let's create a bare bones gem (`hellohoe`) and publish it on RubyGems.org.
-
 
 ## Set up your gem by adding a build script, readme, change log and manifest
 
@@ -29,16 +18,16 @@ To use Hoe together with your own code use the following structure:
   + README.txt        - Description in plain text
   + History.txt       - Version change log in plain text
   + Manifest.txt      - List of all files to include in plain text
-  + Rakefile          - Build script (requires your name and email)  
+  + Rakefile          - Build script (requires your name and email)
   + /lib
      + hellohoe.rb    - Ruby code to bundle up into gem here
 ```
 
-Note: You can grab all files from this post from the [`hellohoe` GitHub repo](https://github.com/planetruby/hellohoe).
+Note: You can grab all files from this post from the [`hellohoe` GitHub repo](https://github.com/geraldb/hellohoe).
 
 Let's look at `hellohoe.rb`:
 
-``` ruby
+```
 class HelloHoe
   VERSION = '0.1.0'
 
@@ -50,7 +39,7 @@ Hoe requires a `VERSION` string in your Ruby code that you can reference in your
 Let's look at the build script, that is, `Rakefile` next:
 
 
-``` ruby
+```
 require 'hoe'                # pull in the hoe machinery (that is, ready-to-use rake tasks)
 require './lib/hellohoe.rb'
 
@@ -73,7 +62,7 @@ Next Hoe requires a readme in plain text stored in `README.txt`:
 ```
 = hellohoe
 
-* https://github.com/planetruby/hellohoe
+* https://github.com/geraldb/hellohoe
 
 == DESCRIPTION:
 
@@ -91,7 +80,7 @@ auto-fill the `summary` field and the `description` in the gemspec.
 Next Hoe requires a version changelog in plain text stored in `History.txt`:
 
 ```
-=== 0.1.0 / 2018-01-08
+=== 0.1.0 / 2015-01-08
 
 * Everything is new. First release.
 ```
@@ -143,7 +132,6 @@ rake release_to_gemcutter  # gemcutter # Push gem to gemcutter.
 rake repackage             # package   # Force a rebuild of the package files
 rake ridocs                # publish   # Generate ri locally for testing.
 ```
-
 
 ## Using `debug_gem`, `gem`, `package`, `install_gem` tasks
 
@@ -259,8 +247,6 @@ hellohoe (0.1.0)
 
 That's it.
 
-
-
 ## Bonus Tip by Ryan Davis: Quick Starter Templates with  `sow`
 
 Ryan Davis writes: The easiest way to get started with hoe is to use its included command-line tool `sow`:
@@ -274,3 +260,17 @@ Rakefile with developer information in order to meet the minimum requirements of
 You should also go fix all the things it points out as being labeled with `FIX` in the `README.txt` file.
 
 (Source: [Hoe PDF Booklet; 6 Pages](http://docs.seattlerb.org/hoe/Hoe.pdf))
+
+
+## Find Out More
+
+### Hoe References
+
+* home  :: [github.com/seattlerb/hoe](https://github.com/seattlerb/hoe)
+* gem   :: [rubygems.org/gems/hoe](https://rubygems.org/gems/hoe)
+* rdoc  :: [rubydoc.info/gems/hoe](http://rubydoc.info/gems/hoe)
+
+### Gems References
+
+* [RubyGems Guide - Make Your Own Gem](http://guides.rubygems.org/make-your-own-gem)
+* [RubyGems API Docu](http://guides.rubygems.org/rubygems-org-api)

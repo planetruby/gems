@@ -1,264 +1,237 @@
-# Week 4 - feedparser gem - web feed parser and normalizers (for RSS 2.0, Atom, n friends)
+_The Future of Online News - The Future of Facebook & Co - Web Feeds, Web Feeds, Web Feeds_
 
 
-## What's a Web Feed?
+# feedparser library - Read Web Feeds in XML, HTML, JSON, TXT and More; Build Your Own News Reader from Scratch in Twenty Lines
 
-A web feed (or news feed) is a simple document/data format
-that 1) lets you publish a list of
-status updates, blog postings, articles, pictures, cartoons, recordings, etc. and
-that 2) lets others subscribe to your updates.
+github: [feedparser/feedparser](https://github.com/feedparser/feedparser),
+rubygems: [feedparser](https://rubygems.org/gems/feedparser),
+rdoc: [feedparser](http://rubydoc.info/gems/feedparser)
+
+
+
+
+## What's a web feed?
+
+A web feed (or news feed) is a (simple) document/text format
+that:
+
+(1) lets you publish a list of:
+
+- status updates, blog postings, articles, pictures, cartoons, recordings, etc.
+
+and that
+
+(2) lets others subscribe to your updates.
+
 
 Example:
 
-~~~
-<feed>
-  <title>beer.db - Open Beer, Brewery n Brewpubs Data News and Updates</title>
-  <link href="http://openbeer.github.io/" />
-  <updated>2015-01-04T09:25:14+00:00</updated>
-  <entry>
-    <title>Beer-A-Day - Open Data Eternal Page-A-Day Calender</title>
-    <link href="http://openbeer.github.io/2014/12/12/beer-a-day.html" />
-    <updated>2014-12-12T00:00:00+00:00</updated>
-    <summary>As an example of using the beer.db...</summary>
-  </entry>
-  <entry>
-    <title>New beer.db Build System - Welcome ./Datafile e.g. $beerdb new at</title>
-    <link href="http://openbeer.github.io/2014/12/01/new-build-system-w-datafile.html" />
-    <updated>2014-12-01T00:00:00+00:00</updated>
-    <summary>The beerdb command line tool now includes a new build system...</summary>
-  ...
-</feed>
-~~~
-
-Ruby ships with a standard library that lets you read web feeds in the "classic"
-Really Simple Syndication (RSS 1.0/2.0) flavors
-or in the "modern" Atom Publishing format.
-
-### Task I: Reading Web Feeds in the Really Simple Syndication (RSS) Format
-
-Let's read in a "classic" web feed in the Really Simple Syndication (RSS)
-format from the RubyFlow site and print out the latest headlines:
-
-~~~
-require 'rss'
-require 'open-uri'
-
-feed  = RSS::Parser.parse( 'http://www.rubyflow.com/rss' )
-
-puts "==  #{feed.channel.title} =="
-
-feed.items.each do |item|
-  puts "- #{item.title}"
-  puts "  (#{item.link})"
-  puts
-end
-~~~
-
-Prints:
-
-~~~
-==  RubyFlow ==
-
-- The All New RubyFlow for 2015
-  (http://www.rubyflow.com/p/8hqxpd-the-all-new-rubyflow-for-2015)
-
-- Jekyll Quick Reference (Cheat Sheet) for Static Site Generator
-  (http://www.rubyflow.com/p/k8l2im-jekyll-quick-reference-cheat-sheet-for-static-site-generator)
-
-- Timeago date filter for Liquid templates
-  (http://www.rubyflow.com/p/12092-timeago-date-filter-for-liquid-templates)
-~~~
-
-To include a post's summary use `item.description` or to include a post's full-text
-use `content_encoded`. Example:
-
-~~~
-puts item.description
-puts item.content_encoded
-~~~
-
-That's it.
-
-### Task II: Reading Web Feeds in the Atom Publishing Format
-
-Next let's read a "modern" web feed in the Atom Publishing format
-from the beer.db - Open Beer Data site and print out the latest headlines:
-
-~~~
-feed = RSS::Parser.parse( 'http://openbeer.github.io/atom.xml' )
-
-puts "== #{feed.title.content} =="
-
-feed.entries.each do |entry|
-  puts "- #{entry.title.content}"
-  puts "  (#{entry.link.href})"
-  puts
-end
-~~~
-
-And use `entry.content.content` to get a post's full-text. That's it.
-
-Note, that the standard library maps the different web feed flavors 1:1 to Ruby fields
-reflecting the different formats e.g. the feed title stored in `feed.channel.title` in RSS 2.0
-becomes `feed.title.content` in Atom
-and the feed item's full-text stored in `feed.item.content_encoded` in RSS 2.0
-becomes `feed.entry.content.content` in Atom (Yes, it's `content.content`).
-Welcome to the wonderful world of web feed formats.
+``` json
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Jason Fried's Microblog",
+    "home_page_url": "https://micro.blog/jasonfried/",
+    "feed_url": "https://micro.blog/jasonfried/feed.json",
+    "author": {
+        "name": "Jason Fried",
+        "url": "https://micro.blog/jasonfried/",
+        "avatar": "https://micro.blog/jasonfried/avatar.png"
+    },
+    "items": [
+        {
+            "id": "865767227416612864",
+            "url": "https://micro.blog/jasonfried/status/865767227416612864",
+            "content_text": "JSON Feed? I know that guy.",
+            "date_published": "2017-05-19T20:12:00-00:00"
+        }
+    ]
+}
+```
 
 
-## What's the `feedparser` gem?
+## Aside: The Wonders of RSS - What's RSS!?
 
-The `feedparser` gem lets you read in web feeds in the RSS 2.0
-or Atom Publishing formats (using the built-in libraries)
-and normalizes the feed and item fields e.g. `item.content` gets mapped to
-`item.content_encoded` in RSS 2.0 and to `entry.content.content` in Atom and so on.
+**Triva Quiz - Q: What's RSS?**
 
-### `Feed` Struct
+- [A] RDF Site Summary
+- [B] Rich Site Summary
+- [C] Really Simple Syndication
+- [D] Really Simple, Stupid
+- [E] Rapid Syndicaton Solution
 
-#### Mappings
-
-**Title 'n' Summary**
-
-| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
-| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
-| `feed.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
-| `feed.summary`     | `description`     | plain vanilla text  | `subtitle`?   | plain vanilla text  |
-
-Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom),
-description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;`
-becomes & and so on - always resulting in plain vanilla text.
-
-**Dates**
-
-| Feed Struct        | RSS 2.0             | Notes             | Atom       | Notes           |
-| ------------------ | ------------------- | ----------------- | ---------- | --------------- |
-| `feed.updated`     | `lastBuildDate`?    | RFC-822 format    | `updated`  | ISO 801 format  |
-| `feed.published`   | `pubDate`?          | RFC-822 format    |  -         |                 |
+RDF = Resource Description Framework
 
 
-RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
+**Trivia Quiz - Find the Content - Q: What's your favorite way to add content in hypertext to RSS 2.0?**
 
-ISO-801 date format e.g. 2015-01-14T19:48:57Z
+- [A] `<description>`
+- [B] `<content:encoded>`  from RDF/RSS 1.0 content module extension
+- [C] `<media:content>`  from Yahoo! search extension
+- [D] Other?  Please, tell!
 
-Note: Mappings use question mark (`?`) for optional elements (otherwise assume required elements).
-
-~~~
-class Feed
-  attr_accessor :format   # e.g. atom|rss 2.0|etc.
-  attr_accessor :title    # note: always plain vanilla text
-  attr_accessor :url
-
-  attr_accessor :items
-
-  attr_accessor :summary   # note: is description in RSS 2.0 and subtitle in Atom; always plain vanilla text
-
-  attr_accessor :updated     # note: is lastBuildDate in RSS 2.0
-  attr_accessor :published   # note: is pubDate in RSS 2.0; not available in Atom
-
-  attr_accessor :generator
-  attr_accessor :generator_version  # e.g. @version (atom)
-  attr_accessor :generator_uri      # e.g. @uri     (atom)
-end
-~~~
+Bonus: Is your content in plain text, in html, in xhtml, in html escaped?
+Is your content a summary? or full text?
 
 
-### `Item` Struct
 
-**Title 'n' Summary**
+## The State of Web Feed Formats in 2017 - XML, JSON, YAML, HTML, TXT
 
-| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
-| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
-| `item.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
-| `item.summary`     | `description`     | plain vanilla text  | `summary`?    | plain vanilla text  |
-| `item.content`     | `content`?        | html                | `content`?    | html                |
+Let's celebrate diversity! Live and let live!
+Web feed formats today in 2017 include:
 
-Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom),
-description (RSS 2.0) and summary (Atom) content
-and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
-resulting in plain vanilla text.
+- RSS 2.0 (0.91, 0.92) a.k.a. Really Simple Syndication - in XML
+- RSS 1.0 a.k.a. RDF Site Summary - in RDF/XML
+- Atom - in XML
+- JSON Feed - in - surprise, surprise - JSON
+- Microformats (h-feed/h-entry) - in HTML
+- Feed.TXT - in plain text; metadata in (simplified) YAML or JSON; Markdown
 
-Note: In plain vanilla RSS 2.0 there's no difference between (full) content and summary - everything is wrapped
-in a description element; however, best practice is using the content "module" from RSS 1.0 inside RSS 2.0.
-If there's no content module present the feed parser will "clone" the description
-and use one version for `item.summary` and the clone for `item.content`.
-
-**Dates**
-
-| Item Struct        | RSS 2.0             | Notes             | Atom          | Notes           |
-| ------------------ | ------------------- | ----------------- | ------------- | --------------- |
-| `item.updated`     | `pubDate`?          | RFC-822 format    | `updated`     | ISO 801 format  |
-| `item.published`   | -                   | RFC-822 format    | `published`?  | ISO 801 format  |
-
-Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items,
-thus, it's not possible to differentiate between published and updated dates for items;
-note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0
-use the dublin core module e.g `dc:created`, for example.
-
-~~~
-class Item
-  attr_accessor :title   # note: always plain vanilla text
-  attr_accessor :url
-
-  attr_accessor :content
-  attr_accessor :content_type  # optional for now (text|html|etc.)
-
-  attr_accessor :summary
-
-  attr_accessor :updated    # note: is pubDate in RSS 2.0 and updated in Atom
-  attr_accessor :published  # note: is published in Atom; not available in RSS 2.0 (use dc:created)
-
-  attr_accessor :guid
-end
-~~~
+And some more.
 
 
-### Reading Web Feeds in All Formats
 
-~~~
+## What's the feedparser library?
+
+One library to rule them all! All your base are blong to feedparser.
+
+In the end all formats are just 0 and 1s or:
+
+- `feed.title`
+- `feed.url`
+- `feed.items[0].title`
+- `feed.items[0].url`
+- `feed.items[0].published`
+- `feed.items[0].content_html` or `feed.items[0].content`
+- `feed.items[0].content_text`
+- `feed.items[0].summary`
+- etc.
+
+=> Let your computer handle the reading of web feeds ;-).
+
+
+### Read Feed Example
+
+``` ruby
 require 'open-uri'
 require 'feedparser'
 
-url = 'http://openbeer.github.io/atom.xml'
-xml = open( url ).read
+txt = open( 'http://openfootball.github.io/feed.xml' ).read
 
-feed = FeedParser::Parser.parse( xml )
-puts "== #{feed.title} =="
+feed = FeedParser::Parser.parse( txt )
 
-feed.items.each do |item|
-  puts "- #{item.content}"
-  puts "  (#{item.url})"
-  puts
-end
-~~~
+puts feed.title
+# => "football.db - Open Football Data"
 
-Prints:
+puts feed.url
+# => "http://openfootball.github.io/"
 
-~~~
-== beer.db - Open Beer, Brewery n Brewpubs Data News and Updates ==
+puts feed.items[0].title
+# => "football.db - League Quick Starter Sample - Mauritius Premier League - Create Your Own Repo/League(s) from Scratch"
 
-- Beer-A-Day - Open Data Eternal Page-A-Day Calender
-  (http://openbeer.github.io/2014/12/12/beer-a-day.html)
+puts feed.items[0].url
+# => "http://openfootball.github.io/2015/08/30/league-quick-starter.html"
 
-- New beer.db Build System - Welcome ./Datafile e.g. $beerdb new be
-  (http://openbeer.github.io/2014/12/01/new-build-system-w-datafile.html)
+puts feed.items[0].updated
+# => Sun, 30 Aug 2015 00:00:00 +0000
 
-- New Repo /maps - Free Full-Screen Interactive Beer Maps w/ Brewery Listings
-  (http://openbeer.github.io/2014/11/11/new-repo-maps.html)
-~~~
+puts feed.items[0].content
+# => "Added a new quick starter sample using the Mauritius Premier League to get you started..."
 
-Now change the feed url to:
+...
+```
 
-~~~
-url = 'http://www.rubyflow.com/rss'
-~~~
+or reading a feed in the new [JSON Feed](https://jsonfeed.org) format in - surprise, surprise - JSON;
+note: nothing changes :-)
 
-and everything will work without changes for both formats (that is, RSS and Atom). That's it.
+``` ruby
+txt = open( 'http://openfootball.github.io/feed.json' ).read
 
-## Bonus: Planet Feed Reader in 20 Lines of Ruby
+feed = FeedParser::Parser.parse( txt )
+
+puts feed.title
+# => "football.db - Open Football Data"
+
+puts feed.url
+# => "http://openfootball.github.io/"
+
+puts feed.items[0].title
+# => "football.db - League Quick Starter Sample - Mauritius Premier League - Create Your Own Repo/League(s) from Scratch"
+
+puts feed.items[0].url
+# => "http://openfootball.github.io/2015/08/30/league-quick-starter.html"
+
+puts feed.items[0].updated
+# => Sun, 30 Aug 2015 00:00:00 +0000
+
+puts feed.items[0].content_text
+# => "Added a new quick starter sample using the Mauritius Premier League to get you started..."
+
+...
+```
+
+### Microformats
+
+Microformats let you mark up feeds and posts in HTML with
+[`h-entry`](http://microformats.org/wiki/h-entry),
+[`h-feed`](http://microformats.org/wiki/h-feed),
+and friends.
+
+Note: Microformats support in feedparser is optional.
+Install and require the the [microformats library](https://github.com/indieweb/microformats-ruby) to read
+feeds in HTML with Microformats.
+
+
+``` ruby
+
+require 'microformats'
+
+text =<<HTML
+<article class="h-entry">
+  <h1 class="p-name">Microformats are amazing</h1>
+  <p>Published by
+    <a class="p-author h-card" href="http://example.com">W. Developer</a>
+     on <time class="dt-published" datetime="2013-06-13 12:00:00">13<sup>th</sup> June 2013</time>
+
+  <p class="p-summary">In which I extoll the virtues of using microformats.</p>
+
+  <div class="e-content">
+    <p>Blah blah blah</p>
+  </div>
+</article>
+HTML
+
+feed = FeedParser::Parser.parse( text )
+
+puts feed.format
+# => "html"
+puts feed.items.size
+# =>  1
+puts feed.items[0].authors.size
+# => 1
+puts feed.items[0].content_html  
+# => "<p>Blah blah blah</p>"
+puts feed.items[0].content_text  
+# => "Blah blah blah"
+puts feed.items[0].title
+# => "Microformats are amazing"
+puts feed.items[0].summary
+# => "In which I extoll the virtues of using microformats."
+puts feed.items[0].published
+# => 2013-06-13 12:00:00
+puts feed.items[0].authors[0].name
+# => "W. Developer"
+...
+```
+
+## Samples
+
+### Feed Reader
+
+_Planet Feed Reader in 20 Lines of Ruby_
 
 `planet.rb`:
 
-~~~
+``` ruby
 require 'open-uri'
 require 'feedparser'
 require 'erb'
@@ -267,9 +240,9 @@ require 'erb'
 
 FEED_URLS = [
   'http://vienna-rb.at/atom.xml',
-  'http://rubyflow.com/rss',
-  'http://openfootball.github.io/atom.xml',
-  'http://openbeer.github.io/atom.xml'
+  'http://weblog.rubyonrails.org/feed/atom.xml',
+  'http://www.ruby-lang.org/en/feeds/news.rss',
+  'http://openfootball.github.io/feed.json',
 ]
 
 items = []
@@ -291,27 +264,28 @@ FEED_ITEM_TEMPLATE = <<EOS
 EOS
 
 puts ERB.new( FEED_ITEM_TEMPLATE ).result
-~~~
+```
 
 Run the script:
 
-~~~
-$ ruby planet.rb
-~~~
+```
+$ ruby ./planet.rb      
+```
 
 Prints:
 
-~~~
+```
 <div class="item">
-  <h2><a href="http://vienna-rb.at/blog/2015/01/28/picks/">Picks / what the vienna.rb team thinks is worth sharing this week</a></h2>
+  <h2><a href="http://vienna-rb.at/blog/2017/11/06/picks/">Picks / what the vienna.rb team thinks is worth sharing this week</a></h2>
   <div>
-   <h3>01/28 Picks!</h3>
+   <h3>6/11 Picks!!</h3>
    <p>In a series on this website we'll entertain YOU with our picks...
  ...
-~~~
+```
 
-## Find Out More
+## Real World Usage
 
-* home  :: [github.com/feedreader/feed.parser](https://github.com/feedreader/feed.parser)
-* gem   :: [rubygems.org/gems/feedparser](https://rubygems.org/gems/feedparser)
-* rdoc  :: [rubydoc.info/gems/feedparser](http://rubydoc.info/gems/feedparser)
+See the Planet Pluto feed reader family:
+
+- [Planet Pluto](https://github.com/feedreader)  - static planet website generator
+- [Planet Pluto Live](https://github.com/plutolive) - dynamic (live) planet web apps (using Sinatra, Rails, etc.)

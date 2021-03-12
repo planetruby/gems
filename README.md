@@ -99,9 +99,6 @@ Yes, you can! Why not highlight a blockchain / cryptos gem with your write-up?
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Blockchain Week series on Planet Ruby.
 -->
 
-
-(Note: You can subscribe to updates via the web feed in [XML](feed.xml).)
-
 <!--
 :chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend:
 -->
@@ -222,3 +219,33 @@ to get the conversation started and your article posted on Planet Ruby.
 - [**Week 8 - props**](week/08-props.md) - yet another config (INI) reader in Ruby
 - [**Week 9 - html-proofer**](week/09-html-proofer.md) - auto-proofread (check and validate) your hypertext (HTML) pages
 - [**Week 10 - tilt**](week/10-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
+- [**Week 11 - journaltxt**](week/11-journaltxt.md) - Blogging reinvented: Read Journal.TXT - single-text file journals - and write out (auto-build) a blog (w/ Jekyll posts etc.)
+- [**Week 12 - almost-sinatra**](week/12-almost-sinatra.md) - Build your own webframework from scratch with Rack and Tilt in less than ten lines; six lines of Almost Sinatra "unobfuscated" and bundled up for easy (re)use
+- [**Week 13 - webservice**](week/13-webservice.md) - Script HTTP JSON APIs (web services) in classy Sinatra 2.0-style get / post methods with Mustermann 1.0 route / url pattern matching; load (micro) web services at-runtime and more
+- [**Week 14 - feedtxt**](week/10-feedtxt.md) - Read Feed.TXT - feeds in text (unicode); publish & share posts, articles, podcasts, 'n' more
+- [**Week 15 - jekyll-octopod**](week/15-jekyll-octopod.md) - Publish your own radio talk shows; podcast extension for building (static) websites with Jekyll; incl. podcast web feeds with RSS enclosures and JSON Feed attachments in the OGG, MP3 or M4A audio formats. Written by [Stefan Haslinger](https://rubygems.org/profiles/informatom) {% avatar haslinger size=20 %}
+- [**Week 16 - pluto**](week/16-pluto.md) - Auto-build web pages from published web feeds; planet (static) website generator
+- [**Week 17 - eventdb**](week/17-eventdb.md) - Build your own What's On / What's Up event calendar from READMEs in (structured) text; read in (awesome) ruby conferences from around the world
+- [**Week 18 - officetxt**](week/18-officetxt.md) - Write notes, articles, journals, presentations, websites, blogs, manuscripts, books & more; the free writer's command line tool suite works w/ any text editor; uses future-proof text formats
+
+
+
+<!--
+And many more
+
+[**metasm**](https://github.com/jjyg/metasm), an assembly manipulation suite
+
+> My all time favourite piece of work that hardly anybody knows about. Metasm compiles / decompiles
+> about a dozen cpus and a handful of binary formats. In 100% ruby.
+>
+> -- [Torsten Rüger](https://github.com/dancinglightning) {% avatar dancinglightning size=20 %}
+
+    not heard back so far
+[**moneta**](https://github.com/minad/moneta), a unified interface to key/value stores
+
+> Moneta provides a standard interface for interacting with various
+> kinds of key/value stores. Moneta supports the well-known NoSQL and document based stores.
+> It's kinda like Tilt, but for key-value stores.
+>
+> -- [Arnaud Berthomier](https://github.com/oz) {% avatar oz size=20 %}
+-->
