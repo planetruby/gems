@@ -2,6 +2,14 @@
 
 {% include thanks.html %}
 
+(Note: You can subscribe to updates via the web feed in [XML](feed.xml).)
+
+
+Do you have a Ruby gem that you'd like to write about?
+We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Best of Gems series on Planet Ruby.
+
+
+
 
 **2021**
 - [Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems](#ruby-open-data-week-2021-march-6th-to-march-12th---7-days-of-ruby-open-data-gems)
@@ -18,18 +26,14 @@
 
 Welcome. The Ruby Open Data Week 2021 presents
 a new Ruby (open data) library every day from March 6th to March 12th.
-Have your say! Claim a free day!
+
+<!-- Have your say! Claim a free day! -->
 
 Let's join in and celebrate the (international)
 [Open Data Day 2021](https://opendataday.org/)
 with a week long
 celebration of open data gems from the Ruby universe.
 
-Do you have an open data Ruby gem that you'd like to write about?
-We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Open Data Week series on Planet Ruby.
-
-
-(Note: You can subscribe to updates via the web feed in [XML](feed.xml).)
 
 
 - [**Day 1 - factbook**](opendata/01-factbook.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
