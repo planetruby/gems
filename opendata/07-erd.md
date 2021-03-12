@@ -1,10 +1,16 @@
-# Week 8 - erd gem - generate entity-relationship diagrams (ERD) for your activerecord models
+# Day 7 - erd Gem - Generate Entity-Relationship Diagrams (ERD) for Your ActiveRecord Models
 
 
-Let's say you have defined your database schema (tables) with ActiveRecord in Ruby.
+Written by {% avatar geraldb %} [Gerald Bauer](https://github.com/geraldb)
+
+_A code monkey and enthusiastic collector (and publisher) of open football and beer data. Skills include Ruby, SQLite and CSV. Spec lead of [CSV <3 JSON](https://github.com/csvspecs/csv-json)._
+
+
+
+Let's say you have defined your database schema (tables) with ActiveRecord.
 Example:
 
-~~~
+``` ruby
 create_table :breweries do |t|
   t.string  :key,    null: false
   t.string  :title,  null: false
@@ -18,12 +24,12 @@ create_table :beers do |t|
   t.string  :title,   null: false
   t.text    :comments
 end
-~~~
+```
 
 And your models with classes in Ruby and assocations with class macros such as
 `belongs_to`, `has_many`, and so on:
 
-~~~
+``` ruby
 class Beer < ActiveRecord::Base
   belongs_to :brewery
 end
@@ -31,7 +37,7 @@ end
 class Brewery < ActiveRecord::Base
   has_many   :beers
 end
-~~~
+```
 
 How can you auto-generate an entity-relationship diagram?  For example:
 
@@ -48,7 +54,7 @@ Use `ActiveRecord::Base.descendants` that
 gets you an array with all loaded (known) models at runtime
 to find (discover) all models of your app. Example:
 
-~~~
+``` ruby
 models = ActiveRecord::Base.descendants
 
 puts " #{model.size} models:"
@@ -56,22 +62,22 @@ puts " #{model.size} models:"
 models.each do |model|
   puts "  #{model.name}"
 end
-~~~
+```
 
 Will print for our simple example schema:
 
-~~~
+```
  2 models:
      Beer
      Brewery
-~~~
+```
 
 **Step 2: Get all "meta" info - all column definitions and associations**
 
 Now lets print out all columns with its name and SQL type
 plus all associations (defined with the "classic" `belongs_to`, `has_many`, etc. macros):
 
-~~~
+``` ruby
 models.each do |model|
   puts "#{model.name}"
   puts '  columns:'
@@ -84,11 +90,11 @@ models.each do |model|
     puts "    #{assoc.macro} #{assoc.name}"
   end
 end
-~~~
+```
 
 Results in:
 
-~~~
+```
 Beer
   columns:
     id         integer
@@ -107,18 +113,18 @@ Brewery
     web        varchar(255)
   assocs:
     has_many beers
-~~~
+```
 
 **Step 3: Turn the text describing your models and assocations into a diagram**
 
 Now all that's left is turning the text into a diagram. Again the good news - tools and services
 abound - let's start with the `yuml.me` service. Use:
 
-~~~
+```
 [note: A simple beer.db diagram with yuml.me  {bg:wheat}]
 
 [Brewery|key;title;address;web] -> [Beer|key;title;comments]
-~~~
+```
 
 that gets turned into:
 
@@ -140,7 +146,7 @@ requiring the Rails machinery.
 Let's try it using the beer.db ActiveRecord models and schema
 bundled-up for easy (re)use in the `beerdb-models` gem.
 
-~~~
+``` ruby
 require 'beerdb/models'            # use $ gem install beerdb
 
 ## Let's create an in-memory SQLite database
@@ -182,18 +188,18 @@ class YumlDiagram < RailsERD::Diagram
 end
 
 YumlDiagram.create
-~~~
+```
 
 will result in (simplified):
 
-~~~
+```
 [Country] 1-*> [State]
 [State] 1-*> [City]
 [City] 1-*> [Brewery]
 [Brewery] 1-*> [Beer]
 [Brewery] 1-*> [Brand]
 [Brand] 1-*> [Beer]
-~~~
+```
 
 And turned into a diagram:
 
@@ -203,7 +209,7 @@ And turned into a diagram:
 Note: Instead of using the all-in-one `YumlDiagram.create` convenience method
 you can walk through step-by-step. Example:
 
-~~~
+``` ruby
 ## Get all meta-info
 
 domain  = RailsERD::Domain.generate
@@ -217,7 +223,7 @@ diagram = YumlDiagram.new( domain )
 
 diagram.generate   ## step 1 - generate
 diagram.save       ## step 2 - save
-~~~
+```
 
 
 ## What's Graphviz and the DOT language?
@@ -230,7 +236,7 @@ package by AT&T Labs Research
 for drawing graphs specified in DOT language scripts
 started more than fifteen years ago. Example:
 
-~~~
+```
 digraph example
 {
   Brewery [shape=box, style=filled, color=blue]
@@ -241,17 +247,24 @@ digraph example
   Brewery -> Brand
   Brand   -> Beer
 }
-~~~
+```
 
 Change the `YumlDiagram.create` method to `RailsERD::Diagram::Graphviz.create`
 and you will get a GraphViz-generated diagram as a PDF document, PNG pixel graphic,
 SVG vector graphic or whatever filetype you desire. That's it.
 
 
+
+
 ## Find Out More
 
-* home     :: [github.com/voormedia/rails-erd](https://github.com/voormedia/rails-erd)
-* gem      :: [rubygems.org/gems/rails-erd](https://rubygems.org/gems/rails-erd)
-* rdoc     :: [rubydoc.info/gems/rails-erd](http://rubydoc.info/gems/rails-erd)
-* yuml     :: [yuml.me](http://yuml.me)
-* graphviz :: [graphviz.org](http://graphviz.org)
+### References
+
+- Home     :: [github.com/voormedia/rails-erd](https://github.com/voormedia/rails-erd)
+- Gem      :: [rails-erd](https://rubygems.org/gems/rails-erd)
+- Docs     :: [rials-erd](http://rubydoc.info/gems/rails-erd)
+
+Diagrams
+
+- Yuml     :: [yuml.me](http://yuml.me)
+- Graphviz :: [graphviz.org](http://graphviz.org)

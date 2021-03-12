@@ -1,4 +1,4 @@
-# Week 5 - feedparser gem - web feed parser and normalizers (for RSS 2.0, Atom, n friends)
+# Week 4 - feedparser gem - web feed parser and normalizers (for RSS 2.0, Atom, n friends)
 
 
 ## What's a Web Feed?
@@ -296,7 +296,7 @@ puts ERB.new( FEED_ITEM_TEMPLATE ).result
 Run the script:
 
 ~~~
-$ ruby planet.rb      
+$ ruby planet.rb
 ~~~
 
 Prints:

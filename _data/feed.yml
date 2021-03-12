@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 7 - Generate Entity-Relationship Diagrams (ERD) for Your ActiveRecord Models"
+  path: opendata/07-erd
+  date: 2021-03-12
+
 - title: "Day 6 - worldlite Gem - All the World's Countries 'n' Codes Incl. ISO (Alpha 2, Alpha 3, Num 3), FIFA, IOC, Internet Domains, Vehicle Registration Plates, 'n' More"
   path: opendata/06-worldlite
   date: 2021-03-11

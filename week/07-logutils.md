@@ -1,4 +1,4 @@
-# Week 12 - logutils gem - yet another (lightweight, simple) logging library in Ruby
+# Week 7 - logutils gem - yet another (lightweight, simple) logging library in Ruby
 
 
 

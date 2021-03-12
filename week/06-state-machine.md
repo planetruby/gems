@@ -1,4 +1,4 @@
-# Week 9 - state_machine(s) gem - model processes and work flows with finite state machines (FSM) and automata theory
+# Week 6 - state_machine(s) gem - model processes and work flows with finite state machines (FSM) and automata theory
 
 
 ## What's a state machine? What's a finite state machine (FSM)?

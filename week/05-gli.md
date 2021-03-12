@@ -1,4 +1,4 @@
-# Week 7 - gli gem - git-like interfaces for awesome command-line tools
+# Week 5 - gli gem - git-like interfaces for awesome command-line tools
 
 
 What's `OptionParser`?

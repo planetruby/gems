@@ -1,4 +1,4 @@
-# Week 4 - kramdown gem - turn easy-to-read and easy-to-write wiki-style plain text in markdown into hypertext
+# Week 3 - kramdown gem - turn easy-to-read and easy-to-write wiki-style plain text in markdown into hypertext
 
 
 ## What's Markdown?

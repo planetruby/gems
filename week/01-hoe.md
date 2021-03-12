@@ -1,4 +1,4 @@
-# Week 2 - hoe gem - build, package and publish gems with hoe rake tasks
+# Week 1 - hoe gem - build, package and publish gems with hoe rake tasks
 
 
 
@@ -18,7 +18,7 @@ To use Hoe together with your own code use the following structure:
   + README.txt        - Description in plain text
   + History.txt       - Version change log in plain text
   + Manifest.txt      - List of all files to include in plain text
-  + Rakefile          - Build script (requires your name and email)  
+  + Rakefile          - Build script (requires your name and email)
   + /lib
      + hellohoe.rb    - Ruby code to bundle up into gem here
 ```

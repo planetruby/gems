@@ -1,4 +1,4 @@
-# Week 13 - props gem - yet another config (INI) reader in Ruby
+# Week 8 - props gem - yet another config (INI) reader in Ruby
 
 
 Let's say you're looking for an easy configuration file format for your tool or service.

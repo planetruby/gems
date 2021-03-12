@@ -1,4 +1,4 @@
-# Week 14 - html-proofer gem - auto-proofread (check and validate) your hypertext (HTML) pages
+# Week 9 - html-proofer gem - auto-proofread (check and validate) your hypertext (HTML) pages
 
 
 Let's say you have a project site and want to check that all your hypertext (HTML) pages

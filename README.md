@@ -47,8 +47,13 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
   Work with Tabular Data Packages (.CSV Files w/ datapackage.json) using SQLite In-Memory (w/ ActiveRecord)
 - [**Day 6 - worldlite**](opendata/06-worldlite.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   All the World's Countries 'n' Codes Incl. ISO (Alpha 2, Alpha 3, Num 3), FIFA, IOC, Internet Domains, Vehicle Registration Plates, 'n' More
-- **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+- [**Day 7 - erd**](opendata/07-erd.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Generate Entity-Relationship Diagrams (ERD) for Your ActiveRecord Models
 
+
+<!--
+- **Day 7 - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)** - Your tag line here
+-->
 
 
 
@@ -207,20 +212,13 @@ or send in a pull request
 to get the conversation started and your article posted on Planet Ruby.
 -->
 
-- [**Week 1 - factbook**](week/01-factbook.md) - turn the world factbook into open structured data e.g JSON
-- [**Week 2 - hoe**](week/02-hoe.md) - build, package and publish gems with hoe rake tasks
-- [**Week 3 - slideshow**](week/03-slideshow.md) - a free web alternative to PowerPoint and Keynote in Ruby
-- [**Week 4 - kramdown**](week/04-kramdown.md) - turn easy-to-read and easy-to-write wiki-style plain text in markdown into hypertext
-- [**Week 5 - feedparser**](week/05-feedparser.md) - web feed parser and normalizers (for RSS 2.0, Atom, n friends)
-- [**Week 6 - schemadoc**](week/06-schemadoc.md) - auto-generate your database schema docs for tables, columns, etc.
-- [**Week 7 - gli**](week/07-gli.md) - git-like interfaces for awesome command-line tools
-- [**Week 8 - erd**](week/08-erd.md) - generate entity-relationship diagrams (ERD) for your activerecord models
-- [**Week 9 - state_machine(s)**](week/09-state-machine.md) - model processes and work flows with finite state machines (FSM) and automata theory
-- [**Week 10 - annotate**](week/10-annotate.md) - annotate your ActiveRecord models with comments about your table structure
-- [**Week 11 - worldlite**](week/11-worldlite.md) - lightweight public domain country data (all data included as good ol' ruby code)
-- [**Week 12 - logutils**](week/12-logutils.md) - yet another (lightweight, simple) logging library in Ruby
-- [**Week 13 - props**](week/13-props.md) - yet another config (INI) reader in Ruby
-- [**Week 14 - html-proofer**](week/14-html-proofer.md) - auto-proofread (check and validate) your hypertext (HTML) pages
-- [**Week 15 - beerdb**](week/15-beerdb.md)  - serving a Guinness Irish Stout or a Bamberg Aecht Schlenkerla Rauchbier Märzen as JSON w/ Ruby
-- [**Week 16 - tilt**](week/16-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
-- [**Week 17 - datapak**](week/17-datapak.md) - work with tabular data packages (.csv files w/ datapackage.json) using SQLite (w/ ActiveRecord)
+- [**Week 1 - hoe**](week/01-hoe.md) - build, package and publish gems with hoe rake tasks
+- [**Week 2 - slideshow**](week/02-slideshow.md) - a free web alternative to PowerPoint and Keynote in Ruby
+- [**Week 3 - kramdown**](week/03-kramdown.md) - turn easy-to-read and easy-to-write wiki-style plain text in markdown into hypertext
+- [**Week 4 - feedparser**](week/04-feedparser.md) - web feed parser and normalizers (for RSS 2.0, Atom, n friends)
+- [**Week 5 - gli**](week/05-gli.md) - git-like interfaces for awesome command-line tools
+- [**Week 6 - state_machine(s)**](week/06-state-machine.md) - model processes and work flows with finite state machines (FSM) and automata theory
+- [**Week 7 - logutils**](week/07-logutils.md) - yet another (lightweight, simple) logging library in Ruby
+- [**Week 8 - props**](week/08-props.md) - yet another config (INI) reader in Ruby
+- [**Week 9 - html-proofer**](week/09-html-proofer.md) - auto-proofread (check and validate) your hypertext (HTML) pages
+- [**Week 10 - tilt**](week/10-tilt.md) - let's build (yet another) micro web framework in less than 33 lines of code
