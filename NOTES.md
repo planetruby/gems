@@ -44,15 +44,20 @@ Cryptography
 - bcrypt_pbkdf
 - Everything RubyCrypto
 
-Aspecial mention to ruby-vips, which is (along with maybe php, I guess) one of the few language bindings maintained by the author of libvips, which should become the defacto image processing manipulation library.
+Aspecial mention to ruby-vips, which is (along with maybe php, I guess) one of the few language bindings 
+maintained by the author of libvips, which should become the defacto image processing manipulation library.
 
-About the C-extensions, I'd be curious on what it takes to build extensions using C, and a study around how nokogiri solved the yearlong issue of install-then-compile by shipping arch-based precompiled binaries, and how this should become more of a standard in the ruby community for gems requiring extensions.
+About the C-extensions, I'd be curious on what it takes to build extensions using C, 
+and a study around how nokogiri solved the yearlong issue of install-then-compile 
+by shipping arch-based precompiled binaries, 
+and how this should become more of a standard in the ruby community for gems requiring extensions.
 ```
 
 ikariusrb writes:
 
 ```
-I'll toss out a category - front end automation and web scraping. Is selenium / chromedriver still the king, or is ferrum the new king?
+I'll toss out a category - front end automation and web scraping. 
+Is selenium / chromedriver still the king, or is ferrum the new king?
 ```
 
 
