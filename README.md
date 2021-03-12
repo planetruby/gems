@@ -1,5 +1,7 @@
 # Best of Ruby Gems Series
 
+{% include thanks.html %}
+
 
 **2021**
 - [Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems](#ruby-open-data-week-2021-march-6th-to-march-12th---7-days-of-ruby-open-data-gems)
@@ -11,11 +13,8 @@
 
 
 
+
 ### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
-
-
-{% include thanks_opendata.html %}
-
 
 Welcome. The Ruby Open Data Week 2021 presents
 a new Ruby (open data) library every day from March 6th to March 12th.
@@ -60,8 +59,6 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 ### Ruby Glimmer Days 2021, January 26th to January 29th - 4 Days of Ruby (Desktop) Gems
 
-{% include thanks_glimmer.html %}
-
 Welcome. The Ruby Glimmer Days 2021 present
 a new Ruby (desktop) library every day from January 26th to January 29th.
 
@@ -82,8 +79,6 @@ for scripting desktop apps and widgets with two-way data binding.
 
 
 ### Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems
-
-{% include thanks_blockchain.html %}
 
 Welcome. The Ruby Blockchain Week 2021 presents
 a new Ruby (crypto) library every day from January 3rd to January 9th.
@@ -124,9 +119,6 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 
 ## 25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th
-
-
-{% include thanks_2020.html %}
 
 
 Welcome. The Ruby Advent Calendar 2020
