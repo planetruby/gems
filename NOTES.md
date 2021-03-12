@@ -5,8 +5,6 @@
 noteflakes writes:
 
 ```
-Off the top of my head:
-
 Concurrency
 Networking
 ORMs
