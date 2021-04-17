@@ -20,6 +20,25 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 - [25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th](#25-days-of-ruby-gems---ruby-advent-calendar-2020-december-1st---december-25th)
 
 
+### Ruby Pixel Art Week 2021, April 19th to April 25th - 7 Days of Ruby Graphics Gems
+
+Welcome. The Ruby Pixel Art Week 2021 presents
+a new Ruby graphics library every day from April 19th to April 25th.
+
+Have your say! Claim a free day!
+
+Let's highlight graphics libraries for pixel art in ruby (or chartreuse or magenta).
+
+Do you have an open data Ruby gem that you'd like to write about?
+We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Pixel Art Week series on Planet Ruby.
+
+- **Day 1 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 2 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 3 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 4 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 5 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 6 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 7 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here 
 
 
 ### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
