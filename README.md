@@ -31,7 +31,7 @@ Have your say! Claim a free day!
 
 Let's highlight graphics libraries for pixel art in ruby (or chartreuse or magenta).
 
-Do you have an open data Ruby gem that you'd like to write about?
+Do you have a Ruby gem that you'd like to write about?
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Pixel Art Week series on Planet Ruby.
 
 - **Day 1 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
