@@ -5,7 +5,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems</title>
+  <title>Ruby Pixel Art Week 2021, April 19th to April 25th - 7 Days of Ruby (Graphics) Gems</title>
   <link href="{{ '/feed.xml' | absolute_url }}" rel="self" />
   <link href="{{ '/' | absolute_url }}" />
   <id>{{ '/' | absolute_url | xml_escape }}</id>

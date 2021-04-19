@@ -231,7 +231,7 @@ Voila!
 
 ![](i/lady-gaga-grid.png)
 
-![](i/lady-gaga.png)
+![](i/lady-gaga-24x24.png)
 
 
 
