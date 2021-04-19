@@ -34,13 +34,15 @@ Let's highlight graphics libraries for pixel art in ruby (or chartreuse or magen
 Do you have a Ruby gem that you'd like to write about?
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Pixel Art Week series on Planet Ruby.
 
-- **Day 1 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+
+- [**Day 1 - chunky_png**](pixel/01-chunky-png.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Turn Pixelated Billie Eilish and Lady Gaga Portraits into True 24x24 Pixel Art
 - **Day 2 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 3 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 4 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 5 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 6 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
-- **Day 7 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here 
+- **Day 7 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 
 
 ### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
