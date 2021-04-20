@@ -37,7 +37,8 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 - [**Day 1 - chunky_png**](pixel/01-chunky-png.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Turn Pixelated Billie Eilish and Lady Gaga Portraits into True 24x24 Pixel Art
-- **Day 2 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- [**Day 2 - pixelart**](pixel/02-pixelart.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Mint Your Own Pixel Art Images Using Any Design (In ASCII Text) In Any Colors; Incl. 2X/4X/8X Zoom For Bigger Sizes
 - **Day 3 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 4 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 5 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
