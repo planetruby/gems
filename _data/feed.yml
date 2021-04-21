@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: "Day 3 - mooncats Gem - Generate Your Own All-25 440-MoonCats In-One Image - mooncatrescue.png Composite (2400×6120)"
+  path: pixel/03-mooncats
+  date: 2021-04-21
+
 - title: "Day 2 - pixelart Gem - Mint Your Own Pixel Art Images Using Any Design (In ASCII Text) In Any Colors; Incl. 2X/4X/8X Zoom For Bigger Sizes"
   path: pixel/02-pixelart
   date: 2021-04-20
