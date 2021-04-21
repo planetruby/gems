@@ -174,7 +174,7 @@ data = data.sort do |l,r|   # l=left, r=right
 
 ### References
 
-- Home :: [https://github.com/cryptocopycats/mooncats/mooncats](https://github.com/cryptocopycats/mooncats/tree/master/mooncats)
+- Home :: [github.com/cryptocopycats/mooncats/mooncats](https://github.com/cryptocopycats/mooncats/tree/master/mooncats)
 - Gem :: [mooncats](https://rubygems.org/gems/mooncats)
 - Docs :: [mooncats](http://rubydoc.info/gems/mooncats)
 
