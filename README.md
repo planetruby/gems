@@ -41,7 +41,8 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
   Mint Your Own Pixel Art Images Using Any Design (In ASCII Text) In Any Colors; Incl. 2X/4X/8X Zoom For Bigger Sizes
 - [**Day 3 - mooncats**](pixel/03-mooncats.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Generate Your Own All-25 440-MoonCats In-One Image - mooncatrescue.png Composite (2400×6120)
-- **Day 4 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- [**Day 4 - cryptopunks**](pixel/04-cryptopunks.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Christie's Nine Colored in Black 'n' White, Ye Olde' Sepia Tone, Blue or Futuristic False 8-Bit Color Palette - Free Punk Downloads - Right-Click and Save Image
 - **Day 5 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 6 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 7 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here

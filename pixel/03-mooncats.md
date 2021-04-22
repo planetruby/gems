@@ -177,4 +177,6 @@ data = data.sort do |l,r|   # l=left, r=right
 - Home :: [github.com/cryptocopycats/mooncats/mooncats](https://github.com/cryptocopycats/mooncats/tree/master/mooncats)
 - Gem :: [mooncats](https://rubygems.org/gems/mooncats)
 - Docs :: [mooncats](http://rubydoc.info/gems/mooncats)
+- Book(let) :: [Programming MoonCats & MarsCats Step-by-Step Book / Guide. Inside Unique Pixel Art on the Blockchain...](https://github.com/cryptocopycats/programming-mooncats)
+
 
