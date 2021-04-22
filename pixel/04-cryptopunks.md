@@ -173,9 +173,8 @@ punk = punks[2]
 puts "before:"
 show_colors( punk )
 
-punk_bw = punk.grayscale
 puts "after:"
-show_colors( punk_bw )
+show_colors( punk.grayscale )
 ```
 
 resulting in:
