@@ -21,6 +21,28 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 - [25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th](#25-days-of-ruby-gems---ruby-advent-calendar-2020-december-1st---december-25th)
 
 
+### Ruby Football Week 2021, June 11th to June 17th - 7 Days of Ruby (Sports) Gems
+
+Welcome. The Ruby Football Week 2021 presents
+a new Ruby sports library every day from June 11th to June 17th.
+
+Have your say! Claim a free day!
+
+Let's join in and celebrate the beautiful game and the kick off of the European Football Championship (Euro 2020)
+with a week long celebration of sports gems from the Ruby universe.
+
+Do you have a Ruby gem that you'd like to write about? All sports welcome incl. what americans in the united states call football.
+We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Football Week series on Planet Ruby.
+
+- **Day 1 - :soccer::soccer::soccer: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 2 - :softball::softball::softball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 3 - :volleyball::volleyball::volleyball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 4 - :rugby_football::rugby_football::rugby_football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 5 - :baseball::baseball::baseball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 6 - :basketball::basketball::basketball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 7 - :football::football::football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+
+
 
 ### Ruby Pixel Art Week 2021, April 19th to April 25th - 7 Days of Ruby (Graphics) Gems
 
