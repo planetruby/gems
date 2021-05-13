@@ -36,12 +36,12 @@ Do you have a Ruby gem that you'd like to write about? All sports welcome incl. 
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Football Week series on Planet Ruby.
 
 - **Day 1 - :soccer::soccer::soccer: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
-- **Day 2 - :softball::softball::softball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
-- **Day 3 - :volleyball::volleyball::volleyball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
-- **Day 4 - :rugby_football::rugby_football::rugby_football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 2 - :football::football::football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 3 - :rugby_football::rugby_football::rugby_football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 4 - :volleyball::volleyball::volleyball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 5 - :baseball::baseball::baseball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 6 - :basketball::basketball::basketball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
-- **Day 7 - :football::football::football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 7 - :tennis::tennis::tennis: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 
 
 
