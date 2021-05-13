@@ -12,6 +12,7 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 
 **2021**
+- [Ruby Football Week 2021, June 11th to June 17th - 7 Days of Ruby (Sports) Gems](#ruby-football-week-2021-june-11th-to-june-17th---7-days-of-ruby-sports-gems)
 - [Ruby Pixel Art Week 2021, April 19th to April 25th - 7 Days of Ruby (Graphics) Gems](#ruby-pixel-art-week-2021-april-19th-to-april-25th---7-days-of-ruby-graphics-gems)
 - [Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems](#ruby-open-data-week-2021-march-6th-to-march-12th---7-days-of-ruby-open-data-gems)
 - [Ruby Glimmer Days 2021, January 26th to January 29th - 4 Days of Ruby (Desktop) Gems](#ruby-glimmer-days-2021-january-26th-to-january-29th---4-days-of-ruby-desktop-gems)
