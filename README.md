@@ -66,9 +66,11 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
   Generate Your Own All-25 440-MoonCats In-One Image - mooncatrescue.png Composite (2400×6120)
 - [**Day 4 - cryptopunks**](pixel/04-cryptopunks.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Christie's Nine Colored in Black 'n' White, Ye Olde' Sepia Tone, Blue or Futuristic False 8-Bit Color Palette - Free Punk Downloads - Right-Click and Save Image
-- **Day 5 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- [**Day 5 - pixelart-characters**](pixel/05-pixelart-characters) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+ Generate Pixel Art Characters, Algorithmically - Case Study №1 - 8-Bit Icon Avatar Series (20x20)
 - **Day 6 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 7 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+
 
 
 ### Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems
