@@ -35,7 +35,9 @@ with a week long celebration of sports gems from the Ruby universe.
 Do you have a Ruby gem that you'd like to write about? All sports welcome incl. what americans in the united states call football.
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Football Week series on Planet Ruby.
 
-- **Day 1 - :soccer::soccer::soccer: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+
+- [**Day 1 - fifa**]  by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  The World's Football Countries and Codes (Incl. Non-Member Countries and Irregular Codes)
 - **Day 2 - :football::football::football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 3 - :rugby_football::rugby_football::rugby_football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 4 - :volleyball::volleyball::volleyball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
