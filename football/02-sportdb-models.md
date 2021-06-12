@@ -1,4 +1,4 @@
-Day 2 - sportdb-models Gem - Football SQL Schema and ActiveRecord Models for Easy (Re)Use  - Inserting the Euro 2020 Opening Match - Turkey vs Italy 0:3 (0:0) - Into the Database "by Hand"
+# Day 2 - sportdb-models Gem - Football SQL Schema and ActiveRecord Models for Easy (Re)Use  - Inserting the Euro 2020 Opening Match - Turkey vs Italy 0:3 (0:0) - Into the Database "by Hand"
 
 
 Written by {% avatar geraldb %} [Gerald Bauer](https://github.com/geraldb)
