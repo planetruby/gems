@@ -2,6 +2,12 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+
+- title: 'Football SQL Schema and ActiveRecord Models for Easy (Re)Use  - Inserting the Euro 2020 Opening Match - Turkey vs Italy 0:3 (0:0) - Into the Database "by Hand"'
+  path: football/02-sportdb-models
+  date: 2021-06-12
+
 - title: "Day 1 - fifa Gem - The World's Football Countries and Codes (Incl. Non-Member Countries and Irregular Codes)"
   path: football/01-fifa
   date: 2021-06-11
+

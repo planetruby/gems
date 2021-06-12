@@ -38,7 +38,8 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 - [**Day 1 - fifa**](football/01-fifa.md)  by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   The World's Football Countries and Codes (Incl. Non-Member Countries and Irregular Codes)
-- **Day 2 - :football::football::football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- [**Day 2 - sportdb-models**](football/02-sportdb-models.md)  by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Football SQL Schema and ActiveRecord Models for Easy (Re)Use  - Inserting the Euro 2020 Opening Match - Turkey vs Italy 0:3 (0:0) - Into the Database "by Hand"
 - **Day 3 - :rugby_football::rugby_football::rugby_football: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 4 - :volleyball::volleyball::volleyball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 5 - :baseball::baseball::baseball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
