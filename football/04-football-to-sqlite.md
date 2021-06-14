@@ -43,7 +43,9 @@ European Football Championship ("Euro") 2020
 reading in the match schedule in the Football.TXT format.
 
 
-Grab (download) a copy
+Grab / download a copy from the
+open public domain football datasets org
+@
 [`/euro/2020--europe/euro.txt`](https://github.com/openfootball/euro/raw/master/2020--europe/euro.txt) of the match schedule to your own local computer.
 And run the command line tool against the match file:
 
@@ -51,16 +53,14 @@ And run the command line tool against the match file:
 $ football-to-sqlite euro2020.db euro.txt
 ```
 
-
-Note: The command line tool will "auto-magically" create
-the database with all tables, indices, etc. on the first run if the single-file database
-does not (yet) exist.
-
-
 Voila. That's it.  The `euro2020.db` single-file SQLite database is now
 populated with 24 national teams in 6 groups and 36 matches (in the group phase)
 and so on.
 
+
+Note: The command line tool will "auto-magically" create
+the database with all tables, indices, etc. on the first run if the single-file database
+does not (yet) exist.
 
 
 
