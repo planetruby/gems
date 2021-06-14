@@ -10,7 +10,7 @@ Written by {% avatar geraldb %} [Gerald Bauer](https://github.com/geraldb)
 The football-to-sqlite gem ships with the `football-to-sqlite` (or `football2sqlite`)
 command line tool that lets you
 read match files in the (structured) Football.TXT format
-into single-file SQLite databases.
+into a single-file SQLite database.
 
 
 
