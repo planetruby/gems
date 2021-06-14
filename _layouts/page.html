@@ -41,6 +41,20 @@ layout: default_page
 {{ content }}
 
 
+
+{% if page.path == "README.md" %}
+  <!-- no custom page footer -->
+{% elsif page.path contains "football" %}
+   <h2>Questions? Comments?</h2>
+     <p>
+       Join us over on the <b><a href="https://old.reddit.com/r/planetruby/">r/PlanetRuby</a></b> channel. Thanks!
+     </p>
+{% else %}
+  <!-- no custom page footer -->
+{% endif %}
+
+
+
 <!-- note: add our own little (inline) footer, see _includes for source -->
 {% include footer.html %}
 
