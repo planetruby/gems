@@ -42,7 +42,8 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
   Football SQL Schema and ActiveRecord Models for Easy (Re)Use  - Inserting the Euro 2020 Opening Match - Turkey vs Italy 0:3 (0:0) - Into the Database "by Hand"
 - [**Day 3 - sportdb-readers**](football/03-sportdb-readers.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
   Read the European Football Championship ("Euro") 2020 Match Schedule in the Football.TXT Format Into euro.db - A Single-File SQLite Database
-- **Day 4 - :volleyball::volleyball::volleyball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- [**Day 4 - football-to-sqlite**](football/04-football-to-sqlite.md) by {% avatar geraldb size=20 %} [Gerald Bauer](https://github.com/geraldb) <br>
+  Read the European Football Championship ("Euro") 2020 Match Schedule in the Football.TXT Format Into euro.db Using the Shell / Command Line
 - **Day 5 - :baseball::baseball::baseball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 6 - :basketball::basketball::basketball: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
 - **Day 7 - :tennis::tennis::tennis: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here

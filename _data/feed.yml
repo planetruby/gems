@@ -2,6 +2,10 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
+- title: 'Day 4 - football-to-sqlite Gem - Read the European Football Championship ("Euro") 2020 Match Schedule in the Football.TXT Format Into euro.db Using the Shell / Command Line'
+  path: football/04-football-to-sqlite
+  date: 2021-06-14
+
 - title: 'Day 3 - sportdb-readers Gem - Read the European Football Championship ("Euro") 2020 Match Schedule in the Football.TXT Format Into euro.db - A Single-File SQLite Database'
   path: football/03-sportdb-readers
   date: 2021-06-13
