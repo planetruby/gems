@@ -87,7 +87,7 @@ The workaround is to always re-create/re-build your database from zero / scratch
 
 ### References
 
-- Home     :: [sportdb.github.io](http://sportdb.github.io)
+- Home     :: [github.com/sportdb/football.db/football-to-sqlite](https://github.com/sportdb/football.db/tree/master/football-to-sqlite)
 - Gem      :: [football-to-sqlite](https://rubygems.org/gems/football-to-sqlite)
 - Docs     :: [football-to-sqlite](http://rubydoc.info/gems/football-to-sqlite)
 - Datasets  :: [github.com/openfootball](https://github.com/openfootball)
