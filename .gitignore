@@ -4,3 +4,5 @@ _site/
 
 # Gladiator (Glimmer Editor)
 .gladiator
+
+.DS_Store
