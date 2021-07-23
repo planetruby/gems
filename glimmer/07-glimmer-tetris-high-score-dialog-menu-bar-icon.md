@@ -179,13 +179,13 @@ To start a new one, you need the `menu_item` to do it. That's what the next sect
 
 This is how the menu bar nested menus look like.
 
-![Tetris Game Menu](https://raw.githubusercontent.com/AMaleh/glimmer-dsl-swt/master/images/glimmer-tetris-game-menu.png)
+![Tetris Game Menu](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/v4.20.0.0/images/glimmer-tetris-game-menu.png)
 
-![Tetris View Menu](https://raw.githubusercontent.com/AMaleh/glimmer-dsl-swt/master/images/glimmer-tetris-view-menu.png)
+![Tetris View Menu](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/v4.20.0.0/images/glimmer-tetris-view-menu.png)
 
-![Tetris Options Menu](https://raw.githubusercontent.com/AMaleh/glimmer-dsl-swt/master/images/glimmer-tetris-options-menu.png)
+![Tetris Options Menu](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/v4.20.0.0/images/glimmer-tetris-options-menu.png)
 
-![Tetris Help Menu](https://raw.githubusercontent.com/AMaleh/glimmer-dsl-swt/master/images/glimmer-tetris-help-menu.png)
+![Tetris Help Menu](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/v4.20.0.0/images/glimmer-tetris-help-menu.png)
 
 Keep in mind that each `shell` (including dialogs) have their own `menu_bar`. To reuse the same menu items in both the game and the High Score Dialog, you ought to generate a menu bar Custom Widget `tetris_menu_bar` and then reuse in both.
 
@@ -318,7 +318,7 @@ Next, go to `AppView` and add the following require statement above the top clas
 require_relative 'tetris_menu_bar'
 ```
 
-And, add the following lines to `AppView` above the `playfield` declaration (the `minimum_size` is just a side improvement that ensures consistent sizing without flicker now that we have a score lane):
+And, add the following lines to `AppView` above the `playfield` declaration:
 
 ```ruby
 
@@ -348,13 +348,13 @@ glimmer run
 
 Now, you get access to all the menus:
 
-![Tetris Game Menu](https://raw.githubusercontent.com/AMaleh/glimmer-dsl-swt/master/images/glimmer-tetris-game-menu.png)
+![Tetris Game Menu](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/v4.20.0.0/images/glimmer-tetris-game-menu.png)
 
-![Tetris View Menu](https://raw.githubusercontent.com/AMaleh/glimmer-dsl-swt/master/images/glimmer-tetris-view-menu.png)
+![Tetris View Menu](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/v4.20.0.0/images/glimmer-tetris-view-menu.png)
 
-![Tetris Options Menu](https://raw.githubusercontent.com/AMaleh/glimmer-dsl-swt/master/images/glimmer-tetris-options-menu.png)
+![Tetris Options Menu](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/v4.20.0.0/images/glimmer-tetris-options-menu.png)
 
-![Tetris Help Menu](https://raw.githubusercontent.com/AMaleh/glimmer-dsl-swt/master/images/glimmer-tetris-help-menu.png)
+![Tetris Help Menu](https://raw.githubusercontent.com/AndyObtiva/glimmer-dsl-swt/v4.20.0.0/images/glimmer-tetris-help-menu.png)
 
 Play around with them to get a full understanding of what each menu item does.
 
@@ -422,7 +422,7 @@ The icon is generated randomly. If you would like a different arrangement, simpl
 
 ## Packaging
 
-Finally, you might want to package the game as a native executable on whatever platform you are running (e.g. `DMG` on the Mac or `MSI` on Windows).
+Finally, you might want to package the game as a native executable on Mac or Windows (e.g. `DMG` on the Mac or `MSI` on Windows).
 
 To do so, simply run:
 
@@ -430,11 +430,17 @@ To do so, simply run:
 glimmer package
 ```
 
-This should generate all the native executable installable package formats available on your platform, placed under `packages` or `packages/bundles` depending on the format.
+This should generate all the native executable installable package formats available on your platform, placed under `packages` or `packages/bundles` depending on the format. Note that Windows [requires installing extra tools](https://github.com/AndyObtiva/glimmer-dsl-swt/blob/v4.20.0.0/docs/reference/GLIMMER_PACKAGING_AND_DISTRIBUTION.md) to produce MSI packages.
 
 On the Mac, you would see something like this:
 
 ![Glimmer Tetris Package](i/glimmer-tetris-package.png)
+
+If you see an error like the following, it is just a false alarm (ignore it as you should find the packages anyways):
+
+```
+Error: Bundler "DMG Installer" (dmg) failed to produce a bundle.
+```
 
 Alternatively, for a faster run, you can just request a specific format by passing an argument.
 
@@ -450,12 +456,49 @@ On Windows:
 glimmer "package[MSI]"
 ```
 
-Advanced packaging is beyond the scope of this article series, but you may learn more about it at the Glimmer DSL for SWT documentation: https://github.com/AMaleh/glimmer-dsl-swt/blob/master/docs/reference/GLIMMER_PACKAGING_AND_DISTRIBUTION.md
+The packaging includes Java and JRuby on Windows and Mac, so consumers can simply run the app without extra effort beyond installation.
+
+Note that on Linux, you simply package as a Ruby gem.
+To do so, you must ensure the project can optionally work without bundler by replacing the following two lines in `app/glimmer_tetris.rb`:
+
+```ruby
+require 'bundler/setup'
+Bundler.require(:default)
+```
+
+with the following lines:
+
+```ruby
+begin
+  require 'bundler/setup'
+  Bundler.require(:default)
+rescue
+  require 'glimmer-dsl-swt'
+  require 'glimmer-cp-bevel'
+end
+```
+
+Now, you can run this task to build the gem:
+
+```ruby
+glimmer package:gem
+```
+
+This uses [juwelier](https://github.com/flajann2/juwelier) to produce a gem under `pkg`.
+You may distribute expecting Glimmer's pre-requisites of Java and JRuby to be pre-installed on Linux.
+
+Once the gem is installed, users may run the game with the included `glimmer_tetris` Ruby script:
+
+```
+glimmer_tetris
+```
+
+Advanced packaging is beyond the scope of this article series, but you may learn more about it at the [Glimmer DSL for SWT Packaging & Distribution documentation](https://github.com/AndyObtiva/glimmer-dsl-swt/blob/v4.20.0.0/docs/reference/GLIMMER_PACKAGING_AND_DISTRIBUTION.md).
 
 ## Find Out More
 
 ### References
 
-- Code :: [Glimmer Tetris](https://github.com/AMaleh/glimmer-tetris)
-- Gem  :: [Glimmer DSL for SWT](https://github.com/AMaleh/glimmer-dsl-swt)
+- Code :: [Glimmer Tetris](https://github.com/AndyObtiva/glimmer_tetris)
+- Gem  :: [Glimmer DSL for SWT](https://github.com/AndyObtiva/glimmer-dsl-swt)
 - Blog :: [Glimmer Tetris in One Day! and Many More Glimmer Articles](http://andymaleh.blogspot.com/search/label/Glimmer)

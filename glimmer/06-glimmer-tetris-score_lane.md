@@ -332,7 +332,7 @@ I will leave this section for you to do as an exercise with the following tips:
 
 This is how The Score Lane must look like:
 
-![Glimmer Tetris](https://github.com/AMaleh/glimmer-dsl-swt/raw/master/images/glimmer-tetris.png)
+![Glimmer Tetris](https://github.com/AndyObtiva/glimmer-dsl-swt/raw/v4.20.0.0/images/glimmer-tetris.png)
 
 To know if you did well, know that at the end you should have code like this `ScoreLane` class under `app/glimmer_tetris/view/score_lane.rb`:
 
@@ -353,7 +353,6 @@ class GlimmerTetris
             center true
             fill true
             margin_width 0
-            margin_right BLOCK_SIZE
             margin_height BLOCK_SIZE
           }
           label(:center) {
@@ -440,7 +439,7 @@ class GlimmerTetris
 end
 ```
 
-Finally, `AppView` should have code like this:
+Finally, `AppView` should have code like this (note that it has a `shell` `minimum_size` to ensure proper sizing, and the `score_lane` has `layout_data` to ensure it fills the rest of the empty space):
 
 ```ruby
 require_relative '../model/game'
@@ -518,11 +517,13 @@ class GlimmerTetris
         shell(:no_resize) {
           grid_layout 2, false
           text 'Glimmer Tetris'
-          minimum_size 475, 500
+          minimum_size 500, 500
 
           playfield(game_playfield: @game.playfield, playfield_width: Model::Game::PLAYFIELD_WIDTH, playfield_height: Model::Game::PLAYFIELD_HEIGHT)
           
-          score_lane(game: @game)
+          score_lane(game: @game) {
+            layout_data(:fill, :fill, true, true)
+          }
         }
       }
       
@@ -568,10 +569,13 @@ Notice the ultra-compact `body {}`:
         shell(:no_resize) {
           grid_layout 2, false
           text 'Glimmer Tetris'
+          minimum_size 475, 500
 
           playfield(game_playfield: @game.playfield, playfield_width: Model::Game::PLAYFIELD_WIDTH, playfield_height: Model::Game::PLAYFIELD_HEIGHT)
           
-          score_lane(game: @game)
+          score_lane(game: @game) {
+            layout_data(:fill, :fill, true, true)
+          }
         }
       }
 ```
@@ -584,6 +588,6 @@ Stay tuned for the [next article](07-glimmer-tetris-high-score-dialog-menu-bar-i
 
 ### References
 
-- Code :: [Glimmer Tetris](https://github.com/AMaleh/glimmer-tetris)
-- Gem  :: [Glimmer DSL for SWT](https://github.com/AMaleh/glimmer-dsl-swt)
+- Code :: [Glimmer Tetris](https://github.com/AndyObtiva/glimmer_tetris)
+- Gem  :: [Glimmer DSL for SWT](https://github.com/AndyObtiva/glimmer-dsl-swt)
 - Blog :: [Glimmer Tetris in One Day! and Many More Glimmer Articles](http://andymaleh.blogspot.com/search/label/Glimmer)

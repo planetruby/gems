@@ -10,7 +10,7 @@ Use Glimmer DSL for SWT in JRuby to build the classic Tetris game for desktop co
 
 ## Pre-requisites
 
-Make sure you first meet all the [pre-requisites](https://github.com/AMaleh/glimmer-dsl-swt/tree/v4.20.0.0#pre-requisites) of [Glimmer DSL for SWT](https://github.com/AMaleh/glimmer-dsl-swt/tree/v4.20.0.0) v4.20.0.0
+Make sure you first meet all the [pre-requisites](https://github.com/AndyObtiva/glimmer-dsl-swt/tree/v4.20.0.0#pre-requisites) of [Glimmer DSL for SWT](https://github.com/AndyObtiva/glimmer-dsl-swt/tree/v4.20.0.0) v4.20.0.0
 
 Mainly, Java (specified version), JRuby (specified version), and Git (and RVM on Mac/Linux)
 
@@ -99,12 +99,12 @@ glimmer scaffold[glimmer_tetris]
 At the end of the scaffolding process, you should see a Hello, World! application launch
 (you might see an error message too `Exec failed with code 2 command`, but ignore it.)
 
-![glimmer scaffolding app](https://github.com/AMaleh/glimmer-dsl-swt/raw/v4.20.0.0/images/glimmer-scaffolding-app.png)
+![glimmer scaffolding app](https://github.com/AndyObtiva/glimmer-dsl-swt/raw/v4.20.0.0/images/glimmer-scaffolding-app.png)
 
 You may checkout the app menu bar, open preferences and
 attempt to update the message from "Hello, World!" to "Howdy, Partner!" to confirm it is working.
 
-![glimmer scaffolding app preferences](https://github.com/AMaleh/glimmer-dsl-swt/raw/v4.20.0.0/images/glimmer-scaffolding-app-preferences.png)
+![glimmer scaffolding app preferences](https://github.com/AndyObtiva/glimmer-dsl-swt/raw/v4.20.0.0/images/glimmer-scaffolding-app-preferences.png)
 
 ## Game Rules
 
@@ -132,7 +132,8 @@ Now, let's jump to the exciting part that Glimmer DSL for SWT is used for: the V
 The Tetris Playfield is simply 10x20 of Blocks, which can accomodate shapes that are called Tetrominos.
 
 Here is a screenshot of the final Tetris screen we want to achieve over the course of this article series:
-![Glimmer Tetris](https://github.com/AMaleh/glimmer-dsl-swt/raw/master/images/glimmer-tetris.png)
+
+![Glimmer Tetris](https://github.com/AndyObtiva/glimmer-dsl-swt/raw/v4.20.0.0/images/glimmer-tetris.png)
 
 Here is a screenshot of The Playfield we want to achieve at the end of this article:
 
@@ -1363,6 +1364,6 @@ This should conclude this article. Stay tuned for the [next article](06-glimmer-
 
 ### References
 
-- Code :: [Glimmer Tetris](https://github.com/AMaleh/glimmer-tetris)
-- Gem  :: [Glimmer DSL for SWT](https://github.com/AMaleh/glimmer-dsl-swt)
+- Code :: [Glimmer Tetris](https://github.com/AndyObtiva/glimmer_tetris)
+- Gem  :: [Glimmer DSL for SWT](https://github.com/AndyObtiva/glimmer-dsl-swt)
 - Blog :: [Glimmer Tetris in One Day! and Many More Glimmer Articles](http://andymaleh.blogspot.com/search/label/Glimmer)
