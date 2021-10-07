@@ -5,7 +5,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ruby Football Week 2021, June 11th to June 17th - 7 Days of Ruby (Sports) Gems</title>
+  <title>Best of Cancel Culture - Case Studies of Code of Conduct Out-Of-Control Power Abuse and Permanently Banning</title>
   <link href="{{ '/feed.xml' | absolute_url }}" rel="self" />
   <link href="{{ '/' | absolute_url }}" />
   <id>{{ '/' | absolute_url | xml_escape }}</id>
