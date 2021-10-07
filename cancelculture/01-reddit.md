@@ -75,9 +75,9 @@ Yes, a clear case for out-of-control cancel culture power abuse.
 Yes, I undestand - you, that is, Richard Schneeman  want to "signal" to your friends and co-workers how ultra / extreme leftie and righteous 
 you are. 
 
-Now - put youself in my shoes - you see - taking the "unpopular" side and asking for more tolerance 
+Now - put yourself in my shoes - you see - taking the "unpopular" side and asking for more tolerance 
 and standing up to the call-out about basically nothing (see the "joke" below) - how does that make you look
-to your friends and co-worker, eh?  
+to your self-righteous leftie friends and co-worker, eh?  
 
 
 ----
