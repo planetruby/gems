@@ -2,23 +2,6 @@
 #  note: should get (auto-)generated soon!!! for now update "by hand"   - source for web feed (/feed.xml) generation
 #    - do NOT use .md extension in path!!
 
-- title: "Day 5 - footty Gem - Who's Playing Today? Print Upcoming or Yesterday's Matches for the European Football Championship (\"Euro\") 2020 (in 2021) Using the Shell / Command Line"
-  path: football/05-footty
-  date: 2021-06-15
-
-- title: 'Day 4 - football-to-sqlite Gem - Read the European Football Championship ("Euro") 2020 Match Schedule in the Football.TXT Format Into euro.db Using the Shell / Command Line'
-  path: football/04-football-to-sqlite
-  date: 2021-06-14
-
-- title: 'Day 3 - sportdb-readers Gem - Read the European Football Championship ("Euro") 2020 Match Schedule in the Football.TXT Format Into euro.db - A Single-File SQLite Database'
-  path: football/03-sportdb-readers
-  date: 2021-06-13
-
-- title: 'Day 2 - sportdb-models Gem - Football SQL Schema and ActiveRecord Models for Easy (Re)Use - Inserting the Euro 2020 Opening Match - Turkey vs Italy 0:3 (0:0) - Into the Database "by Hand"'
-  path: football/02-sportdb-models
-  date: 2021-06-12
-
-- title: "Day 1 - fifa Gem - The World's Football Countries and Codes (Incl. Non-Member Countries and Irregular Codes)"
-  path: football/01-fifa
-  date: 2021-06-11
-
+- title: "Ruby (October, 2021) - A Call for Tolerance On Ruby-Talk Results In Ban On Reddit Ruby"
+  path: cancelculture/01-reddit
+  date: 2021-10-07
