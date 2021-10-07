@@ -1,4 +1,4 @@
-## Ruby (October, 2021) - A Call for Tolerance On Ruby-Talk Results In Ban On Reddit Ruby
+# Ruby (October, 2021) - A Call for Tolerance On Ruby-Talk Results In Ban On Reddit Ruby
 
 > You have been permanently banned from participating in r/ruby (because of your writing off / outside of r/ruby).
 > I do not see your participation adding anything to this community.   
