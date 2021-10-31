@@ -965,7 +965,17 @@ class GlimmerTetris
           on_swt_keydown { |key_event|
             case key_event.keyCode
             when swt(:arrow_down), 's'.bytes.first
-              game.down! if OS.mac?
+              if OS.mac?
+                game.down!
+              else
+                # rate limit downs in Windows/Linux as they go too fast when key is held
+                @queued_downs ||= 0
+                @queued_downs += 1
+                async_exec do
+                  game.down! if @queued_downs < 3
+                  @queued_downs -= 1
+                end
+              end
             when swt(:arrow_up)
               case game.up_arrow_action
               when :instant_down
@@ -1052,9 +1062,7 @@ class GlimmerTetris
               sleep @game.delay
               break if @game.game_over? || body_root.disposed?
               # ensure entire game tetromino down movement happens as one GUI update event with sync_exec (to avoid flicker/stutter)
-              sync_exec {
-                @game.down! unless @game.paused?
-              }
+              sync_exec { @game.down! unless @game.paused? }
             end
           end
         end
