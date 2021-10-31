@@ -1,4 +1,4 @@
-# Day 7 - glimmer-dsl-swt Gem - Glimmer Tetris - High Scores, Menu, & Icon - Show Others How Good You Are!
+# Day 7 - glimmer_tetris Gem - Glimmer Tetris - High Scores, Menu, & Icon - Show Others How Good You Are!
 
 Written by {% avatar AndyObtiva %} [Andy Maleh](https://github.com/AndyObtiva)
 

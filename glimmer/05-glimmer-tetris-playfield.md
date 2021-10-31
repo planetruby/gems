@@ -1,4 +1,4 @@
-# Day 5 - glimmer-dsl-swt Gem - Glimmer Tetris - The Playfield - Get Tetris Working in One Day!
+# Day 5 - glimmer_tetris Gem - Glimmer Tetris - The Playfield - Get Tetris Working in One Day!
 
 Written by {% avatar AndyObtiva %} [Andy Maleh](https://github.com/AndyObtiva)
 

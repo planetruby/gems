@@ -120,7 +120,7 @@ celebration of open data gems from the Ruby universe.
 
 
 
-### Ruby Glimmer Days 2021, January 26th to January 29th - 4 Days of Ruby (Desktop) Gems
+### Ruby Glimmer Days 2021, January 26th to January 29th - 7 Days of Ruby (Desktop) Gems
 
 Welcome. The Ruby Glimmer Days 2021 present
 a new Ruby (desktop) library every day from January 26th to January 29th.
@@ -137,6 +137,12 @@ for scripting desktop apps and widgets with two-way data binding.
   Script Widgets the Declarative Way (Say What, Not How) - Tk - The Best-Kept Secret and Evergreen Classic Now in v8.5 with Native Look 'n' Feel on Mac, Windows, and Linux
 - [**Day 4 - glimmer-dsl-opal**](glimmer/04-glimmer-dsl-opal.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
   Script Web Widgets with Two-Way Data-Binding - Ruby <3 JavaScript - Thanks to Opal, the Ruby to JavaScript Source-to-Source Compiler
+- [**Day 5 - glimmer_tetris**](glimmer/05-glimmer-tetris-playfield.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
+  Glimmer Tetris - The Playfield - Get Tetris Working in One Day!
+- [**Day 6 - glimmer_tetris**](glimmer/06-glimmer-tetris-score_lane.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
+  Glimmer Tetris - The Score Lane - See Your Game Progress!
+- [**Day 7 - glimmer_tetris**](glimmer/07-glimmer-tetris-high-score-dialog-menu-bar-icon.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
+  Glimmer Tetris - High Scores, Menu, & Icon - Show Others How Good You Are!
 
 
 

@@ -1,4 +1,4 @@
-# Day 6 - glimmer-dsl-swt Gem - Glimmer Tetris - The Score Lane - See Your Game Progress!
+# Day 6 - glimmer_tetris Gem - Glimmer Tetris - The Score Lane - See Your Game Progress!
 
 Written by {% avatar AndyObtiva %} [Andy Maleh](https://github.com/AndyObtiva)
 
@@ -468,7 +468,17 @@ class GlimmerTetris
           on_swt_keydown { |key_event|
             case key_event.keyCode
             when swt(:arrow_down), 's'.bytes.first
-              game.down! if OS.mac?
+              if OS.mac?
+                game.down!
+              else
+                # rate limit downs in Windows/Linux as they go too fast when key is held
+                @queued_downs ||= 0
+                @queued_downs += 1
+                async_exec do
+                  game.down! if @queued_downs < 3
+                  @queued_downs -= 1
+                end
+              end
             when swt(:arrow_up)
               case game.up_arrow_action
               when :instant_down
