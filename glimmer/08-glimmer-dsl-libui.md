@@ -1,4 +1,4 @@
-# Day 22 - glimmer-dsl-libui Gem - Prerequisite-Free Ruby Desktop Development Library
+# Day 8 - glimmer-dsl-libui Gem - Prerequisite-Free Ruby Desktop Development Library
 
 Written by {% avatar AndyObtiva %} [Andy Maleh](https://github.com/AndyObtiva)
 
