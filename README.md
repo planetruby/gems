@@ -120,13 +120,13 @@ celebration of open data gems from the Ruby universe.
 
 
 
-### Ruby Glimmer Days 2021, January 26th to January 29th - 7 Days of Ruby (Desktop) Gems
+### Ruby Glimmer Days 2021, January 26th to January 29th (and beyond) - 8 Days of Ruby (Desktop) Gems
 
 Welcome. The Ruby Glimmer Days 2021 present
-a new Ruby (desktop) library every day from January 26th to January 29th.
+a new Ruby (desktop) library every day from January 26th to January 29th (and beyond).
 
 Let's highlight domain-specific languages
-for scripting desktop apps and widgets with two-way data binding.
+and desktop apps utilizing widgets and two-way data binding.
 
 
 - [**Day 1 - glimmer**](glimmer/01-glimmer.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
@@ -143,6 +143,8 @@ for scripting desktop apps and widgets with two-way data binding.
   Glimmer Tetris - The Score Lane - See Your Game Progress!
 - [**Day 7 - glimmer_tetris**](glimmer/07-glimmer-tetris-high-score-dialog-menu-bar-icon.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
   Glimmer Tetris - High Scores, Menu, & Icon - Show Others How Good You Are!
+- [**Day 8 - glimmer-dsl-libui**](glimmer/08-glimmer-dsl-libui.md) by {% avatar AndyObtiva size=20 %} [Andy Maleh](https://github.com/AndyObtiva) <br>
+  Script Cross-Platform Native Controls without Installing Prerequisites - Declarative DSL Syntax That Visually Maps To GUI Hierarchy - Convention over Configuration via Smart Defaults and Automation of Low-level Details
 
 
 
