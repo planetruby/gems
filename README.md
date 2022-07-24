@@ -10,10 +10,11 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 
 **2022**
-- [Ruby Digital Identity & Metaverse Week 2022, August 1st to August 7th - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems](#ruby-digital-identity--metaverse-week-2022-august-1st-to-august-7th---7-days-of-ruby-profile-picture--avatar-character-generation-g
-- ems)
+
+- [Ruby Digital Identity & Metaverse Week 2022, August 1st to August 7th - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems](#ruby-digital-identity--metaverse-week-2022-august-1st-to-august-7th---7-days-of-ruby-profile-picture--avatar-character-generation-gems)
 
 **2021**
+
 - [Ruby Football Week 2021, June 11th to June 17th - 7 Days of Ruby (Sports) Gems](#ruby-football-week-2021-june-11th-to-june-17th---7-days-of-ruby-sports-gems)
 - [Ruby Pixel Art Week 2021, April 19th to April 25th - 7 Days of Ruby (Graphics) Gems](#ruby-pixel-art-week-2021-april-19th-to-april-25th---7-days-of-ruby-graphics-gems)
 - [Ruby Open Data Week 2021, March 6th to March 12th - 7 Days of Ruby (Open Data) Gems](#ruby-open-data-week-2021-march-6th-to-march-12th---7-days-of-ruby-open-data-gems)
@@ -21,8 +22,8 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 - [Ruby Blockchain Week 2021, January 3rd to January 9th - 7 Days of Ruby (Crypto) Gems](#ruby-blockchain-week-2021-january-3rd-to-january-9th---7-days-of-ruby-crypto-gems)
 
 **2020**
-- [25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th](#25-days-of-ruby-gems---ruby-advent-calendar-2020-december-1st---december-25th)
 
+- [25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th](#25-days-of-ruby-gems---ruby-advent-calendar-2020-december-1st---december-25th)
 
 
 ### Ruby Digital Identity & Metaverse Week 2022, August 1st to August 7th - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems
