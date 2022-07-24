@@ -10,7 +10,8 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 
 **2022**
-
+- [Ruby Digital Identity & Metaverse Week 2022, August 1st to August 7th - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems](#ruby-digital-identity--metaverse-week-2022-august-1st-to-august-7th---7-days-of-ruby-profile-picture--avatar-character-generation-g
+- ems)
 
 **2021**
 - [Ruby Football Week 2021, June 11th to June 17th - 7 Days of Ruby (Sports) Gems](#ruby-football-week-2021-june-11th-to-june-17th---7-days-of-ruby-sports-gems)
