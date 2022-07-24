@@ -9,6 +9,7 @@ Do you have a Ruby gem that you'd like to write about?
 We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Best of Gems series on Planet Ruby.
 
 
+**2022**
 
 
 **2021**
@@ -20,6 +21,35 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 **2020**
 - [25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th](#25-days-of-ruby-gems---ruby-advent-calendar-2020-december-1st---december-25th)
+
+
+
+### Ruby Digital Identity & Metaverse Week 2022, August 1st to August 7th - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems
+
+Welcome. The Ruby Digital Identity & Metaverse Week 2022 presents
+a new Ruby profile picture / avatar character generation (graphics) 
+library every day from August 1st to August 7h.
+
+Have your say! Claim a free day!
+
+Let's highlight graphics libraries for generating 
+digital identity profile pictures or metaverse
+avatar characters from the Ruby universe.
+
+Do you have a Ruby gem that you'd like to write about?
+We love publishing your posts.  [Open an issue ticket](https://github.com/planetruby/gems/issues) or send in a pull request to get started and your article posted in the Digital Identity & Metaverse Week series on Planet Ruby.
+
+- **Day 1 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 2 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 3 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 4 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 5 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 6 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+- **Day 7 - :moyai::moyai::moyai: - Your gem (write-up) here - Unclaimed, You? - [Yes, you can!](https://github.com/planetruby/gems/issues)**  - Your tag line here
+
+
+
+
 
 
 ### Ruby Football Week 2021, June 11th to June 17th - 7 Days of Ruby (Sports) Gems
