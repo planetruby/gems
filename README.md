@@ -11,7 +11,7 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 
 **2022**
 
-- [Ruby Digital Identity & Metaverse Week 2022, August 1st to August 7th - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems](#ruby-digital-identity--metaverse-week-2022-august-1st-to-august-7th---7-days-of-ruby-profile-picture--avatar-character-generation-gems)
+- [Ruby Digital Identity & Metaverse Week 2022, September 5th to September 11st - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems](#ruby-digital-identity--metaverse-week-2022-september-5th-to-september-11st---7-days-of-ruby-profile-picture--avatar-character-generation-gems)
 
 **2021**
 
@@ -26,11 +26,11 @@ We love publishing your posts.  [Open an issue ticket](https://github.com/planet
 - [25 Days of Ruby Gems - Ruby Advent Calendar 2020, December 1st - December 25th](#25-days-of-ruby-gems---ruby-advent-calendar-2020-december-1st---december-25th)
 
 
-### Ruby Digital Identity & Metaverse Week 2022, August 1st to August 7th - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems
+### Ruby Digital Identity & Metaverse Week 2022, September 5th to September 11st - 7 Days of Ruby (Profile Picture & Avatar Character Generation) Gems
 
 Welcome. The Ruby Digital Identity & Metaverse Week 2022 presents
 a new Ruby profile picture / avatar character generation (graphics) 
-library every day from August 1st to August 7h.
+library every day from September 5th to September 11st.
 
 Have your say! Claim a free day!
 
