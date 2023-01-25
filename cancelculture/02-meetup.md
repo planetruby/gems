@@ -6,8 +6,7 @@ Unfortunately Floor Drees moved back to the Netherlands years ago and
 the [Amsterdam.rb meetups](https://www.amsrb.org/) & governance today is - surprise, surprise - 
 again a model for excellence.
  
-What about Vienna.rb?  
-Unfortunatley,  Aaron Cruz the new org is a complete disaster 
+What about Vienna.rb?  Unfortunatley, Aaron Cruz the new org is a complete disaster 
 treating the meetup as a personal marketing / sales channel / funnel drumming up freelance contracts / business for himself
 (or his buddies / inner-circle). That's now going on for years.
 
