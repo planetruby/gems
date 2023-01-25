@@ -19,13 +19,12 @@ See
 - [Any Plans for the vienna.rb github org and the broken (dead) ruby vienna meetup website in 2023?](https://github.com/vienna-rb/vienna-rb.github.com/issues/103) and 
 - [ruby.wien - This site can’t be reached](https://github.com/vienna-rb/vienna-rb.github.com/issues/104).
 
-Aaron Cruz closed-up all tickets with a fuck you.  
-The irony that Ramón Huidobro cherishes the non-negotiable code of conduct
+Aaron Cruz closed-up all tickets with a fuck you. The irony that Ramón Huidobro cherishes the non-negotiable code of conduct
 of the old Vienna.rb website / github org while declaring a code of (good) governance as unthinkable.
 Anyways, all I was asking for was really not much more than:
 
 1. A Good Governance Model - Yes, END the dictatorship and FUCK YOU declarations by Aaron Cruz etc.
-2. Let's Update & Bring Back The Website (GitHub Org) - since nobody is left standing - let's start over at github.com/viennarb and transfer the repos to save the heritage and close down the duplicate not in operation anyway.
+2. Let's Update & Bring Back the Website (GitHub Org) - since nobody is left standing - let's start over at github.com/viennarb and transfer the repos to save the heritage and close down the duplicate not in operation anyway.
 
 
 Anyways, yet another big fail in community building / support in rubyland.
