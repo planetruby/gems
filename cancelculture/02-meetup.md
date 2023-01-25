@@ -11,11 +11,13 @@ Unfortunatley,  Aaron Cruz the new org is a complete disaster
 treating the meetup as a personal marketing / sales channel / funnel drumming up freelance contracts / business for himself
 (or his buddies / inner-circle). That's now going on for years.
 
-I called Aaron Cruz and his fig leave and side kick Ramón Huidobro out in a series of three tickets
+I called Aaron Cruz and his fig leaf and side kick Ramón Huidobro out in a series of three tickets
 on the dead old vienna.rb website / github org.
-See [Any Plans for Vienna Ruby Meetups in 2023? Ready-To-Help Out & Restart](https://github.com/vienna-rb/vienna-rb.github.com/issues/102), 
-[Any Plans for the vienna.rb github org and the broken (dead) ruby vienna meetup website in 2023?](https://github.com/vienna-rb/vienna-rb.github.com/issues/103) and 
-[ruby.wien - This site can’t be reached](https://github.com/vienna-rb/vienna-rb.github.com/issues/104).
+See
+
+- [Any Plans for Vienna Ruby Meetups in 2023? Ready-To-Help Out & Restart](https://github.com/vienna-rb/vienna-rb.github.com/issues/102),
+- [Any Plans for the vienna.rb github org and the broken (dead) ruby vienna meetup website in 2023?](https://github.com/vienna-rb/vienna-rb.github.com/issues/103) and 
+- [ruby.wien - This site can’t be reached](https://github.com/vienna-rb/vienna-rb.github.com/issues/104).
 
 Aaron Cruz closed-up all tickets with a fack you.  
 The irony that Ramón Huidobro cherishes the non-negotiable code of conduct
